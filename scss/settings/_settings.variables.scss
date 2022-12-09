@@ -26,14 +26,8 @@ $colors:(
 
 // fonts
 $fonts : (
-  rg    : 'Inter-Regular',
-  md    : 'Inter-Medium',
-  bk    : 'Inter-Black',
-  sb    : 'Inter-SemiBold',
-  lt    : 'Inter-Light',
-  bd    : 'Inter-Bold',
-  eb    : 'Inter-ExtraBold',
-  pf    : 'PlayfairDisplay-Regular',
+  srg    : 'Satoshi-Regular',
+  smd    : 'Satoshi-Medium',
 );
 
 @function font($font-name, $font-variant:null) {
