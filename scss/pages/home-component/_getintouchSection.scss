@@ -1,0 +1,35 @@
+.getinTouch{
+    padding: 80px 0px;
+    background-image: url('#{$imageurl}/getintouch_bg.png');
+    background-repeat: no-repeat;
+    background-position: center 121px;
+    .section_title{
+        p{
+            font-size: 55px;
+            font-family: font(lt);
+            color: #4B4B4B;
+        }
+    }
+    &_form{
+        background-color: #35379D;
+        padding: 45px;
+        max-width: 817px;
+        p{
+            font-size: 25px;
+            color: color(50);
+            text-align: center;
+            margin-bottom: 46px;
+        }
+        .form-group{
+            margin-bottom: 32px
+        }
+        textarea{
+            height: 141px;
+        }
+        @media (max-width: 1599px){
+            textarea{
+                height: 124px;
+            }
+        }
+    }
+}

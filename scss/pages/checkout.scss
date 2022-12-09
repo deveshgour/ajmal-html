@@ -1,0 +1,103 @@
+.checkout{
+    padding-top: 70px;
+    .productBox{
+        border-bottom: 1px solid #BFBCBC;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+        position: relative;
+        &_img{
+            padding-right: 30px;
+        }
+        &_remove{
+            background-color: transparent;
+            color: #313131;
+            font-size: 22px;
+            position: absolute;
+            right: 0;
+            top: 10px;
+            border: none;
+            cursor: pointer;
+            z-index: 1;
+            @include transition(0.3s);
+            em{
+                font-size: 14px;
+            }
+            &:hover{
+                color: color(700);
+            }
+        }
+        &_name{
+            font-size: 36px;
+            font-family: font(sb);
+            color: color(900);
+            margin-bottom: 34px;
+            max-width: 415px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            @include transition(0.3s);
+            &:hover{
+                color: color(700);
+            }
+        }
+        &_color{
+            color: #5D5D5D;
+            margin-bottom: 33px;
+            font-size: 20px;
+            font-family: font(md);
+            span{
+                color: #848484;
+            }
+        }
+        &_price{
+            color: #5D5D5D;
+            font-size: 24px;
+            font-family: font(md);
+            margin-bottom: 23px;
+        }
+        &_total{
+            color: #5D5D5D;
+            font-size: 24px;
+            margin-top: 44px;
+            font-family: font(sb    );
+            span{
+                color: #3A3A3A;
+            }
+        }
+        .number{
+            input{
+                width: 54px;
+            }
+            .plus, .minus{
+                width: 45px;
+            }
+        }
+    }
+    &_right{
+        padding: 40px;
+        background-color: color(50);
+        box-shadow: 0 0 20px rgba(227, 227, 227,0.7);
+        border-radius: 11px;
+        margin-left: 30px;
+        .btn{
+            padding: 12px 20px;
+            text-transform: uppercase;
+            font-size: 22px;
+            font-family: font(bd);
+        }
+        .continue_shopping{
+            font-size: 18px;
+            color: color(700);
+            display: block;
+            text-align: center;
+            margin-top: 37px;
+        }
+    }
+    &_subtotal{
+        font-size: 24px;
+        font-family: font(sb);
+        margin-bottom: 60px;
+        color: #3A3A3A;
+    }
+   
+}

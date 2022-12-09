@@ -1,0 +1,29 @@
+  .bannerSection{
+        background-image: url('#{$imageurl}/banner_bg.jpg');background-repeat:no-repeat;
+        background-position: center;
+        &__innerCnt{
+            h1{
+                font-size:60px;color:color(900);
+                font-family: font(pf);
+                span{
+                    font-family: font(bk);
+                }
+            }
+            p{font-size:22px;color:color(900); margin-bottom: 47px;} 
+
+        }
+        @media(max-width:1600px){
+            &__innerCnt{
+                p{
+                    font-size: 18px;
+                }
+            }
+        }
+        @include media-breakpoint-down(lg){
+            &__innerCnt{
+                h1{
+                    font-size: 42px;
+                }
+            }
+        }
+    }
