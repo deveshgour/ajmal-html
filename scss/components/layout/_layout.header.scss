@@ -17,7 +17,10 @@
                     margin-right:40px;
                 }    
 				.nav-link{
-                   font-size:14px;font-family:font(smd);padding: 0; 
+                   font-size:14px;
+                   font-family:font(srg);
+                   font-weight: 700;
+                   padding: 0; 
                    color:#2B2826;
 				   @include transition(0.3s);
 				   text-transform: uppercase;
