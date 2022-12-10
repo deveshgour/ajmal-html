@@ -492,7 +492,91 @@
                 </div>
             </div>
         </Section>
-
+        <section class="bestSellers py-55">
+            <div class="container">
+                <div class="bestSellers_top d-flex align-items-center justify-content-between">
+                    <h3 class="sectionHeading mb-0">Best sellers</h3>
+                    <a href="javascript:void(0);" class="readMoreBtn">Discover all <img src="images/next-arrow.svg" class="img-fluid" alt="arrow"></a>
+                </div>
+                <div class="bestSellers_bg text-center">
+                    <div class="productCard">
+                            <div class="productCard_sliderSpace">
+                                <div class="productCard_inner mx-auto">
+                                    <div class="productCard_top d-flex align-item-start justify-content-between">
+                                        <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
+                                        <div class="centerImg">
+                                            <img src="images/ajmal-img.png"  class="img-fluid" alt="product-img">
+                                            <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                                        </div>
+                                        
+                                        <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
+                                    </div>
+                                    <div class="productCard_center text-center">
+                                        <ul class="rating d-flex list-unstyled justify-content-center">
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                            <p>32</p>
+                                        </ul>
+                                        <!-- <span class="offer">50%</span> -->
+                                        <ul class="category d-flex list-unstyled justify-content-center mb-0">
+                                            <li>OIL PARFUM</li>
+                                            <li>75ML</li>
+                                            <li>WOMEN</li>
+                                        </ul>
+                                        <h3>Jannatul Fridaus</h3>
+                                        <span class="price">12 AED </span>
+                                    </div>
+                                    <div class="productCard_bottom">
+                                        <div class="viewProduct">
+                                            <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                                <li class="text-center">
+                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
+                                                    <span>Rose</span>  
+                                                </li>
+                                                <li class="text-center">
+                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
+                                                    <span>Vanilla</span>  
+                                                </li>
+                                                <li class="text-center">
+                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
+                                                    <span>Oud</span>  
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="addProduct">
+                                            <ul class="d-flex list-unstyled mb-0">
+                                                <li><a href="javascript:void(0);" class="btn btn-primary w-100">View details <img src="images/next-arrow.svg" class="img-fluid" alt="arrow"></a></li>
+                                            </ul>                                    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                </div>
+                <!-- <div class="bg-video-wrap">
+                    <video src="https://designsupply-web.com/samplecontent/vender/codepen/20181014.mp4" loop muted autoplay>
+                    </video>
+                    <div class="overlay">
+                        <h1>Fullscreen video background</h1>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+        <section class="legacySection">
+            <div class="container">
+                <div class="legacySection_inner text-center">
+                    <div class="legacySection_cnt">
+                        <h3 class="sectionHeading">Our Legacy</h3>
+                        <p>A brand with a rich heritage acquired through over 7 decades of experience and know-how in the art of perfumery, Ajmal Perfumes has carved a niche for itself in the perfume industry.</p>
+                        <a href="javascript:void(0);" class="discoverAllBtn">Discover all</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
     </main>
     <?php include ('include/footer.php') ?>
     <?php include ('include/footer-scripts.php') ?>
@@ -501,7 +585,7 @@
     <script>
          $(document).ready(function(){
             $('.arrivalsSection_slider').slick({
-                dots: false,
+                dots: true,
                 infinite: false,
                 speed: 300,
                 slidesToShow: 4,

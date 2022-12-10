@@ -41,4 +41,16 @@
   .slick-prev.slick-disabled:before, .slick-next.slick-disabled:before{
     opacity: 0.5;
   }
+  .slick-dots{
+    li{
+      width: 30px;height: 4px;background-color: rgba(color(850),0.1);border-radius:4px;
+      &:not(:last-child){margin-right: 8px;}
+      &.slick-active{
+        background-color: color(850);
+      }
+      button{
+        &::before{display: none;}
+      }
+    }
+  }
 }
