@@ -1,6 +1,6 @@
 .header{
 	position:fixed;top:0;width:100%;
-	z-index: 1001;@include transition(all 0.3s);  
+	z-index: 1001;@include transition(all 0.3s);   
     &-top{
         padding: 12px 15px;
         text-align: center;
@@ -36,7 +36,7 @@
 	
 	.navbar{
 		padding:16px 0px; 
-		background-color: color(50);
+		// background-color: color(50);
         &-center{
             .navbar-search{
                 max-width: 664px;

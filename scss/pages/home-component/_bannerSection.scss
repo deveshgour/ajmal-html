@@ -1,0 +1,41 @@
+.bannerSection{
+    background-image: url('../images/banner.png');
+    background-repeat: no-repeat;
+    min-height: 810px;
+    padding-top: 182px;
+    &_left{
+        padding-top: 80px;
+    }
+    h1{
+        font-size: 72px;
+        font-family: font(grg);
+        span{
+            font-style: italic;
+        }
+    }
+    p{
+        margin-bottom: 23px;
+    }
+    &_productBox{
+        text-align: center;
+        p{
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            margin-bottom: 5px;
+        }
+        h2{
+            font-size: 28px;
+            font-family: font(gmd);
+            font-weight: 500;
+            font-style: italic;
+        }
+        &_price{
+            font-size: 20px;
+            color: color(500);
+            letter-spacing: -0.02em;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+    }
+}

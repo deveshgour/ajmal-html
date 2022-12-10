@@ -2,7 +2,7 @@
         <div class="header-top">
             <p class="mb-0"><span>FREE SHIPPING</span> on all orders in the UAE</p>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.php">
                 <img src="images/logo.svg" alt="logo" class="img-fluid whiteLogo">

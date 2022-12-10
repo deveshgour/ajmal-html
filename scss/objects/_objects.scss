@@ -1,5 +1,5 @@
 .container {
-
+ 
   @media(min-width:1200px) {
     max-width: 1180px;
   }
@@ -11,6 +11,10 @@
   }
   @include media-breakpoint-down(sm) {
     max-width: 100%;
+  }
+  &-fluid{
+    padding: 0 30px;
+    color: #2B2826;
   }
 }
 
