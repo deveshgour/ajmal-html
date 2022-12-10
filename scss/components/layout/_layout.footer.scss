@@ -1,0 +1,107 @@
+.footer{
+	background-color: #F9F5F1;
+	padding: 50px 0px 0px;
+	color: #2B2826;
+    // background: linear-gradient(180deg, #F9F5F1 0%, rgba(249, 245, 241, 0) 100%);
+	.footerTop{
+        text-align: center;
+        h3{
+            font-size: 40px;
+            font-style: italic;
+        }
+        p{
+            font-size: 16px ;
+        }
+        &_form{
+            max-width: 340px;
+            margin: 0 auto;
+            text-align: left;
+            .form-input-wrapper{
+                position: relative;
+                margin-top: 40px;
+                label{
+                    transform: translateY(-30px);
+                    @include transition(0.5s);
+                    position: absolute;
+                    color: #A4A4A4;
+                }
+                .form-control{
+                    background-color: transparent;
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    border-bottom: 1px solid #2B2826;
+                    &:focus, &.form-control-filled{
+                        box-shadow: none;
+                        & + label{
+                            transform: translateY(-55px);
+                        }
+                       
+                    }
+                }
+                .btn{
+                    position: absolute;
+                    right: 0;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    padding: 5px 0 10px 5px;
+                    img{
+                        width: 16px;
+                    }
+                }
+
+             
+            }
+            
+            .form-control{
+                border: none;
+                border-radius: 0px;
+            }
+        }
+    }
+	.footerBottom{
+		border-top: 2px solid rgba(255,255,255,0.08);
+		margin-top: 45px;
+		padding: 45px 0px;
+		&_left{
+			h3{
+				font-size: 20px;
+				text-transform: capitalize;
+				margin-bottom: 20px;
+			}
+			a{
+				display: inline-block;
+			}
+			p{
+				margin-top: 16px;
+				font-size: 14px;
+                color: #2B2826;
+                font-style: italic;
+                font-weight: 600;
+			}
+		}
+		&_right{
+		h3{
+			font-size: 14px;
+			font-family: font(grg);
+			margin-bottom: 22px;
+            color: #2B2826;
+            font-weight: 600;
+
+		}
+		li{
+			&:not(:last-child){
+				margin-bottom: 20px;
+			}
+		}
+		a{
+			font-size: 20px;
+			color: #2B2826;
+            font-weight: 600;
+			&:hover,&:focus,&:active{
+				color: color(500);
+				@include transition(0.3s);
+			}
+		}
+	}
+	}
+}

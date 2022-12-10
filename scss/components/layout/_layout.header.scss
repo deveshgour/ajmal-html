@@ -144,15 +144,8 @@
 	&.smallHeader{
 		background-color: color(50); 
 		@include box-shadow(0,3px,20px,rgba(color(900),0.1)); 
-		.navbar-brand{
-			img{height: 35px;}
-			.blackLogo{
-				display:block;
-			}
-			.whiteLogo{
-				display:none;
-			}
-		}
+        transform: translateY(-48px);
+		
 		.navbar-nav{
 			.nav-item{
 				.nav-link{

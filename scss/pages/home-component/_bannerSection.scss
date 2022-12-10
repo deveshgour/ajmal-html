@@ -48,7 +48,7 @@
         }
         &_item--2{
             background-image: url('../images/banner_2.png');
-            background-color: #F9F5F1;
+            background-color: #F8F1F1;
         }
         &_item--3{
             background-image: url('../images/banner_3.png');
@@ -69,8 +69,6 @@
             }
         }
         button{
-          
-      
             &:before{
                 display: none;
             }
@@ -80,6 +78,9 @@
     .slick-arrow{
         width: 70px;
         height: 70px;
+        &:after, &:before{
+            display: none;
+        }
         &.slick-next{
             right: 100px;
         }

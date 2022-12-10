@@ -20,7 +20,7 @@
                             <div class="row">
                                 <div class="col-md-7 bannerSection_left">
                                     <h1>Ajmal <span>Perfumes</span> <br>
-                                    Fragrances that  <span>delight</span> </h1>
+                                    Fragrances that  <span>Delight</span> </h1>
                                         
                                         <p>Nothing unlocks an old memory better than smell, be it the memory of lost <br>love or of a fond friend. At Ajmal we help towards recreating those memories <br> through our fragrances.</p>
                                         <a class="discoverAllBtn" href="#">Discover all</a>
@@ -41,14 +41,14 @@
                             <div class="row">
                                 <div class="col-md-7 bannerSection_left">
                                     <h1>Ajmal <span>Perfumes</span> <br>
-                                    Fragrances that  <span>delight</span> </h1>
+                                    Fragrances that  <span>Delight</span> </h1>
                                         
                                         <p>Nothing unlocks an old memory better than smell, be it the memory of lost <br>love or of a fond friend. At Ajmal we help towards recreating those memories <br> through our fragrances.</p>
                                         <a class="discoverAllBtn" href="#">Discover all</a>
                                 </div>
                                 <div class="col-md-5 bannerSection_right">
                                     <div class="bannerSection_productBox">
-                                        <img src="images/amber-wood-noir.png" class="img-fluid mx-auto" alt=""/>
+                                        <img src="images/amber-wood-noir-2.png" class="img-fluid mx-auto" alt=""/>
                                         <p>Eau de parfume / 75 ML / WOMEN</p>   
                                         <h2>Amber Wood Noir</h2>
                                         <div class="bannerSection_productBox_price">24 AED</div>
@@ -63,7 +63,7 @@
                             <div class="row">
                                 <div class="col-md-7 bannerSection_left">
                                     <h1>Ajmal <span>Perfumes</span> <br>
-                                    Fragrances that  <span>delight</span> </h1>
+                                    Fragrances that  <span>Delight</span> </h1>
                                         
                                         <p>Nothing unlocks an old memory better than smell, be it the memory of lost <br>love or of a fond friend. At Ajmal we help towards recreating those memories <br> through our fragrances.</p>
                                         <a class="discoverAllBtn" href="#">Discover all</a>

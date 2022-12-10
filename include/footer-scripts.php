@@ -10,14 +10,30 @@
 
 <script>
     //add and remove class in header on scroll to make header small
-//     $(window).scroll(function() {
-//     var scroll = $(window).scrollTop();
-//     if (scroll >= 50) {
-//         $("#userHeader").addClass("smallHeader");
-//         $("body").addClass("stickyHeader");
-//     } else {
-//         $("#userHeader").removeClass("smallHeader");
-//         $("body").removeClass("stickyHeader");
-//     }
-// });
+    $(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if (scroll >= 50) {
+        $("#userHeader").addClass("smallHeader");
+        $("body").addClass("stickyHeader");
+    } else {
+        $("#userHeader").removeClass("smallHeader");
+        $("body").removeClass("stickyHeader");
+    }
+});
+
+$('.footerTop_form .form-control').focus(function(){
+   if($(this).val() != ''){
+        $(this).addClass('form-control-filled');
+   }else{
+        $(this).removeClass('form-control-filled');
+   }
+})
+
+$('.footerTop_form .form-control').keyup(function(){
+   if($(this).val() != ''){
+        $(this).addClass('form-control-filled');
+   }else{
+        $(this).removeClass('form-control-filled');
+   }
+})
 </script>
