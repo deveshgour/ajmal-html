@@ -1,5 +1,7 @@
 <header class="header afterLogin" id="userHeader">
-   
+        <div class="header-top">
+            <p class="mb-0"><span>FREE SHIPPING</span> on all orders in the UAE</p>
+        </div>
         <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.php">
@@ -14,44 +16,48 @@
                 <span class="line"></span>
                 <span class="line"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav align-items-lg-center mb-0 m-auto" id="navbarToggle">
-                    <li class="nav-item dropdown dropdown--custom">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                        Perfumes
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="product.php">option</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0);">Perfume oils</a>
-                    </li>
-                    <li class="nav-item dropdown dropdown--custom">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                        Agarwood
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">option</a>
-                       
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0);">Oud</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0);">Collections</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0);">Gifts</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0);">Sale</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0);">About us</a>
-                    </li>
-                </ul>
+      
+            <div class="navbar-center">
+                <form class="navbar-search">
+                    <span class="navbar-search-icon"><img src="images/search.svg" alt="search"/></span>
+                    <input type="text" placeholder="Search for perfume" class="form-control"/>
+                    <button class="btn btn-mic"><img src="images/mic.svg" alt="mic"/></button>
+                </form>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav align-items-lg-center mb-0 m-auto" id="navbarToggle">
+                        <li class="nav-item dropdown dropdown--custom">
+                            <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                Perfumes
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="product.php">option</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0);">Perfume oils</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                            Agarwood
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0);">Oud</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0);">Collections</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0);">Gifts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0);">Sale</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0);">About us</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
             <div class="navbar-right d-flex align-items-center">
