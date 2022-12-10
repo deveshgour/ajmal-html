@@ -12,7 +12,7 @@
 <body>
     <?php include('include/header.php'); ?>
     <main class="mainContent homePage">
-   
+        <em class="icon-heart"></em>
 
     </main>
     <?php include ('include/footer.php') ?>
