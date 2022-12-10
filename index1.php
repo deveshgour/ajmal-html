@@ -34,7 +34,7 @@
                             <div class="productCard_top d-flex align-item-start justify-content-between">
                                 <a href="javascript:void(0);" class="productBadge"></a>
                                 <img src="images/product-1.png"  class="img-fluid" alt="product-img">
-                                <a href="javascript:void(0);" class="productLike"></a>
+                                <a href="javascript:void(0);" class="productLike"><em class="icon-heart"></e></a>
                             </div>
                             <div class="productCard_center text-center">
                                 <span class="offer">50%</span>
@@ -47,7 +47,20 @@
                                 <span class="price">12 AED <del>24 AED</del></span>
                             </div>
                             <div class="productCard_bottom">
-                                <ul class="list-unstyled d-flex justify-content-center"></ul>
+                                <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                    <li class="text-center">
+                                        <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
+                                        <span>Rose</span>  
+                                    </li>
+                                    <li class="text-center">
+                                        <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
+                                        <span>Vanilla</span>  
+                                    </li>
+                                    <li class="text-center">
+                                        <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
+                                        <span>Oud</span>  
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>

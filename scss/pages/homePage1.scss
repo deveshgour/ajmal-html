@@ -1,0 +1,24 @@
+.fragrancesSection{
+    &_bg{
+        overflow: hidden;
+        &::before{
+            background-image: url(#{$imageurl}/banner-bg.png);position: absolute;top:0;
+            left: 0;width: 100%;height: 100%;content: "";z-index: -1;border-radius: 24px;background-color: color(550);
+        }
+    }
+    &_inner{
+        max-width: 840px;margin: 0 auto;border-radius: 24px;padding:80px 0;position: relative;
+        z-index: 1;
+        
+        h3{
+            font-size: 40px;line-height: 52px;font-weight: 500;letter-spacing: -0.02rem;color: color(850);
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.arrivalsSection{
+    &_top{
+        margin-bottom: 80px;
+    }
+}
