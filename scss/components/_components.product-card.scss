@@ -3,6 +3,9 @@
         width: 315px;height: 460px;border-radius: 16px;padding: 16px 24px;position: relative;
         &--light{
             background-color: color(60);
+            .centerImg{
+                background-color: color(60);
+            }
         }
         &:hover{
             @include transition(all 0.4s);
