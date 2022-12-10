@@ -1,13 +1,23 @@
 .header{
 	position:fixed;top:0;width:100%;
-	 z-index: 1001;@include transition(all 0.3s);  
+	z-index: 1001;@include transition(all 0.3s);  
+    &-top{
+        padding: 12px 15px;
+        text-align: center;
+        background-color: #2B2826;
+        color: #fff;
+        font-size: 16px ;
+        span{
+            font-weight: 700;
+        }
+    }
 	 .navbar-nav{
 			.nav-item{ 
 				&:not(:last-child){
                     margin-right:40px;
                 }    
 				.nav-link{
-                   font-size:14px;font-family:font(md);padding: 0;
+                   font-size:14px;font-family:font(smd);padding: 0; 
                    color:#2B2826;
 				   @include transition(0.3s);
 				   text-transform: uppercase;
@@ -25,8 +35,52 @@
 		}
 	
 	.navbar{
-		padding:0; 
+		padding:16px 0px; 
 		background-color: color(50);
+        &-center{
+            .navbar-search{
+                max-width: 664px;
+                margin: 0 auto 16px;
+                position: relative;
+                .form-control{
+                    height: 40px;
+                    border-radius: 24px;
+                    padding: 6px 16px 6px 45px;
+                    font-size: 14px;
+                    line-height: 20px;
+                    &:hover,&:focus{
+                        box-shadow: none;
+                        border-color: color(500);
+                    }
+                }
+                &-icon{
+                    position: absolute;
+                    top: 43%;
+                    left: 15px;
+                    transform: translateY(-43%);
+                }
+                .btn-mic{
+                    padding: 5px 10px;
+                    position: absolute;
+                    top: 50%;
+                    right: 15px;
+                    transform: translateY(-50%);
+                    height: auto;
+                    display: flex;
+                    align-items: center;
+                    &:after{
+                        content: '';
+                        position: absolute;
+                        height: 16px;
+                        width: 1px;
+                        background-color: #c8c8c8;
+                        left: -5px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                    }
+                }
+            }
+        }
         &-right{
             .navbar-nav{
                 .nav-item{
@@ -111,7 +165,7 @@
 
   @media(max-width:1399px){
   	.navbar-brand{
-		img{height: 42px;}
+		img{height: 68px;}
 	}
 
   }
