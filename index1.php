@@ -46,6 +46,9 @@
                                 <h3>Jannatul Fridaus</h3>
                                 <span class="price">12 AED <del>24 AED</del></span>
                             </div>
+                            <div class="productCard_bottom">
+                                <ul class="list-unstyled "></ul>
+                            </div>
                         </div>
                     </div>
                 </div>
