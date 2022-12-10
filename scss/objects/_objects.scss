@@ -13,3 +13,28 @@
     max-width: 100%;
   }
 }
+
+.sliderIcon{
+  .slick-slider.slick-dotted{
+    margin-bottom: 0;
+  }
+  .slick-arrow{
+    width: 48px;height: 48px;border: none;border-radius: 50%;display: flex;
+    align-items: center; justify-content: center;background-color: rgba(color(850),1);color: color(50);
+    &.slick-disabled{
+      background-color: rgba(color(850),0.5)
+    }
+    &:hover{background-color: rgba(color(850),1);}
+  }
+  .slick-prev{z-index: 1}
+  .slick-next{z-index: 1}
+  .slick-prev:before{
+    content: "\e903";font-family: 'icomoon';font-size: 16px;opacity: 1;
+  }
+  .slick-next:before{
+    content: "\e902" !important;font-family: 'icomoon';font-size: 16px;opacity: 1;
+  }
+  .slick-prev.slick-disabled:before, .slick-next.slick-disabled:before{
+    opacity: 0.5;
+  }
+}
