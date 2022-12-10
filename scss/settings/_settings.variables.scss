@@ -1,17 +1,19 @@
 // color variables
 $colors:(
      50: #fff,
-    100: #F8F9F9, 
+    60: #F5FAFE, 
     120: #EBEBEB,
     150: #969696,
     160: #7F7F7F, 
     180: #707070,       
     200: #35379D,       
     250: #222222, 
-    500: #FFE30A, 
-    600: #050E3E,
-    700: #00BFFF,         
-    800: #00D199,         
+    500: #BC8B57, 
+    550: #A78A68,
+    600: #BE4040,
+    700: #727272,         
+    800: #00D199,
+    850: #2B2826,         
     900: #000000,
 );
 
@@ -28,6 +30,9 @@ $colors:(
 $fonts : (
   srg    : 'Satoshi-Regular',
   smd    : 'Satoshi-Medium',
+  grg    : 'Gambetta-Regular',
+  gmd    : 'Gambetta-Medium',
+  gbd    : 'Gambetta-Bold',
 );
 
 @function font($font-name, $font-variant:null) {
