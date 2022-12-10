@@ -1542,34 +1542,102 @@
                 <div class="reviewSection_top">
                     <h3 class="sectionHeading">Reviews</h3>
                 </div>
-                <div class="reviewSection_inner">
-                    <div class="reviewSection_slider">
-                        <div class="reviewBox">
-                            <div class="d-flex align-items-center">
-                                <div class="reviewBox_img">
-                                    <img src="images/review-product.png" class="img-fluid" alt="product">
-                                </div>
-                                <div class="reviewBox_txt">
-                                    <h3>Unlocks an old memory</h3>
-                                    <p>Nothing unlocks an old memory better than smell, be it the memory of lost love or of a fond friend. At Ajmal we help towards recreating those memories through our fragrances.</p>
-                                    <div class="userInfo d-flex align-items-start">
-                                        <div class="d-flex">
-                                            <div class="userInfo_img">
-                                                <img src="images/avatar-img.jpg" class="img-fluid" alt="user">
+                <div class="">
+                    <div class="reviewSection_slider sliderIcon">
+                        <div class="reviewSection_inner">
+                            <div class="reviewBox">
+                                <div class="d-flex align-items-center">
+                                    <div class="reviewBox_img">
+                                        <img src="images/review-product.png" class="img-fluid" alt="product">
+                                    </div>
+                                    <div class="reviewBox_txt">
+                                        <h3>Unlocks an old memory</h3>
+                                        <p>Nothing unlocks an old memory better than smell, be it the memory of lost love or of a fond friend. At Ajmal we help towards recreating those memories through our fragrances.</p>
+                                        <div class="userInfo d-flex align-items-start justify-content-between">
+                                            <div class="d-flex align-items-center">
+                                                <div class="userInfo_img">
+                                                    <img src="images/avatar-img.png" class="img-fluid" alt="user">
+                                                </div>
+                                                <div class="userInfo_txt">
+                                                    <h6>Sue Smit</h6>
+                                                    <p>London, United Kingdom</p>
+                                                </div>
                                             </div>
-                                            <div class="userInfo_txt">
-                                                <h6>Sue Smit</h6>
-                                                <p>London, United Kingdom</p>
+                                            <div class="rating">
+                                                <ul class=" d-flex list-unstyled justify-content-center">
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                </ul>
                                             </div>
                                         </div>
-                                        <div class="rating">
-                                            <ul class=" d-flex list-unstyled justify-content-center">
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                            </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewSection_inner">
+                            <div class="reviewBox">
+                                <div class="d-flex align-items-center">
+                                    <div class="reviewBox_img">
+                                        <img src="images/review-product.png" class="img-fluid" alt="product">
+                                    </div>
+                                    <div class="reviewBox_txt">
+                                        <h3>Unlocks an old memory</h3>
+                                        <p>Nothing unlocks an old memory better than smell, be it the memory of lost love or of a fond friend. At Ajmal we help towards recreating those memories through our fragrances.</p>
+                                        <div class="userInfo d-flex align-items-start justify-content-between">
+                                            <div class="d-flex align-items-center">
+                                                <div class="userInfo_img">
+                                                    <img src="images/avatar-img.png" class="img-fluid" alt="user">
+                                                </div>
+                                                <div class="userInfo_txt">
+                                                    <h6>Sue Smit</h6>
+                                                    <p>London, United Kingdom</p>
+                                                </div>
+                                            </div>
+                                            <div class="rating">
+                                                <ul class=" d-flex list-unstyled justify-content-center">
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewSection_inner">
+                            <div class="reviewBox">
+                                <div class="d-flex align-items-center">
+                                    <div class="reviewBox_img">
+                                        <img src="images/review-product.png" class="img-fluid" alt="product">
+                                    </div>
+                                    <div class="reviewBox_txt">
+                                        <h3>Unlocks an old memory</h3>
+                                        <p>Nothing unlocks an old memory better than smell, be it the memory of lost love or of a fond friend. At Ajmal we help towards recreating those memories through our fragrances.</p>
+                                        <div class="userInfo d-flex align-items-start justify-content-between">
+                                            <div class="d-flex align-items-center">
+                                                <div class="userInfo_img">
+                                                    <img src="images/avatar-img.png" class="img-fluid" alt="user">
+                                                </div>
+                                                <div class="userInfo_txt">
+                                                    <h6>Sue Smit</h6>
+                                                    <p>London, United Kingdom</p>
+                                                </div>
+                                            </div>
+                                            <div class="rating">
+                                                <ul class=" d-flex list-unstyled justify-content-center">
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1605,6 +1673,13 @@
                 infinite: false,
                 speed: 300,
                 slidesToShow: 4,
+                slidesToScroll: 1,
+            });
+            $('.reviewSection_slider').slick({
+                dots: true,
+                infinite: false,
+                speed: 300,
+                slidesToShow: 1,
                 slidesToScroll: 1,
             });
         });
