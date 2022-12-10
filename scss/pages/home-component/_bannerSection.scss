@@ -1,8 +1,5 @@
 .bannerSection{
-    background-image: url('../images/banner.png');
-    background-repeat: no-repeat;
-    min-height: 810px;
-    padding-top: 182px;
+    
     &_left{
         padding-top: 80px;
     }
@@ -36,6 +33,58 @@
             letter-spacing: -0.02em;
             text-transform: uppercase;
             font-weight: 700;
+        }
+    }
+
+    .bannerSlider{
+        &_item{
+            background-repeat: no-repeat;
+            min-height: 810px;
+            padding-top: 182px;
+        }
+        &_item--1{
+            background-color: #F9F5F1;
+            background-image: url('../images/banner.png');
+        }
+        &_item--2{
+            background-image: url('../images/banner_2.png');
+            background-color: #F9F5F1;
+        }
+        &_item--3{
+            background-image: url('../images/banner_3.png');
+            background-color: #FFF7EB;
+        }
+       
+    }
+
+    .slick-dots{
+        bottom: 24px;
+        li{
+            width: 84px;
+            height: 8px;
+            background: rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            &.slick-active{
+                background-color: #CCAA70;
+            }
+        }
+        button{
+          
+      
+            &:before{
+                display: none;
+            }
+        }
+    }
+
+    .slick-arrow{
+        width: 70px;
+        height: 70px;
+        &.slick-next{
+            right: 100px;
+        }
+        .slick-prev{
+            left: 0;
         }
     }
 }
