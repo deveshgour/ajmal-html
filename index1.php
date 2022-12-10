@@ -47,7 +47,7 @@
                                 <span class="price">12 AED <del>24 AED</del></span>
                             </div>
                             <div class="productCard_bottom">
-                                <ul class="list-unstyled "></ul>
+                                <ul class="list-unstyled d-flex justify-content-center"></ul>
                             </div>
                         </div>
                     </div>
