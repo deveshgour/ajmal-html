@@ -22,3 +22,63 @@
         margin-bottom: 40px;
     }
 }
+
+.bestSellers{
+    &_top{
+        margin-bottom: 30px;
+    }
+    &_bg{ 
+        position: relative;
+        &::before{
+            background-image: url(#{$imageurl}/best-seller-bg.png);position: absolute;top:0;
+            left: 0;width: 100%;height: 100%;content: "";z-index: -1;border-radius: 24px;
+        }
+        .productCard{
+            padding: 60px 0;
+            &_inner{
+                width: 500px;height: 100%;background-color: #FEF9EC;
+                &:hover{
+                    background-color: #FFF5DC;
+                }
+            }
+            &_top{
+                .centerImg{
+                    margin-top: -55px;
+                }
+            }
+            .viewProduct{
+                padding: 0 35px;
+                li{
+                    &:not(:last-child){
+                        margin-right: 108px;
+                        &:after{
+                            right: -54px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.legacySection{
+    position: relative;
+    &::before{
+        background-color: #A78A68;;position: absolute;top:0;
+        left: 0;width: 100%;height: 100%;content: "";z-index: -1;
+    }
+    &::after{
+        background-image: url(#{$imageurl}/legacy-bg.png);position: absolute;top:0;
+        left: 0;width: 100%;height: 100%;content: "";z-index: -1;background-color: #FAF6F4;
+    }
+    &_inner{
+        max-width: 665px;margin: 0 auto;padding: 85px 0;
+    }
+    &_cnt{
+        padding: 65px 70px;background-color: color(50);border-radius: 24px;
+        .sectionHeading{margin-bottom: 15px;}
+        p{
+            font-size: 16px;line-height: 24px;margin-bottom: 30px;
+        }
+    }
+}
