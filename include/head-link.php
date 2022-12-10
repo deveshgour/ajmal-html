@@ -12,4 +12,6 @@
 <!-- main css -->
 <link rel="stylesheet" href="css/main.min.css" type="text/css">
 
+<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+
 

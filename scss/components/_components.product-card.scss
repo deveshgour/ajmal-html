@@ -7,6 +7,24 @@
                 background-color: color(60);
             }
         }
+        &--mediumDark{
+            background-color: color(70);
+            .centerImg{
+                background-color: color(70);
+            }
+        }
+        &--dark{
+            background-color: color(80);
+            .centerImg{
+                background-color: color(80);
+            }
+        }
+        &--extraDark{
+            background-color: color(90);
+            .centerImg{
+                background-color: color(90);
+            }
+        }
         &:hover{
             @include transition(all 0.4s);
             .productCard_bottom{
