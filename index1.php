@@ -12,6 +12,77 @@
 <body>
     <?php include('include/header.php'); ?>
     <main class="mainContent homePage">
+    <section class="bannerSection">
+           
+           <div class="bannerSlider">
+               <div class="bannerSlider_item bannerSlider_item--1">
+                   <div class="container-fluid">
+                       <div class="row">
+                           <div class="col-md-7 bannerSection_left">
+                               <h1>Ajmal <span>Perfumes</span> <br>
+                               Fragrances that  <span>Delight</span> </h1>
+                                   
+                                   <p>Nothing unlocks an old memory better than smell, be it the memory of lost <br>love or of a fond friend. At Ajmal we help towards recreating those memories <br> through our fragrances.</p>
+                                   <a class="discoverAllBtn" href="#">Discover all</a>
+                           </div>
+                           <div class="col-md-5 bannerSection_right">
+                               <div class="bannerSection_productBox">
+                                   <img src="images/amber-wood-noir.png" class="img-fluid mx-auto" alt=""/>
+                                   <p>Eau de parfume / 75 ML / WOMEN</p>   
+                                   <h2>Amber Wood Noir</h2>
+                                   <div class="bannerSection_productBox_price">24 AED</div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="bannerSlider_item bannerSlider_item--2">
+                   <div class="container-fluid">
+                       <div class="row">
+                           <div class="col-md-7 bannerSection_left">
+                               <h1>Ajmal <span>Perfumes</span> <br>
+                               Fragrances that  <span>Delight</span> </h1>
+                                   
+                                   <p>Nothing unlocks an old memory better than smell, be it the memory of lost <br>love or of a fond friend. At Ajmal we help towards recreating those memories <br> through our fragrances.</p>
+                                   <a class="discoverAllBtn" href="#">Discover all</a>
+                           </div>
+                           <div class="col-md-5 bannerSection_right">
+                               <div class="bannerSection_productBox">
+                                   <img src="images/amber-wood-noir-2.png" class="img-fluid mx-auto" alt=""/>
+                                   <p>Eau de parfume / 75 ML / WOMEN</p>   
+                                   <h2>Amber Wood Noir</h2>
+                                   <div class="bannerSection_productBox_price">24 AED</div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="bannerSlider_item bannerSlider_item--3">
+                   <div class="container-fluid">
+                       <div class="row">
+                           <div class="col-md-7 bannerSection_left">
+                               <h1>Ajmal <span>Perfumes</span> <br>
+                               Fragrances that  <span>Delight</span> </h1>
+                                   
+                                   <p>Nothing unlocks an old memory better than smell, be it the memory of lost <br>love or of a fond friend. At Ajmal we help towards recreating those memories <br> through our fragrances.</p>
+                                   <a class="discoverAllBtn" href="#">Discover all</a>
+                           </div>
+                           <div class="col-md-5 bannerSection_right">
+                               <div class="bannerSection_productBox">
+                                   <img src="images/amber-wood-noir.png" class="img-fluid mx-auto" alt=""/>
+                                   <p>Eau de parfume / 75 ML / WOMEN</p>   
+                                   <h2>Amber Wood Noir</h2>
+                                   <div class="bannerSection_productBox_price">24 AED</div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+              
+           </div>
+     
+   </section>
         <section class="fragrancesSection py-55">
             <div class="container">
                 <div class="fragrancesSection_bg position-relative">
@@ -1801,11 +1872,268 @@
                 </div>
             </div>
         </section>
+
+        <section class="blogSection py-55">
+            <div class="blogSection_bg">
+                <div class="container">
+                    <div class="blogSection_top">
+                        <div class="d-flex align-items-end justify-content-between">
+                            <div class="blogSection_top-left">
+                                <div class="d-flex align-items-start justify-content-between flex-column">
+                                    <div>
+                                        <h3 class="sectionHeading my-30 mt-0">Read our latest blog posts</h3>
+                                        <a href="javascript:void(0);" class="discoverAllBtn">Read More</a>
+                                    </div>
+                                    <div class="blogBox blogBox-one mt-auto">
+                                        <img src="images/blog-img1.jpg" alt="blog-img" class="img-fluid">
+                                        <div class="blogBox_txt">
+                                            <span>August 11, 2022 / 5 min read</span>
+                                            <h3>To Rinse or Not to Rinse? A Guide to  Our Moisture Surge Conditioner</h3>
+                                            <p>In recent years, the data industry has been moving from data as an asset to data as a product thinking.  This is definitely...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="instagramSection py-55 pt-0">
+            <div class="container">
+                <div class="instagramSection_top d-flex align-items-center justify-content-between my-30 mt-0">
+                    <h3 class="sectionHeading mb-0">Instagram</h3>
+                    <a href="javascript:void(0);" class="readMoreBtn">@ajmalperfumes<img src="images/next-arrow.svg" class="img-fluid" alt="arrow"></a>
+                </div>
+                <div class="instagramSection_slider sliderIcon">
+                    <div class="instagramSection_sliderItem">
+                        <div class="instabox">
+                            <img src="images/insta-img1.jpg" class="img-fluid" alt="insta-img">
+                            <div class="overlay"></div>                          <div class="instabox_txt">
+                                <p>Planning a wedding gift, don’t miss out Patchouli wood by Ajmal Perfumes...</p>
+                                <div class="instabox_info">
+                                    <ul class="mb-0 d-flex align-items-center list-unstyled">
+                                        <li><a href="javascript:void(0);" class="d-flex align-items-center">
+                                                <img src="images/msg-icon.svg"> 
+                                                <span> 273 </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);" class="d-flex align-items-center">
+                                                <img src="images/like-icon.svg">
+                                                <span>  5k </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="instagramSection_sliderItem">
+                        <div class="instabox">
+                            <img src="images/insta-img2.jpg" class="img-fluid" alt="insta-img">
+                            <div class="overlay"></div>                          <div class="instabox_txt">
+                                <p>Planning a wedding gift, don’t miss out Patchouli wood by Ajmal Perfumes...</p>
+                                <div class="instabox_info">
+                                    <ul class="mb-0 d-flex align-items-center list-unstyled">
+                                        <li><a href="javascript:void(0);" class="d-flex align-items-center">
+                                                <img src="images/msg-icon.svg"> 
+                                                <span> 273 </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);" class="d-flex align-items-center">
+                                                <img src="images/like-icon.svg">
+                                                <span>  5k </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="instagramSection_sliderItem">
+                        <div class="instabox">
+                            <img src="images/insta-img3.jpg" class="img-fluid" alt="insta-img">
+                            <div class="overlay"></div>                          <div class="instabox_txt">
+                                <p>Planning a wedding gift, don’t miss out Patchouli wood by Ajmal Perfumes...</p>
+                                <div class="instabox_info">
+                                    <ul class="mb-0 d-flex align-items-center list-unstyled">
+                                        <li><a href="javascript:void(0);" class="d-flex align-items-center">
+                                                <img src="images/msg-icon.svg"> 
+                                                <span> 273 </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);" class="d-flex align-items-center">
+                                                <img src="images/like-icon.svg">
+                                                <span>  5k </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="instagramSection_sliderItem">
+                        <div class="instabox">
+                            <img src="images/insta-img4.png" class="img-fluid" alt="insta-img">
+                            <div class="overlay"></div>                          <div class="instabox_txt">
+                                <p>Planning a wedding gift, don’t miss out Patchouli wood by Ajmal Perfumes...</p>
+                                <div class="instabox_info">
+                                    <ul class="mb-0 d-flex align-items-center list-unstyled">
+                                        <li><a href="javascript:void(0);" class="d-flex align-items-center">
+                                                <img src="images/msg-icon.svg"> 
+                                                <span> 273 </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);" class="d-flex align-items-center">
+                                                <img src="images/like-icon.svg">
+                                                <span>  5k </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="instagramSection_sliderItem">
+                        <div class="instabox">
+                            <img src="images/insta-img1.jpg" class="img-fluid" alt="insta-img">
+                            <div class="overlay"></div>                          <div class="instabox_txt">
+                                <p>Planning a wedding gift, don’t miss out Patchouli wood by Ajmal Perfumes...</p>
+                                <div class="instabox_info">
+                                    <ul class="mb-0 d-flex align-items-center list-unstyled">
+                                        <li><a href="javascript:void(0);" class="d-flex align-items-center">
+                                                <img src="images/msg-icon.svg"> 
+                                                <span> 273 </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);" class="d-flex align-items-center">
+                                                <img src="images/like-icon.svg">
+                                                <span>  5k </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="instagramSection_sliderItem">
+                        <div class="instabox">
+                            <img src="images/insta-img2.jpg" class="img-fluid" alt="insta-img">
+                            <div class="overlay"></div>                          <div class="instabox_txt">
+                                <p>Planning a wedding gift, don’t miss out Patchouli wood by Ajmal Perfumes...</p>
+                                <div class="instabox_info">
+                                    <ul class="mb-0 d-flex align-items-center list-unstyled">
+                                        <li><a href="javascript:void(0);" class="d-flex align-items-center">
+                                                <img src="images/msg-icon.svg"> 
+                                                <span> 273 </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);" class="d-flex align-items-center">
+                                                <img src="images/like-icon.svg">
+                                                <span>  5k </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="instagramSection_sliderItem">
+                        <div class="instabox">
+                            <img src="images/insta-img3.jpg" class="img-fluid" alt="insta-img">
+                            <div class="overlay"></div>                          <div class="instabox_txt">
+                                <p>Planning a wedding gift, don’t miss out Patchouli wood by Ajmal Perfumes...</p>
+                                <div class="instabox_info">
+                                    <ul class="mb-0 d-flex align-items-center list-unstyled">
+                                        <li><a href="javascript:void(0);" class="d-flex align-items-center">
+                                                <img src="images/msg-icon.svg"> 
+                                                <span> 273 </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);" class="d-flex align-items-center">
+                                                <img src="images/like-icon.svg">
+                                                <span>  5k </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="instagramSection_sliderItem">
+                        <div class="instabox">
+                            <img src="images/insta-img4.png" class="img-fluid" alt="insta-img">
+                            <div class="overlay"></div>                          <div class="instabox_txt">
+                                <p>Planning a wedding gift, don’t miss out Patchouli wood by Ajmal Perfumes...</p>
+                                <div class="instabox_info">
+                                    <ul class="mb-0 d-flex align-items-center list-unstyled">
+                                        <li><a href="javascript:void(0);" class="d-flex align-items-center">
+                                                <img src="images/msg-icon.svg"> 
+                                                <span> 273 </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);" class="d-flex align-items-center">
+                                                <img src="images/like-icon.svg">
+                                                <span>  5k </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <?php include ('include/footer.php') ?>
     <?php include ('include/footer-scripts.php') ?>
     <script type="text/javascript" src="js/slick.min.js"></script>
-   
+    <script>
+  
+    
+  $('.bannerSlider').slick({
+        //centerMode: true,
+        // centerPadding: '90px',
+        slidesToShow: 1,
+        arrows: true,
+        dots:true,
+        nextArrow:"<button type='button' class='slick-next pull-left'><img class='img-fluid' src='images/next-arrow-rounded.svg'></button>",
+
+        responsive: [
+            {
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                // centerMode: true,
+                    // centerPadding: '40px',
+                    slidesToShow: 1
+                }
+                },
+                {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    // centerMode: true,
+                    // centerPadding: '40px',
+                    slidesToShow: 1
+                }
+                }
+            ]
+            });
+
+         
+    
+</script>
     <script>
          $(document).ready(function(){
             $('.arrivalsSection_slider').slick({
@@ -1837,6 +2165,13 @@
                 slidesToScroll: 1,
             });
             $('.pressMediaSec_slider').slick({
+                dots: true,
+                infinite: false,
+                speed: 300,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+            });
+            $('.instagramSection_slider').slick({
                 dots: true,
                 infinite: false,
                 speed: 300,
