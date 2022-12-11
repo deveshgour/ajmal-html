@@ -1644,7 +1644,7 @@
                 </div>
             </div>
         </section>
-        <section class="reviewSection py-55">
+        <section class="reviewSection py-55 pt-0">
             <div class="container">
                 <div class="reviewSection_top">
                     <h3 class="sectionHeading">Reviews</h3>
@@ -1884,7 +1884,7 @@
                                         <h3 class="sectionHeading my-30 mt-0">Read our latest blog posts</h3>
                                         <a href="javascript:void(0);" class="discoverAllBtn">Read More</a>
                                     </div>
-                                    <div class="blogBox blogBox-one mt-auto">
+                                    <div class="blogBox blogBox-one">
                                         <img src="images/blog-img1.jpg" alt="blog-img" class="img-fluid">
                                         <div class="blogBox_txt">
                                             <span>August 11, 2022 / 5 min read</span>
@@ -1894,13 +1894,43 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="blogSection_top-right">
+                                <div class="blogBox blogBox-two">
+                                    <img src="images/blog-img2.jpg" alt="blog-img" class="img-fluid">
+                                    <div class="blogBox_txt">
+                                        <span>August 11, 2022 / 5 min read</span>
+                                        <h3>To Rinse or Not to Rinse? A Guide to  Our Moisture Surge Conditioner</h3>
+                                        <p>In recent years, the data industry has been moving from data as an asset to data as a product thinking.  This is definitely...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blogSection_bottom">
+                        <div class="d-flex align-items-top justify-content-between">
+                            <div class="blogBox blogBox-three">
+                                <img src="images/blog-img3.jpg" alt="blog-img" class="img-fluid">
+                                <div class="blogBox_txt">
+                                    <span>August 11, 2022 / 5 min read</span>
+                                    <h3>To Rinse or Not to Rinse? A Guide to  Our Moisture Surge Conditioner</h3>
+                                    <p>In recent years, the data industry has been moving from data as an asset to data as a product thinking.  This is definitely...</p>
+                                </div>
+                            </div>
+                            <div class="blogBox blogBox-four">
+                                <img src="images/blog-img4.jpg" alt="blog-img" class="img-fluid">
+                                <div class="blogBox_txt">
+                                    <span>August 11, 2022 / 5 min read</span>
+                                    <h3>To Rinse or Not to Rinse? A Guide to  Our Moisture Surge Conditioner</h3>
+                                    <p>In recent years, the data industry has been moving from data as an asset to data as a product thinking.  This is definitely...</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="instagramSection py-55 pt-0">
+        <section class="instagramSection py-55">
             <div class="container">
                 <div class="instagramSection_top d-flex align-items-center justify-content-between my-30 mt-0">
                     <h3 class="sectionHeading mb-0">Instagram</h3>
