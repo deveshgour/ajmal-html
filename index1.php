@@ -563,7 +563,7 @@
                 </div>
             </div>
         </Section>
-        <section class="bestSellers py-55">
+        <section class="bestSellers py-55 pt-0">
             <div class="container">
                 <div class="bestSellers_top d-flex align-items-center justify-content-between">
                     <h3 class="sectionHeading mb-0">Best sellers</h3>
