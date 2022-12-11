@@ -1683,6 +1683,124 @@
                 </div>
             </div>
         </section>
+        <section class="pressMediaSec py-55 pt-0">
+            <div class="container">
+                <div class="pressMediaSec_top d-flex align-items-center justify-content-between my-30 mt-0">
+                    <h3 class="sectionHeading mb-0">Press & media</h3>
+                    <a href="javascript:void(0);" class="readMoreBtn">Discover all <img src="images/next-arrow.svg" class="img-fluid" alt="arrow"></a>
+                </div>
+                <div class="pressMediaSec_slider sliderIcon">
+                    <div class="pressMediaSec_sliderItem">
+                        <div class="box position-relative">
+                            <div class="box_bg">
+                                <div class="box_logo">
+                                    <img src="images/media-logo1.png" class="img-fluid" alt="logo">
+                                </div>
+                                <div class="box_txt">
+                                    <div class="top">
+                                        <h5>Valentine’s Day</h5>
+                                        <p>8 February 2022, Dubai, United Arab Emirates This year, Ajmal Perfumes invites you to celebrate and pamper the one you love with a thoughtful and considerate gift. An exquisite, luxurious fragrance is an especially intimate and personal gift – the ideal way to show them how important they are to you. Read on to learn about our top picks for luxury gifts for your beloved husband...</p>
+                                    </div>
+                                    <div class="bottom">
+                                    <a href="javascript:void(0);" class="readMoreBtn">Read more <img src="images/next-arrow.svg" class="img-fluid" alt="arrow"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pressMediaSec_sliderItem">
+                        <div class="box position-relative">
+                            <div class="box_bg">
+                                <div class="box_logo">
+                                    <img src="images/media-logo2.png" class="img-fluid" alt="logo">
+                                </div>
+                                <div class="box_txt">
+                                    <div class="top">
+                                        <h5>Valentine’s Day</h5>
+                                        <p>8 February 2022, Dubai, United Arab Emirates This year, Ajmal Perfumes invites you to celebrate and pamper the one you love with a thoughtful and considerate gift. An exquisite, luxurious fragrance is an especially intimate and personal gift – the ideal way to show them how important they are to you. Read on to learn about our top picks for luxury gifts for your beloved husband...</p>
+                                    </div>
+                                    <div class="bottom">
+                                    <a href="javascript:void(0);" class="readMoreBtn">Read more <img src="images/next-arrow.svg" class="img-fluid" alt="arrow"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pressMediaSec_sliderItem">
+                        <div class="box position-relative">
+                            <div class="box_bg">
+                                <div class="box_logo">
+                                    <img src="images/media-logo3.png" class="img-fluid" alt="logo">
+                                </div>
+                                <div class="box_txt">
+                                    <div class="top">
+                                        <h5>Valentine’s Day</h5>
+                                        <p>8 February 2022, Dubai, United Arab Emirates This year, Ajmal Perfumes invites you to celebrate and pamper the one you love with a thoughtful and considerate gift. An exquisite, luxurious fragrance is an especially intimate and personal gift – the ideal way to show them how important they are to you. Read on to learn about our top picks for luxury gifts for your beloved husband...</p>
+                                    </div>
+                                    <div class="bottom">
+                                    <a href="javascript:void(0);" class="readMoreBtn">Read more <img src="images/next-arrow.svg" class="img-fluid" alt="arrow"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pressMediaSec_sliderItem">
+                        <div class="box position-relative">
+                            <div class="box_bg">
+                                <div class="box_logo">
+                                    <img src="images/media-logo1.png" class="img-fluid" alt="logo">
+                                </div>
+                                <div class="box_txt">
+                                    <div class="top">
+                                        <h5>Valentine’s Day</h5>
+                                        <p>8 February 2022, Dubai, United Arab Emirates This year, Ajmal Perfumes invites you to celebrate and pamper the one you love with a thoughtful and considerate gift. An exquisite, luxurious fragrance is an especially intimate and personal gift – the ideal way to show them how important they are to you. Read on to learn about our top picks for luxury gifts for your beloved husband...</p>
+                                    </div>
+                                    <div class="bottom">
+                                    <a href="javascript:void(0);" class="readMoreBtn">Read more <img src="images/next-arrow.svg" class="img-fluid" alt="arrow"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pressMediaSec_sliderItem">
+                        <div class="box position-relative">
+                            <div class="box_bg">
+                                <div class="box_logo">
+                                    <img src="images/media-logo2.png" class="img-fluid" alt="logo">
+                                </div>
+                                <div class="box_txt">
+                                    <div class="top">
+                                        <h5>Valentine’s Day</h5>
+                                        <p>8 February 2022, Dubai, United Arab Emirates This year, Ajmal Perfumes invites you to celebrate and pamper the one you love with a thoughtful and considerate gift. An exquisite, luxurious fragrance is an especially intimate and personal gift – the ideal way to show them how important they are to you. Read on to learn about our top picks for luxury gifts for your beloved husband...</p>
+                                    </div>
+                                    <div class="bottom">
+                                    <a href="javascript:void(0);" class="readMoreBtn">Read more <img src="images/next-arrow.svg" class="img-fluid" alt="arrow"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pressMediaSec_sliderItem">
+                        <div class="box position-relative">
+                            <div class="box_bg">
+                                <div class="box_logo">
+                                    <img src="images/media-logo3.png" class="img-fluid" alt="logo">
+                                </div>
+                                <div class="box_txt">
+                                    <div class="top">
+                                        <h5>Valentine’s Day</h5>
+                                        <p>8 February 2022, Dubai, United Arab Emirates This year, Ajmal Perfumes invites you to celebrate and pamper the one you love with a thoughtful and considerate gift. An exquisite, luxurious fragrance is an especially intimate and personal gift – the ideal way to show them how important they are to you. Read on to learn about our top picks for luxury gifts for your beloved husband...</p>
+                                    </div>
+                                    <div class="bottom">
+                                    <a href="javascript:void(0);" class="readMoreBtn">Read more <img src="images/next-arrow.svg" class="img-fluid" alt="arrow"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <?php include ('include/footer.php') ?>
     <?php include ('include/footer-scripts.php') ?>
@@ -1716,6 +1834,13 @@
                 infinite: false,
                 speed: 300,
                 slidesToShow: 1,
+                slidesToScroll: 1,
+            });
+            $('.pressMediaSec_slider').slick({
+                dots: true,
+                infinite: false,
+                speed: 300,
+                slidesToShow: 4,
                 slidesToScroll: 1,
             });
         });
