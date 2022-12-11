@@ -1,7 +1,6 @@
-
 <footer class="footer" id="footer">
     <div class="footerTop">
-	    <div class="container">
+        <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-12">
                     <h3>Newsletter and promotions</h3>
@@ -10,15 +9,15 @@
                     <div class="footerTop_form">
                         <form>
                             <div class="form-input-wrapper">
-                                <input class="form-control" type="email"/>
+                                <input class="form-control" type="email" />
                                 <label>Email</label>
-                                <button class="btn"><img src="images/arrow-right-gray.svg" class="img-fluid"/></button>
+                                <button class="btn"><img src="images/arrow-right-gray.svg" class="img-fluid" /></button>
                             </div>
                         </form>
                     </div>
-                         
-                </div>	
-             
+
+                </div>
+
             </div>
         </div>
     </div>
@@ -27,7 +26,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3 footerBottom_left">
-                    <a href="#"><img src="images/logo.svg" alt="logo"/></a>
+                    <a href="#"><img src="images/logo.svg" alt="logo" /></a>
                     <p>Nothing unlocks an old memory better than smell, be it the memory of lost love or of a fond friend. </p>
                 </div>
                 <div class="col-md-9 footerBottom_right">
@@ -75,22 +74,44 @@
                                 <li><a href="#">Ajmalite eStore</a></li>
                             </ul>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="footerSocial">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-3">
-                    <img src="images/card-list.svg" alt="card-list" class="img-fluid"/>
+    <div class="footerEnd">
+        <div class="container">
+            <div class="footerEnd_inner">
+                <div class="row align-items-start">
+                    <div class="col-md-3">
+                        <ul class="list-inline footerEnd_lang">
+                            <li class="list-inline-item"><a href="#" class="footerEnd_lang_drop"><img src="images/country1.png" alt="country_img" class="img-fluid" /> العربية</a></li>
+                            <li class="list-inline-item"><a href="#"><img src="images/card-list.svg" alt="card-list" class="img-fluid" /></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul class="list-inline footerEnd_Social">
+                            <li class="list-inline-item"><a href="#"><img src="images/facebook.svg" class="img-fluid" /></a></li>
+                            <li class="list-inline-item"><a href="#"><img src="images/twitter.svg" class="img-fluid" /></a></li>
+                            <li class="list-inline-item"><a href="#"><img src="images/linked-in.svg" class="img-fluid" /></a></li>
+                            <li class="list-inline-item"><a href="#"><img src="images/youtube.svg" class="img-fluid" /></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 footerEnd_contactInfo">
+                        <p>support@ajmalperfume.com</p>
+                        <p>80025625</p>
+                    </div>
+                    <div class="col-md-4 footerEnd_appBtn">
+                        <a href="#" class="d-inline-block mr-2"><img src="images/app-store.svg" alt="app-store" class="img-fluid" /></a>
+                        <a href="#" class="d-inline-block"><img src="images/google-play.svg" alt="google-play" class="img-fluid" /></a>
+                        <a href="#"><img src="images/qr-code.svg" alt="qr-code" class="img-fluid footerEnd_appBtn_qr" /></a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-		
-	
+
+
 </footer>
