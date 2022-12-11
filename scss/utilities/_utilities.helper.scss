@@ -80,9 +80,15 @@
 //ReadMore
 .readMoreBtn{
   font-size: 16px;font-family: font(smd);color: color(500);line-height: 24px; display: flex;
-  align-items: center;
+  align-items: center;@include transition(all 0.4s);transform: translateX(0);
   img{
-    margin-left: 10px;
+    margin-left: 10px;transform: translateX(0);@include transition(all 0.4s);
+  }
+  &:hover{
+    color: color(500);transform: translateX(10px);
+    img{
+      transform: translateX(5px);
+    }
   }
 }
 
