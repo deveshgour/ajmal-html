@@ -1052,8 +1052,44 @@
             <div class="popularCategoriesSec_bg">
                 <div class="container">
                     <div class="popularCategoriesSec_top py-55 pb-0">
-                        <div class="popularCategoriesSec_top_header">
+                        <div class="popularCategoriesSec_top_header my-30 mt-0">
                             <h3 class="sectionHeading mb-0">Popular categories</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="popularImg position-relative">
+                                    <img src="images/shop-women.jpg" class="img-fluid" alt="shop-img">
+                                    <div class="popularImg_txt">
+                                        <h3>Shop women's</h3>
+                                        <div class="popularImg_links">
+                                            <ul class="list-unstyled d-flex align-item-center mb-0">
+                                                <li><a href="javascript:void(0);">Shop all Women</a></li>
+                                                <li><a href="javascript:void(0);">Best sellers</a></li>
+                                                <li><a href="javascript:void(0);">New Arrivals</a></li>
+                                                <li><a href="javascript:void(0);">Gift sets</a></li>
+                                                <li><a href="javascript:void(0);">Clearance</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="popularImg position-relative">
+                                    <img src="images/shop-men.jpg" class="img-fluid" alt="shop-img">
+                                    <div class="popularImg_txt">
+                                        <h3>Shop men's</h3>
+                                        <div class="popularImg_links">
+                                            <ul class="list-unstyled d-flex align-item-center mb-0">
+                                                <li><a href="javascript:void(0);">Shop all Women</a></li>
+                                                <li><a href="javascript:void(0);">Best sellers</a></li>
+                                                <li><a href="javascript:void(0);">New Arrivals</a></li>
+                                                <li><a href="javascript:void(0);">Gift sets</a></li>
+                                                <li><a href="javascript:void(0);">Clearance</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="popularCategoriesSec_bottom py-55">
@@ -1542,9 +1578,9 @@
                 <div class="reviewSection_top">
                     <h3 class="sectionHeading">Reviews</h3>
                 </div>
-                <div class="">
+                <div class="reviewSection_inner">
                     <div class="reviewSection_slider sliderIcon">
-                        <div class="reviewSection_inner">
+                        <div class="reviewSection_sliderItem">
                             <div class="reviewBox">
                                 <div class="d-flex align-items-center">
                                     <div class="reviewBox_img">
@@ -1577,7 +1613,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="reviewSection_inner">
+                        <div class="reviewSection_sliderItem">
                             <div class="reviewBox">
                                 <div class="d-flex align-items-center">
                                     <div class="reviewBox_img">
@@ -1610,7 +1646,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="reviewSection_inner">
+                        <div class="reviewSection_sliderItem">
                             <div class="reviewBox">
                                 <div class="d-flex align-items-center">
                                     <div class="reviewBox_img">
