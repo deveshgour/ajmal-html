@@ -4,7 +4,7 @@
     max-width: 1180px;
   }
   @media(min-width:1400px) {
-    max-width: 1366px;
+    max-width: 1390px;
   }
   @media(min-width:1600px) {
     max-width: 1480px;
@@ -16,7 +16,12 @@
     padding: 0 30px;
   }
 }
-
+// .slick-slide{
+//   margin: 0 16px;
+// }
+// .slick-track{
+//   margin: 0 -16px;
+// }
 .sliderIcon{
   &.slick-dotted{
     margin-bottom: 0 !important;
