@@ -34,13 +34,23 @@
         margin-bottom: 30px;
     }
     &_bg{ 
-        position: relative;
-        &::before{
-            background-image: url(#{$imageurl}/best-seller-bg.png);position: absolute;top:0;
-            left: 0;width: 100%;height: 100%;content: "";z-index: -1;border-radius: 24px;
+        position: relative;border-radius: 24px;
+        // &::before{
+        //     background-image: url(#{$imageurl}/best-seller-bg.png);position: absolute;top:0;
+        //     left: 0;width: 100%;height: 100%;content: "";z-index: -1;border-radius: 24px;
+        // }
+        .bg-video-wrap{
+            width: 100%;height: 700px;border-radius: 24px;overflow: hidden;
+            video{
+                width: 100%;height: 100%;object-fit: fill;
+            }
         }
         .productCard{
-            padding: 80px 0 50px;
+            padding: 80px 0 50px;z-index: 1;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
             &_sliderSpace{padding-top: 0;}
             &_inner{
                 width: 500px;height: 100%;background-color: #FEF9EC;margin-bottom:0;
@@ -121,7 +131,17 @@
     }
     &_top{
         .popularImg{
-            width: 100%;height: 400px;border-radius: 20px;overflow:hidden;@include transition(all 0.4s);
+            width: 100%;height: 400px;border-radius: 20px;overflow:hidden;
+            &_img{ 
+                transition: background-image 0.5s linear, transform 0.5s linear;  transition-timing-function: cubic-bezier(0.35, 0, 0, 1);
+                background-position:center;background-size: cover;width: 100%;height: 100%;
+                &--img1{
+                    background-image: url(#{$imageurl}/shop-women.jpg); transform: scale(1);
+                }
+                &--img2{
+                    background-image: url(#{$imageurl}/shop-men.jpg);transform: scale(1);
+                }
+            }
             img{width: 100%;height: 100%;object-fit: cover;transform: scale(1);@include transition(all 0.4s);}
             &_txt{
                 position: absolute;top:50%;left: 50%;transform: translate(-50%, -50%);content: "";text-align:center;
@@ -150,7 +170,13 @@
             }
             &:hover{
                 @include transition(all 0.4s);
-                img{transform: scale(1.2); @include transition(all 0.4s);
+                .popularImg_img{ 
+                    &--img1{
+                        background-image: url(#{$imageurl}/shop-women-hover.jpg);transform: scale(1.15);
+                    }
+                    &--img2{
+                        background-image: url(#{$imageurl}/shop-men-hover.jpg);transform: scale(1.15);
+                    }
                 }
                 .popularImg_txt{ @include transition(all 0.4s);
                     transform: translate(-50%, -50px);top:50px;left: 50%;
@@ -206,7 +232,7 @@
     .reviewBox{
         width: 812px;height: 340px;margin: 0 auto;
         &_img{
-            width: 340px;height: 340px;flex-shrink:0;
+            width: 340px;height: 340px;flex-shrink:0; 
             img{width: 100%;height: 100%;object-fit: cover;}
         }
         &_txt{
@@ -250,11 +276,11 @@
         &_bg{
             background-color: #F9F5F1;width: 100%;height: 100%;@include transition(all 0.5s);
         }
-        &_logo{
-            width: 190px;height: 190px;position: absolute;top:50%;left: 50%;transform: translate(-50%,-50%);@include transition(all 0.4s);
+        &_logo{ opacity: 1;
+            width: 190px;height: 190px;position: absolute;top:50%;left: 50%;transform: translate(-50%,-50%);@include transition(all 0.5s);
         }
         &_txt{
-            display: none;@include transition(all 0.5s linear);height:100%;
+            opacity: 0;@include transition(all 0.5s linear);height:100%;
             .top{
                 padding: 24px;height:328px;
                 h5{font-size: 20px;line-height: 28px;color: color(850);margin-bottom: 5px;font-family: font(srg);
@@ -271,10 +297,10 @@
                 background-color: #F3ECE3;@include transition(0.5s linear);
             }
             .box_logo{
-                display: none;
+                opacity: 0;@include transition(0.5s linear);
             }
             .box_txt{
-                display: block;@include transition(0.5s linear);
+                opacity: 1;@include transition(0.5s linear);
             }
         }
     }
@@ -294,7 +320,8 @@
             width: 100%;height: 100%;object-fit: cover;position: relative;
         }
         &_txt{
-            position: absolute;height: 80px;top:-210px;left: 24px;right: 24px;margin: 0 auto;
+            position: absolute;height: 80px;top: 50%;left: 24px;right: 24px;margin: 0 auto;opacity: 0;
+            transition: translate 0.5s linear, opacity 0.5s linear;  transition-timing-function: cubic-bezier(0.2, 0.2, 0, 1);
             @include transition(all 0.5s linear);
             P{
                 font-size: 14px;line-height: 20px;color: color(50);height: 50px;overflow: hidden;margin-bottom: 0;
@@ -314,25 +341,23 @@
             position: absolute;
             display: block;
             width: 100%;
-            height: 0;
+            height: 100%;
             left:0;
             top:0;
-            // background: rgb(0,0,0);
             background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%);
             background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
             background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
             filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
-            
             opacity: 0;
             visibility: hidden;
-            @include transition(all 0.5s linear);
+            transition: opacity 0.5s linear;
         }
         &:hover{
             .instabox_txt{
-                top:210px;
+               opacity: 1; top: 210px; @include transition (all 1s linear);
             }
             .overlay{
-                opacity: 1;visibility: visible;height: 100%;
+                opacity: 1;visibility: visible;@include transition(all 1s linear)
             }
         }
     }

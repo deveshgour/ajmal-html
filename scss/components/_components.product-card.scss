@@ -44,6 +44,7 @@
         }
         .centerImg{
             margin-top: -70px;position: relative;
+            img{    mix-blend-mode: multiply;}
         }
         .outofstock{
             position: absolute;top:50%;left: 50%;transform: translate(-50%,-50%);padding: 6px 16px;
