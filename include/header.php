@@ -30,7 +30,44 @@
                                 Perfumes
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="product.php">option</a>
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <ul class="list-unstyled">
+                                                    <li><a class="dropdown-item" href="javascript:;">Egift Card</a></li>
+                                                    <li><a class="dropdown-item" href="javascript:;">For Him</a></li>
+                                                    <li><a class="dropdown-item" href="javascript:;">For Her</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <ul class="list-unstyled">
+                                                    <li><a class="dropdown-item" href="javascript:;">Party</a></li>
+                                                    <li><a class="dropdown-item" href="javascript:;">Anniversary</a></li>
+                                                    <li><a class="dropdown-item" href="javascript:;">Outing</a></li>
+                                                    <li><a class="dropdown-item" href="javascript:;">Long Drive</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                               
+                                    <div class="col-md-5">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                 <div class="menuImg">
+                                                    <a href="#"><img src="images/menu-img-1.jpg" class="img-fluid"/></a>
+                                                    <span class="menuImg_txt">Jannatual Firdaus</span>
+                                                 </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                 <div class="menuImg">
+                                                    <a href="#"><img src="images/menu-img-2.jpg" class="img-fluid"/></a>
+                                                    <span class="menuImg_txt">Jannatual Firdaus</span>
+                                                 </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </li>
                         <li class="nav-item">
