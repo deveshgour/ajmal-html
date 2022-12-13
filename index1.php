@@ -570,7 +570,10 @@
                     <a href="javascript:void(0);" class="readMoreBtn">Discover all <img src="images/next-arrow.svg" class="img-fluid" alt="arrow"></a>
                 </div>
                 <div class="bestSellers_bg text-center">
-                    <div class="productCard">
+                     <div class="bg-video-wrap">
+                        <video src="https://s3-figma-videos-production-sig.figma.com/video/896043799134869157/TEAM/f976/0d0c/-35d7-4cf4-8f92-913d74041fcd?Expires=1672012800&Signature=RtLv~JudpX1KxzgMpWK1yVDOP-a-JpvBuw0jb3q4QD6RTVKSVTKKcN~37deddsoZeTMHxRE2nrLMJNiyDQJOFXMYDHfmLiLIQKdyJk5Kkb4ilhJZ81pYioyNmJrvHonwMS~wO1sLtcngahPQCEPDpL7bsLWmSCDTwP0QdWQk2yC4f5WWXMkliNQXu6QlaSOnjNZLCKxuPobvKMSws-s3~qusFaTDrHWXA9lCynIrIC8ll1OfhXZGVVYwVQNtlduNu9iPdGpKWCvIs6C7U82lsqRgUuxXb4JYuqLdqthzKQEUBZXM92M5jMLeAeSv0YDJqP5dCHm4LaHgCnI2wwgFlw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" loop muted autoplay>
+                        </video>
+                        <div class="productCard">
                             <div class="productCard_sliderSpace">
                                 <div class="productCard_inner mx-auto">
                                     <div class="productCard_top d-flex align-item-start justify-content-between">
@@ -624,14 +627,8 @@
                                 </div>
                             </div>
                         </div> 
-                </div>
-                <!-- <div class="bg-video-wrap">
-                    <video src="https://designsupply-web.com/samplecontent/vender/codepen/20181014.mp4" loop muted autoplay>
-                    </video>
-                    <div class="overlay">
-                        <h1>Fullscreen video background</h1>
                     </div>
-                </div> -->
+                </div>
             </div>
         </section>
         <section class="legacySection">
@@ -1128,8 +1125,8 @@
                         </div>
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="popularImg position-relative">
-                                    <img src="images/shop-women.jpg" class="img-fluid" alt="shop-img">
+                                <div class="popularImg position-relative overflow-hidden">
+                                    <div class="popularImg_img popularImg_img--img1"></div>
                                     <div class="popularImg_txt">
                                         <h3>Shop women's</h3>
                                         <div class="popularImg_links">
@@ -1145,8 +1142,9 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="popularImg position-relative">
-                                    <img src="images/shop-men.jpg" class="img-fluid" alt="shop-img">
+                                <div class="popularImg position-relative overflow-hidden">
+                                    <div class="popularImg_img popularImg_img--img2"></div>
+                                    <!-- <img src="images/shop-men.jpg" class="img-fluid" alt="shop-img"> -->
                                     <div class="popularImg_txt">
                                         <h3>Shop men's</h3>
                                         <div class="popularImg_links">
