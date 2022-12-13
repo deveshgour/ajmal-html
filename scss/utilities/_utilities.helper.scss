@@ -48,14 +48,15 @@
     right: 0;
     border: 1px solid color(500);
     border-radius: 50%;
-    @include animation(5s animateRotate linear infinite);
+    opacity: 0;
+    // @include animation(5s animateRotate linear infinite);
   }
   &:hover{
     color: color(500);
    
     &:after{
-      transform: rotate(5deg);
-      @include transition(0.10s);
+      transform: rotate(-5deg);
+      @include transition(0.5s ease-in-out);
       opacity: 1;
     }
   }
