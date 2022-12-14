@@ -1,27 +1,25 @@
 <header class="header afterLogin" id="userHeader">
-        <div class="header-top">
-            <p class="mb-0"><span>FREE SHIPPING</span> on all orders in the UAE</p>
-        </div>
-        <nav class="navbar navbar-expand-lg">
+    <div class="header-top">
+        <p class="mb-0"><span>FREE SHIPPING</span> on all orders in the UAE</p>
+    </div>
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.php">
                 <img src="images/logo.svg" alt="logo" class="img-fluid whiteLogo">
                 <!-- <img src="images/logo.svg" alt="logo" class="img-fluid blackLogo"> -->
             </a>
-        
-            <button class="navbar-toggler order-12" id="mobileMenuBar" type="button" data-toggle="collapse"
-                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+
+            <button class="navbar-toggler order-12" id="mobileMenuBar" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="line"></span>
                 <span class="line"></span>
                 <span class="line"></span>
             </button>
-      
+
             <div class="navbar-center">
                 <form class="navbar-search">
-                    <span class="navbar-search-icon"><img src="images/search.svg" alt="search"/></span>
-                    <input type="text" placeholder="Search for perfume" class="form-control"/>
-                    <button class="btn btn-mic"><img src="images/mic.svg" alt="mic"/></button>
+                    <span class="navbar-search-icon"><img src="images/search.svg" alt="search" /></span>
+                    <input type="text" placeholder="Search for perfume" class="form-control" />
+                    <button class="btn btn-mic"><img src="images/mic.svg" alt="mic" /></button>
                 </form>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav align-items-lg-center mb-0 m-auto" id="navbarToggle">
@@ -52,20 +50,20 @@
                                             </div>
                                         </div>
                                     </div>
-                               
+
                                     <div class="col-md-5">
                                         <div class="row">
                                             <div class="col-md-6">
-                                                 <div class="menuImg">
-                                                    <a href="#"><img src="images/menu-img-1.jpg" class="img-fluid"/></a>
+                                                <div class="menuImg">
+                                                    <a href="#"><img src="images/menu-img-1.jpg" class="img-fluid" /></a>
                                                     <span class="menuImg_txt">Jannatual Firdaus</span>
-                                                 </div>
+                                                </div>
                                             </div>
                                             <div class="col-md-6">
-                                                 <div class="menuImg">
-                                                    <a href="#"><img src="images/menu-img-2.jpg" class="img-fluid"/></a>
+                                                <div class="menuImg">
+                                                    <a href="#"><img src="images/menu-img-2.jpg" class="img-fluid" /></a>
                                                     <span class="menuImg_txt">Jannatual Firdaus</span>
-                                                 </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -77,7 +75,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">
-                            Agarwood
+                                Agarwood
                             </a>
                         </li>
                         <li class="nav-item">
@@ -109,20 +107,20 @@
                                             </div>
                                         </div>
                                     </div>
-                               
+
                                     <div class="col-md-5">
                                         <div class="row">
                                             <div class="col-md-6">
-                                                 <div class="menuImg">
-                                                    <a href="#"><img src="images/menu-img-1.jpg" class="img-fluid"/></a>
+                                                <div class="menuImg">
+                                                    <a href="#"><img src="images/menu-img-1.jpg" class="img-fluid" /></a>
                                                     <span class="menuImg_txt">Jannatual Firdaus</span>
-                                                 </div>
+                                                </div>
                                             </div>
                                             <div class="col-md-6">
-                                                 <div class="menuImg">
-                                                    <a href="#"><img src="images/menu-img-2.jpg" class="img-fluid"/></a>
+                                                <div class="menuImg">
+                                                    <a href="#"><img src="images/menu-img-2.jpg" class="img-fluid" /></a>
                                                     <span class="menuImg_txt">Jannatual Firdaus</span>
-                                                 </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -146,7 +144,7 @@
                 <ul class="navbar-nav align-items-lg-center mb-0 ml-auto">
                     <li class="nav-item country-menu">
                         <a class="nav-link" href="javascript:void(0);">
-                            <img src="images/country1.png" alt="country"/> 
+                            <img src="images/country1.png" alt="country" />
                             <span class="nav-text"> العربية</span>
                         </a>
                     </li>
@@ -157,20 +155,63 @@
                     </li>
                     <li class="nav-item cart-menu">
                         <a class="nav-link" href="javascript:void(0);">
-                            <img src="images/cart.svg" alt="cart"/> 
+                            <img src="images/cart.svg" alt="cart" />
                             <span class="nav-text-count">2</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="javascript:void(0);">
-                            <img src="images/ven.svg" alt="ven"/> 
+                            <img src="images/ven.svg" alt="ven" />
                         </a>
                     </li>
 
-                    
+
                 </ul>
             </div>
-            </div>
-        </nav>
-  
+        </div>
+    </nav>
+
 </header>
+
+<div class="countryMenu">
+    <a href="javascript:;" class="countryMenu_close"><img src="images/close.svg" alt="close"/></a>
+    <h2 class="countryMenu_title">Country</h2>
+    <ul class="list-unstyled">
+        <li>
+            <a class="nav-link" href="javascript:void(0);">
+                <img src="images/country1.png" alt="country">
+                <span class="nav-text"> UAE (AED)</span>
+            </a>
+        </li>
+        <li>
+            <a class="nav-link" href="javascript:void(0);">
+                <img src="images/ksa.png" alt="country">
+                <span class="nav-text"> KSA (SAR)</span>
+            </a>
+        </li>
+        <li>
+            <a class="nav-link" href="javascript:void(0);">
+                <img src="images/kwd.png" alt="country">
+                <span class="nav-text"> Kuwait (KWD)</span>
+            </a>
+        </li>
+        <li>
+            <a class="nav-link" href="javascript:void(0);">
+                <img src="images/bhd.png" alt="country">
+                <span class="nav-text"> Bahrain (BHD)</span>
+            </a>
+        </li>
+        <li>
+            <a class="nav-link" href="javascript:void(0);">
+                <img src="images/qar.png" alt="country">
+                <span class="nav-text"> Quatar (QAR)</span>
+            </a>
+        </li>
+        <li>
+            <a class="nav-link" href="javascript:void(0);">
+                <img src="images/omr.png" alt="country">
+                <span class="nav-text"> Oman (OMR)</span>
+            </a>
+        </li>
+    </ul>
+</div>
