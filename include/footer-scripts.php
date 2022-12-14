@@ -51,13 +51,13 @@ $('.countryMenu_close, .customOverlay').click(function(){
 
 
 // cart menu js
-$('.country-menu a').click(function(){
-     $('body').toggleClass('openCountryMenu');
+$('.cart-menu a').click(function(){
+     $('body').toggleClass('openCartMenu');
      $('body').css('overflow','hidden')
 })
 
-$('.countryMenu_close, .customOverlay').click(function(){
-     $('body').removeClass('openCountryMenu');
+$('.cartMenu_close, .customOverlay').click(function(){
+     $('body').removeClass('openCartMenu');
      $('body').css('overflow','auto')
 })
 </script>

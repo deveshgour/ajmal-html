@@ -173,6 +173,11 @@
 
 </header>
 
+<!-- header end -->
+
+
+<!-- country menu -->
+
 <div class="countryMenu">
     <a href="javascript:;" class="countryMenu_close"><img src="images/close.svg" alt="close"/></a>
     <h2 class="countryMenu_title">Country</h2>
@@ -214,4 +219,60 @@
             </a>
         </li>
     </ul>
+</div>
+
+<!-- cart menu -->
+<div class="cartMenu">
+    <div class="cartMenu_header">
+        <a href="javascript:;" class="cartMenu_close"><img src="images/close.svg" alt="close"/></a>
+        <h2 class="cartMenu_title">Your shopping bag (6)</h2>
+
+        <div class="freeDelivery d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+                <div class="freeDelivery_icon"><img src="images/free-delivery.svg" alt="free delivery"/></div>
+                <div class="freeDelivery_cnt"><h3>Free delivery</h3><p class="mb-0">On credit/debit cards order</p></div>
+            </div>
+            <div class="freeDelivery_action"><a href="#"><img src="images/vertical-menu.svg" alt="menu"></a></div>
+        </div>
+    </div>
+    <div class="cartMenu_body">
+    <ul class="list-unstyled">
+        <li>
+            <a class="nav-link" href="javascript:void(0);">
+                <img src="images/country1.png" alt="country">
+                <span class="nav-text"> UAE (AED)</span>
+            </a>
+        </li>
+        <li>
+            <a class="nav-link" href="javascript:void(0);">
+                <img src="images/ksa.png" alt="country">
+                <span class="nav-text"> KSA (SAR)</span>
+            </a>
+        </li>
+        <li>
+            <a class="nav-link" href="javascript:void(0);">
+                <img src="images/kwd.png" alt="country">
+                <span class="nav-text"> Kuwait (KWD)</span>
+            </a>
+        </li>
+        <li>
+            <a class="nav-link" href="javascript:void(0);">
+                <img src="images/bhd.png" alt="country">
+                <span class="nav-text"> Bahrain (BHD)</span>
+            </a>
+        </li>
+        <li>
+            <a class="nav-link" href="javascript:void(0);">
+                <img src="images/qar.png" alt="country">
+                <span class="nav-text"> Quatar (QAR)</span>
+            </a>
+        </li>
+        <li>
+            <a class="nav-link" href="javascript:void(0);">
+                <img src="images/omr.png" alt="country">
+                <span class="nav-text"> Oman (OMR)</span>
+            </a>
+        </li>
+    </ul>
+    </div>
 </div>

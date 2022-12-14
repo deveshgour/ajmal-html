@@ -6,9 +6,15 @@
     right: 0;
     width: 500px;
     height: 100%;
-    padding: 52px 32px;
     right: -500px;
     @include transition(0.5s);
+    &_header{
+        box-shadow: 0px 1px 32px rgba(83, 60, 36, 0.16);
+        padding: 52px 32px 24px;
+    }
+    &_body{
+        padding: 52px 32px;
+    }
     &_close{
         position: absolute;
         right: 24px;
@@ -50,6 +56,14 @@
 body{
     &.openCountryMenu{
         .countryMenu{
+            right: 0;
+        }
+        .customOverlay{
+            display: block;
+        }
+    }
+    &.openCartMenu{
+        .cartMenu{
             right: 0;
         }
         .customOverlay{
