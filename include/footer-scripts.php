@@ -37,6 +37,20 @@ $('.footerTop_form .form-control').keyup(function(){
    }
 })
 
+
+// country menu js
+$('.country-menu a').click(function(){
+     $('body').toggleClass('openCountryMenu');
+     $('body').css('overflow','hidden')
+})
+
+$('.countryMenu_close, .customOverlay').click(function(){
+     $('body').removeClass('openCountryMenu');
+     $('body').css('overflow','auto')
+});
+
+
+// cart menu js
 $('.country-menu a').click(function(){
      $('body').toggleClass('openCountryMenu');
      $('body').css('overflow','hidden')
