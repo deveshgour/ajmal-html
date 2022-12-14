@@ -1,6 +1,6 @@
 // form controls
 .form-group, .input-group{
-  position: relative; margin-bottom: 30px;
+  position: relative; margin-bottom: 16px;
   label{
     display: block;margin-bottom: 10px;font-size: 15px;color: rgba(color(900), .8);
     font-family: font(md);
@@ -13,8 +13,14 @@
     label{vertical-align: middle;}
   }
   .form-control{
-    height:54px;color:color(900);font-size:17px;border-radius: 0;background-clip: initial;
-    font-family: font(md);
+    height:56px;color:color(900);font-size:16px;border-radius: 0;background-clip: initial;
+    font-family: font(srg);font-weight:400;padding: 16px 24px;
+    &-border{
+      border-radius: 40px;background-color: transparent;
+    }
+    &::placeholder{
+      color: #A4A4A4;
+    }
     &:focus{outline:none;-webkit-box-shadow:none;box-shadow:none;border-color:color(500);}
     &:valid, &:invalid{
       &:focus{outline:none;-webkit-box-shadow:none;box-shadow:none;}
@@ -39,24 +45,6 @@
     .searchBtn{
       position: absolute; padding: 0; background:transparent;border: 0;right: 14px;top: 16px;font-size: 16px;
     }
-  }
-  @media(max-width:1599px){
-    margin-bottom: 25px;
-    label{margin-bottom: 6px;font-size: 14px;}
-    .form-control{height: 46px; font-size: 15px;}
-    input.form-control, textarea.form-control{
-      padding: 10px 15px;
-    }
-  }
-  @include media-breakpoint-down(md) {
-    margin-bottom: 20px;
-    label{margin-bottom: 5px;font-size: 13px;}
-    .form-control{height: 40px;font-size: 14px;}
-    textarea.form-control{min-height: 80px;}
-    input.form-control, textarea.form-control{padding: 6px 15px;}
-  }
-  @include media-breakpoint-down(xs) {
-    input.form-control, textarea.form-control{padding: 6px 10px;}
   }
 }
 

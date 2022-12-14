@@ -1,14 +1,15 @@
 .commonModal{
     .modal-dialog{
-        margin: 15px;min-height: calc(100% - 30px);
+        margin: 15px;min-height: calc(100% - 30px);border-radius: 20px; overflow: hidden;
         @include media-breakpoint-up(sm) {
             margin: 15px auto;
             &.modal-sm{max-width: 420px;}
         }
     }
+    .modal-lg{max-width: 1040px;}
     &__title{font-size: 22px;margin-bottom: 40px;}
 	.modal-content{
-		background-clip: initial;border-radius: 5px;
+		border: 0;
 		.modal-header {
             border: 0px; margin-bottom: 30px;padding:0;
             .modal-title {font-size: 25px;}
