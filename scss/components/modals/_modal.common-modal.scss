@@ -1,6 +1,22 @@
 .commonModal{ position: relative;
+    // .modal{ height: 0%;
+    //  &.show{
+    //     height: 100%;
+    //     transition: 1s cubic-bezier(0.35, 0, 0, 1);
+    //  }
+    // }
+    .modal.fade .modal-dialog.modal-dialog-slideout {
+        -webkit-transform: translate(0, -100%)scale(1);
+        transform: translate(0, -100%)scale(1);
+      }
+      .modal.fade.show .modal-dialog.modal-dialog-slideout {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+        transition: 1s cubic-bezier(0.35, 0, 0, 1);
+        border-radius: 20px;overflow: hidden;
+      }
     .modal-dialog{
-        margin: 15px;min-height: calc(100% - 30px);border-radius: 20px; overflow: hidden;
+        margin: 15px;min-height: calc(100% - 30px);border-radius: 20px;
         @include media-breakpoint-up(sm) {
             margin: 15px auto;
             &.modal-sm{max-width: 420px;}
@@ -35,35 +51,5 @@
         }
 	}
     
-    @media(max-width: 1599px){
-        &__title{margin-bottom: 30px;} 
-        .modal-content{
-            .modal-body{padding:30px;}
-        }
-    }
-
-    @include media-breakpoint-down(lg) {
-        .modal-content{
-            .modal-body{padding:20px;}
-        }
-    }
-
-    @include media-breakpoint-down(sm) {
-        &__title{font-size: 20px;margin-bottom: 20px;}
-        .modal-content{
-            .modal-body{
-                padding: 15px;
-                .commonProfileImage{
-                    height:80px;width:80px;
-                    img{border-radius:25px;} 
-                }
-                .msg{font-size: 15px;}
-                .btnRow{
-                    margin-top: 25px;
-                    .btn{min-width:80px;}
-                }
-            }
-        }
-    }
 
 }
