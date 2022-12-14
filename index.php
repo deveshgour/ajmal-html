@@ -2128,13 +2128,10 @@
             <div class="modal fade" id="loginMOdal" tabindex="-1" role="dialog" aria-labelledby="loginMOdalTitle" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                     <div class="modal-content">
-                    <!-- <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div> -->
                     <div class="modal-body p-0">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
                         <div class="d-flex">
                             <div class="loginSignUpModal_left">
                                 <div class="loginDiv">
@@ -2153,23 +2150,7 @@
                                         <a href="javascript:void(0);" class="btn btn-secondary w-100">Log in</a>
                                     </form>
                                 </div>
-                                <div class="signUpDiv" style="display:none;">
-                                    <div class="d-flex flex-column h-100 justify-content-center align-items-center">
-                                        <h3 class="mb-2">Welcome</h3>
-                                        <p class="text-center">Log in to continue</p>
-                                        <a href="javascript:void(0);" class="btn btn-primary btn-primary-outline w-100 loginActionBtn">Log in</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="loginSignUpModal_right">
-                                <div class="loginDiv h-100">
-                                    <div class="d-flex flex-column h-100 justify-content-center align-items-center">
-                                        <h3 class="mb-2">Welcome</h3>
-                                        <p class="text-center">Enter your personal details and start <br/> journey with us</p>
-                                        <a href="javascript:void(0);" class="btn btn-primary btn-primary-outline w-100 createAccountActionBtn">Create account</a>
-                                    </div>
-                                </div>
-                                <div class="signUpDiv"  style="display:none;">
+                                <div class="signUpDiv">
                                     <h3>Sign up</h3>
                                     <ul class="list-unstyled loginBtns mb-0">
                                         <li><a href="javascript:void(0);" class="btn btn-login w-100"><img src="images/google-icon.svg" class="img-fluid" alt="google-icon"> Log in with Google</a></li>
@@ -2192,6 +2173,22 @@
                                     </form>
                                 </div>
                             </div>
+                            <div class="loginSignUpModal_right">
+                                <div class="loginDiv h-100">
+                                    <div class="d-flex flex-column h-100 justify-content-center align-items-center">
+                                        <h3 class="mb-2">Welcome</h3>
+                                        <p class="text-center">Enter your personal details and start <br/> journey with us</p>
+                                        <a href="javascript:void(0);" class="btn btn-primary btn-primary-outline w-100 createAccountActionBtn">Create account</a>
+                                    </div>
+                                </div>
+                                <div class="signUpDiv h-100">
+                                    <div class="d-flex flex-column h-100 justify-content-center align-items-center">
+                                        <h3 class="mb-2">Welcome</h3>
+                                        <p class="text-center">Log in to continue</p>
+                                        <a href="javascript:void(0);" class="btn btn-primary btn-primary-outline w-100 loginActionBtn">Log in</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     </div>
@@ -2206,13 +2203,15 @@
         $( document ).ready(function() {
             $('.createAccountActionBtn').on('click', function() {
                 $(".loginSignUpModal_right").css("transform","translateX(-640px)")
-                $(".loginSignUpModal_right").addClass("loginModal")
+                $(".loginSignUpModal_right").addClass("loginModalShow")
                 $(".loginSignUpModal_left").css("transform","translateX(400px)")
-                $(".loginSignUpModal_left").addClass("loginModal")
+                $(".loginSignUpModal_left").addClass("loginModalShow")
             });
             $('.loginActionBtn').on('click', function() {
-                $(".loginSignUpModal_right").css("transform","translateX(640px)")
-                $(".loginSignUpModal_left").css("transform","translateX(-400px)")
+                $(".loginSignUpModal_right").css("transform","translateX(0)")
+                $(".loginSignUpModal_right").addClass("signInModalShow")
+                $(".loginSignUpModal_left").css("transform","translateX(0)")
+                $(".loginSignUpModal_left").addClass("signInModalShow")
             });
         });
     </script>
