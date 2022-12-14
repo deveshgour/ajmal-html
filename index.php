@@ -2122,10 +2122,99 @@
                 </div>
             </div>
         </section>
+        <!-- Login Modal -->
+        <!-- Modal -->
+        <div class="commonModal loginSignUpModal">
+            <div class="modal fade" id="loginMOdal" tabindex="-1" role="dialog" aria-labelledby="loginMOdalTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                    <div class="modal-body p-0">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="d-flex">
+                            <div class="loginSignUpModal_left">
+                                <div class="loginDiv">
+                                    <h3>Log in</h3>
+                                    <ul class="list-unstyled loginBtns mb-0">
+                                        <li><a href="javascript:void(0);" class="btn btn-login w-100"><img src="images/google-icon.svg" class="img-fluid" alt="google-icon"> Log in with Google</a></li>
+                                        <li><a href="javascript:void(0);" class="btn btn-login w-100"><img src="images/facebook-icon.svg" class="img-fluid" alt="facebook-icon"> Log in with Facebook</a></li>
+                                        <li><a href="javascript:void(0);" class="btn btn-login w-100"><img src="images/apple-icon.svg" class="img-fluid" alt="apple-icon"> Log in with Apple</a></li>
+                                        <li><a href="javascript:void(0);" class="btn btn-login w-100"><img src="images/whatsapp-icon.svg" class="img-fluid" alt="whatsapp-icon"> Log in with WhatsApp</a></li>
+                                    </ul>
+                                    <p class="divider position-relative text-center">or use your email or number</p>
+                                    <form>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control form-control-border" placeholder="Email or number">
+                                        </div>
+                                        <a href="javascript:void(0);" class="btn btn-secondary w-100">Log in</a>
+                                    </form>
+                                </div>
+                                <div class="signUpDiv">
+                                    <h3>Sign up</h3>
+                                    <ul class="list-unstyled loginBtns mb-0">
+                                        <li><a href="javascript:void(0);" class="btn btn-login w-100"><img src="images/google-icon.svg" class="img-fluid" alt="google-icon"> Log in with Google</a></li>
+                                        <li><a href="javascript:void(0);" class="btn btn-login w-100"><img src="images/facebook-icon.svg" class="img-fluid" alt="facebook-icon"> Log in with Facebook</a></li>
+                                        <li><a href="javascript:void(0);" class="btn btn-login w-100"><img src="images/apple-icon.svg" class="img-fluid" alt="apple-icon"> Log in with Apple</a></li>
+                                        <li><a href="javascript:void(0);" class="btn btn-login w-100"><img src="images/whatsapp-icon.svg" class="img-fluid" alt="whatsapp-icon"> Log in with WhatsApp</a></li>
+                                    </ul>
+                                    <p class="divider position-relative text-center">or use your email or number</p>
+                                    <form>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control form-control-border" placeholder="Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control form-control-border" placeholder="Email or number">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control form-control-border" placeholder="Password (min 6 characters)">
+                                        </div>
+                                        <a href="javascript:void(0);" class="btn btn-secondary w-100 loginBtn">Log in</a>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="loginSignUpModal_right">
+                                <div class="loginDiv h-100">
+                                    <div class="d-flex flex-column h-100 justify-content-center align-items-center">
+                                        <h3 class="mb-2">Welcome</h3>
+                                        <p class="text-center">Enter your personal details and start <br/> journey with us</p>
+                                        <a href="javascript:void(0);" class="btn btn-primary btn-primary-outline w-100 createAccountActionBtn">Create account</a>
+                                    </div>
+                                </div>
+                                <div class="signUpDiv h-100">
+                                    <div class="d-flex flex-column h-100 justify-content-center align-items-center">
+                                        <h3 class="mb-2">Welcome</h3>
+                                        <p class="text-center">Log in to continue</p>
+                                        <a href="javascript:void(0);" class="btn btn-primary btn-primary-outline w-100 loginActionBtn">Log in</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <?php include ('include/footer.php') ?>
     <?php include ('include/footer-scripts.php') ?>
     <script type="text/javascript" src="js/slick.min.js"></script>
+    <script>
+        $( document ).ready(function() {
+            $('.createAccountActionBtn').on('click', function() {
+                $(".loginSignUpModal_right").css("transform","translateX(-640px)")
+                $(".loginSignUpModal_right").addClass("loginModalShow")
+                $(".loginSignUpModal_left").css("transform","translateX(400px)")
+                $(".loginSignUpModal_left").addClass("loginModalShow")
+            });
+            $('.loginActionBtn').on('click', function() {
+                $(".loginSignUpModal_right").css("transform","translateX(0)")
+                $(".loginSignUpModal_right").addClass("signInModalShow")
+                $(".loginSignUpModal_left").css("transform","translateX(0)")
+                $(".loginSignUpModal_left").addClass("signInModalShow")
+            });
+        });
+    </script>
     <script>
   
     

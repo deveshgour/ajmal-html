@@ -5,7 +5,9 @@ $colors:(
     70:#ECF8F8,
     80:#F8F4F1,
     90:#FFF5EB,
+    100: #F9F5F1,
     120: #EBEBEB,
+    130: #C8C8C8,
     150: #A4A4A4,
     160: #7F7F7F, 
     180: #707070,       
@@ -33,9 +35,11 @@ $colors:(
 $fonts : (
   srg    : 'Satoshi-Regular',
   smd    : 'Satoshi-Medium',
+  sbd    : 'Satoshi-Bold',
   grg    : 'Gambetta-Regular',
   gmd    : 'Gambetta-Medium',
   gbd    : 'Gambetta-Bold',
+  
 );
 
 @function font($font-name, $font-variant:null) {

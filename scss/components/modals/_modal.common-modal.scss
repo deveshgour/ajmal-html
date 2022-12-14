@@ -1,14 +1,15 @@
-.commonModal{
+.commonModal{ position: relative;
     .modal-dialog{
-        margin: 15px;min-height: calc(100% - 30px);
+        margin: 15px;min-height: calc(100% - 30px);border-radius: 20px; overflow: hidden;
         @include media-breakpoint-up(sm) {
             margin: 15px auto;
             &.modal-sm{max-width: 420px;}
         }
     }
+    .modal-lg{max-width: 1040px;}
     &__title{font-size: 22px;margin-bottom: 40px;}
 	.modal-content{
-		background-clip: initial;border-radius: 5px;
+		border: 0;
 		.modal-header {
             border: 0px; margin-bottom: 30px;padding:0;
             .modal-title {font-size: 25px;}
@@ -29,16 +30,8 @@
             }
         }
         .close{
-            width: 30px;height: 30px;color: color(500);opacity: 1;
-            font-size:11px;@include transition(.3s);padding:0;margin: 0; 
-            @include box-shadow(0, 3px, 6px, rgba(color(900), 0.16));text-shadow:none;
-            background-color: color(50);top: -15px;right: -15px;z-index: 2;
-            &:hover{color: color(50);background-color: color(500);}
-            &:not(:disabled):not(.disabled):focus, 
-            &:not(:disabled):not(.disabled):hover{opacity: 1;}
-             @include media-breakpoint-down(xs){
-                top:-10px;right:-10px;  
-             }
+            width: 12px;height: 12px;color: color(850);opacity: 1;
+            @include transition(.3s);padding:0;margin: 0; position: absolute;top: 10px;right: 20px;z-index: 9;
         }
 	}
     

@@ -149,8 +149,8 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0);">
-                            <img src="images/logout.svg" alt="logout" />
+                        <a class="nav-link" href="javascript:void(0);" data-toggle="modal" data-target="#loginMOdal">
+                            <img src="images/logout.svg" alt="logout"/> 
                         </a>
                     </li>
                     <li class="nav-item cart-menu">
