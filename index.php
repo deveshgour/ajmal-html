@@ -2126,7 +2126,7 @@
         <!-- Modal -->
         <div class="commonModal loginSignUpModal">
             <div class="modal fade" id="loginMOdal" tabindex="-1" role="dialog" aria-labelledby="loginMOdalTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-slideout" role="document">
                     <div class="modal-content">
                     <div class="modal-body p-0">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -2202,15 +2202,15 @@
     <script>
         $( document ).ready(function() {
             $('.createAccountActionBtn').on('click', function() {
-                $(".loginSignUpModal_right").css("transform","translateX(-640px)")
+                $(".loginSignUpModal_right").css({"transform":"translateX(-640px)","transition": "1s cubic-bezier(0.35, 0, 0, 1)"})
                 $(".loginSignUpModal_right").addClass("loginModalShow")
-                $(".loginSignUpModal_left").css("transform","translateX(400px)")
+                $(".loginSignUpModal_left").css({"transform":"translateX(400px)","transition": "1s cubic-bezier(0.35, 0, 0, 1)"})
                 $(".loginSignUpModal_left").addClass("loginModalShow")
             });
             $('.loginActionBtn').on('click', function() {
-                $(".loginSignUpModal_right").css("transform","translateX(0)")
+                $(".loginSignUpModal_right").css({"transform":"translateX(0)", "transition": "1s cubic-bezier(0.35, 0, 0, 1)"})
                 $(".loginSignUpModal_right").addClass("signInModalShow")
-                $(".loginSignUpModal_left").css("transform","translateX(0)")
+                $(".loginSignUpModal_left").css({"transform":"translateX(0)", "transition": "1s cubic-bezier(0.35, 0, 0, 1)"})
                 $(".loginSignUpModal_left").addClass("signInModalShow")
             });
         });
