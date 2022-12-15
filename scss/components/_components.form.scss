@@ -50,9 +50,9 @@
 
 // custom checkbox
 .custom-checkbox{
-  margin-top: 15px;padding-left: 28px;
+  padding-left: 25px;
   .custom-control-input {
-    z-index: 1;width: 18px;height: 18px;cursor: pointer; 
+    z-index: 1;width: 16px;height: 16px;cursor: pointer; border: 1px solid rgba(color(500),0.4);
     &:focus {
       ~.custom-control-label {
         &:before {-webkit-box-shadow: none;box-shadow: none;}
@@ -66,25 +66,18 @@
   .custom-control-input:checked~.custom-control-label {
     &:after {
       font-family: 'icomoon';content: "\e905";font-size: 10px;font-weight: 900;
-      background-image: none;color: color(50);top: 0;left: 4px;
+      background-image: none;color: color(50);top: -1px;left: 3px;
     }
-    &:before {border-color: color(600);border-radius:3px;background: color(600);}
+    &:before {border-color: color(500);border-radius:4px;background: color(500);}
   }
   .custom-control-label {
-    width: 100%;cursor: pointer;color: color(900);position: static;
-    font-size:16px;font-family:font(md);line-height: 18px;  
+    width: 100%;cursor: pointer;color: color(850);position: static;
+    font-size:14px;font-family:font(srg);line-height: 20px;  
     &:before {
-      left: 0px;width: 18px;height: 18px;border-radius: 3px;background: color(500);
-      top: 0px; border: 1px solid color(500);@include transition(all 0.3s);
+      left: 0px;width: 16px;height: 16px;border-radius: 4px;background: transparent;
+      top: 0px; border: 1px solid rgba(color(500),0.4);@include transition(all 0.3s);
     }
     &:after {left:3px; top:4px;@include transition(all 0.3s);}
-  }
-  @include media-breakpoint-down(md) {
-    padding-left: 24px;
-    .custom-control-label{font-size:15px;line-height:19px;}
-    .custom-control-input:checked~.custom-control-label{
-      &:after {font-size: 10px;top: 0px;left: 4px;} 
-    }
   }
 }
 
