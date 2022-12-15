@@ -2147,7 +2147,7 @@
                                         <div class="form-group">
                                             <input type="text" class="form-control form-control-border" placeholder="Email or number">
                                         </div>
-                                        <a href="javascript:void(0);" class="btn btn-secondary w-100">Log in</a>
+                                        <a href="javascript:void(0);" class="btn btn-secondary w-100" data-toggle="modal" data-target="#passwordModal" data-dismiss="modal">Log in</a>
                                     </form>
                                 </div>
                                 <div class="signUpDiv">
@@ -2166,10 +2166,11 @@
                                         <div class="form-group">
                                             <input type="text" class="form-control form-control-border" placeholder="Email or number">
                                         </div>
-                                        <div class="form-group">
-                                            <input type="text" class="form-control form-control-border" placeholder="Password (min 6 characters)">
+                                        <div class="form-group" id="show_hide_password">
+                                            <input type="password" class="form-control form-control-border passwordField position-relative" placeholder="Password (min 6 characters)">
+                                            <img src="images/password-icons.svg" alt="password-icons" class="passwordField_icons">
                                         </div>
-                                        <a href="javascript:void(0);" class="btn btn-secondary w-100 loginBtn">Sign up</a>
+                                        <a href="javascript:void(0);" class="btn btn-secondary w-100 loginBtn" data-toggle="modal" data-target="#signUpcodeModal" data-dismiss="modal">Sign up</a>
                                     </form>
                                 </div>
                             </div>
@@ -2190,6 +2191,120 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="commonModal passwordModal">
+            <div class="modal fade" id="passwordModal" tabindex="-1" role="dialog" aria-labelledby="passwordModalTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-md modal-dialog-slideout" role="document">
+                    <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h3 class="text-center">Enter your password</h3>
+                        <form>
+                            <div class="form-group">
+                                <input type="password" class="form-control form-control-border passwordField" placeholder="Password">
+                                <img src="images/password-icons.svg" alt="password-icons" class="passwordField_icons">
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between form-group">
+                                <div class="form-group custom-checkbox mb-0">
+                                    <input type="checkbox" class="custom-control-input" id="exampleCheck1">
+                                    <label class="custom-control-label mb-0" for="exampleCheck1">Remember me</label>
+                                </div>
+                                <a href="javascript:void(0);" data-toggle="modal" data-target="#resetPasswordModal" data-dismiss="modal">Forgot password?</a>
+                            </div>
+                            <a href="javascript:void(0);" class="btn btn-secondary w-100" data-toggle="modal" data-target="#codeModal" data-dismiss="modal">Log in</a>
+                        </form>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="commonModal passwordModal codeModal">
+            <div class="modal fade" id="codeModal" tabindex="-1" role="dialog" aria-labelledby="codeModalTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-sm modal-dialog-slideout" role="document">
+                    <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h3 class="text-center">Enter the code</h3>
+                        <form>
+                            <div class="form-group d-flex justify-content-between">
+                                <input type="text" class="form-control form-control-border">
+                                <input type="text" class="form-control form-control-border">
+                                <input type="text" class="form-control form-control-border">
+                                <input type="text" class="form-control form-control-border">
+                            </div>
+                            <p class="mb-0 text-center">You didn’t receive a code?</p>
+                            <a href="javascript:void(0);" class="d-flex justify-content-center text-primary">Resend</a>
+                            <a href="javascript:void(0);" class="btn btn-secondary w-100 mt-4" data-toggle="modal" data-target="#codeModal" data-dismiss="modal">Log in</a>
+                        </form>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="commonModal passwordModal">
+            <div class="modal fade" id="resetPasswordModal" tabindex="-1" role="dialog" aria-labelledby="resetPasswordModalTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-nd modal-dialog-slideout" role="document">
+                    <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h3 class="text-center">Reset password</h3>
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control form-control-border" placeholder="Email or number">
+                            </div>
+                            <a href="javascript:void(0);" class="btn btn-secondary w-100 mt-4" data-toggle="modal" data-target="#passwordrestSuccessfully" data-dismiss="modal">Reset password</a>
+                        </form>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="commonModal passwordModal">
+            <div class="modal fade" id="passwordrestSuccessfully" tabindex="-1" role="dialog" aria-labelledby="passwordrestSuccessfully" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-nd modal-dialog-slideout" role="document">
+                    <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h3 class="text-center mb-2">Password reset</h3>
+                        <p class="f-16 mb-4 text-center">Your password has been successfully reset. A one-time password has been sent to your email</p>
+                        <a href="javascript:void(0);" class="btn btn-primary w-100" data-toggle="modal" data-target="#codeModal" data-dismiss="modal">Next</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="commonModal passwordModal codeModal">
+            <div class="modal fade" id="signUpcodeModal" tabindex="-1" role="dialog" aria-labelledby="signUpcodeModalTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-sm modal-dialog-slideout" role="document">
+                    <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h3 class="text-center">Enter the code</h3>
+                        <form>
+                            <div class="form-group d-flex justify-content-between">
+                                <input type="text" class="form-control form-control-border">
+                                <input type="text" class="form-control form-control-border">
+                                <input type="text" class="form-control form-control-border">
+                                <input type="text" class="form-control form-control-border">
+                            </div>
+                            <p class="mb-0 text-center">You didn’t receive a code?</p>
+                            <a href="javascript:void(0);" class="d-flex justify-content-center text-primary">Resend</a>
+                            <a href="javascript:void(0);" class="btn btn-secondary w-100 mt-4" data-dismiss="modal">Sign up</a>
+                        </form>
                     </div>
                     </div>
                 </div>
@@ -2222,7 +2337,23 @@
        $('.createAccountActionBtn, .loginActionBtn').on('click', function() {
          $(".loginSignUpModal").toggleClass("showSignUp")
        })
-    
+       
+
+        $(document).ready(function() {
+            $(".passwordField_icons").on('click', function(event) {
+                event.preventDefault();
+                if($('#show_hide_password input').attr("type") == "text"){
+                    $('#show_hide_password input').attr('type', 'password');
+                    // $('#show_hide_password i').addClass( "fa-eye-slash" );
+                    // $('#show_hide_password i').removeClass( "fa-eye" );
+                }else if($('#show_hide_password input').attr("type") == "password"){
+                    $('#show_hide_password input').attr('type', 'text');
+                    // $('#show_hide_password i').removeClass( "fa-eye-slash" );
+                    // $('#show_hide_password i').addClass( "fa-eye" );
+                }
+            });
+        });
+
   $('.bannerSlider').slick({
         //centerMode: true,
         // centerPadding: '90px',

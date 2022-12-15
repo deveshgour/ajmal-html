@@ -96,3 +96,29 @@
 
 
 }
+.form-group{
+    .passwordField{
+        position: relative;
+        &_icons{
+            position: absolute;top:50%;right: 25px;width: 20px;height: 20px;transform: translateY(-50%);cursor: pointer;
+        }
+    }
+}
+.passwordModal{
+    background-color: color(100);
+    h3{font-size: 32px;font-weight: 500;font-family: font(gmd);font-style: italic;margin-bottom: 24px;color: color(900);}
+    a{ font-size: 14px;line-height: 20px;color: color(850);
+        &:hover{
+            color: color(500);
+        }
+    }
+    p{
+        font-size: 14px;color: color(850);
+    }
+    
+    &.codeModal{
+        input{
+            width: 54px;height: 54px;border-radius: 8px;border: 1px solid #C8C8C8;
+        }
+    }
+}

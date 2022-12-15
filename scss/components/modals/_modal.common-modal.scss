@@ -19,10 +19,11 @@
         margin: 15px;min-height: calc(100% - 30px);border-radius: 20px;
         @include media-breakpoint-up(sm) {
             margin: 15px auto;
-            &.modal-sm{max-width: 420px;}
         }
     }
     .modal-lg{max-width: 1040px;}
+    .modal-md{max-width: 480px;}
+    .modal-sm{max-width: 345px;}
     &__title{font-size: 22px;margin-bottom: 40px;}
 	.modal-content{
 		border: 0;
@@ -31,19 +32,7 @@
             .modal-title {font-size: 25px;}
         }
         .modal-body{
-            padding: 40px;
-            .commonProfileImage{
-                height:100px;width:100px;
-                img{border-radius:35px;}
-            }
-            .msg{font-size: 18px;}
-            .btnRow{
-                margin-top: 30px;
-                .btn{
-                    min-width: 100px;
-                    &:not(:last-child){margin-right: 10px;}
-                }
-            }
+            padding: 48px 40px;
         }
         .close{
             width: 12px;height: 12px;color: color(850);opacity: 1;
