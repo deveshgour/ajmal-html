@@ -1882,9 +1882,9 @@
                                         <h3 class="sectionHeading my-30 mt-0">Read our latest blog posts</h3>
                                         <a href="javascript:void(0);" class="discoverAllBtn">Read More</a>
                                     </div>
-                                    <div class="blogBox blogBox-one" data-aos="fade-down">
+                                    <div class="blogBox blogBox-one" data-aos="fade-down" data-aos-mirror="true" data-aos-duration="1000">
                                         <img src="images/blog-img1.jpg" alt="blog-img" class="img-fluid">
-                                        <div class="blogBox_txt">
+                                        <div class="blogBox_txt" data-aos="fade-down" data-aos-delay="50">
                                             <span>August 11, 2022 / 5 min read</span>
                                             <h3>To Rinse or Not to Rinse? A Guide to  Our Moisture Surge Conditioner</h3>
                                             <p>In recent years, the data industry has been moving from data as an asset to data as a product thinking.  This is definitely...</p>
@@ -1893,9 +1893,9 @@
                                 </div>
                             </div>
                             <div class="blogSection_top-right">
-                                <div class="blogBox blogBox-two" data-aos="fade-down">
+                                <div class="blogBox blogBox-two" data-aos="fade-down" data-aos-duration="1000">
                                     <img src="images/blog-img2.jpg" alt="blog-img" class="img-fluid">
-                                    <div class="blogBox_txt">
+                                    <div class="blogBox_txt" data-aos="fade-down" data-aos-delay="50">
                                         <span>August 11, 2022 / 5 min read</span>
                                         <h3>To Rinse or Not to Rinse? A Guide to  Our Moisture Surge Conditioner</h3>
                                         <p>In recent years, the data industry has been moving from data as an asset to data as a product thinking.  This is definitely...</p>
@@ -1906,17 +1906,17 @@
                     </div>
                     <div class="blogSection_bottom">
                         <div class="d-flex align-items-top justify-content-between">
-                            <div class="blogBox blogBox-three" data-aos="fade-down">
+                            <div class="blogBox blogBox-three" data-aos="fade-down" data-aos-duration="1000">
                                 <img src="images/blog-img3.jpg" alt="blog-img" class="img-fluid">
-                                <div class="blogBox_txt">
+                                <div class="blogBox_txt" data-aos="fade-down" data-aos-delay="50">
                                     <span>August 11, 2022 / 5 min read</span>
                                     <h3>To Rinse or Not to Rinse? A Guide to  Our Moisture Surge Conditioner</h3>
                                     <p>In recent years, the data industry has been moving from data as an asset to data as a product thinking.  This is definitely...</p>
                                 </div>
                             </div>
-                            <div class="blogBox blogBox-four" data-aos="fade-down">
+                            <div class="blogBox blogBox-four" data-aos="fade-down" data-aos-duration="1000">
                                 <img src="images/blog-img4.jpg" alt="blog-img" class="img-fluid">
-                                <div class="blogBox_txt">
+                                <div class="blogBox_txt" data-aos="fade-down" data-aos-delay="50">
                                     <span>August 11, 2022 / 5 min read</span>
                                     <h3>To Rinse or Not to Rinse? A Guide to  Our Moisture Surge Conditioner</h3>
                                     <p>In recent years, the data industry has been moving from data as an asset to data as a product thinking.  This is definitely...</p>
