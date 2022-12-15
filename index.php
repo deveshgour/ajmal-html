@@ -2205,7 +2205,7 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                         <h3 class="text-center">Enter your password</h3>
-                        <form>
+                        <form >
                             <div class="form-group">
                                 <input type="password" class="form-control form-control-border passwordField" placeholder="Password">
                                 <img src="images/password-icons.svg" alt="password-icons" class="passwordField_icons">
