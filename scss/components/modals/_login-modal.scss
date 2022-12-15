@@ -32,30 +32,67 @@
             transform: translateY(-50%);
         }
     }
-    .loginSignUpModal_left, .loginSignUpModal_right{
+
+  
+
+        // .loginSignUpModal_left, .loginSignUpModal_right{
+        //     .signUpDiv{
+        //         display: none;
+        //     }
+        //     &.loginModalShow{
+        //         .signUpDiv{
+        //             display: block;
+        //         }
+        //         .loginDiv{
+        //             display: none;
+        //         } 
+        //     }
+        // }
+
+        
         .signUpDiv{
-            display: none;
+            display: none !important;
         }
-        &.loginModalShow{
+        &.showSignUp{
             .signUpDiv{
-                display: block;
+                display: block !important;
             }
             .loginDiv{
                 display: none;
-            } 
+            }
+          
+       
+
+        .loginSignUpModal_left{
+            transform : translateX(400px);
+            transition: 1s cubic-bezier(0.35, 0, 0, 1);
+        }
+
+        .loginSignUpModal_right{
+            transform : translateX(-640px);
+            transition: 1s cubic-bezier(0.35, 0, 0, 1);
         }
     }
-    .loginSignUpModal_left, .loginSignUpModal_right{
-        .signUpDiv{
-            display: none;
+        .loginSignUpModal_left, .loginSignUpModal_right{
+            transform : translateX(0px);
+            transition: 1s cubic-bezier(0.35, 0, 0, 1);
         }
-        &.signInModalShow{
+
+        
+        .loginSignUpModal_left, .loginSignUpModal_right{
+           
             .signUpDiv{
                 display: none;
             }
-            .loginDiv{
-                display: block;
-            } 
+            &.signInModalShow{
+                .signUpDiv{
+                    display: none;
+                }
+                .loginDiv{
+                    display: block;
+                } 
+            }
         }
-    }
+
+
 }

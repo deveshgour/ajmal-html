@@ -186,9 +186,7 @@
             overflow: hidden;
             position: relative;
             height: 0%;
-            @include transition(2s);
-            
-        
+            @include transition(1s);
             &_txt{
                 position: absolute;
                 width: 100%;

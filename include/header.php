@@ -179,8 +179,11 @@
 <!-- country menu -->
 
 <div class="countryMenu">
+    <div class="countryMenu_header">
     <a href="javascript:;" class="countryMenu_close"><img src="images/close.svg" alt="close"/></a>
     <h2 class="countryMenu_title">Country</h2>
+    </div>
+    <div class="countryMenu_body">
     <ul class="list-unstyled">
         <li>
             <a class="nav-link" href="javascript:void(0);">
@@ -219,6 +222,7 @@
             </a>
         </li>
     </ul>
+    </div>
 </div>
 
 <!-- cart menu -->
@@ -236,43 +240,67 @@
         </div>
     </div>
     <div class="cartMenu_body">
-    <ul class="list-unstyled">
-        <li>
-            <a class="nav-link" href="javascript:void(0);">
-                <img src="images/country1.png" alt="country">
-                <span class="nav-text"> UAE (AED)</span>
-            </a>
-        </li>
-        <li>
-            <a class="nav-link" href="javascript:void(0);">
-                <img src="images/ksa.png" alt="country">
-                <span class="nav-text"> KSA (SAR)</span>
-            </a>
-        </li>
-        <li>
-            <a class="nav-link" href="javascript:void(0);">
-                <img src="images/kwd.png" alt="country">
-                <span class="nav-text"> Kuwait (KWD)</span>
-            </a>
-        </li>
-        <li>
-            <a class="nav-link" href="javascript:void(0);">
-                <img src="images/bhd.png" alt="country">
-                <span class="nav-text"> Bahrain (BHD)</span>
-            </a>
-        </li>
-        <li>
-            <a class="nav-link" href="javascript:void(0);">
-                <img src="images/qar.png" alt="country">
-                <span class="nav-text"> Quatar (QAR)</span>
-            </a>
-        </li>
-        <li>
-            <a class="nav-link" href="javascript:void(0);">
-                <img src="images/omr.png" alt="country">
-                <span class="nav-text"> Oman (OMR)</span>
-            </a>
-        </li>
-    </ul>
+        <ul class="list-unstyled">
+            <li class="cartBox d-flex align-items-center">
+                <a href="javascript:;" class="cartBox_delete"><img src="images/delete.svg" alt="delete" class="img-fluid"/></a>
+                <div class="cartBox_img">
+                    <img src="images/cart-img.jpg" alt="product" class="img-fluid"/>
+                </div>
+                <div class="cartBox_cnt">
+                    <h4>1001 Nights</h4>
+                    <p>eau de parfume / 75ML / women</p>
+                    <div class="cartBox_price"><span class="finalPrice">12 AED</span> <span class="offPrice">24 AED</span></div>
+                </div>
+            </li>
+            <li class="cartBox d-flex align-items-center">
+                <a href="javascript:;" class="cartBox_delete"><img src="images/delete.svg" alt="delete" class="img-fluid"/></a>
+                <div class="cartBox_img">
+                    <img src="images/review-product.png" alt="product" class="img-fluid"/>
+                </div>
+                <div class="cartBox_cnt">
+                    <h4>1001 Nights</h4>
+                    <p>eau de parfume / 75ML / women</p>
+                    <div class="cartBox_price"><span class="finalPrice">12 AED</span> <span class="offPrice">24 AED</span></div>
+                </div>
+            </li>
+            <li class="cartBox d-flex align-items-center">
+                <a href="javascript:;" class="cartBox_delete"><img src="images/delete.svg" alt="delete" class="img-fluid"/></a>
+                <div class="cartBox_img">
+                    <img src="images/cart-img.jpg" alt="product" class="img-fluid"/>
+                </div>
+                <div class="cartBox_cnt">
+                    <h4>1001 Nights</h4>
+                    <p>eau de parfume / 75ML / women</p>
+                    <div class="cartBox_price"><span class="finalPrice">12 AED</span> <span class="offPrice">24 AED</span></div>
+                </div>
+            </li>
+            <li class="cartBox d-flex align-items-center">
+                <a href="javascript:;" class="cartBox_delete"><img src="images/delete.svg" alt="delete" class="img-fluid"/></a>
+                <div class="cartBox_img">
+                    <img src="images/review-product.png" alt="product" class="img-fluid"/>
+                </div>
+                <div class="cartBox_cnt">
+                    <h4>1001 Nights</h4>
+                    <p>eau de parfume / 75ML / women</p>
+                    <div class="cartBox_price"><span class="finalPrice">12 AED</span> <span class="offPrice">24 AED</span></div>
+                </div>
+            </li>
+        
+        </ul>
+    </div>
+    <div class="cartMenu_footer">
+        <div class="cartMenu_footer_top d-flex align-items-start justify-content-between">
+            <div class="cartMenu_footer_top_left">
+                <label>Total</label>
+                <p class="mb-0">*Including taxes. Excluding delivery costs</p>
+            </div>
+            <div class="cartMenu_footer_right">
+                124 AED
+            </div>
+        </div>
+        <div class="cartMenu_footer_bottom">
+            <a class="btn btn-primary d-block mb-2" href="#">Checkout</a>    
+            <a class="btn btn-primary-outline d-block" href="#">Continue shopping</a>    
+        </div>
     </div>
 </div>

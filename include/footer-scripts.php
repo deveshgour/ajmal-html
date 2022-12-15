@@ -60,4 +60,16 @@ $('.cartMenu_close, .customOverlay').click(function(){
      $('body').removeClass('openCartMenu');
      $('body').css('overflow','auto')
 })
+
+function cartBodyHeight(){
+     $('.cartMenu_body').css('max-height', $(window).outerHeight() - ($('.cartMenu_header').outerHeight() + $('.cartMenu_footer').outerHeight()));
+}
+cartBodyHeight();
+
+$(window).resize(function(){
+     cartBodyHeight(); 
+})
+
+
+
 </script>

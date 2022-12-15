@@ -2169,7 +2169,7 @@
                                         <div class="form-group">
                                             <input type="text" class="form-control form-control-border" placeholder="Password (min 6 characters)">
                                         </div>
-                                        <a href="javascript:void(0);" class="btn btn-secondary w-100 loginBtn">Log in</a>
+                                        <a href="javascript:void(0);" class="btn btn-secondary w-100 loginBtn">Sign up</a>
                                     </form>
                                 </div>
                             </div>
@@ -2199,7 +2199,7 @@
     <?php include ('include/footer.php') ?>
     <?php include ('include/footer-scripts.php') ?>
     <script type="text/javascript" src="js/slick.min.js"></script>
-    <script>
+    <!-- <script>
         $( document ).ready(function() {
             $('.createAccountActionBtn').on('click', function() {
                 $(".loginSignUpModal_right").css({"transform":"translateX(-640px)","transition": "1s cubic-bezier(0.35, 0, 0, 1)"})
@@ -2214,9 +2214,14 @@
                 $(".loginSignUpModal_left").addClass("signInModalShow")
             });
         });
-    </script>
+        
+    </script> -->
+
+    
     <script>
-  
+       $('.createAccountActionBtn, .loginActionBtn').on('click', function() {
+         $(".loginSignUpModal").toggleClass("showSignUp")
+       })
     
   $('.bannerSlider').slick({
         //centerMode: true,
