@@ -1721,7 +1721,7 @@
                                     <div class="reviewBox_img">
                                         <img src="images/review-product.png" class="img-fluid" alt="product">
                                     </div>
-                                    <div class="reviewBox_txt">
+                                    <div class="reviewBox_txt" data-aos="fade-left">
                                         <h3>Unlocks an old memory</h3>
                                         <p>Nothing unlocks an old memory better than smell, be it the memory of lost love or of a fond friend. At Ajmal we help towards recreating those memories through our fragrances.</p>
                                         <div class="userInfo d-flex align-items-start justify-content-between">
