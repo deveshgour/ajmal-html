@@ -2144,8 +2144,9 @@
                                     </ul>
                                     <p class="divider position-relative text-center">or use your email or number</p>
                                     <form>
-                                        <div class="form-group">
-                                            <input type="text" class="form-control form-control-border" placeholder="Email or number">
+                                        <div class="form-group floting">
+                                            <input type="text" class="form-control form-control-border" placeholder="" required>
+                                            <label class="form-control-placeholder">Email or number</label>
                                         </div>
                                         <a href="javascript:void(0);" class="btn btn-secondary w-100" data-toggle="modal" data-target="#passwordModal" data-dismiss="modal">Log in</a>
                                     </form>
@@ -2160,14 +2161,17 @@
                                     </ul>
                                     <p class="divider position-relative text-center">or use your email or number</p>
                                     <form>
-                                        <div class="form-group">
-                                            <input type="text" class="form-control form-control-border" placeholder="Name">
+                                        <div class="form-group floting">
+                                            <input type="text" class="form-control form-control-border" id="name" placeholder="" required>
+                                            <label class="form-control-placeholder" for="name">Name</label>
                                         </div>
-                                        <div class="form-group">
-                                            <input type="text" class="form-control form-control-border" placeholder="Email or number">
+                                        <div class="form-group floting">
+                                            <input type="text" class="form-control form-control-border" id="email" placeholder="" required>
+                                            <label class="form-control-placeholder" for="email">Email or number</label>
                                         </div>
-                                        <div class="form-group" id="show_hide_password">
-                                            <input type="password" class="form-control form-control-border passwordField position-relative" placeholder="Password (min 6 characters)">
+                                        <div class="form-group floting" id="show_hide_password">
+                                            <input type="password" class="form-control form-control-border passwordField position-relative" id="password" placeholder="" required>
+                                            <label class="form-control-placeholder" for="password">Password (min 6 characters)</label>
                                             <img src="images/password-icons.svg" alt="password-icons" class="passwordField_icons">
                                         </div>
                                         <a href="javascript:void(0);" class="btn btn-secondary w-100 loginBtn" data-toggle="modal" data-target="#signUpcodeModal" data-dismiss="modal">Sign up</a>
@@ -2206,8 +2210,9 @@
                         </button>
                         <h3 class="text-center">Enter your password</h3>
                         <form >
-                            <div class="form-group">
-                                <input type="password" class="form-control form-control-border passwordField" placeholder="Password">
+                            <div class="form-group floting"  id="show_hide_password">
+                                <input type="password" id="password" class="form-control form-control-border passwordField" placeholder="" required>
+                                <label class="form-control-placeholder">Password</label>
                                 <img src="images/password-icons.svg" alt="password-icons" class="passwordField_icons">
                             </div>
                             <div class="d-flex align-items-center justify-content-between form-group">
@@ -2259,9 +2264,10 @@
                         </button>
                         <h3 class="text-center">Reset password</h3>
                         <form>
-                            <div class="form-group">
-                                <input type="text" class="form-control form-control-border" placeholder="Email or number">
-                            </div>
+                        <div class="form-group floting">
+                            <input type="text" class="form-control form-control-border" id="email" placeholder="" required>
+                            <label class="form-control-placeholder" for="email">Email or number</label>
+                        </div>
                             <a href="javascript:void(0);" class="btn btn-secondary w-100 mt-4" data-toggle="modal" data-target="#passwordrestSuccessfully" data-dismiss="modal">Reset password</a>
                         </form>
                     </div>
