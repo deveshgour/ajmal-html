@@ -74,6 +74,15 @@ $(window).resize(function(){
 
 AOS.init();
 
-
+$('#searchItems').click(function(){
+     $('#navigationBar').toggleClass('newBarHide');
+     $('.searchBarMenu').css({'display':'block', "height": "100%"});
+     $('body').css('overflow','hidden');
+})
+$('.searchMenuClose').click(function(){
+     $('#navigationBar').toggleClass('newBarHide');
+     $('.searchBarMenu').css({'display':'none', "height": "0"})
+     $('body').css('overflow','auto')
+})
 
 </script>

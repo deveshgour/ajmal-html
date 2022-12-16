@@ -4,6 +4,9 @@
     &:hover,&:focus,&:active,&:not(:disabled):not(.disabled):active {
         box-shadow: none;outline: none;
     }
+    &.btn-md{
+        padding: 8px 24px;height: 40px;
+    }
     // @include media-breakpoint-down(lg){
     //     padding: 15px 35px;
     //     font-size: 15px;

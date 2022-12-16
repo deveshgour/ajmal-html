@@ -1,4 +1,5 @@
 .header{
+    .newBarHide{display: none;}
 	position:fixed;top:0;width:100%;
 	z-index: 1001;@include transition(all 0.3s);   
     &-top{
