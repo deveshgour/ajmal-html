@@ -93,10 +93,27 @@
                 } 
             }
         }
-
-
 }
 .form-group{
+    &.floting{
+        input{
+            position: relative;
+            
+        }
+        .form-control-placeholder{
+            font-size: 16px;color: #A4A4A4;margin: 0;position: absolute;
+            top: 17px;
+            left: 20px;@include transition(all 0.5s linear);
+        }
+        .form-control:focus, .form-control:valid{
+            ~.form-control-placeholder{
+                font-size: 12px;
+                top: 5px;
+                @include transition(all 0.3s);
+            }
+        }
+
+    }
     .passwordField{
         position: relative;
         &_icons{
