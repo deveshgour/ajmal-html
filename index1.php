@@ -1733,7 +1733,7 @@
                 </div>
             </div>
         </section>
-        <section class="reviewSection py-55 pt-0">
+        <!-- <section class="reviewSection py-55 pt-0">
             <div class="container">
                 <div class="reviewSection_top">
                     <h3 class="sectionHeading">Reviews</h3>
@@ -1847,7 +1847,131 @@
                     </div>
                 </div>
             </div>
+        </section> -->
+
+        <section class="reviewSection py-55 pt-0">
+            <div class="container">
+                <div class="reviewSection_top">
+                    <h3 class="sectionHeading">Reviews</h3>
+                </div>
+                <div class="reviewSection_inner">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5">
+                        <div class="reviewBox_img" id="img1">
+                            <img src="images/review-product.png" class="img-fluid" alt="product">
+                        </div>
+                        <div class="reviewBox_img" id="img2">
+                            <img src="images/review-product.png" class="img-fluid" alt="product">
+                        </div>
+                        <div class="reviewBox_img" id="img3">
+                            <img src="images/review-product.png" class="img-fluid" alt="product">
+                        </div>
+                        </div>
+                        <div class="col-lg-7">
+                        <div class="reviewSection_slider swiper sliderIcon">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide reviewSection_sliderItem" data-target="img1">
+                                    <div class="reviewBox">
+                                        <div class="d-flex align-items-center">
+                                            <div class="reviewBox_txt">
+                                                <h3>Unlocks an old memory</h3>
+                                                <p>Nothing unlocks an old memory better than smell, be it the memory of lost love or of a fond friend. At Ajmal we help towards recreating those memories through our fragrances.</p>
+                                                <div class="userInfo d-flex align-items-start justify-content-between">
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="userInfo_img">
+                                                            <img src="images/avatar-img.png" class="img-fluid" alt="user">
+                                                        </div>
+                                                        <div class="userInfo_txt">
+                                                            <h6>Sue Smit</h6>
+                                                            <p>London, United Kingdom</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="rating">
+                                                        <ul class=" d-flex list-unstyled justify-content-center">
+                                                            <li><span class="icon-star"></span></li>
+                                                            <li><span class="icon-star"></span></li>
+                                                            <li><span class="icon-star"></span></li>
+                                                            <li><span class="icon-star"></span></li>
+                                                            <li><span class="icon-star"></span></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide reviewSection_sliderItem" data-target="img2">
+                                    <div class="reviewBox">
+                                        <div class="d-flex align-items-center">
+                                            <div class="reviewBox_txt">
+                                                <h3>Unlocks an old memory2</h3>
+                                                <p>Nothing unlocks an old memory better than smell, be it the memory of lost love or of a fond friend. At Ajmal we help towards recreating those memories through our fragrances.</p>
+                                                <div class="userInfo d-flex align-items-start justify-content-between">
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="userInfo_img">
+                                                            <img src="images/avatar-img.png" class="img-fluid" alt="user">
+                                                        </div>
+                                                        <div class="userInfo_txt">
+                                                            <h6>Sue Smit</h6>
+                                                            <p>London, United Kingdom</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="rating">
+                                                        <ul class=" d-flex list-unstyled justify-content-center">
+                                                            <li><span class="icon-star"></span></li>
+                                                            <li><span class="icon-star"></span></li>
+                                                            <li><span class="icon-star"></span></li>
+                                                            <li><span class="icon-star"></span></li>
+                                                            <li><span class="icon-star"></span></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide reviewSection_sliderItem" data-target="img3">
+                                    <div class="reviewBox">
+                                        <div class="d-flex align-items-center">
+                                            <div class="reviewBox_txt">
+                                                <h3>Unlocks an old memory 3</h3>
+                                                <p>Nothing unlocks an old memory better than smell, be it the memory of lost love or of a fond friend. At Ajmal we help towards recreating those memories through our fragrances.</p>
+                                                <div class="userInfo d-flex align-items-start justify-content-between">
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="userInfo_img">
+                                                            <img src="images/avatar-img.png" class="img-fluid" alt="user">
+                                                        </div>
+                                                        <div class="userInfo_txt">
+                                                            <h6>Sue Smit</h6>
+                                                            <p>London, United Kingdom</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="rating">
+                                                        <ul class=" d-flex list-unstyled justify-content-center">
+                                                            <li><span class="icon-star"></span></li>
+                                                            <li><span class="icon-star"></span></li>
+                                                            <li><span class="icon-star"></span></li>
+                                                            <li><span class="icon-star"></span></li>
+                                                            <li><span class="icon-star"></span></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="swiperSliderIcon">
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
         </section>
+        
         <section class="pressMediaSec py-55 pt-0">
             <div class="container">
                 <div class="pressMediaSec_top d-flex align-items-center justify-content-between my-30 mt-0">
@@ -2565,20 +2689,20 @@
             }
         });
 
-        var swiper = new Swiper(".reviewSection_slider", {
-            slidesPerView: 1,
-            slidesPerGroup: 1,
-            loop: false,
-            loopFillGroupWithBlank: true,
-            navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            }
-        });
+        // var swiper = new Swiper(".reviewSection_slider", {
+        //     slidesPerView: 1,
+        //     slidesPerGroup: 1,
+        //     loop: false,
+        //     loopFillGroupWithBlank: true,
+        //     navigation: {
+        //     nextEl: ".swiper-button-next",
+        //     prevEl: ".swiper-button-prev",
+        //     },
+        //     pagination: {
+        //         el: ".swiper-pagination",
+        //         clickable: true,
+        //     }
+        // });
     </script>
     <!-- <script>
         $( document ).ready(function() {
@@ -2698,6 +2822,51 @@
                 slidesToShow: 4,
                 slidesToScroll: 1,
             });
+
+
+            var review_swiper = new Swiper(".reviewSection_slider", {
+                spaceBetween: 30,
+                effect: 'fade',
+                slidesPerView: 1,
+                loop: true,
+                // mousewheel: {
+                //     invert: false,
+                // },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                on: {
+                    init: function(){
+                        var index = this.activeIndex;
+
+                        var target = $('.reviewSection_sliderItem').eq(index).data('target');
+
+                        console.log(target);
+
+                        $('.reviewBox_img').removeClass('active');
+                        $('.reviewBox_img#'+ target).addClass('active');
+                    }
+                    ,
+                    slideChange: function () {
+                        var index = this.activeIndex;
+
+
+                        console.log(index + 'fdsfd')
+
+                        var target = $('.reviewSection_sliderItem').eq(index).data('target');
+
+                        console.log(target);
+
+                        $('.reviewBox_img').removeClass('active');
+                        $('.reviewBox_img#'+ target).addClass('active');
+
+                    
+                    }
+                }
+            });
+
+           
         });
     </script>
 </body>

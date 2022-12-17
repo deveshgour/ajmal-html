@@ -64,6 +64,7 @@
   .swiper-button-next, .swiper-button-prev{
     width: 48px;height: 48px;border: none;border-radius: 50%;display: flex;
     align-items: center; justify-content: center;background-color: rgba(color(850),1);color: color(50);
+    background-image: none;
     &.swiper-button-disabled{
       background-color: rgba(color(850),0.5);
       &:after{
