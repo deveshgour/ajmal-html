@@ -1,5 +1,6 @@
 .searchBarMenu{
     top:48px;position: fixed;z-index: 99999;width: 100%;visibility: hidden;opacity:0;
+    transform: translateY(-100px); @include transition(0.5s);
     &_top{ padding: 16px 0;
         background-color: color(100);height: 110px;backdrop-filter: blur(110px);border-bottom: 1px solid rgba(188, 139, 87, 0.2);
     }
@@ -92,6 +93,7 @@ body{
         .searchBarMenu{
             opacity: 1;
             visibility: visible;
+            transform: translateY(0);
         }
     }
 }
