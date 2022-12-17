@@ -82,13 +82,15 @@ $('.productLike').click(function(){
 
 $('#searchItems').click(function(){
      $('#navigationBar').toggleClass('newBarHide');
-     $('.searchBarMenu').css({'display':'block', "height": "100%"});
+     $('.searchBarMenu').css({'display':'block', "height": "100%", "transition": "all 0.5s linear"});
      $('body').css('overflow','hidden');
+     // $(".customOverlay").css('display','block');
 })
 $('.searchMenuClose').click(function(){
      $('#navigationBar').toggleClass('newBarHide');
-     $('.searchBarMenu').css({'display':'none', "height": "0"})
-     $('body').css('overflow','auto')
+     $('.searchBarMenu').css({'display':'none', "height": "0","transition": "all 0.5s linear"})
+     $('body').css('overflow','auto');
+     // $(".customOverlay").css('display','none');
 })
 
 </script>

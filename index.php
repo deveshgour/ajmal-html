@@ -2285,7 +2285,7 @@
                         </button>
                         <h3 class="text-center mb-2">Password reset</h3>
                         <p class="f-16 mb-4 text-center">Your password has been successfully reset. A one-time password has been sent to your email</p>
-                        <a href="javascript:void(0);" class="btn btn-primary w-100" data-toggle="modal" data-target="#codeModal" data-dismiss="modal">Next</a>
+                        <a href="javascript:void(0);" class="btn btn-primary w-100" data-toggle="modal" data-target="#resetCodeModal" data-dismiss="modal">Next</a>
                     </div>
                     </div>
                 </div>
@@ -2311,6 +2311,50 @@
                             <a href="javascript:void(0);" class="d-flex justify-content-center text-primary">Resend</a>
                             <a href="javascript:void(0);" class="btn btn-secondary w-100 mt-4" data-dismiss="modal">Sign up</a>
                         </form>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="commonModal passwordModal codeModal">
+            <div class="modal fade" id="resetCodeModal" tabindex="-1" role="dialog" aria-labelledby="codeModalTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-sm modal-dialog-slideout" role="document">
+                    <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h3 class="text-center">Enter the code</h3>
+                        <form>
+                            <div class="form-group d-flex justify-content-between">
+                                <input type="text" class="form-control form-control-border">
+                                <input type="text" class="form-control form-control-border">
+                                <input type="text" class="form-control form-control-border">
+                                <input type="text" class="form-control form-control-border">
+                            </div>
+                            <p class="mb-0 text-center">You didn’t receive a code?</p>
+                            <a href="javascript:void(0);" class="d-flex justify-content-center text-primary">Resend</a>
+                            <a href="javascript:void(0);" class="btn btn-secondary w-100 mt-4" data-toggle="modal" data-target="#changePasswordSuccessfully" data-dismiss="modal">Log in</a>
+                        </form>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="commonModal passwordModal">
+            <div class="modal fade" id="changePasswordSuccessfully" tabindex="-1" role="dialog" aria-labelledby="changePasswordSuccessfully" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-nd modal-dialog-slideout" role="document">
+                    <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h3 class="text-center mb-2">Change password</h3>
+                        <p class="f-16 mb-4 text-center">Your password has been reset. You can set a new password in your personal account in the profile section.</p>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <a href="javascript:void(0);" class="btn btn-primary btn-primary-outline mr-3 w-100" data-dismiss="modal">Change password</a>
+                            <a href="javascript:void(0);" class="btn btn-primary w-100" data-dismiss="modal">Go shopping</a>
+                        </div>
                     </div>
                     </div>
                 </div>
