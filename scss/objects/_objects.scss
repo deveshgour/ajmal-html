@@ -16,12 +16,7 @@
     padding: 0 30px;
   }
 }
-// .slick-slide{
-//   margin: 0 16px;
-// }
-// .slick-track{
-//   margin: 0 -16px;
-// }
+
 .sliderIcon{
   &.slick-dotted{
     margin-bottom: 0 !important;
@@ -96,6 +91,10 @@
         &::before{display: none;}
       }
     }
+  }
+  @media(max-width: 767px){
+    .swiper-button-prev, .swiper-container-rtl .swiper-button-next{left: -10px;}
+    .swiper-button-next, .swiper-container-rtl .swiper-button-prev{right: -10px;}
   }
 }
 

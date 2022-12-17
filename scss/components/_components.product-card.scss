@@ -41,6 +41,7 @@
             width: 36px;height: 36px;background: rgba(188, 139, 87, 0.1);border-radius: 50%;
             display: flex; align-items: center; justify-content: center;flex-shrink: 0;position: absolute;
             right: 16px; top: 16px;color: color(500);z-index: 1;
+            em{font-size: 22px;}
         }
         .centerImg{
             margin-top: -70px;position: relative;
@@ -103,8 +104,74 @@
         }
         .addProduct{
             display: none;
+            ul{margin-bottom: 0;justify-content: center;align-items: center;}
             li{
                 &:not(:last-child){margin-right: 8px;}
+            }
+        }
+    }
+    @media(max-width: 1399px){
+        &_inner{
+            height: 380px;padding: 15px 15px;
+        }
+        &_top{
+            .productBadge{
+                width: 34px;height: 34px;
+            }
+            .productLike{
+                width: 34px;height: 34px;
+                em{font-size: 20px;}
+            }
+        }
+        &_center{
+            padding: 15px 0;
+            .offer{
+                margin: 5px 0;font-size: 11px;
+            }
+            h3{font-size: 24px;line-height: 28px;margin: 5px 0;}
+            .price{
+                font-size: 18px;line-height: normal;
+            }
+        }
+        &_bottom{
+            .viewProduct{
+                li{
+                    width: 45px;height: 50px;
+                    img{max-height: 30px;}
+                    span{font-size: 13px;line-height: normal;}
+                }
+            }
+        }
+    }
+    @media(max-width: 1199px){
+        &_inner{
+            height: 380px;padding: 10px 15px;
+        }
+        &_top{
+            .productBadge{
+                width: 30px;height: 30px;
+            }
+            .productLike{
+                width: 30px;height: 30px;
+                em{font-size: 18px;}
+            }
+        }
+        &_center{
+            padding: 10px 0;
+            h3{font-size: 21px;line-height: normal;}
+            .price{
+                font-size: 16px;
+            }
+        }
+    }
+    @media(max-width: 991px){
+        &_inner{
+            height: 100%;padding: 15px 15px;
+        }
+        &_center{
+            h3{font-size: 18px;}
+            .price{
+                font-size: 15px;
             }
         }
     }

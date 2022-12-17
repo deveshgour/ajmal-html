@@ -114,7 +114,7 @@
                                 <div class="productCard">
                                     <div class="productCard_sliderSpace">
                                         <div class="productCard_inner productCard_inner--light">
-                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                            <div class="productCard_top d-flex align-item-start justify-content-center">
                                                 <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                                 <div class="centerImg">
                                                     <img src="images/product-1.png"  class="img-fluid" alt="product-img">
@@ -174,7 +174,7 @@
                                 <div class="productCard">
                                     <div class="productCard_sliderSpace">
                                         <div class="productCard_inner productCard_inner--dark">
-                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                            <div class="productCard_top d-flex align-item-start justify-content-center">
                                                 <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                                 <div class="centerImg">
                                                     <img src="images/product-2.png"  class="img-fluid" alt="product-img">
@@ -234,7 +234,7 @@
                                 <div class="productCard">
                                     <div class="productCard_sliderSpace">
                                         <div class="productCard_inner productCard_inner--extraDark">
-                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                            <div class="productCard_top d-flex align-item-start justify-content-center">
                                                 <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                                 <div class="centerImg">
                                                     <img src="images/product-3.png"  class="img-fluid" alt="product-img">
@@ -294,7 +294,7 @@
                                 <div class="productCard">
                                     <div class="productCard_sliderSpace">
                                         <div class="productCard_inner productCard_inner--mediumDark">
-                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                            <div class="productCard_top d-flex align-item-start justify-content-center">
                                                 <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                                 <div class="centerImg">
                                                     <img src="images/product-4.png"  class="img-fluid" alt="product-img">
@@ -354,7 +354,7 @@
                                 <div class="productCard">
                                     <div class="productCard_sliderSpace">
                                         <div class="productCard_inner productCard_inner--light">
-                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                            <div class="productCard_top d-flex align-item-start justify-content-center">
                                                 <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                                 <div class="centerImg">
                                                     <img src="images/product-1.png"  class="img-fluid" alt="product-img">
@@ -414,7 +414,7 @@
                                 <div class="productCard">
                                     <div class="productCard_sliderSpace">
                                         <div class="productCard_inner productCard_inner--dark">
-                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                            <div class="productCard_top d-flex align-item-start justify-content-center">
                                                 <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                                 <div class="centerImg">
                                                     <img src="images/product-2.png"  class="img-fluid" alt="product-img">
@@ -474,7 +474,7 @@
                                 <div class="productCard">
                                     <div class="productCard_sliderSpace">
                                         <div class="productCard_inner productCard_inner--extraDark">
-                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                            <div class="productCard_top d-flex align-item-start justify-content-center">
                                                 <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                                 <div class="centerImg">
                                                     <img src="images/product-3.png"  class="img-fluid" alt="product-img">
@@ -534,7 +534,7 @@
                                 <div class="productCard">
                                     <div class="productCard_sliderSpace">
                                         <div class="productCard_inner productCard_inner--mediumDark">
-                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                            <div class="productCard_top d-flex align-item-start justify-content-center">
                                                 <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                                 <div class="centerImg">
                                                     <img src="images/product-4.png"  class="img-fluid" alt="product-img">
@@ -611,7 +611,7 @@
                         <div class="productCard">
                             <div class="productCard_sliderSpace">
                                 <div class="productCard_inner mx-auto">
-                                    <div class="productCard_top d-flex align-item-start justify-content-between">
+                                    <div class="productCard_top d-flex align-item-start justify-content-center">
                                         <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                         <div class="centerImg">
                                             <img src="images/ajmal-img.png"  class="img-fluid" alt="product-img">
@@ -680,7 +680,7 @@
         </section>
         <section class="giftingSection py-55">
             <div class="container">
-                <div class="giftingSection_top d-flex align-items-end justify-content-between">
+                <div class="giftingSection_top d-md-flex align-items-end justify-content-between">
                     <div class="left">
                         <h3 class="sectionHeading">A gifting moment</h3>
                         <p class="mb-0">Delve into the world of Maison Francis Kurkdjian with our discovery collections. A wonderful way of exploring the perfumes of the Maison and a perfect gift to give or receive.</p>
@@ -694,7 +694,7 @@
                                 <div class="productCard">
                                     <div class="productCard_sliderSpace">
                                         <div class="productCard_inner productCard_inner--light">
-                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                            <div class="productCard_top d-flex align-item-start justify-content-center">
                                                 <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                                 <div class="centerImg">
                                                     <img src="images/product-1.png"  class="img-fluid" alt="product-img">
@@ -754,7 +754,7 @@
                                 <div class="productCard">
                                     <div class="productCard_sliderSpace">
                                         <div class="productCard_inner productCard_inner--dark">
-                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                            <div class="productCard_top d-flex align-item-start justify-content-center">
                                                 <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                                 <div class="centerImg">
                                                     <img src="images/product-2.png"  class="img-fluid" alt="product-img">
@@ -814,7 +814,7 @@
                                 <div class="productCard">
                                     <div class="productCard_sliderSpace">
                                         <div class="productCard_inner productCard_inner--extraDark">
-                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                            <div class="productCard_top d-flex align-item-start justify-content-center">
                                                 <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                                 <div class="centerImg">
                                                     <img src="images/product-3.png"  class="img-fluid" alt="product-img">
@@ -874,7 +874,7 @@
                                 <div class="productCard">
                                     <div class="productCard_sliderSpace">
                                         <div class="productCard_inner productCard_inner--mediumDark">
-                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                            <div class="productCard_top d-flex align-item-start justify-content-center">
                                                 <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                                 <div class="centerImg">
                                                     <img src="images/product-4.png"  class="img-fluid" alt="product-img">
@@ -934,7 +934,7 @@
                                 <div class="productCard">
                                     <div class="productCard_sliderSpace">
                                         <div class="productCard_inner productCard_inner--light">
-                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                            <div class="productCard_top d-flex align-item-start justify-content-center">
                                                 <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                                 <div class="centerImg">
                                                     <img src="images/product-1.png"  class="img-fluid" alt="product-img">
@@ -994,7 +994,7 @@
                                 <div class="productCard">
                                     <div class="productCard_sliderSpace">
                                         <div class="productCard_inner productCard_inner--dark">
-                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                            <div class="productCard_top d-flex align-item-start justify-content-center">
                                                 <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                                 <div class="centerImg">
                                                     <img src="images/product-2.png"  class="img-fluid" alt="product-img">
@@ -1054,7 +1054,7 @@
                                 <div class="productCard">
                                     <div class="productCard_sliderSpace">
                                         <div class="productCard_inner productCard_inner--extraDark">
-                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                            <div class="productCard_top d-flex align-item-start justify-content-center">
                                                 <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                                 <div class="centerImg">
                                                     <img src="images/product-3.png"  class="img-fluid" alt="product-img">
@@ -1114,7 +1114,7 @@
                                 <div class="productCard">
                                     <div class="productCard_sliderSpace">
                                         <div class="productCard_inner productCard_inner--mediumDark">
-                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                            <div class="productCard_top d-flex align-item-start justify-content-center">
                                                 <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                                 <div class="centerImg">
                                                     <img src="images/product-4.png"  class="img-fluid" alt="product-img">
@@ -1186,7 +1186,7 @@
                             <h3 class="sectionHeading mb-0">Popular categories</h3>
                         </div>
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-lg-6">
                                 <div class="popularImg position-relative overflow-hidden">
                                     <div class="popularImg_img popularImg_img--img1"></div>
                                     <div class="popularImg_txt">
@@ -1203,7 +1203,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-lg-6 mt-3 mt-lg-0">
                                 <div class="popularImg position-relative overflow-hidden">
                                     <div class="popularImg_img popularImg_img--img2"></div>
                                     <!-- <img src="images/shop-men.jpg" class="img-fluid" alt="shop-img"> -->
@@ -1235,7 +1235,7 @@
                                 <div class="productCard">
                                     <div class="productCard_sliderSpace">
                                         <div class="productCard_inner productCard_inner--light">
-                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                            <div class="productCard_top d-flex align-item-start justify-content-center">
                                                 <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                                 <div class="centerImg">
                                                     <img src="images/product-1.png"  class="img-fluid" alt="product-img">
@@ -1295,7 +1295,7 @@
                                 <div class="productCard">
                                     <div class="productCard_sliderSpace">
                                         <div class="productCard_inner productCard_inner--dark">
-                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                            <div class="productCard_top d-flex align-item-start justify-content-center">
                                                 <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                                 <div class="centerImg">
                                                     <img src="images/product-2.png"  class="img-fluid" alt="product-img">
@@ -1355,7 +1355,7 @@
                                 <div class="productCard">
                                     <div class="productCard_sliderSpace">
                                         <div class="productCard_inner productCard_inner--extraDark">
-                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                            <div class="productCard_top d-flex align-item-start justify-content-center">
                                                 <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                                 <div class="centerImg">
                                                     <img src="images/product-3.png"  class="img-fluid" alt="product-img">
@@ -1415,7 +1415,7 @@
                                 <div class="productCard">
                                     <div class="productCard_sliderSpace">
                                         <div class="productCard_inner productCard_inner--mediumDark">
-                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                            <div class="productCard_top d-flex align-item-start justify-content-center">
                                                 <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                                 <div class="centerImg">
                                                     <img src="images/product-4.png"  class="img-fluid" alt="product-img">
@@ -1475,7 +1475,7 @@
                                 <div class="productCard">
                                     <div class="productCard_sliderSpace">
                                         <div class="productCard_inner productCard_inner--light">
-                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                            <div class="productCard_top d-flex align-item-start justify-content-center">
                                                 <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                                 <div class="centerImg">
                                                     <img src="images/product-1.png"  class="img-fluid" alt="product-img">
@@ -1535,7 +1535,7 @@
                                 <div class="productCard">
                                     <div class="productCard_sliderSpace">
                                         <div class="productCard_inner productCard_inner--dark">
-                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                            <div class="productCard_top d-flex align-item-start justify-content-center">
                                                 <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                                 <div class="centerImg">
                                                     <img src="images/product-2.png"  class="img-fluid" alt="product-img">
@@ -1595,7 +1595,7 @@
                                 <div class="productCard">
                                     <div class="productCard_sliderSpace">
                                         <div class="productCard_inner productCard_inner--extraDark">
-                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                            <div class="productCard_top d-flex align-item-start justify-content-center">
                                                 <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                                 <div class="centerImg">
                                                     <img src="images/product-3.png"  class="img-fluid" alt="product-img">
@@ -1655,7 +1655,7 @@
                                 <div class="productCard">
                                     <div class="productCard_sliderSpace">
                                         <div class="productCard_inner productCard_inner--mediumDark">
-                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                            <div class="productCard_top d-flex align-item-start justify-content-center">
                                                 <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                                 <div class="centerImg">
                                                     <img src="images/product-4.png"  class="img-fluid" alt="product-img">
@@ -1738,107 +1738,112 @@
                 <div class="reviewSection_top">
                     <h3 class="sectionHeading">Reviews</h3>
                 </div>
-                <div class="reviewSection_inner">
-                    <div class="reviewSection_slider sliderIcon">
-                        <div class="reviewSection_sliderItem">
-                            <div class="reviewBox">
-                                <div class="d-flex align-items-center">
-                                    <div class="reviewBox_img">
-                                        <img src="images/review-product.png" class="img-fluid" alt="product">
-                                    </div>
-                                    <div class="reviewBox_txt">
-                                        <h3>Unlocks an old memory</h3>
-                                        <p>Nothing unlocks an old memory better than smell, be it the memory of lost love or of a fond friend. At Ajmal we help towards recreating those memories through our fragrances.</p>
-                                        <div class="userInfo d-flex align-items-start justify-content-between">
-                                            <div class="d-flex align-items-center">
-                                                <div class="userInfo_img">
-                                                    <img src="images/avatar-img.png" class="img-fluid" alt="user">
+                <div class="reviewSection_inner position-relative">
+                    <div class="swiper reviewSection_slider swiperSliderIcon overflow-hidden">
+                        <div class="swiper-wrapper mb-0">
+                            <div class="swiper-slide">
+                                <div class="reviewBox">
+                                    <div class="d-flex align-items-center">
+                                        <div class="reviewBox_img">
+                                            <img src="images/review-product.png" class="img-fluid" alt="product">
+                                        </div>
+                                        <div class="reviewBox_txt">
+                                            <h3>Unlocks an old memory</h3>
+                                            <p>Nothing unlocks an old memory better than smell, be it the memory of lost love or of a fond friend. At Ajmal we help towards recreating those memories through our fragrances.</p>
+                                            <div class="userInfo d-flex align-items-start justify-content-between">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="userInfo_img">
+                                                        <img src="images/avatar-img.png" class="img-fluid" alt="user">
+                                                    </div>
+                                                    <div class="userInfo_txt">
+                                                        <h6>Sue Smit</h6>
+                                                        <p>London, United Kingdom</p>
+                                                    </div>
                                                 </div>
-                                                <div class="userInfo_txt">
-                                                    <h6>Sue Smit</h6>
-                                                    <p>London, United Kingdom</p>
+                                                <div class="rating">
+                                                    <ul class=" d-flex list-unstyled justify-content-center">
+                                                        <li><span class="icon-star"></span></li>
+                                                        <li><span class="icon-star"></span></li>
+                                                        <li><span class="icon-star"></span></li>
+                                                        <li><span class="icon-star"></span></li>
+                                                        <li><span class="icon-star"></span></li>
+                                                    </ul>
                                                 </div>
                                             </div>
-                                            <div class="rating">
-                                                <ul class=" d-flex list-unstyled justify-content-center">
-                                                    <li><span class="icon-star"></span></li>
-                                                    <li><span class="icon-star"></span></li>
-                                                    <li><span class="icon-star"></span></li>
-                                                    <li><span class="icon-star"></span></li>
-                                                    <li><span class="icon-star"></span></li>
-                                                </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="reviewBox">
+                                    <div class="d-flex align-items-center">
+                                        <div class="reviewBox_img">
+                                            <img src="images/review-product.png" class="img-fluid" alt="product">
+                                        </div>
+                                        <div class="reviewBox_txt">
+                                            <h3>Unlocks an old memory</h3>
+                                            <p>Nothing unlocks an old memory better than smell, be it the memory of lost love or of a fond friend. At Ajmal we help towards recreating those memories through our fragrances.</p>
+                                            <div class="userInfo d-flex align-items-start justify-content-between">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="userInfo_img">
+                                                        <img src="images/avatar-img.png" class="img-fluid" alt="user">
+                                                    </div>
+                                                    <div class="userInfo_txt">
+                                                        <h6>Sue Smit</h6>
+                                                        <p>London, United Kingdom</p>
+                                                    </div>
+                                                </div>
+                                                <div class="rating">
+                                                    <ul class=" d-flex list-unstyled justify-content-center">
+                                                        <li><span class="icon-star"></span></li>
+                                                        <li><span class="icon-star"></span></li>
+                                                        <li><span class="icon-star"></span></li>
+                                                        <li><span class="icon-star"></span></li>
+                                                        <li><span class="icon-star"></span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="reviewBox">
+                                    <div class="d-flex align-items-center">
+                                        <div class="reviewBox_img">
+                                            <img src="images/review-product.png" class="img-fluid" alt="product">
+                                        </div>
+                                        <div class="reviewBox_txt">
+                                            <h3>Unlocks an old memory</h3>
+                                            <p>Nothing unlocks an old memory better than smell, be it the memory of lost love or of a fond friend. At Ajmal we help towards recreating those memories through our fragrances.</p>
+                                            <div class="userInfo d-flex align-items-start justify-content-between">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="userInfo_img">
+                                                        <img src="images/avatar-img.png" class="img-fluid" alt="user">
+                                                    </div>
+                                                    <div class="userInfo_txt">
+                                                        <h6>Sue Smit</h6>
+                                                        <p>London, United Kingdom</p>
+                                                    </div>
+                                                </div>
+                                                <div class="rating">
+                                                    <ul class=" d-flex list-unstyled justify-content-center">
+                                                        <li><span class="icon-star"></span></li>
+                                                        <li><span class="icon-star"></span></li>
+                                                        <li><span class="icon-star"></span></li>
+                                                        <li><span class="icon-star"></span></li>
+                                                        <li><span class="icon-star"></span></li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="reviewSection_sliderItem">
-                            <div class="reviewBox">
-                                <div class="d-flex align-items-center">
-                                    <div class="reviewBox_img">
-                                        <img src="images/review-product.png" class="img-fluid" alt="product">
-                                    </div>
-                                    <div class="reviewBox_txt">
-                                        <h3>Unlocks an old memory</h3>
-                                        <p>Nothing unlocks an old memory better than smell, be it the memory of lost love or of a fond friend. At Ajmal we help towards recreating those memories through our fragrances.</p>
-                                        <div class="userInfo d-flex align-items-start justify-content-between">
-                                            <div class="d-flex align-items-center">
-                                                <div class="userInfo_img">
-                                                    <img src="images/avatar-img.png" class="img-fluid" alt="user">
-                                                </div>
-                                                <div class="userInfo_txt">
-                                                    <h6>Sue Smit</h6>
-                                                    <p>London, United Kingdom</p>
-                                                </div>
-                                            </div>
-                                            <div class="rating">
-                                                <ul class=" d-flex list-unstyled justify-content-center">
-                                                    <li><span class="icon-star"></span></li>
-                                                    <li><span class="icon-star"></span></li>
-                                                    <li><span class="icon-star"></span></li>
-                                                    <li><span class="icon-star"></span></li>
-                                                    <li><span class="icon-star"></span></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="reviewSection_sliderItem">
-                            <div class="reviewBox">
-                                <div class="d-flex align-items-center">
-                                    <div class="reviewBox_img">
-                                        <img src="images/review-product.png" class="img-fluid" alt="product">
-                                    </div>
-                                    <div class="reviewBox_txt">
-                                        <h3>Unlocks an old memory</h3>
-                                        <p>Nothing unlocks an old memory better than smell, be it the memory of lost love or of a fond friend. At Ajmal we help towards recreating those memories through our fragrances.</p>
-                                        <div class="userInfo d-flex align-items-start justify-content-between">
-                                            <div class="d-flex align-items-center">
-                                                <div class="userInfo_img">
-                                                    <img src="images/avatar-img.png" class="img-fluid" alt="user">
-                                                </div>
-                                                <div class="userInfo_txt">
-                                                    <h6>Sue Smit</h6>
-                                                    <p>London, United Kingdom</p>
-                                                </div>
-                                            </div>
-                                            <div class="rating">
-                                                <ul class=" d-flex list-unstyled justify-content-center">
-                                                    <li><span class="icon-star"></span></li>
-                                                    <li><span class="icon-star"></span></li>
-                                                    <li><span class="icon-star"></span></li>
-                                                    <li><span class="icon-star"></span></li>
-                                                    <li><span class="icon-star"></span></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                     </div>
                 </div>
             </div>
@@ -2459,8 +2464,8 @@
     <script type="text/javascript" src="js/slick.min.js"></script>
     <script>
         var swiper = new Swiper(".arrivalsSection_slider", {
-            slidesPerView: 4,
-            spaceBetween: 32,
+            slidesPerView: 1,
+            spaceBetween: 20,
             slidesPerGroup: 1,
             loop: false,
             loopFillGroupWithBlank: true,
@@ -2471,12 +2476,30 @@
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
+            },
+            breakpoints: {
+                475: {
+                slidesPerView: 2,
+                },
+                768: {
+                slidesPerView: 3,
+                },
+                993: {
+                slidesPerView: 3,
+                },
+                1200: {
+                slidesPerView: 4,
+                spaceBetween: 20,
+                },
+                1600: {
+                    spaceBetween: 32,  slidesPerView: 4,
+                }
             }
         });
 
         var swiper = new Swiper(".giftingSection_slider", {
-            slidesPerView: 4,
-            spaceBetween: 32,
+            slidesPerView: 1,
+            spaceBetween: 20,
             slidesPerGroup: 1,
             loop: false,
             loopFillGroupWithBlank: true,
@@ -2487,12 +2510,63 @@
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
+            },
+            breakpoints: {
+                475: {
+                slidesPerView: 2,
+                },
+                768: {
+                slidesPerView: 3,
+                },
+                993: {
+                slidesPerView: 3,
+                },
+                1200: {
+                slidesPerView: 4,
+                spaceBetween: 20,
+                },
+                1600: {
+                    spaceBetween: 32,  slidesPerView: 4,
+                }
             }
         });
 
         var swiper = new Swiper(".popularCategory_Slider", {
-            slidesPerView: 4,
-            spaceBetween: 32,
+            slidesPerView: 1,
+            spaceBetween: 20,
+            slidesPerGroup: 1,
+            loop: false,
+            loopFillGroupWithBlank: true,
+            navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                475: {
+                slidesPerView: 2,
+                },
+                768: {
+                slidesPerView: 3,
+                },
+                993: {
+                slidesPerView: 3,
+                },
+                1200: {
+                slidesPerView: 4,
+                spaceBetween: 20,
+                },
+                1600: {
+                    spaceBetween: 32,  slidesPerView: 4,
+                }
+            }
+        });
+
+        var swiper = new Swiper(".reviewSection_slider", {
+            slidesPerView: 1,
             slidesPerGroup: 1,
             loop: false,
             loopFillGroupWithBlank: true,
@@ -2603,13 +2677,13 @@
             //     slidesToShow: 4,
             //     slidesToScroll: 1,
             // });
-            $('.reviewSection_slider').slick({
-                dots: true,
-                infinite: false,
-                speed: 300,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-            });
+            // $('.reviewSection_slider').slick({
+            //     dots: true,
+            //     infinite: false,
+            //     speed: 300,
+            //     slidesToShow: 1,
+            //     slidesToScroll: 1,
+            // });
             $('.pressMediaSec_slider').slick({
                 dots: true,
                 infinite: false,

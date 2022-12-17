@@ -1,46 +1,12 @@
 .btn{
     padding:14px 26px;cursor:pointer;font-family:font(srg);font-size: 16px;line-height: 24px;
-    border-radius: 50px;height:56px;box-shadow: none;    white-space: nowrap;
+    border-radius: 50px;height:56px;box-shadow: none;    white-space: nowrap;display:flex; align-items: center;
     &:hover,&:focus,&:active,&:not(:disabled):not(.disabled):active {
         box-shadow: none;outline: none;
     }
     &.btn-md{
         padding: 8px 24px;height: 40px;
     }
-    // @include media-breakpoint-down(lg){
-    //     padding: 15px 35px;
-    //     font-size: 15px;
-    // }
-    // &_img{
-    //     position: relative;
-    //     &:after{
-    //         content: '';
-    //         background-image: url('#{$imageurl}/arrow_rounded.svg');
-    //         background-repeat: no-repeat;
-    //         background-size: 100%;
-    //         position: absolute;
-    //         right: -117px;
-    //         height: 74px;
-    //         top: -6px;
-    //         height: 74px;
-    //         width: 74px;
-    //     }
-    // }
-    // &.btn-sm{
-    //     padding:7px 20px;font-size: 14px;line-height: 18px;
-    //     &.btn-primary{
-    //         -webkit-box-shadow: 0 15px 10px -10px rgba(color(500), .4);
-    //         box-shadow: 0 16px 10px -10px rgba(color(500), .4);
-    //     }
-    //     &.btn-secondary{
-    //         -webkit-box-shadow: 0 15px 10px -10px rgba(color(600), .4);
-    //         box-shadow: 0 15px 10px -10px rgba(color(600), .4);
-    //     }
-    //     &.btn-tertiary{
-    //         -webkit-box-shadow: 0 16px 10px -10px rgba(color(700), .4);
-    //         box-shadow: 0 15px 10px -10px rgba(color(700), .4);
-    //     }
-    // }
     &.btn-primary{
         border-color:color(500);color: color(50);background-color:color(500);
         @include transition(all 0.5s);
@@ -83,16 +49,6 @@
             background: darken(color(700), 8%);color:color(50);
         }
     }
-    // &.btn-secondary{
-    //     border-color:color(120);color: color(200);background-color:color(120);
-    //     @include transition(all 0.5s);
-    //     -webkit-box-shadow: 0 17px 10px -10px rgba(color(120), .4);
-    //     box-shadow: 0 17px 10px -10px rgba(color(120), .4);
-    //     &:hover,&:focus,&:active,&:not(:disabled):not(.disabled):active {
-    //         border-color:color(700);box-shadow: none;
-    //         background: color(700);color:color(50);
-    //     }
-    // }
     &.btn-default{
         border-color:color(50);color: color(600);background-color:color(50);
         @include transition(all 0.5s);
@@ -120,17 +76,10 @@
             background-color: color(100);border-color: color(100);
         }
     }
-
-    // @media(max-width: 1599px){
-    //     padding: 10px 18px;
-    // }
-
-    // @include media-breakpoint-down(md){
-    //     padding: 8px 16px;font-size: 15px;
-    // }
-   
-    // @include media-breakpoint-down(sm){
-    //      padding: 7px 14px;font-size: 14px;
-    // }
-
+    @media (max-width: 1400px){
+        padding: 11px 22px;font-size:15px;height:48px;line-height:normal;
+    }
+    @media (max-width: 992px){
+        padding: 10px 15px;font-size:14px;height:44px;
+    }
 }
