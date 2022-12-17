@@ -7,6 +7,7 @@
     <?php include('include/head-link.php'); ?>
     <link rel="stylesheet" href="css/slick.css" type="text/css">
     <link rel="stylesheet" href="css/slick-theme.css" type="text/css">
+    <link rel="stylesheet" href="css/swiper.min.css" type="text/css">
 </head>
 
 <body>
@@ -2320,6 +2321,7 @@
     <?php include ('include/footer.php') ?>
     <?php include ('include/footer-scripts.php') ?>
     <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
     <!-- <script>
         $( document ).ready(function() {
             $('.createAccountActionBtn').on('click', function() {
@@ -2437,6 +2439,61 @@
                 slidesToShow: 4,
                 slidesToScroll: 1,
             });
+
+            var swiper = new Swiper('.product-slider', {
+        spaceBetween: 30,
+        effect: 'fade',
+        // initialSlide: 2,
+        loop: false,
+        navigation: {
+            nextEl: '.next',
+            prevEl: '.prev'
+        },
+        // mousewheel: {
+        //     // invert: false
+        // },
+        on: {
+            init: function(){
+                var index = this.activeIndex;
+
+                var target = $('.product-slider__item').eq(index).data('target');
+
+                console.log(target);
+
+                $('.product-img__item').removeClass('active');
+                $('.product-img__item#'+ target).addClass('active');
+            }
+        }
+
+    });
+
+    swiper.on('slideChange', function () {
+        var index = this.activeIndex;
+
+        var target = $('.product-slider__item').eq(index).data('target');
+
+        console.log(target);
+
+        $('.product-img__item').removeClass('active');
+        $('.product-img__item#'+ target).addClass('active');
+
+        if(swiper.isEnd) {
+            $('.prev').removeClass('disabled');
+            $('.next').addClass('disabled');
+        } else {
+            $('.next').removeClass('disabled');
+        }
+
+        if(swiper.isBeginning) {
+            $('.prev').addClass('disabled');
+        } else {
+            $('.prev').removeClass('disabled');
+        }
+    });
+
+    $(".js-fav").on("click", function() {
+        $(this).find('.heart').toggleClass("is-active");
+    });
         });
     </script>
 </body>
