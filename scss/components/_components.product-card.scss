@@ -1,7 +1,7 @@
 .productCard{
-    &_sliderSpace{padding: 40px 16px 0;}
+    &_sliderSpace{padding: 40px 0 0;}
     &_inner{
-        height: 450px;border-radius: 16px;padding: 16px 24px;position: relative;margin-bottom:30px;
+        height: 450px;border-radius: 16px;padding: 16px 24px;position: relative;
         &--light{
             background-color: color(60);
         }

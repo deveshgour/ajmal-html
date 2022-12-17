@@ -8,13 +8,21 @@
     <link rel="stylesheet" href="css/swiper.min.css" type="text/css">
     <link rel="stylesheet" href="css/slick.css" type="text/css">
     <link rel="stylesheet" href="css/slick-theme.css" type="text/css">
+    <style>
+             .swiper {
+        width: 100%;
+        height: 100%;
+      }
+      .swiper-wrapper{
+        width: 100%;height:100%;
+      }
+    </style>
 </head>
 
 <body>
     <?php include('include/header.php'); ?>
     <main class="mainContent homePage">
     <section class="bannerSection">
-           
            <div class="bannerSlider">
                <div class="bannerSlider_item bannerSlider_item--1">
                    <div class="container-fluid">
@@ -82,7 +90,6 @@
                </div>
               
            </div>
-     
    </section>
         <section class="fragrancesSection py-55">
             <div class="container">
@@ -94,473 +101,500 @@
                 </div>
             </div>
         </section>
-        <Section class="arrivalsSection py-55 pt-0">
+        <Section class="arrivalsSection py-55 pt-0 overflow-hidden">
             <div class="container">
                 <div class="arrivalsSection_top d-flex align-items-center justify-content-between">
                     <h3 class="sectionHeading mb-0">New arrivals</h3>
                     <a href="javascript:void(0);" class="readMoreBtn">Discover all <img src="images/next-arrow.svg" class="img-fluid" alt="arrow"></a>
                 </div>
-                <div class="arrivalsSection_bottom">
-                    <div class="arrivalsSection_slider sliderIcon">
-                        <div class="productCard">
-                            <div class="productCard_sliderSpace">
-                                <div class="productCard_inner productCard_inner--light">
-                                    <div class="productCard_top d-flex align-item-start justify-content-between">
-                                        <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
-                                        <div class="centerImg">
-                                            <img src="images/product-1.png"  class="img-fluid" alt="product-img">
-                                            <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                <div class="arrivalsSection_bottom position-relative">
+                    <div class="swiper arrivalsSection_slider swiperSliderIcon overflow-hidden">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="productCard">
+                                    <div class="productCard_sliderSpace">
+                                        <div class="productCard_inner productCard_inner--light">
+                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                                <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
+                                                <div class="centerImg">
+                                                    <img src="images/product-1.png"  class="img-fluid" alt="product-img">
+                                                    <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                                                </div>
+                                                
+                                                <a href="javascript:void(0);" class="productLike"><em class="icon-favorite_outline"></em></a>
+                                            </div>
+                                            <div class="productCard_center text-center">
+                                                
+                                                <ul class="rating d-flex list-unstyled justify-content-center">
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <p>32</p>
+                                                </ul>
+                                                <span class="offer">50%</span>
+                                                <ul class="category d-flex list-unstyled justify-content-center mb-0">
+                                                    <li>OIL PARFUM</li>
+                                                    <li>75ML</li>
+                                                    <li>WOMEN</li>
+                                                </ul>
+                                                <h3>Jannatul Fridaus</h3>
+                                                <span class="price">12 AED <del>24 AED</del></span>
+                                            </div>
+                                            <div class="productCard_bottom">
+                                                <div class="viewProduct">
+                                                    <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                                        <li class="text-center">
+                                                            <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
+                                                            <span>Rose</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
+                                                            <span>Vanilla</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
+                                                            <span>Oud</span>  
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="addProduct">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
+                                                    </ul>                                    
+                                                </div>
+                                            </div>
                                         </div>
-                                        
-                                        <a href="javascript:void(0);" class="productLike"><em class="icon-favorite_outline"></em></a>
                                     </div>
-                                    <div class="productCard_center text-center">
-                                        
-                                        <ul class="rating d-flex list-unstyled justify-content-center">
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <p>32</p>
-                                        </ul>
-                                        <span class="offer">50%</span>
-                                        <ul class="category d-flex list-unstyled justify-content-center mb-0">
-                                            <li>OIL PARFUM</li>
-                                            <li>75ML</li>
-                                            <li>WOMEN</li>
-                                        </ul>
-                                        <h3>Jannatul Fridaus</h3>
-                                        <span class="price">12 AED <del>24 AED</del></span>
-                                    </div>
-                                    <div class="productCard_bottom">
-                                        <div class="viewProduct">
-                                            <ul class="list-unstyled d-flex justify-content-between mb-0">
-                                                <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
-                                                </li>
-                                            </ul>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="productCard">
+                                    <div class="productCard_sliderSpace">
+                                        <div class="productCard_inner productCard_inner--dark">
+                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                                <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
+                                                <div class="centerImg">
+                                                    <img src="images/product-2.png"  class="img-fluid" alt="product-img">
+                                                    <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                                                </div>
+                                                
+                                                <a href="javascript:void(0);" class="productLike"><em class="icon-favorite_outline"></em></a>
+                                            </div>
+                                            <div class="productCard_center text-center">
+                                                
+                                                <ul class="rating d-flex list-unstyled justify-content-center">
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <p>32</p>
+                                                </ul>
+                                                <span class="offer">50%</span>
+                                                <ul class="category d-flex list-unstyled justify-content-center mb-0">
+                                                    <li>OIL PARFUM</li>
+                                                    <li>75ML</li>
+                                                    <li>WOMEN</li>
+                                                </ul>
+                                                <h3>Jannatul Fridaus</h3>
+                                                <span class="price">12 AED <del>24 AED</del></span>
+                                            </div>
+                                            <div class="productCard_bottom">
+                                                <div class="viewProduct">
+                                                    <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                                        <li class="text-center">
+                                                            <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
+                                                            <span>Rose</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
+                                                            <span>Vanilla</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
+                                                            <span>Oud</span>  
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="addProduct">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
+                                                    </ul>                                    
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="addProduct">
-                                            <ul class="d-flex list-unstyled">
-                                                <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
-                                                <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="productCard">
+                                    <div class="productCard_sliderSpace">
+                                        <div class="productCard_inner productCard_inner--extraDark">
+                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                                <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
+                                                <div class="centerImg">
+                                                    <img src="images/product-3.png"  class="img-fluid" alt="product-img">
+                                                    <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                                                </div>
+                                                
+                                                <a href="javascript:void(0);" class="productLike"><em class="icon-favorite_outline"></em></a>
+                                            </div>
+                                            <div class="productCard_center text-center">
+                                                
+                                                <ul class="rating d-flex list-unstyled justify-content-center">
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <p>32</p>
+                                                </ul>
+                                                <span class="offer">50%</span>
+                                                <ul class="category d-flex list-unstyled justify-content-center mb-0">
+                                                    <li>OIL PARFUM</li>
+                                                    <li>75ML</li>
+                                                    <li>WOMEN</li>
+                                                </ul>
+                                                <h3>Jannatul Fridaus</h3>
+                                                <span class="price">12 AED <del>24 AED</del></span>
+                                            </div>
+                                            <div class="productCard_bottom">
+                                                <div class="viewProduct">
+                                                    <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                                        <li class="text-center">
+                                                            <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
+                                                            <span>Rose</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
+                                                            <span>Vanilla</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
+                                                            <span>Oud</span>  
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="addProduct">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
+                                                    </ul>                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="productCard">
+                                    <div class="productCard_sliderSpace">
+                                        <div class="productCard_inner productCard_inner--mediumDark">
+                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                                <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
+                                                <div class="centerImg">
+                                                    <img src="images/product-4.png"  class="img-fluid" alt="product-img">
+                                                    <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                                                </div>
+                                                
+                                                <a href="javascript:void(0);" class="productLike"><em class="icon-favorite_outline"></em></a>
+                                            </div>
+                                            <div class="productCard_center text-center">
+                                                
+                                                <ul class="rating d-flex list-unstyled justify-content-center">
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <p>32</p>
+                                                </ul>
+                                                <span class="offer">50%</span>
+                                                <ul class="category d-flex list-unstyled justify-content-center mb-0">
+                                                    <li>OIL PARFUM</li>
+                                                    <li>75ML</li>
+                                                    <li>WOMEN</li>
+                                                </ul>
+                                                <h3>Jannatul Fridaus</h3>
+                                                <span class="price">12 AED <del>24 AED</del></span>
+                                            </div>
+                                            <div class="productCard_bottom">
+                                                <div class="viewProduct">
+                                                    <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                                        <li class="text-center">
+                                                            <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
+                                                            <span>Rose</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
+                                                            <span>Vanilla</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
+                                                            <span>Oud</span>  
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="addProduct">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
+                                                    </ul>                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="productCard">
+                                    <div class="productCard_sliderSpace">
+                                        <div class="productCard_inner productCard_inner--light">
+                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                                <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
+                                                <div class="centerImg">
+                                                    <img src="images/product-1.png"  class="img-fluid" alt="product-img">
+                                                    <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                                                </div>
+                                                
+                                                <a href="javascript:void(0);" class="productLike"><em class="icon-favorite_outline"></em></a>
+                                            </div>
+                                            <div class="productCard_center text-center">
+                                                
+                                                <ul class="rating d-flex list-unstyled justify-content-center">
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <p>32</p>
+                                                </ul>
+                                                <span class="offer">50%</span>
+                                                <ul class="category d-flex list-unstyled justify-content-center mb-0">
+                                                    <li>OIL PARFUM</li>
+                                                    <li>75ML</li>
+                                                    <li>WOMEN</li>
+                                                </ul>
+                                                <h3>Jannatul Fridaus</h3>
+                                                <span class="price">12 AED <del>24 AED</del></span>
+                                            </div>
+                                            <div class="productCard_bottom">
+                                                <div class="viewProduct">
+                                                    <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                                        <li class="text-center">
+                                                            <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
+                                                            <span>Rose</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
+                                                            <span>Vanilla</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
+                                                            <span>Oud</span>  
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="addProduct">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
+                                                    </ul>                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="productCard">
+                                    <div class="productCard_sliderSpace">
+                                        <div class="productCard_inner productCard_inner--dark">
+                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                                <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
+                                                <div class="centerImg">
+                                                    <img src="images/product-2.png"  class="img-fluid" alt="product-img">
+                                                    <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                                                </div>
+                                                
+                                                <a href="javascript:void(0);" class="productLike"><em class="icon-favorite_outline"></em></a>
+                                            </div>
+                                            <div class="productCard_center text-center">
+                                                
+                                                <ul class="rating d-flex list-unstyled justify-content-center">
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <p>32</p>
+                                                </ul>
+                                                <span class="offer">50%</span>
+                                                <ul class="category d-flex list-unstyled justify-content-center mb-0">
+                                                    <li>OIL PARFUM</li>
+                                                    <li>75ML</li>
+                                                    <li>WOMEN</li>
+                                                </ul>
+                                                <h3>Jannatul Fridaus</h3>
+                                                <span class="price">12 AED <del>24 AED</del></span>
+                                            </div>
+                                            <div class="productCard_bottom">
+                                                <div class="viewProduct">
+                                                    <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                                        <li class="text-center">
+                                                            <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
+                                                            <span>Rose</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
+                                                            <span>Vanilla</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
+                                                            <span>Oud</span>  
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="addProduct">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
+                                                    </ul>                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="productCard">
+                                    <div class="productCard_sliderSpace">
+                                        <div class="productCard_inner productCard_inner--extraDark">
+                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                                <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
+                                                <div class="centerImg">
+                                                    <img src="images/product-3.png"  class="img-fluid" alt="product-img">
+                                                    <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                                                </div>
+                                                
+                                                <a href="javascript:void(0);" class="productLike"><em class="icon-favorite_outline"></em></a>
+                                            </div>
+                                            <div class="productCard_center text-center">
+                                                
+                                                <ul class="rating d-flex list-unstyled justify-content-center">
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <p>32</p>
+                                                </ul>
+                                                <span class="offer">50%</span>
+                                                <ul class="category d-flex list-unstyled justify-content-center mb-0">
+                                                    <li>OIL PARFUM</li>
+                                                    <li>75ML</li>
+                                                    <li>WOMEN</li>
+                                                </ul>
+                                                <h3>Jannatul Fridaus</h3>
+                                                <span class="price">12 AED <del>24 AED</del></span>
+                                            </div>
+                                            <div class="productCard_bottom">
+                                                <div class="viewProduct">
+                                                    <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                                        <li class="text-center">
+                                                            <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
+                                                            <span>Rose</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
+                                                            <span>Vanilla</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
+                                                            <span>Oud</span>  
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="addProduct">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
+                                                    </ul>                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="productCard">
+                                    <div class="productCard_sliderSpace">
+                                        <div class="productCard_inner productCard_inner--mediumDark">
+                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                                <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
+                                                <div class="centerImg">
+                                                    <img src="images/product-4.png"  class="img-fluid" alt="product-img">
+                                                    <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                                                </div>
+                                                
+                                                <a href="javascript:void(0);" class="productLike"><em class="icon-favorite_outline"></em></a>
+                                            </div>
+                                            <div class="productCard_center text-center">
+                                                
+                                                <ul class="rating d-flex list-unstyled justify-content-center">
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <p>32</p>
+                                                </ul>
+                                                <span class="offer">50%</span>
+                                                <ul class="category d-flex list-unstyled justify-content-center mb-0">
+                                                    <li>OIL PARFUM</li>
+                                                    <li>75ML</li>
+                                                    <li>WOMEN</li>
+                                                </ul>
+                                                <h3>Jannatul Fridaus</h3>
+                                                <span class="price">12 AED <del>24 AED</del></span>
+                                            </div>
+                                            <div class="productCard_bottom">
+                                                <div class="viewProduct">
+                                                    <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                                        <li class="text-center">
+                                                            <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
+                                                            <span>Rose</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
+                                                            <span>Vanilla</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
+                                                            <span>Oud</span>  
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="addProduct">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
+                                                    </ul>                                    
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="productCard">
-                            <div class="productCard_sliderSpace">
-                                <div class="productCard_inner productCard_inner--dark">
-                                    <div class="productCard_top d-flex align-item-start justify-content-between">
-                                        <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
-                                        <div class="centerImg">
-                                            <img src="images/product-2.png"  class="img-fluid" alt="product-img">
-                                            <!-- <span class="outofstock">OUT OF STOCK</span> -->
-                                        </div>
-                                        
-                                        <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
-                                    </div>
-                                    <div class="productCard_center text-center">
-                                        
-                                        <ul class="rating d-flex list-unstyled justify-content-center">
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <p>32</p>
-                                        </ul>
-                                        <span class="offer">50%</span>
-                                        <ul class="category d-flex list-unstyled justify-content-center mb-0">
-                                            <li>OIL PARFUM</li>
-                                            <li>75ML</li>
-                                            <li>WOMEN</li>
-                                        </ul>
-                                        <h3>Jannatul Fridaus</h3>
-                                        <span class="price">12 AED <del>24 AED</del></span>
-                                    </div>
-                                    <div class="productCard_bottom">
-                                        <div class="viewProduct">
-                                            <ul class="list-unstyled d-flex justify-content-between mb-0">
-                                                <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="addProduct">
-                                            <ul class="d-flex list-unstyled">
-                                                <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
-                                                <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="productCard">
-                            <div class="productCard_sliderSpace">
-                                <div class="productCard_inner outOfStock productCard_inner--extraDark">
-                                    <div class="productCard_top d-flex align-item-start justify-content-between">
-                                        <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
-                                        <div class="centerImg">
-                                            <img src="images/product-3.png"  class="img-fluid" alt="product-img">
-                                            <span class="outofstock">OUT OF STOCK</span>
-                                        </div>
-                                        
-                                        <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
-                                    </div>
-                                    <div class="productCard_center text-center">
-                                        <ul class="rating d-flex list-unstyled justify-content-center">
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <p>32</p>
-                                        </ul>
-                                        <span class="offer">50%</span>
-                                        <ul class="category d-flex list-unstyled justify-content-center mb-0">
-                                            <li>OIL PARFUM</li>
-                                            <li>75ML</li>
-                                            <li>WOMEN</li>
-                                        </ul>
-                                        <h3>Jannatul Fridaus</h3>
-                                        <span class="price">12 AED <del>24 AED</del></span>
-                                    </div>
-                                    <div class="productCard_bottom">
-                                        <div class="viewProduct">
-                                            <ul class="list-unstyled d-flex justify-content-between mb-0">
-                                                <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="addProduct">
-                                            <ul class="d-flex list-unstyled">
-                                                <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
-                                                <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="productCard">
-                            <div class="productCard_sliderSpace">
-                                <div class="productCard_inner productCard_inner--mediumDark">
-                                    <div class="productCard_top d-flex align-item-start justify-content-between">
-                                        <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
-                                        <div class="centerImg">
-                                            <img src="images/product-4.png"  class="img-fluid" alt="product-img">
-                                            <!-- <span class="outofstock">OUT OF STOCK</span> -->
-                                        </div>
-                                        
-                                        <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
-                                    </div>
-                                    <div class="productCard_center text-center">
-                                        <ul class="rating d-flex list-unstyled justify-content-center">
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <p>32</p>
-                                        </ul>
-                                        <span class="offer">50%</span>
-                                        <ul class="category d-flex list-unstyled justify-content-center mb-0">
-                                            <li>OIL PARFUM</li>
-                                            <li>75ML</li>
-                                            <li>WOMEN</li>
-                                        </ul>
-                                        <h3>Jannatul Fridaus</h3>
-                                        <span class="price">12 AED <del>24 AED</del></span>
-                                    </div>
-                                    <div class="productCard_bottom">
-                                        <div class="viewProduct">
-                                            <ul class="list-unstyled d-flex justify-content-between mb-0">
-                                                <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="addProduct">
-                                            <ul class="d-flex list-unstyled">
-                                                <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
-                                                <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="productCard">
-                            <div class="productCard_sliderSpace">
-                                <div class="productCard_inner productCard_inner--light">
-                                    <div class="productCard_top d-flex align-item-start justify-content-between">
-                                        <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
-                                        <div class="centerImg">
-                                            <img src="images/product-1.png"  class="img-fluid" alt="product-img">
-                                            <!-- <span class="outofstock">OUT OF STOCK</span> -->
-                                        </div>
-                                        
-                                        <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
-                                    </div>
-                                    <div class="productCard_center text-center">
-                                        <ul class="rating d-flex list-unstyled justify-content-center">
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <p>32</p>
-                                        </ul>
-                                        <span class="offer">50%</span>
-                                        <ul class="category d-flex list-unstyled justify-content-center mb-0">
-                                            <li>OIL PARFUM</li>
-                                            <li>75ML</li>
-                                            <li>WOMEN</li>
-                                        </ul>
-                                        <h3>Jannatul Fridaus</h3>
-                                        <span class="price">12 AED <del>24 AED</del></span>
-                                    </div>
-                                    <div class="productCard_bottom">
-                                        <div class="viewProduct">
-                                            <ul class="list-unstyled d-flex justify-content-between mb-0">
-                                                <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="addProduct">
-                                            <ul class="d-flex list-unstyled">
-                                                <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
-                                                <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="productCard">
-                            <div class="productCard_sliderSpace">
-                                <div class="productCard_inner productCard_inner--dark">
-                                    <div class="productCard_top d-flex align-item-start justify-content-between">
-                                        <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
-                                        <div class="centerImg">
-                                            <img src="images/product-2.png"  class="img-fluid" alt="product-img">
-                                            <!-- <span class="outofstock">OUT OF STOCK</span> -->
-                                        </div>
-                                        
-                                        <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
-                                    </div>
-                                    <div class="productCard_center text-center">
-                                        <ul class="rating d-flex list-unstyled justify-content-center">
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <p>32</p>
-                                        </ul>
-                                        <span class="offer">50%</span>
-                                        <ul class="category d-flex list-unstyled justify-content-center mb-0">
-                                            <li>OIL PARFUM</li>
-                                            <li>75ML</li>
-                                            <li>WOMEN</li>
-                                        </ul>
-                                        <h3>Jannatul Fridaus</h3>
-                                        <span class="price">12 AED <del>24 AED</del></span>
-                                    </div>
-                                    <div class="productCard_bottom">
-                                        <div class="viewProduct">
-                                            <ul class="list-unstyled d-flex justify-content-between mb-0">
-                                                <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="addProduct">
-                                            <ul class="d-flex list-unstyled">
-                                                <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
-                                                <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="productCard">
-                            <div class="productCard_sliderSpace">
-                                <div class="productCard_inner outOfStock productCard_inner--extraDark">
-                                    <div class="productCard_top d-flex align-item-start justify-content-between">
-                                        <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
-                                        <div class="centerImg">
-                                            <img src="images/product-3.png"  class="img-fluid" alt="product-img">
-                                            <span class="outofstock">OUT OF STOCK</span>
-                                        </div>
-                                        
-                                        <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
-                                    </div>
-                                    <div class="productCard_center text-center">
-                                        <ul class="rating d-flex list-unstyled justify-content-center">
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <p>32</p>
-                                        </ul>
-                                        <span class="offer">50%</span>
-                                        <ul class="category d-flex list-unstyled justify-content-center mb-0">
-                                            <li>OIL PARFUM</li>
-                                            <li>75ML</li>
-                                            <li>WOMEN</li>
-                                        </ul>
-                                        <h3>Jannatul Fridaus</h3>
-                                        <span class="price">12 AED <del>24 AED</del></span>
-                                    </div>
-                                    <div class="productCard_bottom">
-                                        <div class="viewProduct">
-                                            <ul class="list-unstyled d-flex justify-content-between mb-0">
-                                                <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="addProduct">
-                                            <ul class="d-flex list-unstyled">
-                                                <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
-                                                <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="productCard">
-                            <div class="productCard_sliderSpace">
-                                <div class="productCard_inner productCard_inner--mediumDark">
-                                    <div class="productCard_top d-flex align-item-start justify-content-between">
-                                        <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
-                                        <div class="centerImg">
-                                            <img src="images/product-4.png"  class="img-fluid" alt="product-img">
-                                            <!-- <span class="outofstock">OUT OF STOCK</span> -->
-                                        </div>
-                                        
-                                        <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
-                                    </div>
-                                    <div class="productCard_center text-center">
-                                        <ul class="rating d-flex list-unstyled justify-content-center">
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <p>32</p>
-                                        </ul>
-                                        <span class="offer">50%</span>
-                                        <ul class="category d-flex list-unstyled justify-content-center mb-0">
-                                            <li>OIL PARFUM</li>
-                                            <li>75ML</li>
-                                            <li>WOMEN</li>
-                                        </ul>
-                                        <h3>Jannatul Fridaus</h3>
-                                        <span class="price">12 AED <del>24 AED</del></span>
-                                    </div>
-                                    <div class="productCard_bottom">
-                                        <div class="viewProduct">
-                                            <ul class="list-unstyled d-flex justify-content-between mb-0">
-                                                <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="addProduct">
-                                            <ul class="d-flex list-unstyled">
-                                                <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
-                                                <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
                 </div>
             </div>
         </Section>
@@ -653,467 +687,494 @@
                     </div>
                     <a href="javascript:void(0);" class="readMoreBtn">Discover all <img src="images/next-arrow.svg" class="img-fluid" alt="arrow"></a>
                 </div>
-                <div class="giftingSection_bottom">
-                    <div class="giftingSection_slider sliderIcon">
-                        <div class="productCard">
-                            <div class="productCard_sliderSpace">
-                                <div class="productCard_inner productCard_inner--light">
-                                    <div class="productCard_top d-flex align-item-start justify-content-between">
-                                        <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
-                                        <div class="centerImg">
-                                            <img src="images/product-1.png"  class="img-fluid" alt="product-img">
-                                            <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                <div class="giftingSection_bottom  position-relative">
+                    <div class="swiper giftingSection_slider swiperSliderIcon overflow-hidden">
+                        <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                                <div class="productCard">
+                                    <div class="productCard_sliderSpace">
+                                        <div class="productCard_inner productCard_inner--light">
+                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                                <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
+                                                <div class="centerImg">
+                                                    <img src="images/product-1.png"  class="img-fluid" alt="product-img">
+                                                    <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                                                </div>
+                                                
+                                                <a href="javascript:void(0);" class="productLike"><em class="icon-favorite_outline"></em></a>
+                                            </div>
+                                            <div class="productCard_center text-center">
+                                                
+                                                <ul class="rating d-flex list-unstyled justify-content-center">
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <p>32</p>
+                                                </ul>
+                                                <span class="offer">50%</span>
+                                                <ul class="category d-flex list-unstyled justify-content-center mb-0">
+                                                    <li>OIL PARFUM</li>
+                                                    <li>75ML</li>
+                                                    <li>WOMEN</li>
+                                                </ul>
+                                                <h3>Jannatul Fridaus</h3>
+                                                <span class="price">12 AED <del>24 AED</del></span>
+                                            </div>
+                                            <div class="productCard_bottom">
+                                                <div class="viewProduct">
+                                                    <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                                        <li class="text-center">
+                                                            <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
+                                                            <span>Rose</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
+                                                            <span>Vanilla</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
+                                                            <span>Oud</span>  
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="addProduct">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
+                                                    </ul>                                    
+                                                </div>
+                                            </div>
                                         </div>
-                                        
-                                        <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
                                     </div>
-                                    <div class="productCard_center text-center">
-                                        
-                                        <ul class="rating d-flex list-unstyled justify-content-center">
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <p>32</p>
-                                        </ul>
-                                        <span class="offer">50%</span>
-                                        <ul class="category d-flex list-unstyled justify-content-center mb-0">
-                                            <li>OIL PARFUM</li>
-                                            <li>75ML</li>
-                                            <li>WOMEN</li>
-                                        </ul>
-                                        <h3>Jannatul Fridaus</h3>
-                                        <span class="price">12 AED <del>24 AED</del></span>
-                                    </div>
-                                    <div class="productCard_bottom">
-                                        <div class="viewProduct">
-                                            <ul class="list-unstyled d-flex justify-content-between mb-0">
-                                                <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
-                                                </li>
-                                            </ul>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="productCard">
+                                    <div class="productCard_sliderSpace">
+                                        <div class="productCard_inner productCard_inner--dark">
+                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                                <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
+                                                <div class="centerImg">
+                                                    <img src="images/product-2.png"  class="img-fluid" alt="product-img">
+                                                    <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                                                </div>
+                                                
+                                                <a href="javascript:void(0);" class="productLike"><em class="icon-favorite_outline"></em></a>
+                                            </div>
+                                            <div class="productCard_center text-center">
+                                                
+                                                <ul class="rating d-flex list-unstyled justify-content-center">
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <p>32</p>
+                                                </ul>
+                                                <span class="offer">50%</span>
+                                                <ul class="category d-flex list-unstyled justify-content-center mb-0">
+                                                    <li>OIL PARFUM</li>
+                                                    <li>75ML</li>
+                                                    <li>WOMEN</li>
+                                                </ul>
+                                                <h3>Jannatul Fridaus</h3>
+                                                <span class="price">12 AED <del>24 AED</del></span>
+                                            </div>
+                                            <div class="productCard_bottom">
+                                                <div class="viewProduct">
+                                                    <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                                        <li class="text-center">
+                                                            <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
+                                                            <span>Rose</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
+                                                            <span>Vanilla</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
+                                                            <span>Oud</span>  
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="addProduct">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
+                                                    </ul>                                    
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="addProduct">
-                                            <ul class="d-flex list-unstyled">
-                                                <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
-                                                <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="productCard">
+                                    <div class="productCard_sliderSpace">
+                                        <div class="productCard_inner productCard_inner--extraDark">
+                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                                <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
+                                                <div class="centerImg">
+                                                    <img src="images/product-3.png"  class="img-fluid" alt="product-img">
+                                                    <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                                                </div>
+                                                
+                                                <a href="javascript:void(0);" class="productLike"><em class="icon-favorite_outline"></em></a>
+                                            </div>
+                                            <div class="productCard_center text-center">
+                                                
+                                                <ul class="rating d-flex list-unstyled justify-content-center">
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <p>32</p>
+                                                </ul>
+                                                <span class="offer">50%</span>
+                                                <ul class="category d-flex list-unstyled justify-content-center mb-0">
+                                                    <li>OIL PARFUM</li>
+                                                    <li>75ML</li>
+                                                    <li>WOMEN</li>
+                                                </ul>
+                                                <h3>Jannatul Fridaus</h3>
+                                                <span class="price">12 AED <del>24 AED</del></span>
+                                            </div>
+                                            <div class="productCard_bottom">
+                                                <div class="viewProduct">
+                                                    <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                                        <li class="text-center">
+                                                            <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
+                                                            <span>Rose</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
+                                                            <span>Vanilla</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
+                                                            <span>Oud</span>  
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="addProduct">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
+                                                    </ul>                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="productCard">
+                                    <div class="productCard_sliderSpace">
+                                        <div class="productCard_inner productCard_inner--mediumDark">
+                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                                <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
+                                                <div class="centerImg">
+                                                    <img src="images/product-4.png"  class="img-fluid" alt="product-img">
+                                                    <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                                                </div>
+                                                
+                                                <a href="javascript:void(0);" class="productLike"><em class="icon-favorite_outline"></em></a>
+                                            </div>
+                                            <div class="productCard_center text-center">
+                                                
+                                                <ul class="rating d-flex list-unstyled justify-content-center">
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <p>32</p>
+                                                </ul>
+                                                <span class="offer">50%</span>
+                                                <ul class="category d-flex list-unstyled justify-content-center mb-0">
+                                                    <li>OIL PARFUM</li>
+                                                    <li>75ML</li>
+                                                    <li>WOMEN</li>
+                                                </ul>
+                                                <h3>Jannatul Fridaus</h3>
+                                                <span class="price">12 AED <del>24 AED</del></span>
+                                            </div>
+                                            <div class="productCard_bottom">
+                                                <div class="viewProduct">
+                                                    <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                                        <li class="text-center">
+                                                            <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
+                                                            <span>Rose</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
+                                                            <span>Vanilla</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
+                                                            <span>Oud</span>  
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="addProduct">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
+                                                    </ul>                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="productCard">
+                                    <div class="productCard_sliderSpace">
+                                        <div class="productCard_inner productCard_inner--light">
+                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                                <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
+                                                <div class="centerImg">
+                                                    <img src="images/product-1.png"  class="img-fluid" alt="product-img">
+                                                    <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                                                </div>
+                                                
+                                                <a href="javascript:void(0);" class="productLike"><em class="icon-favorite_outline"></em></a>
+                                            </div>
+                                            <div class="productCard_center text-center">
+                                                
+                                                <ul class="rating d-flex list-unstyled justify-content-center">
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <p>32</p>
+                                                </ul>
+                                                <span class="offer">50%</span>
+                                                <ul class="category d-flex list-unstyled justify-content-center mb-0">
+                                                    <li>OIL PARFUM</li>
+                                                    <li>75ML</li>
+                                                    <li>WOMEN</li>
+                                                </ul>
+                                                <h3>Jannatul Fridaus</h3>
+                                                <span class="price">12 AED <del>24 AED</del></span>
+                                            </div>
+                                            <div class="productCard_bottom">
+                                                <div class="viewProduct">
+                                                    <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                                        <li class="text-center">
+                                                            <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
+                                                            <span>Rose</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
+                                                            <span>Vanilla</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
+                                                            <span>Oud</span>  
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="addProduct">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
+                                                    </ul>                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="productCard">
+                                    <div class="productCard_sliderSpace">
+                                        <div class="productCard_inner productCard_inner--dark">
+                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                                <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
+                                                <div class="centerImg">
+                                                    <img src="images/product-2.png"  class="img-fluid" alt="product-img">
+                                                    <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                                                </div>
+                                                
+                                                <a href="javascript:void(0);" class="productLike"><em class="icon-favorite_outline"></em></a>
+                                            </div>
+                                            <div class="productCard_center text-center">
+                                                
+                                                <ul class="rating d-flex list-unstyled justify-content-center">
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <p>32</p>
+                                                </ul>
+                                                <span class="offer">50%</span>
+                                                <ul class="category d-flex list-unstyled justify-content-center mb-0">
+                                                    <li>OIL PARFUM</li>
+                                                    <li>75ML</li>
+                                                    <li>WOMEN</li>
+                                                </ul>
+                                                <h3>Jannatul Fridaus</h3>
+                                                <span class="price">12 AED <del>24 AED</del></span>
+                                            </div>
+                                            <div class="productCard_bottom">
+                                                <div class="viewProduct">
+                                                    <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                                        <li class="text-center">
+                                                            <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
+                                                            <span>Rose</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
+                                                            <span>Vanilla</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
+                                                            <span>Oud</span>  
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="addProduct">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
+                                                    </ul>                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="productCard">
+                                    <div class="productCard_sliderSpace">
+                                        <div class="productCard_inner productCard_inner--extraDark">
+                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                                <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
+                                                <div class="centerImg">
+                                                    <img src="images/product-3.png"  class="img-fluid" alt="product-img">
+                                                    <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                                                </div>
+                                                
+                                                <a href="javascript:void(0);" class="productLike"><em class="icon-favorite_outline"></em></a>
+                                            </div>
+                                            <div class="productCard_center text-center">
+                                                
+                                                <ul class="rating d-flex list-unstyled justify-content-center">
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <p>32</p>
+                                                </ul>
+                                                <span class="offer">50%</span>
+                                                <ul class="category d-flex list-unstyled justify-content-center mb-0">
+                                                    <li>OIL PARFUM</li>
+                                                    <li>75ML</li>
+                                                    <li>WOMEN</li>
+                                                </ul>
+                                                <h3>Jannatul Fridaus</h3>
+                                                <span class="price">12 AED <del>24 AED</del></span>
+                                            </div>
+                                            <div class="productCard_bottom">
+                                                <div class="viewProduct">
+                                                    <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                                        <li class="text-center">
+                                                            <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
+                                                            <span>Rose</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
+                                                            <span>Vanilla</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
+                                                            <span>Oud</span>  
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="addProduct">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
+                                                    </ul>                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="productCard">
+                                    <div class="productCard_sliderSpace">
+                                        <div class="productCard_inner productCard_inner--mediumDark">
+                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                                <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
+                                                <div class="centerImg">
+                                                    <img src="images/product-4.png"  class="img-fluid" alt="product-img">
+                                                    <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                                                </div>
+                                                
+                                                <a href="javascript:void(0);" class="productLike"><em class="icon-favorite_outline"></em></a>
+                                            </div>
+                                            <div class="productCard_center text-center">
+                                                
+                                                <ul class="rating d-flex list-unstyled justify-content-center">
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <p>32</p>
+                                                </ul>
+                                                <span class="offer">50%</span>
+                                                <ul class="category d-flex list-unstyled justify-content-center mb-0">
+                                                    <li>OIL PARFUM</li>
+                                                    <li>75ML</li>
+                                                    <li>WOMEN</li>
+                                                </ul>
+                                                <h3>Jannatul Fridaus</h3>
+                                                <span class="price">12 AED <del>24 AED</del></span>
+                                            </div>
+                                            <div class="productCard_bottom">
+                                                <div class="viewProduct">
+                                                    <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                                        <li class="text-center">
+                                                            <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
+                                                            <span>Rose</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
+                                                            <span>Vanilla</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
+                                                            <span>Oud</span>  
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="addProduct">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
+                                                    </ul>                                    
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="productCard">
-                            <div class="productCard_sliderSpace">
-                                <div class="productCard_inner productCard_inner--dark">
-                                    <div class="productCard_top d-flex align-item-start justify-content-between">
-                                        <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
-                                        <div class="centerImg">
-                                            <img src="images/product-2.png"  class="img-fluid" alt="product-img">
-                                            <!-- <span class="outofstock">OUT OF STOCK</span> -->
-                                        </div>
-                                        
-                                        <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
-                                    </div>
-                                    <div class="productCard_center text-center">
-                                        
-                                        <ul class="rating d-flex list-unstyled justify-content-center">
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <p>32</p>
-                                        </ul>
-                                        <span class="offer">50%</span>
-                                        <ul class="category d-flex list-unstyled justify-content-center mb-0">
-                                            <li>OIL PARFUM</li>
-                                            <li>75ML</li>
-                                            <li>WOMEN</li>
-                                        </ul>
-                                        <h3>Jannatul Fridaus</h3>
-                                        <span class="price">12 AED <del>24 AED</del></span>
-                                    </div>
-                                    <div class="productCard_bottom">
-                                        <div class="viewProduct">
-                                            <ul class="list-unstyled d-flex justify-content-between mb-0">
-                                                <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="addProduct">
-                                            <ul class="d-flex list-unstyled">
-                                                <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
-                                                <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="productCard">
-                            <div class="productCard_sliderSpace">
-                                <div class="productCard_inner outOfStock productCard_inner--extraDark">
-                                    <div class="productCard_top d-flex align-item-start justify-content-between">
-                                        <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
-                                        <div class="centerImg">
-                                            <img src="images/product-3.png"  class="img-fluid" alt="product-img">
-                                            <span class="outofstock">OUT OF STOCK</span>
-                                        </div>
-                                        
-                                        <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
-                                    </div>
-                                    <div class="productCard_center text-center">
-                                        <ul class="rating d-flex list-unstyled justify-content-center">
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <p>32</p>
-                                        </ul>
-                                        <span class="offer">50%</span>
-                                        <ul class="category d-flex list-unstyled justify-content-center mb-0">
-                                            <li>OIL PARFUM</li>
-                                            <li>75ML</li>
-                                            <li>WOMEN</li>
-                                        </ul>
-                                        <h3>Jannatul Fridaus</h3>
-                                        <span class="price">12 AED <del>24 AED</del></span>
-                                    </div>
-                                    <div class="productCard_bottom">
-                                        <div class="viewProduct">
-                                            <ul class="list-unstyled d-flex justify-content-between mb-0">
-                                                <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="addProduct">
-                                            <ul class="d-flex list-unstyled">
-                                                <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
-                                                <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="productCard">
-                            <div class="productCard_sliderSpace">
-                                <div class="productCard_inner productCard_inner--mediumDark">
-                                    <div class="productCard_top d-flex align-item-start justify-content-between">
-                                        <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
-                                        <div class="centerImg">
-                                            <img src="images/product-4.png"  class="img-fluid" alt="product-img">
-                                            <!-- <span class="outofstock">OUT OF STOCK</span> -->
-                                        </div>
-                                        
-                                        <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
-                                    </div>
-                                    <div class="productCard_center text-center">
-                                        <ul class="rating d-flex list-unstyled justify-content-center">
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <p>32</p>
-                                        </ul>
-                                        <span class="offer">50%</span>
-                                        <ul class="category d-flex list-unstyled justify-content-center mb-0">
-                                            <li>OIL PARFUM</li>
-                                            <li>75ML</li>
-                                            <li>WOMEN</li>
-                                        </ul>
-                                        <h3>Jannatul Fridaus</h3>
-                                        <span class="price">12 AED <del>24 AED</del></span>
-                                    </div>
-                                    <div class="productCard_bottom">
-                                        <div class="viewProduct">
-                                            <ul class="list-unstyled d-flex justify-content-between mb-0">
-                                                <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="addProduct">
-                                            <ul class="d-flex list-unstyled">
-                                                <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
-                                                <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="productCard">
-                            <div class="productCard_sliderSpace">
-                                <div class="productCard_inner productCard_inner--light">
-                                    <div class="productCard_top d-flex align-item-start justify-content-between">
-                                        <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
-                                        <div class="centerImg">
-                                            <img src="images/product-1.png"  class="img-fluid" alt="product-img">
-                                            <!-- <span class="outofstock">OUT OF STOCK</span> -->
-                                        </div>
-                                        
-                                        <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
-                                    </div>
-                                    <div class="productCard_center text-center">
-                                        <ul class="rating d-flex list-unstyled justify-content-center">
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <p>32</p>
-                                        </ul>
-                                        <span class="offer">50%</span>
-                                        <ul class="category d-flex list-unstyled justify-content-center mb-0">
-                                            <li>OIL PARFUM</li>
-                                            <li>75ML</li>
-                                            <li>WOMEN</li>
-                                        </ul>
-                                        <h3>Jannatul Fridaus</h3>
-                                        <span class="price">12 AED <del>24 AED</del></span>
-                                    </div>
-                                    <div class="productCard_bottom">
-                                        <div class="viewProduct">
-                                            <ul class="list-unstyled d-flex justify-content-between mb-0">
-                                                <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="addProduct">
-                                            <ul class="d-flex list-unstyled">
-                                                <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
-                                                <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="productCard">
-                            <div class="productCard_sliderSpace">
-                                <div class="productCard_inner productCard_inner--dark">
-                                    <div class="productCard_top d-flex align-item-start justify-content-between">
-                                        <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
-                                        <div class="centerImg">
-                                            <img src="images/product-2.png"  class="img-fluid" alt="product-img">
-                                            <!-- <span class="outofstock">OUT OF STOCK</span> -->
-                                        </div>
-                                        
-                                        <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
-                                    </div>
-                                    <div class="productCard_center text-center">
-                                        <ul class="rating d-flex list-unstyled justify-content-center">
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <p>32</p>
-                                        </ul>
-                                        <span class="offer">50%</span>
-                                        <ul class="category d-flex list-unstyled justify-content-center mb-0">
-                                            <li>OIL PARFUM</li>
-                                            <li>75ML</li>
-                                            <li>WOMEN</li>
-                                        </ul>
-                                        <h3>Jannatul Fridaus</h3>
-                                        <span class="price">12 AED <del>24 AED</del></span>
-                                    </div>
-                                    <div class="productCard_bottom">
-                                        <div class="viewProduct">
-                                            <ul class="list-unstyled d-flex justify-content-between mb-0">
-                                                <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="addProduct">
-                                            <ul class="d-flex list-unstyled">
-                                                <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
-                                                <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="productCard">
-                            <div class="productCard_sliderSpace">
-                                <div class="productCard_inner outOfStock productCard_inner--extraDark">
-                                    <div class="productCard_top d-flex align-item-start justify-content-between">
-                                        <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
-                                        <div class="centerImg">
-                                            <img src="images/product-3.png"  class="img-fluid" alt="product-img">
-                                            <span class="outofstock">OUT OF STOCK</span>
-                                        </div>
-                                        
-                                        <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
-                                    </div>
-                                    <div class="productCard_center text-center">
-                                        <ul class="rating d-flex list-unstyled justify-content-center">
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <p>32</p>
-                                        </ul>
-                                        <span class="offer">50%</span>
-                                        <ul class="category d-flex list-unstyled justify-content-center mb-0">
-                                            <li>OIL PARFUM</li>
-                                            <li>75ML</li>
-                                            <li>WOMEN</li>
-                                        </ul>
-                                        <h3>Jannatul Fridaus</h3>
-                                        <span class="price">12 AED <del>24 AED</del></span>
-                                    </div>
-                                    <div class="productCard_bottom">
-                                        <div class="viewProduct">
-                                            <ul class="list-unstyled d-flex justify-content-between mb-0">
-                                                <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="addProduct">
-                                            <ul class="d-flex list-unstyled">
-                                                <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
-                                                <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="productCard">
-                            <div class="productCard_sliderSpace">
-                                <div class="productCard_inner productCard_inner--mediumDark">
-                                    <div class="productCard_top d-flex align-item-start justify-content-between">
-                                        <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
-                                        <div class="centerImg">
-                                            <img src="images/product-4.png"  class="img-fluid" alt="product-img">
-                                            <!-- <span class="outofstock">OUT OF STOCK</span> -->
-                                        </div>
-                                        
-                                        <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
-                                    </div>
-                                    <div class="productCard_center text-center">
-                                        <ul class="rating d-flex list-unstyled justify-content-center">
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <li><span class="icon-star"></span></li>
-                                            <p>32</p>
-                                        </ul>
-                                        <span class="offer">50%</span>
-                                        <ul class="category d-flex list-unstyled justify-content-center mb-0">
-                                            <li>OIL PARFUM</li>
-                                            <li>75ML</li>
-                                            <li>WOMEN</li>
-                                        </ul>
-                                        <h3>Jannatul Fridaus</h3>
-                                        <span class="price">12 AED <del>24 AED</del></span>
-                                    </div>
-                                    <div class="productCard_bottom">
-                                        <div class="viewProduct">
-                                            <ul class="list-unstyled d-flex justify-content-between mb-0">
-                                                <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
-                                                </li>
-                                                <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="addProduct">
-                                            <ul class="d-flex list-unstyled">
-                                                <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
-                                                <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -1167,466 +1228,495 @@
                             <h3 class="sectionHeading mb-0">New arrivals</h3>
                             <a href="javascript:void(0);" class="readMoreBtn">Discover all <img src="images/next-arrow.svg" class="img-fluid" alt="arrow"></a>
                         </div>
-                        <div class="popularCategories_slider sliderIcon">
-                            <div class="productCard">
-                                <div class="productCard_sliderSpace">
-                                    <div class="productCard_inner productCard_inner--light">
-                                        <div class="productCard_top d-flex align-item-start justify-content-between">
-                                            <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
-                                            <div class="centerImg">
-                                                <img src="images/product-1.png"  class="img-fluid" alt="product-img">
-                                                <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                        <div class="position-relative">
+                            <div class="swiper popularCategory_Slider swiperSliderIcon overflow-hidden">
+                                <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                <div class="productCard">
+                                    <div class="productCard_sliderSpace">
+                                        <div class="productCard_inner productCard_inner--light">
+                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                                <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
+                                                <div class="centerImg">
+                                                    <img src="images/product-1.png"  class="img-fluid" alt="product-img">
+                                                    <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                                                </div>
+                                                
+                                                <a href="javascript:void(0);" class="productLike"><em class="icon-favorite_outline"></em></a>
                                             </div>
-                                            
-                                            <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
-                                        </div>
-                                        <div class="productCard_center text-center">
-                                            
-                                            <ul class="rating d-flex list-unstyled justify-content-center">
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <p>32</p>
-                                            </ul>
-                                            <span class="offer">50%</span>
-                                            <ul class="category d-flex list-unstyled justify-content-center mb-0">
-                                                <li>OIL PARFUM</li>
-                                                <li>75ML</li>
-                                                <li>WOMEN</li>
-                                            </ul>
-                                            <h3>Jannatul Fridaus</h3>
-                                            <span class="price">12 AED <del>24 AED</del></span>
-                                        </div>
-                                        <div class="productCard_bottom">
-                                            <div class="viewProduct">
-                                                <ul class="list-unstyled d-flex justify-content-between mb-0">
-                                                    <li class="text-center">
-                                                        <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                        <span>Rose</span>  
-                                                    </li>
-                                                    <li class="text-center">
-                                                        <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                        <span>Vanilla</span>  
-                                                    </li>
-                                                    <li class="text-center">
-                                                        <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                        <span>Oud</span>  
-                                                    </li>
+                                            <div class="productCard_center text-center">
+                                                
+                                                <ul class="rating d-flex list-unstyled justify-content-center">
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <p>32</p>
                                                 </ul>
+                                                <span class="offer">50%</span>
+                                                <ul class="category d-flex list-unstyled justify-content-center mb-0">
+                                                    <li>OIL PARFUM</li>
+                                                    <li>75ML</li>
+                                                    <li>WOMEN</li>
+                                                </ul>
+                                                <h3>Jannatul Fridaus</h3>
+                                                <span class="price">12 AED <del>24 AED</del></span>
                                             </div>
-                                            <div class="addProduct">
-                                                <ul class="d-flex list-unstyled">
-                                                    <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
-                                                    <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                                </ul>                                    
+                                            <div class="productCard_bottom">
+                                                <div class="viewProduct">
+                                                    <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                                        <li class="text-center">
+                                                            <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
+                                                            <span>Rose</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
+                                                            <span>Vanilla</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
+                                                            <span>Oud</span>  
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="addProduct">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
+                                                    </ul>                                    
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="productCard">
-                                <div class="productCard_sliderSpace">
-                                    <div class="productCard_inner productCard_inner--dark">
-                                        <div class="productCard_top d-flex align-item-start justify-content-between">
-                                            <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
-                                            <div class="centerImg">
-                                                <img src="images/product-2.png"  class="img-fluid" alt="product-img">
-                                                <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                            <div class="swiper-slide">
+                                <div class="productCard">
+                                    <div class="productCard_sliderSpace">
+                                        <div class="productCard_inner productCard_inner--dark">
+                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                                <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
+                                                <div class="centerImg">
+                                                    <img src="images/product-2.png"  class="img-fluid" alt="product-img">
+                                                    <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                                                </div>
+                                                
+                                                <a href="javascript:void(0);" class="productLike"><em class="icon-favorite_outline"></em></a>
                                             </div>
-                                            
-                                            <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
-                                        </div>
-                                        <div class="productCard_center text-center">
-                                            
-                                            <ul class="rating d-flex list-unstyled justify-content-center">
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <p>32</p>
-                                            </ul>
-                                            <span class="offer">50%</span>
-                                            <ul class="category d-flex list-unstyled justify-content-center mb-0">
-                                                <li>OIL PARFUM</li>
-                                                <li>75ML</li>
-                                                <li>WOMEN</li>
-                                            </ul>
-                                            <h3>Jannatul Fridaus</h3>
-                                            <span class="price">12 AED <del>24 AED</del></span>
-                                        </div>
-                                        <div class="productCard_bottom">
-                                            <div class="viewProduct">
-                                                <ul class="list-unstyled d-flex justify-content-between mb-0">
-                                                    <li class="text-center">
-                                                        <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                        <span>Rose</span>  
-                                                    </li>
-                                                    <li class="text-center">
-                                                        <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                        <span>Vanilla</span>  
-                                                    </li>
-                                                    <li class="text-center">
-                                                        <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                        <span>Oud</span>  
-                                                    </li>
+                                            <div class="productCard_center text-center">
+                                                
+                                                <ul class="rating d-flex list-unstyled justify-content-center">
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <p>32</p>
                                                 </ul>
+                                                <span class="offer">50%</span>
+                                                <ul class="category d-flex list-unstyled justify-content-center mb-0">
+                                                    <li>OIL PARFUM</li>
+                                                    <li>75ML</li>
+                                                    <li>WOMEN</li>
+                                                </ul>
+                                                <h3>Jannatul Fridaus</h3>
+                                                <span class="price">12 AED <del>24 AED</del></span>
                                             </div>
-                                            <div class="addProduct">
-                                                <ul class="d-flex list-unstyled">
-                                                    <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
-                                                    <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                                </ul>                                    
+                                            <div class="productCard_bottom">
+                                                <div class="viewProduct">
+                                                    <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                                        <li class="text-center">
+                                                            <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
+                                                            <span>Rose</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
+                                                            <span>Vanilla</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
+                                                            <span>Oud</span>  
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="addProduct">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
+                                                    </ul>                                    
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="productCard">
-                                <div class="productCard_sliderSpace">
-                                    <div class="productCard_inner outOfStock productCard_inner--extraDark">
-                                        <div class="productCard_top d-flex align-item-start justify-content-between">
-                                            <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
-                                            <div class="centerImg">
-                                                <img src="images/product-3.png"  class="img-fluid" alt="product-img">
-                                                <span class="outofstock">OUT OF STOCK</span>
+                            <div class="swiper-slide">
+                                <div class="productCard">
+                                    <div class="productCard_sliderSpace">
+                                        <div class="productCard_inner productCard_inner--extraDark">
+                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                                <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
+                                                <div class="centerImg">
+                                                    <img src="images/product-3.png"  class="img-fluid" alt="product-img">
+                                                    <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                                                </div>
+                                                
+                                                <a href="javascript:void(0);" class="productLike"><em class="icon-favorite_outline"></em></a>
                                             </div>
-                                            
-                                            <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
-                                        </div>
-                                        <div class="productCard_center text-center">
-                                            <ul class="rating d-flex list-unstyled justify-content-center">
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <p>32</p>
-                                            </ul>
-                                            <span class="offer">50%</span>
-                                            <ul class="category d-flex list-unstyled justify-content-center mb-0">
-                                                <li>OIL PARFUM</li>
-                                                <li>75ML</li>
-                                                <li>WOMEN</li>
-                                            </ul>
-                                            <h3>Jannatul Fridaus</h3>
-                                            <span class="price">12 AED <del>24 AED</del></span>
-                                        </div>
-                                        <div class="productCard_bottom">
-                                            <div class="viewProduct">
-                                                <ul class="list-unstyled d-flex justify-content-between mb-0">
-                                                    <li class="text-center">
-                                                        <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                        <span>Rose</span>  
-                                                    </li>
-                                                    <li class="text-center">
-                                                        <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                        <span>Vanilla</span>  
-                                                    </li>
-                                                    <li class="text-center">
-                                                        <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                        <span>Oud</span>  
-                                                    </li>
+                                            <div class="productCard_center text-center">
+                                                
+                                                <ul class="rating d-flex list-unstyled justify-content-center">
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <p>32</p>
                                                 </ul>
+                                                <span class="offer">50%</span>
+                                                <ul class="category d-flex list-unstyled justify-content-center mb-0">
+                                                    <li>OIL PARFUM</li>
+                                                    <li>75ML</li>
+                                                    <li>WOMEN</li>
+                                                </ul>
+                                                <h3>Jannatul Fridaus</h3>
+                                                <span class="price">12 AED <del>24 AED</del></span>
                                             </div>
-                                            <div class="addProduct">
-                                                <ul class="d-flex list-unstyled">
-                                                    <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
-                                                    <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                                </ul>                                    
+                                            <div class="productCard_bottom">
+                                                <div class="viewProduct">
+                                                    <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                                        <li class="text-center">
+                                                            <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
+                                                            <span>Rose</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
+                                                            <span>Vanilla</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
+                                                            <span>Oud</span>  
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="addProduct">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
+                                                    </ul>                                    
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="productCard">
-                                <div class="productCard_sliderSpace">
-                                    <div class="productCard_inner productCard_inner--mediumDark">
-                                        <div class="productCard_top d-flex align-item-start justify-content-between">
-                                            <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
-                                            <div class="centerImg">
-                                                <img src="images/product-4.png"  class="img-fluid" alt="product-img">
-                                                <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                            <div class="swiper-slide">
+                                <div class="productCard">
+                                    <div class="productCard_sliderSpace">
+                                        <div class="productCard_inner productCard_inner--mediumDark">
+                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                                <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
+                                                <div class="centerImg">
+                                                    <img src="images/product-4.png"  class="img-fluid" alt="product-img">
+                                                    <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                                                </div>
+                                                
+                                                <a href="javascript:void(0);" class="productLike"><em class="icon-favorite_outline"></em></a>
                                             </div>
-                                            
-                                            <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
-                                        </div>
-                                        <div class="productCard_center text-center">
-                                            <ul class="rating d-flex list-unstyled justify-content-center">
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <p>32</p>
-                                            </ul>
-                                            <span class="offer">50%</span>
-                                            <ul class="category d-flex list-unstyled justify-content-center mb-0">
-                                                <li>OIL PARFUM</li>
-                                                <li>75ML</li>
-                                                <li>WOMEN</li>
-                                            </ul>
-                                            <h3>Jannatul Fridaus</h3>
-                                            <span class="price">12 AED <del>24 AED</del></span>
-                                        </div>
-                                        <div class="productCard_bottom">
-                                            <div class="viewProduct">
-                                                <ul class="list-unstyled d-flex justify-content-between mb-0">
-                                                    <li class="text-center">
-                                                        <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                        <span>Rose</span>  
-                                                    </li>
-                                                    <li class="text-center">
-                                                        <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                        <span>Vanilla</span>  
-                                                    </li>
-                                                    <li class="text-center">
-                                                        <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                        <span>Oud</span>  
-                                                    </li>
+                                            <div class="productCard_center text-center">
+                                                
+                                                <ul class="rating d-flex list-unstyled justify-content-center">
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <p>32</p>
                                                 </ul>
+                                                <span class="offer">50%</span>
+                                                <ul class="category d-flex list-unstyled justify-content-center mb-0">
+                                                    <li>OIL PARFUM</li>
+                                                    <li>75ML</li>
+                                                    <li>WOMEN</li>
+                                                </ul>
+                                                <h3>Jannatul Fridaus</h3>
+                                                <span class="price">12 AED <del>24 AED</del></span>
                                             </div>
-                                            <div class="addProduct">
-                                                <ul class="d-flex list-unstyled">
-                                                    <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
-                                                    <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                                </ul>                                    
+                                            <div class="productCard_bottom">
+                                                <div class="viewProduct">
+                                                    <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                                        <li class="text-center">
+                                                            <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
+                                                            <span>Rose</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
+                                                            <span>Vanilla</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
+                                                            <span>Oud</span>  
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="addProduct">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
+                                                    </ul>                                    
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="productCard">
-                                <div class="productCard_sliderSpace">
-                                    <div class="productCard_inner productCard_inner--light">
-                                        <div class="productCard_top d-flex align-item-start justify-content-between">
-                                            <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
-                                            <div class="centerImg">
-                                                <img src="images/product-1.png"  class="img-fluid" alt="product-img">
-                                                <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                            <div class="swiper-slide">
+                                <div class="productCard">
+                                    <div class="productCard_sliderSpace">
+                                        <div class="productCard_inner productCard_inner--light">
+                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                                <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
+                                                <div class="centerImg">
+                                                    <img src="images/product-1.png"  class="img-fluid" alt="product-img">
+                                                    <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                                                </div>
+                                                
+                                                <a href="javascript:void(0);" class="productLike"><em class="icon-favorite_outline"></em></a>
                                             </div>
-                                            
-                                            <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
-                                        </div>
-                                        <div class="productCard_center text-center">
-                                            <ul class="rating d-flex list-unstyled justify-content-center">
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <p>32</p>
-                                            </ul>
-                                            <span class="offer">50%</span>
-                                            <ul class="category d-flex list-unstyled justify-content-center mb-0">
-                                                <li>OIL PARFUM</li>
-                                                <li>75ML</li>
-                                                <li>WOMEN</li>
-                                            </ul>
-                                            <h3>Jannatul Fridaus</h3>
-                                            <span class="price">12 AED <del>24 AED</del></span>
-                                        </div>
-                                        <div class="productCard_bottom">
-                                            <div class="viewProduct">
-                                                <ul class="list-unstyled d-flex justify-content-between mb-0">
-                                                    <li class="text-center">
-                                                        <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                        <span>Rose</span>  
-                                                    </li>
-                                                    <li class="text-center">
-                                                        <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                        <span>Vanilla</span>  
-                                                    </li>
-                                                    <li class="text-center">
-                                                        <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                        <span>Oud</span>  
-                                                    </li>
+                                            <div class="productCard_center text-center">
+                                                
+                                                <ul class="rating d-flex list-unstyled justify-content-center">
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <p>32</p>
                                                 </ul>
+                                                <span class="offer">50%</span>
+                                                <ul class="category d-flex list-unstyled justify-content-center mb-0">
+                                                    <li>OIL PARFUM</li>
+                                                    <li>75ML</li>
+                                                    <li>WOMEN</li>
+                                                </ul>
+                                                <h3>Jannatul Fridaus</h3>
+                                                <span class="price">12 AED <del>24 AED</del></span>
                                             </div>
-                                            <div class="addProduct">
-                                                <ul class="d-flex list-unstyled">
-                                                    <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
-                                                    <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                                </ul>                                    
+                                            <div class="productCard_bottom">
+                                                <div class="viewProduct">
+                                                    <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                                        <li class="text-center">
+                                                            <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
+                                                            <span>Rose</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
+                                                            <span>Vanilla</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
+                                                            <span>Oud</span>  
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="addProduct">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
+                                                    </ul>                                    
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="productCard">
-                                <div class="productCard_sliderSpace">
-                                    <div class="productCard_inner productCard_inner--dark">
-                                        <div class="productCard_top d-flex align-item-start justify-content-between">
-                                            <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
-                                            <div class="centerImg">
-                                                <img src="images/product-2.png"  class="img-fluid" alt="product-img">
-                                                <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                            <div class="swiper-slide">
+                                <div class="productCard">
+                                    <div class="productCard_sliderSpace">
+                                        <div class="productCard_inner productCard_inner--dark">
+                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                                <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
+                                                <div class="centerImg">
+                                                    <img src="images/product-2.png"  class="img-fluid" alt="product-img">
+                                                    <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                                                </div>
+                                                
+                                                <a href="javascript:void(0);" class="productLike"><em class="icon-favorite_outline"></em></a>
                                             </div>
-                                            
-                                            <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
-                                        </div>
-                                        <div class="productCard_center text-center">
-                                            <ul class="rating d-flex list-unstyled justify-content-center">
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <p>32</p>
-                                            </ul>
-                                            <span class="offer">50%</span>
-                                            <ul class="category d-flex list-unstyled justify-content-center mb-0">
-                                                <li>OIL PARFUM</li>
-                                                <li>75ML</li>
-                                                <li>WOMEN</li>
-                                            </ul>
-                                            <h3>Jannatul Fridaus</h3>
-                                            <span class="price">12 AED <del>24 AED</del></span>
-                                        </div>
-                                        <div class="productCard_bottom">
-                                            <div class="viewProduct">
-                                                <ul class="list-unstyled d-flex justify-content-between mb-0">
-                                                    <li class="text-center">
-                                                        <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                        <span>Rose</span>  
-                                                    </li>
-                                                    <li class="text-center">
-                                                        <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                        <span>Vanilla</span>  
-                                                    </li>
-                                                    <li class="text-center">
-                                                        <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                        <span>Oud</span>  
-                                                    </li>
+                                            <div class="productCard_center text-center">
+                                                
+                                                <ul class="rating d-flex list-unstyled justify-content-center">
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <p>32</p>
                                                 </ul>
+                                                <span class="offer">50%</span>
+                                                <ul class="category d-flex list-unstyled justify-content-center mb-0">
+                                                    <li>OIL PARFUM</li>
+                                                    <li>75ML</li>
+                                                    <li>WOMEN</li>
+                                                </ul>
+                                                <h3>Jannatul Fridaus</h3>
+                                                <span class="price">12 AED <del>24 AED</del></span>
                                             </div>
-                                            <div class="addProduct">
-                                                <ul class="d-flex list-unstyled">
-                                                    <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
-                                                    <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                                </ul>                                    
+                                            <div class="productCard_bottom">
+                                                <div class="viewProduct">
+                                                    <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                                        <li class="text-center">
+                                                            <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
+                                                            <span>Rose</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
+                                                            <span>Vanilla</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
+                                                            <span>Oud</span>  
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="addProduct">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
+                                                    </ul>                                    
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="productCard">
-                                <div class="productCard_sliderSpace">
-                                    <div class="productCard_inner outOfStock productCard_inner--extraDark">
-                                        <div class="productCard_top d-flex align-item-start justify-content-between">
-                                            <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
-                                            <div class="centerImg">
-                                                <img src="images/product-3.png"  class="img-fluid" alt="product-img">
-                                                <span class="outofstock">OUT OF STOCK</span>
+                            <div class="swiper-slide">
+                                <div class="productCard">
+                                    <div class="productCard_sliderSpace">
+                                        <div class="productCard_inner productCard_inner--extraDark">
+                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                                <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
+                                                <div class="centerImg">
+                                                    <img src="images/product-3.png"  class="img-fluid" alt="product-img">
+                                                    <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                                                </div>
+                                                
+                                                <a href="javascript:void(0);" class="productLike"><em class="icon-favorite_outline"></em></a>
                                             </div>
-                                            
-                                            <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
-                                        </div>
-                                        <div class="productCard_center text-center">
-                                            <ul class="rating d-flex list-unstyled justify-content-center">
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <p>32</p>
-                                            </ul>
-                                            <span class="offer">50%</span>
-                                            <ul class="category d-flex list-unstyled justify-content-center mb-0">
-                                                <li>OIL PARFUM</li>
-                                                <li>75ML</li>
-                                                <li>WOMEN</li>
-                                            </ul>
-                                            <h3>Jannatul Fridaus</h3>
-                                            <span class="price">12 AED <del>24 AED</del></span>
-                                        </div>
-                                        <div class="productCard_bottom">
-                                            <div class="viewProduct">
-                                                <ul class="list-unstyled d-flex justify-content-between mb-0">
-                                                    <li class="text-center">
-                                                        <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                        <span>Rose</span>  
-                                                    </li>
-                                                    <li class="text-center">
-                                                        <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                        <span>Vanilla</span>  
-                                                    </li>
-                                                    <li class="text-center">
-                                                        <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                        <span>Oud</span>  
-                                                    </li>
+                                            <div class="productCard_center text-center">
+                                                
+                                                <ul class="rating d-flex list-unstyled justify-content-center">
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <p>32</p>
                                                 </ul>
+                                                <span class="offer">50%</span>
+                                                <ul class="category d-flex list-unstyled justify-content-center mb-0">
+                                                    <li>OIL PARFUM</li>
+                                                    <li>75ML</li>
+                                                    <li>WOMEN</li>
+                                                </ul>
+                                                <h3>Jannatul Fridaus</h3>
+                                                <span class="price">12 AED <del>24 AED</del></span>
                                             </div>
-                                            <div class="addProduct">
-                                                <ul class="d-flex list-unstyled">
-                                                    <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
-                                                    <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                                </ul>                                    
+                                            <div class="productCard_bottom">
+                                                <div class="viewProduct">
+                                                    <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                                        <li class="text-center">
+                                                            <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
+                                                            <span>Rose</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
+                                                            <span>Vanilla</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
+                                                            <span>Oud</span>  
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="addProduct">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
+                                                    </ul>                                    
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="productCard">
-                                <div class="productCard_sliderSpace">
-                                    <div class="productCard_inner productCard_inner--mediumDark">
-                                        <div class="productCard_top d-flex align-item-start justify-content-between">
-                                            <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
-                                            <div class="centerImg">
-                                                <img src="images/product-4.png"  class="img-fluid" alt="product-img">
-                                                <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                            <div class="swiper-slide">
+                                <div class="productCard">
+                                    <div class="productCard_sliderSpace">
+                                        <div class="productCard_inner productCard_inner--mediumDark">
+                                            <div class="productCard_top d-flex align-item-start justify-content-between">
+                                                <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
+                                                <div class="centerImg">
+                                                    <img src="images/product-4.png"  class="img-fluid" alt="product-img">
+                                                    <!-- <span class="outofstock">OUT OF STOCK</span> -->
+                                                </div>
+                                                
+                                                <a href="javascript:void(0);" class="productLike"><em class="icon-favorite_outline"></em></a>
                                             </div>
-                                            
-                                            <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
-                                        </div>
-                                        <div class="productCard_center text-center">
-                                            <ul class="rating d-flex list-unstyled justify-content-center">
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <li><span class="icon-star"></span></li>
-                                                <p>32</p>
-                                            </ul>
-                                            <span class="offer">50%</span>
-                                            <ul class="category d-flex list-unstyled justify-content-center mb-0">
-                                                <li>OIL PARFUM</li>
-                                                <li>75ML</li>
-                                                <li>WOMEN</li>
-                                            </ul>
-                                            <h3>Jannatul Fridaus</h3>
-                                            <span class="price">12 AED <del>24 AED</del></span>
-                                        </div>
-                                        <div class="productCard_bottom">
-                                            <div class="viewProduct">
-                                                <ul class="list-unstyled d-flex justify-content-between mb-0">
-                                                    <li class="text-center">
-                                                        <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                        <span>Rose</span>  
-                                                    </li>
-                                                    <li class="text-center">
-                                                        <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                        <span>Vanilla</span>  
-                                                    </li>
-                                                    <li class="text-center">
-                                                        <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                        <span>Oud</span>  
-                                                    </li>
+                                            <div class="productCard_center text-center">
+                                                
+                                                <ul class="rating d-flex list-unstyled justify-content-center">
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <li><span class="icon-star"></span></li>
+                                                    <p>32</p>
                                                 </ul>
+                                                <span class="offer">50%</span>
+                                                <ul class="category d-flex list-unstyled justify-content-center mb-0">
+                                                    <li>OIL PARFUM</li>
+                                                    <li>75ML</li>
+                                                    <li>WOMEN</li>
+                                                </ul>
+                                                <h3>Jannatul Fridaus</h3>
+                                                <span class="price">12 AED <del>24 AED</del></span>
                                             </div>
-                                            <div class="addProduct">
-                                                <ul class="d-flex list-unstyled">
-                                                    <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
-                                                    <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                                </ul>                                    
+                                            <div class="productCard_bottom">
+                                                <div class="viewProduct">
+                                                    <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                                        <li class="text-center">
+                                                            <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
+                                                            <span>Rose</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
+                                                            <span>Vanilla</span>  
+                                                        </li>
+                                                        <li class="text-center">
+                                                            <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
+                                                            <span>Oud</span>  
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="addProduct">
+                                                    <ul class="d-flex list-unstyled">
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
+                                                        <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
+                                                    </ul>                                    
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div> 
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -2124,120 +2214,6 @@
             </div>
         </section>
 
-        <Section class="reviewSection py-55 pt-0 overflow-hidden">
-            <div class="container">
-                <div class="reviewSection_top">
-                    <h3 class="sectionHeading">Reviews</h3>
-                </div>
-                <div class="reviewSection_inner">
-                    <div class="swiper reviewSlider">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="reviewBox">
-                                    <div class="d-flex align-items-center">
-                                        <div class="reviewBox_img">
-                                            <img src="images/review-product.png" class="img-fluid" alt="product">
-                                        </div>
-                                        <div class="reviewBox_txt">
-                                            <h3>Unlocks an old memory</h3>
-                                            <p>Nothing unlocks an old memory better than smell, be it the memory of lost love or of a fond friend. At Ajmal we help towards recreating those memories through our fragrances.</p>
-                                            <div class="userInfo d-flex align-items-start justify-content-between">
-                                                <div class="d-flex align-items-center">
-                                                    <div class="userInfo_img">
-                                                        <img src="images/avatar-img.png" class="img-fluid" alt="user">
-                                                    </div>
-                                                    <div class="userInfo_txt">
-                                                        <h6>Sue Smit</h6>
-                                                        <p>London, United Kingdom</p>
-                                                    </div>
-                                                </div>
-                                                <div class="rating">
-                                                    <ul class=" d-flex list-unstyled justify-content-center">
-                                                        <li><span class="icon-star"></span></li>
-                                                        <li><span class="icon-star"></span></li>
-                                                        <li><span class="icon-star"></span></li>
-                                                        <li><span class="icon-star"></span></li>
-                                                        <li><span class="icon-star"></span></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="reviewBox">
-                                    <div class="d-flex align-items-center">
-                                        <div class="reviewBox_img">
-                                            <img src="images/review-product.png" class="img-fluid" alt="product">
-                                        </div>
-                                        <div class="reviewBox_txt">
-                                            <h3>Unlocks an old memory</h3>
-                                            <p>Nothing unlocks an old memory better than smell, be it the memory of lost love or of a fond friend. At Ajmal we help towards recreating those memories through our fragrances.</p>
-                                            <div class="userInfo d-flex align-items-start justify-content-between">
-                                                <div class="d-flex align-items-center">
-                                                    <div class="userInfo_img">
-                                                        <img src="images/avatar-img.png" class="img-fluid" alt="user">
-                                                    </div>
-                                                    <div class="userInfo_txt">
-                                                        <h6>Sue Smit</h6>
-                                                        <p>London, United Kingdom</p>
-                                                    </div>
-                                                </div>
-                                                <div class="rating">
-                                                    <ul class=" d-flex list-unstyled justify-content-center">
-                                                        <li><span class="icon-star"></span></li>
-                                                        <li><span class="icon-star"></span></li>
-                                                        <li><span class="icon-star"></span></li>
-                                                        <li><span class="icon-star"></span></li>
-                                                        <li><span class="icon-star"></span></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="reviewBox">
-                                    <div class="d-flex align-items-center">
-                                        <div class="reviewBox_img">
-                                            <img src="images/review-product.png" class="img-fluid" alt="product">
-                                        </div>
-                                        <div class="reviewBox_txt">
-                                            <h3>Unlocks an old memory</h3>
-                                            <p>Nothing unlocks an old memory better than smell, be it the memory of lost love or of a fond friend. At Ajmal we help towards recreating those memories through our fragrances.</p>
-                                            <div class="userInfo d-flex align-items-start justify-content-between">
-                                                <div class="d-flex align-items-center">
-                                                    <div class="userInfo_img">
-                                                        <img src="images/avatar-img.png" class="img-fluid" alt="user">
-                                                    </div>
-                                                    <div class="userInfo_txt">
-                                                        <h6>Sue Smit</h6>
-                                                        <p>London, United Kingdom</p>
-                                                    </div>
-                                                </div>
-                                                <div class="rating">
-                                                    <ul class=" d-flex list-unstyled justify-content-center">
-                                                        <li><span class="icon-star"></span></li>
-                                                        <li><span class="icon-star"></span></li>
-                                                        <li><span class="icon-star"></span></li>
-                                                        <li><span class="icon-star"></span></li>
-                                                        <li><span class="icon-star"></span></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                    </div>
-                </div>
-            </div>
-        </Section>
         <!-- Login Modal -->
         <!-- Modal -->
         <div class="commonModal loginSignUpModal">
@@ -2482,12 +2458,53 @@
     <script type="text/javascript" src="js/swiper.min.js"></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
     <script>
-      var swiper = new Swiper(".reviewSlider", {
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
+        var swiper = new Swiper(".arrivalsSection_slider", {
+            slidesPerView: 4,
+            spaceBetween: 32,
+            slidesPerGroup: 1,
+            loop: false,
+            loopFillGroupWithBlank: true,
+            navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            }
+        });
+
+        var swiper = new Swiper(".giftingSection_slider", {
+            slidesPerView: 4,
+            spaceBetween: 32,
+            slidesPerGroup: 1,
+            loop: false,
+            loopFillGroupWithBlank: true,
+            navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            }
+        });
+
+        var swiper = new Swiper(".popularCategory_Slider", {
+            slidesPerView: 4,
+            spaceBetween: 32,
+            slidesPerGroup: 1,
+            loop: false,
+            loopFillGroupWithBlank: true,
+            navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            }
+        });
     </script>
     <!-- <script>
         $( document ).ready(function() {
@@ -2565,27 +2582,27 @@
 </script>
     <script>
          $(document).ready(function(){
-            $('.arrivalsSection_slider').slick({
-                dots: true,
-                infinite: false,
-                speed: 300,
-                slidesToShow: 4,
-                slidesToScroll: 1,
-            });
-            $('.giftingSection_slider').slick({
-                dots: true,
-                infinite: false,
-                speed: 300,
-                slidesToShow: 4,
-                slidesToScroll: 1,
-            });
-            $('.popularCategories_slider').slick({
-                dots: true,
-                infinite: false,
-                speed: 300,
-                slidesToShow: 4,
-                slidesToScroll: 1,
-            });
+            // $('.arrivalsSection_slider').slick({
+            //     dots: true,
+            //     infinite: false,
+            //     speed: 300,
+            //     slidesToShow: 4,
+            //     slidesToScroll: 1,
+            // });
+            // $('.giftingSection_slider').slick({
+            //     dots: true,
+            //     infinite: false,
+            //     speed: 300,
+            //     slidesToShow: 4,
+            //     slidesToScroll: 1,
+            // });
+            // $('.popularCategories_slider').slick({
+            //     dots: true,
+            //     infinite: false,
+            //     speed: 300,
+            //     slidesToShow: 4,
+            //     slidesToScroll: 1,
+            // });
             $('.reviewSection_slider').slick({
                 dots: true,
                 infinite: false,
