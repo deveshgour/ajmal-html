@@ -14,7 +14,6 @@
     <?php include('include/header.php'); ?>
     <main class="mainContent homePage">
         <section class="bannerSection">
-
             <div class="bannerSlider">
                 <div class="bannerSlider_item bannerSlider_item--1">
                     <div class="container-fluid">
@@ -82,7 +81,6 @@
                 </div>
 
             </div>
-
         </section>
         <section class="fragrancesSection py-55">
             <div class="container">
