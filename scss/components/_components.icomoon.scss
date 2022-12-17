@@ -26,8 +26,12 @@
 }
 
 
-.icon-check:before {
-  content: "\e905";
+.icon-youtube1:before {
+  content: "\e90f";
+}
+.icon-youtube:before {
+  content: "\e90e";
+  color: #f00;
 }
 .icon-star:before {
   content: "\e900";
@@ -40,5 +44,35 @@
 }
 .icon-prev-arrow:before {
   content: "\e903";
+}
+.icon-social-linkedin:before {
+  content: "\e90d";
+}
+.icon-favorite_outline:before {
+  content: "\e908";
+}
+.icon-favorite:before {
+  content: "\e909";
+}
+.icon-login:before {
+  content: "\e907";
+}
+.icon-voice:before {
+  content: "\e906";
+}
+.icon-search:before {
+  content: "\e904";
+}
+.icon-check:before {
+  content: "\e905";
+}
+.icon-twitter:before {
+  content: "\e90c";
+}
+.icon-facebook:before {
+  content: "\e90b";
+}
+.icon-chat:before {
+  content: "\e90a";
 }
 

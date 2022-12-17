@@ -111,7 +111,7 @@
                                             <!-- <span class="outofstock">OUT OF STOCK</span> -->
                                         </div>
                                         
-                                        <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
+                                        <a href="javascript:void(0);" class="productLike"><em class="icon-favorite_outline"></em></a>
                                     </div>
                                     <div class="productCard_center text-center">
                                         
@@ -2343,6 +2343,7 @@
        $('.createAccountActionBtn, .loginActionBtn').on('click', function() {
          $(".loginSignUpModal").toggleClass("showSignUp")
        })
+       
        
 
         $(document).ready(function() {

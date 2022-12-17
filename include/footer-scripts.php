@@ -74,6 +74,11 @@ $(window).resize(function(){
 
 AOS.init();
 
+$('.productLike').click(function(){
+     $(this).find('em').toggleClass('icon-favorite');
+     $(this).find('em').toggleClass('icon-favorite_outline');
+})
+
 $('#searchItems').click(function(){
      $('#navigationBar').toggleClass('newBarHide');
      $('.searchBarMenu').css({'display':'block', "height": "100%"});
