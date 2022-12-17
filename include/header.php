@@ -85,7 +85,7 @@
                                                 <a href="#">
                                                     <div class="dropdown-menu-cat">Hindi</div>
                                                     <div class="dropdown-menu-img">
-                                                        <img src="images/hindi.png" alt="hindi" class="img-fluid"/>
+                                                        <img src="images/hindi.png" alt="hindi" class="img-fluid" />
                                                     </div>
                                                 </a>
                                             </div>
@@ -93,7 +93,7 @@
                                                 <a href="#">
                                                     <div class="dropdown-menu-cat">Muri</div>
                                                     <div class="dropdown-menu-img">
-                                                        <img src="images/muri.png" alt="muri" class="img-fluid"/>
+                                                        <img src="images/muri.png" alt="muri" class="img-fluid" />
                                                     </div>
                                                 </a>
                                             </div>
@@ -101,11 +101,11 @@
                                                 <a href="#">
                                                     <div class="dropdown-menu-cat">Indian</div>
                                                     <div class="dropdown-menu-img">
-                                                        <img src="images/indian.png" alt="indian" class="img-fluid"/>
+                                                        <img src="images/indian.png" alt="indian" class="img-fluid" />
                                                     </div>
                                                 </a>
                                             </div>
-                                          
+
                                         </div>
                                     </div>
 
@@ -118,7 +118,7 @@
                                                     <span class="menuImg_txt">Jannatual Firdaus</span>
                                                 </div>
                                             </div>
-                                         
+
                                         </div>
                                     </div>
                                 </div>
@@ -408,6 +408,38 @@
     </div>
 </div>
 
+<div class="voiceSearch d-none">
+    <div class="voiceSearch_head">
+        <div class="voiceSearch_head_left">
+            <img src="images/logo.svg" class="img-fluid" alt="logo" />
+        </div>
+        <div class="voiceSearch_head_right">
+            <a href="javascript:;"><img src="images/close.svg" class="img-fluid" alt="logo" /></a>
+        </div>
+    </div>
+
+    <div class="voiceSearch_body">
+        <div class="voiceSearch_mic">
+            <div class="voiceSearch_mic_icon">
+                <!-- <div class="waveWrapper waveAnimation">
+                    <div class="waveWrapperInner bgTop">
+                        <div class="wave waveTop" style="background-image: url('images/wave_1.png')"></div>
+                    </div>
+                    <div class="waveWrapperInner bgMiddle">
+                        <div class="wave waveMiddle" style="background-image: url('images/wave_2.png')"></div>
+                    </div>
+                    <div class="waveWrapperInner bgBottom">
+                        <div class="wave waveBottom" style="background-image: url('images/wave_3.png')"></div>
+                    </div>
+                    <div class="waveWrapperInner bgEnd">
+                        <div class="wave waveEnd" style="background-image: url('images/wave_4.png')"></div>
+                    </div>
+                </div> -->
+                <img src="images/mic.svg" alt="mic" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- Search Bar -->
 <div class="searchBarMenu">
