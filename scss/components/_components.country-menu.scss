@@ -69,4 +69,10 @@ body{
             display: block;
         }
     }
+    &.searchBarOpen{
+        .customOverlay{
+            display: block;
+        }
+    }
+    
 }
