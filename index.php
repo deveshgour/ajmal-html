@@ -13,77 +13,77 @@
 <body>
     <?php include('include/header.php'); ?>
     <main class="mainContent homePage">
-    <section class="bannerSection">
-           
-           <div class="bannerSlider">
-               <div class="bannerSlider_item bannerSlider_item--1">
-                   <div class="container-fluid">
-                       <div class="row">
-                           <div class="col-md-7 bannerSection_left">
-                               <h1>Ajmal <span>Perfumes</span> <br>
-                               Fragrances that  <span>Delight</span> </h1>
-                                   
-                                   <p>Nothing unlocks an old memory better than smell, be it the memory of lost <br>love or of a fond friend. At Ajmal we help towards recreating those memories <br> through our fragrances.</p>
-                                   <a class="discoverAllBtn" href="#">Discover all</a>
-                           </div>
-                           <div class="col-md-5 bannerSection_right">
-                               <div class="bannerSection_productBox">
-                                   <img src="images/amber-wood-noir.png" class="img-fluid mx-auto" alt=""/>
-                                   <p>Eau de parfume / 75 ML / WOMEN</p>   
-                                   <h2>Amber Wood Noir</h2>
-                                   <div class="bannerSection_productBox_price">24 AED</div>
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-               <div class="bannerSlider_item bannerSlider_item--2">
-                   <div class="container-fluid">
-                       <div class="row">
-                           <div class="col-md-7 bannerSection_left">
-                               <h1>Ajmal <span>Perfumes</span> <br>
-                               Fragrances that  <span>Delight</span> </h1>
-                                   
-                                   <p>Nothing unlocks an old memory better than smell, be it the memory of lost <br>love or of a fond friend. At Ajmal we help towards recreating those memories <br> through our fragrances.</p>
-                                   <a class="discoverAllBtn" href="#">Discover all</a>
-                           </div>
-                           <div class="col-md-5 bannerSection_right">
-                               <div class="bannerSection_productBox">
-                                   <img src="images/amber-wood-noir-2.png" class="img-fluid mx-auto" alt=""/>
-                                   <p>Eau de parfume / 75 ML / WOMEN</p>   
-                                   <h2>Amber Wood Noir</h2>
-                                   <div class="bannerSection_productBox_price">24 AED</div>
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-               </div>
+        <section class="bannerSection">
 
-               <div class="bannerSlider_item bannerSlider_item--3">
-                   <div class="container-fluid">
-                       <div class="row">
-                           <div class="col-md-7 bannerSection_left">
-                               <h1>Ajmal <span>Perfumes</span> <br>
-                               Fragrances that  <span>Delight</span> </h1>
-                                   
-                                   <p>Nothing unlocks an old memory better than smell, be it the memory of lost <br>love or of a fond friend. At Ajmal we help towards recreating those memories <br> through our fragrances.</p>
-                                   <a class="discoverAllBtn" href="#">Discover all</a>
-                           </div>
-                           <div class="col-md-5 bannerSection_right">
-                               <div class="bannerSection_productBox">
-                                   <img src="images/amber-wood-noir.png" class="img-fluid mx-auto" alt=""/>
-                                   <p>Eau de parfume / 75 ML / WOMEN</p>   
-                                   <h2>Amber Wood Noir</h2>
-                                   <div class="bannerSection_productBox_price">24 AED</div>
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-              
-           </div>
-     
-   </section>
+            <div class="bannerSlider">
+                <div class="bannerSlider_item bannerSlider_item--1">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-7 bannerSection_left">
+                                <h1>Ajmal <span>Perfumes</span> <br>
+                                    Fragrances that <span>Delight</span> </h1>
+
+                                <p>Nothing unlocks an old memory better than smell, be it the memory of lost <br>love or of a fond friend. At Ajmal we help towards recreating those memories <br> through our fragrances.</p>
+                                <a class="discoverAllBtn" href="#">Discover all</a>
+                            </div>
+                            <div class="col-md-5 bannerSection_right">
+                                <div class="bannerSection_productBox">
+                                    <img src="images/amber-wood-noir.png" class="img-fluid mx-auto" alt="" />
+                                    <p>Eau de parfume / 75 ML / WOMEN</p>
+                                    <h2>Amber Wood Noir</h2>
+                                    <div class="bannerSection_productBox_price">24 AED</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bannerSlider_item bannerSlider_item--2">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-7 bannerSection_left">
+                                <h1>Ajmal <span>Perfumes</span> <br>
+                                    Fragrances that <span>Delight</span> </h1>
+
+                                <p>Nothing unlocks an old memory better than smell, be it the memory of lost <br>love or of a fond friend. At Ajmal we help towards recreating those memories <br> through our fragrances.</p>
+                                <a class="discoverAllBtn" href="#">Discover all</a>
+                            </div>
+                            <div class="col-md-5 bannerSection_right">
+                                <div class="bannerSection_productBox">
+                                    <img src="images/amber-wood-noir-2.png" class="img-fluid mx-auto" alt="" />
+                                    <p>Eau de parfume / 75 ML / WOMEN</p>
+                                    <h2>Amber Wood Noir</h2>
+                                    <div class="bannerSection_productBox_price">24 AED</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bannerSlider_item bannerSlider_item--3">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-7 bannerSection_left">
+                                <h1>Ajmal <span>Perfumes</span> <br>
+                                    Fragrances that <span>Delight</span> </h1>
+
+                                <p>Nothing unlocks an old memory better than smell, be it the memory of lost <br>love or of a fond friend. At Ajmal we help towards recreating those memories <br> through our fragrances.</p>
+                                <a class="discoverAllBtn" href="#">Discover all</a>
+                            </div>
+                            <div class="col-md-5 bannerSection_right">
+                                <div class="bannerSection_productBox">
+                                    <img src="images/amber-wood-noir.png" class="img-fluid mx-auto" alt="" />
+                                    <p>Eau de parfume / 75 ML / WOMEN</p>
+                                    <h2>Amber Wood Noir</h2>
+                                    <div class="bannerSection_productBox_price">24 AED</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
         <section class="fragrancesSection py-55">
             <div class="container">
                 <div class="fragrancesSection_bg position-relative">
@@ -108,14 +108,14 @@
                                     <div class="productCard_top d-flex align-item-start justify-content-between">
                                         <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                         <div class="centerImg">
-                                            <img src="images/product-1.png"  class="img-fluid" alt="product-img">
+                                            <img src="images/product-1.png" class="img-fluid" alt="product-img">
                                             <!-- <span class="outofstock">OUT OF STOCK</span> -->
                                         </div>
-                                        
+
                                         <a href="javascript:void(0);" class="productLike"><em class="icon-favorite_outline"></em></a>
                                     </div>
                                     <div class="productCard_center text-center">
-                                        
+
                                         <ul class="rating d-flex list-unstyled justify-content-center">
                                             <li><span class="icon-star"></span></li>
                                             <li><span class="icon-star"></span></li>
@@ -137,16 +137,16 @@
                                         <div class="viewProduct">
                                             <ul class="list-unstyled d-flex justify-content-between mb-0">
                                                 <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
+                                                    <img src="images/rose-img.svg" class="img-fluid" alt="rose-img">
+                                                    <span>Rose</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
+                                                    <img src="images/vanilla-img.svg" class="img-fluid" alt="vanilla-img">
+                                                    <span>Vanilla</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
+                                                    <img src="images/oud-img.svg" class="img-fluid" alt="oud-img">
+                                                    <span>Oud</span>
                                                 </li>
                                             </ul>
                                         </div>
@@ -154,7 +154,7 @@
                                             <ul class="d-flex list-unstyled">
                                                 <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
                                                 <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -166,14 +166,14 @@
                                     <div class="productCard_top d-flex align-item-start justify-content-between">
                                         <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                         <div class="centerImg">
-                                            <img src="images/product-2.png"  class="img-fluid" alt="product-img">
+                                            <img src="images/product-2.png" class="img-fluid" alt="product-img">
                                             <!-- <span class="outofstock">OUT OF STOCK</span> -->
                                         </div>
-                                        
+
                                         <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
                                     </div>
                                     <div class="productCard_center text-center">
-                                        
+
                                         <ul class="rating d-flex list-unstyled justify-content-center">
                                             <li><span class="icon-star"></span></li>
                                             <li><span class="icon-star"></span></li>
@@ -195,16 +195,16 @@
                                         <div class="viewProduct">
                                             <ul class="list-unstyled d-flex justify-content-between mb-0">
                                                 <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
+                                                    <img src="images/rose-img.svg" class="img-fluid" alt="rose-img">
+                                                    <span>Rose</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
+                                                    <img src="images/vanilla-img.svg" class="img-fluid" alt="vanilla-img">
+                                                    <span>Vanilla</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
+                                                    <img src="images/oud-img.svg" class="img-fluid" alt="oud-img">
+                                                    <span>Oud</span>
                                                 </li>
                                             </ul>
                                         </div>
@@ -212,7 +212,7 @@
                                             <ul class="d-flex list-unstyled">
                                                 <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
                                                 <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -224,10 +224,10 @@
                                     <div class="productCard_top d-flex align-item-start justify-content-between">
                                         <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                         <div class="centerImg">
-                                            <img src="images/product-3.png"  class="img-fluid" alt="product-img">
+                                            <img src="images/product-3.png" class="img-fluid" alt="product-img">
                                             <span class="outofstock">OUT OF STOCK</span>
                                         </div>
-                                        
+
                                         <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
                                     </div>
                                     <div class="productCard_center text-center">
@@ -252,16 +252,16 @@
                                         <div class="viewProduct">
                                             <ul class="list-unstyled d-flex justify-content-between mb-0">
                                                 <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
+                                                    <img src="images/rose-img.svg" class="img-fluid" alt="rose-img">
+                                                    <span>Rose</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
+                                                    <img src="images/vanilla-img.svg" class="img-fluid" alt="vanilla-img">
+                                                    <span>Vanilla</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
+                                                    <img src="images/oud-img.svg" class="img-fluid" alt="oud-img">
+                                                    <span>Oud</span>
                                                 </li>
                                             </ul>
                                         </div>
@@ -269,7 +269,7 @@
                                             <ul class="d-flex list-unstyled">
                                                 <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
                                                 <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -281,10 +281,10 @@
                                     <div class="productCard_top d-flex align-item-start justify-content-between">
                                         <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                         <div class="centerImg">
-                                            <img src="images/product-4.png"  class="img-fluid" alt="product-img">
+                                            <img src="images/product-4.png" class="img-fluid" alt="product-img">
                                             <!-- <span class="outofstock">OUT OF STOCK</span> -->
                                         </div>
-                                        
+
                                         <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
                                     </div>
                                     <div class="productCard_center text-center">
@@ -309,16 +309,16 @@
                                         <div class="viewProduct">
                                             <ul class="list-unstyled d-flex justify-content-between mb-0">
                                                 <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
+                                                    <img src="images/rose-img.svg" class="img-fluid" alt="rose-img">
+                                                    <span>Rose</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
+                                                    <img src="images/vanilla-img.svg" class="img-fluid" alt="vanilla-img">
+                                                    <span>Vanilla</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
+                                                    <img src="images/oud-img.svg" class="img-fluid" alt="oud-img">
+                                                    <span>Oud</span>
                                                 </li>
                                             </ul>
                                         </div>
@@ -326,7 +326,7 @@
                                             <ul class="d-flex list-unstyled">
                                                 <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
                                                 <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -338,10 +338,10 @@
                                     <div class="productCard_top d-flex align-item-start justify-content-between">
                                         <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                         <div class="centerImg">
-                                            <img src="images/product-1.png"  class="img-fluid" alt="product-img">
+                                            <img src="images/product-1.png" class="img-fluid" alt="product-img">
                                             <!-- <span class="outofstock">OUT OF STOCK</span> -->
                                         </div>
-                                        
+
                                         <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
                                     </div>
                                     <div class="productCard_center text-center">
@@ -366,16 +366,16 @@
                                         <div class="viewProduct">
                                             <ul class="list-unstyled d-flex justify-content-between mb-0">
                                                 <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
+                                                    <img src="images/rose-img.svg" class="img-fluid" alt="rose-img">
+                                                    <span>Rose</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
+                                                    <img src="images/vanilla-img.svg" class="img-fluid" alt="vanilla-img">
+                                                    <span>Vanilla</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
+                                                    <img src="images/oud-img.svg" class="img-fluid" alt="oud-img">
+                                                    <span>Oud</span>
                                                 </li>
                                             </ul>
                                         </div>
@@ -383,7 +383,7 @@
                                             <ul class="d-flex list-unstyled">
                                                 <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
                                                 <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -395,10 +395,10 @@
                                     <div class="productCard_top d-flex align-item-start justify-content-between">
                                         <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                         <div class="centerImg">
-                                            <img src="images/product-2.png"  class="img-fluid" alt="product-img">
+                                            <img src="images/product-2.png" class="img-fluid" alt="product-img">
                                             <!-- <span class="outofstock">OUT OF STOCK</span> -->
                                         </div>
-                                        
+
                                         <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
                                     </div>
                                     <div class="productCard_center text-center">
@@ -423,16 +423,16 @@
                                         <div class="viewProduct">
                                             <ul class="list-unstyled d-flex justify-content-between mb-0">
                                                 <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
+                                                    <img src="images/rose-img.svg" class="img-fluid" alt="rose-img">
+                                                    <span>Rose</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
+                                                    <img src="images/vanilla-img.svg" class="img-fluid" alt="vanilla-img">
+                                                    <span>Vanilla</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
+                                                    <img src="images/oud-img.svg" class="img-fluid" alt="oud-img">
+                                                    <span>Oud</span>
                                                 </li>
                                             </ul>
                                         </div>
@@ -440,7 +440,7 @@
                                             <ul class="d-flex list-unstyled">
                                                 <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
                                                 <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -452,10 +452,10 @@
                                     <div class="productCard_top d-flex align-item-start justify-content-between">
                                         <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                         <div class="centerImg">
-                                            <img src="images/product-3.png"  class="img-fluid" alt="product-img">
+                                            <img src="images/product-3.png" class="img-fluid" alt="product-img">
                                             <span class="outofstock">OUT OF STOCK</span>
                                         </div>
-                                        
+
                                         <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
                                     </div>
                                     <div class="productCard_center text-center">
@@ -480,16 +480,16 @@
                                         <div class="viewProduct">
                                             <ul class="list-unstyled d-flex justify-content-between mb-0">
                                                 <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
+                                                    <img src="images/rose-img.svg" class="img-fluid" alt="rose-img">
+                                                    <span>Rose</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
+                                                    <img src="images/vanilla-img.svg" class="img-fluid" alt="vanilla-img">
+                                                    <span>Vanilla</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
+                                                    <img src="images/oud-img.svg" class="img-fluid" alt="oud-img">
+                                                    <span>Oud</span>
                                                 </li>
                                             </ul>
                                         </div>
@@ -497,7 +497,7 @@
                                             <ul class="d-flex list-unstyled">
                                                 <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
                                                 <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -509,10 +509,10 @@
                                     <div class="productCard_top d-flex align-item-start justify-content-between">
                                         <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                         <div class="centerImg">
-                                            <img src="images/product-4.png"  class="img-fluid" alt="product-img">
+                                            <img src="images/product-4.png" class="img-fluid" alt="product-img">
                                             <!-- <span class="outofstock">OUT OF STOCK</span> -->
                                         </div>
-                                        
+
                                         <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
                                     </div>
                                     <div class="productCard_center text-center">
@@ -537,16 +537,16 @@
                                         <div class="viewProduct">
                                             <ul class="list-unstyled d-flex justify-content-between mb-0">
                                                 <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
+                                                    <img src="images/rose-img.svg" class="img-fluid" alt="rose-img">
+                                                    <span>Rose</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
+                                                    <img src="images/vanilla-img.svg" class="img-fluid" alt="vanilla-img">
+                                                    <span>Vanilla</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
+                                                    <img src="images/oud-img.svg" class="img-fluid" alt="oud-img">
+                                                    <span>Oud</span>
                                                 </li>
                                             </ul>
                                         </div>
@@ -554,13 +554,13 @@
                                             <ul class="d-flex list-unstyled">
                                                 <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
                                                 <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div> 
+                    </div>
                 </div>
             </div>
         </Section>
@@ -571,7 +571,7 @@
                     <a href="javascript:void(0);" class="readMoreBtn">Discover all <img src="images/next-arrow.svg" class="img-fluid" alt="arrow"></a>
                 </div>
                 <div class="bestSellers_bg text-center">
-                     <div class="bg-video-wrap">
+                    <div class="bg-video-wrap">
                         <video src="https://s3-figma-videos-production-sig.figma.com/video/896043799134869157/TEAM/f976/0d0c/-35d7-4cf4-8f92-913d74041fcd?Expires=1672012800&Signature=RtLv~JudpX1KxzgMpWK1yVDOP-a-JpvBuw0jb3q4QD6RTVKSVTKKcN~37deddsoZeTMHxRE2nrLMJNiyDQJOFXMYDHfmLiLIQKdyJk5Kkb4ilhJZ81pYioyNmJrvHonwMS~wO1sLtcngahPQCEPDpL7bsLWmSCDTwP0QdWQk2yC4f5WWXMkliNQXu6QlaSOnjNZLCKxuPobvKMSws-s3~qusFaTDrHWXA9lCynIrIC8ll1OfhXZGVVYwVQNtlduNu9iPdGpKWCvIs6C7U82lsqRgUuxXb4JYuqLdqthzKQEUBZXM92M5jMLeAeSv0YDJqP5dCHm4LaHgCnI2wwgFlw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" loop muted autoplay>
                         </video>
                         <div class="productCard">
@@ -580,10 +580,10 @@
                                     <div class="productCard_top d-flex align-item-start justify-content-between">
                                         <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                         <div class="centerImg">
-                                            <img src="images/ajmal-img.png"  class="img-fluid" alt="product-img">
+                                            <img src="images/ajmal-img.png" class="img-fluid" alt="product-img">
                                             <!-- <span class="outofstock">OUT OF STOCK</span> -->
                                         </div>
-                                        
+
                                         <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
                                     </div>
                                     <div class="productCard_center text-center">
@@ -608,26 +608,26 @@
                                         <div class="viewProduct">
                                             <ul class="list-unstyled d-flex justify-content-between mb-0">
                                                 <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
+                                                    <img src="images/rose-img.svg" class="img-fluid" alt="rose-img">
+                                                    <span>Rose</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
+                                                    <img src="images/vanilla-img.svg" class="img-fluid" alt="vanilla-img">
+                                                    <span>Vanilla</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
+                                                    <img src="images/oud-img.svg" class="img-fluid" alt="oud-img">
+                                                    <span>Oud</span>
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="addProduct">
-                                            <a href="javascript:void(0);" class="btn btn-primary w-100">View details <img src="images/next-arrow.svg" class="img-fluid" alt="arrow"></a>                                  
+                                            <a href="javascript:void(0);" class="btn btn-primary w-100">View details <img src="images/next-arrow.svg" class="img-fluid" alt="arrow"></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div> 
+                        </div>
                     </div>
                 </div>
             </div>
@@ -640,7 +640,7 @@
                         <p>A brand with a rich heritage acquired through over 7 decades of experience and know-how in the art of perfumery, Ajmal Perfumes has carved a niche for itself in the perfume industry.</p>
                         <a href="javascript:void(0);" class="discoverAllBtn">Discover all</a>
                     </div>
-                    
+
                 </div>
             </div>
         </section>
@@ -661,14 +661,14 @@
                                     <div class="productCard_top d-flex align-item-start justify-content-between">
                                         <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                         <div class="centerImg">
-                                            <img src="images/product-1.png"  class="img-fluid" alt="product-img">
+                                            <img src="images/product-1.png" class="img-fluid" alt="product-img">
                                             <!-- <span class="outofstock">OUT OF STOCK</span> -->
                                         </div>
-                                        
+
                                         <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
                                     </div>
                                     <div class="productCard_center text-center">
-                                        
+
                                         <ul class="rating d-flex list-unstyled justify-content-center">
                                             <li><span class="icon-star"></span></li>
                                             <li><span class="icon-star"></span></li>
@@ -690,16 +690,16 @@
                                         <div class="viewProduct">
                                             <ul class="list-unstyled d-flex justify-content-between mb-0">
                                                 <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
+                                                    <img src="images/rose-img.svg" class="img-fluid" alt="rose-img">
+                                                    <span>Rose</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
+                                                    <img src="images/vanilla-img.svg" class="img-fluid" alt="vanilla-img">
+                                                    <span>Vanilla</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
+                                                    <img src="images/oud-img.svg" class="img-fluid" alt="oud-img">
+                                                    <span>Oud</span>
                                                 </li>
                                             </ul>
                                         </div>
@@ -707,7 +707,7 @@
                                             <ul class="d-flex list-unstyled">
                                                 <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
                                                 <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -719,14 +719,14 @@
                                     <div class="productCard_top d-flex align-item-start justify-content-between">
                                         <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                         <div class="centerImg">
-                                            <img src="images/product-2.png"  class="img-fluid" alt="product-img">
+                                            <img src="images/product-2.png" class="img-fluid" alt="product-img">
                                             <!-- <span class="outofstock">OUT OF STOCK</span> -->
                                         </div>
-                                        
+
                                         <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
                                     </div>
                                     <div class="productCard_center text-center">
-                                        
+
                                         <ul class="rating d-flex list-unstyled justify-content-center">
                                             <li><span class="icon-star"></span></li>
                                             <li><span class="icon-star"></span></li>
@@ -748,16 +748,16 @@
                                         <div class="viewProduct">
                                             <ul class="list-unstyled d-flex justify-content-between mb-0">
                                                 <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
+                                                    <img src="images/rose-img.svg" class="img-fluid" alt="rose-img">
+                                                    <span>Rose</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
+                                                    <img src="images/vanilla-img.svg" class="img-fluid" alt="vanilla-img">
+                                                    <span>Vanilla</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
+                                                    <img src="images/oud-img.svg" class="img-fluid" alt="oud-img">
+                                                    <span>Oud</span>
                                                 </li>
                                             </ul>
                                         </div>
@@ -765,7 +765,7 @@
                                             <ul class="d-flex list-unstyled">
                                                 <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
                                                 <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -777,10 +777,10 @@
                                     <div class="productCard_top d-flex align-item-start justify-content-between">
                                         <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                         <div class="centerImg">
-                                            <img src="images/product-3.png"  class="img-fluid" alt="product-img">
+                                            <img src="images/product-3.png" class="img-fluid" alt="product-img">
                                             <span class="outofstock">OUT OF STOCK</span>
                                         </div>
-                                        
+
                                         <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
                                     </div>
                                     <div class="productCard_center text-center">
@@ -805,16 +805,16 @@
                                         <div class="viewProduct">
                                             <ul class="list-unstyled d-flex justify-content-between mb-0">
                                                 <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
+                                                    <img src="images/rose-img.svg" class="img-fluid" alt="rose-img">
+                                                    <span>Rose</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
+                                                    <img src="images/vanilla-img.svg" class="img-fluid" alt="vanilla-img">
+                                                    <span>Vanilla</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
+                                                    <img src="images/oud-img.svg" class="img-fluid" alt="oud-img">
+                                                    <span>Oud</span>
                                                 </li>
                                             </ul>
                                         </div>
@@ -822,7 +822,7 @@
                                             <ul class="d-flex list-unstyled">
                                                 <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
                                                 <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -834,10 +834,10 @@
                                     <div class="productCard_top d-flex align-item-start justify-content-between">
                                         <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                         <div class="centerImg">
-                                            <img src="images/product-4.png"  class="img-fluid" alt="product-img">
+                                            <img src="images/product-4.png" class="img-fluid" alt="product-img">
                                             <!-- <span class="outofstock">OUT OF STOCK</span> -->
                                         </div>
-                                        
+
                                         <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
                                     </div>
                                     <div class="productCard_center text-center">
@@ -862,16 +862,16 @@
                                         <div class="viewProduct">
                                             <ul class="list-unstyled d-flex justify-content-between mb-0">
                                                 <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
+                                                    <img src="images/rose-img.svg" class="img-fluid" alt="rose-img">
+                                                    <span>Rose</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
+                                                    <img src="images/vanilla-img.svg" class="img-fluid" alt="vanilla-img">
+                                                    <span>Vanilla</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
+                                                    <img src="images/oud-img.svg" class="img-fluid" alt="oud-img">
+                                                    <span>Oud</span>
                                                 </li>
                                             </ul>
                                         </div>
@@ -879,7 +879,7 @@
                                             <ul class="d-flex list-unstyled">
                                                 <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
                                                 <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -891,10 +891,10 @@
                                     <div class="productCard_top d-flex align-item-start justify-content-between">
                                         <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                         <div class="centerImg">
-                                            <img src="images/product-1.png"  class="img-fluid" alt="product-img">
+                                            <img src="images/product-1.png" class="img-fluid" alt="product-img">
                                             <!-- <span class="outofstock">OUT OF STOCK</span> -->
                                         </div>
-                                        
+
                                         <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
                                     </div>
                                     <div class="productCard_center text-center">
@@ -919,16 +919,16 @@
                                         <div class="viewProduct">
                                             <ul class="list-unstyled d-flex justify-content-between mb-0">
                                                 <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
+                                                    <img src="images/rose-img.svg" class="img-fluid" alt="rose-img">
+                                                    <span>Rose</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
+                                                    <img src="images/vanilla-img.svg" class="img-fluid" alt="vanilla-img">
+                                                    <span>Vanilla</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
+                                                    <img src="images/oud-img.svg" class="img-fluid" alt="oud-img">
+                                                    <span>Oud</span>
                                                 </li>
                                             </ul>
                                         </div>
@@ -936,7 +936,7 @@
                                             <ul class="d-flex list-unstyled">
                                                 <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
                                                 <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -948,10 +948,10 @@
                                     <div class="productCard_top d-flex align-item-start justify-content-between">
                                         <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                         <div class="centerImg">
-                                            <img src="images/product-2.png"  class="img-fluid" alt="product-img">
+                                            <img src="images/product-2.png" class="img-fluid" alt="product-img">
                                             <!-- <span class="outofstock">OUT OF STOCK</span> -->
                                         </div>
-                                        
+
                                         <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
                                     </div>
                                     <div class="productCard_center text-center">
@@ -976,16 +976,16 @@
                                         <div class="viewProduct">
                                             <ul class="list-unstyled d-flex justify-content-between mb-0">
                                                 <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
+                                                    <img src="images/rose-img.svg" class="img-fluid" alt="rose-img">
+                                                    <span>Rose</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
+                                                    <img src="images/vanilla-img.svg" class="img-fluid" alt="vanilla-img">
+                                                    <span>Vanilla</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
+                                                    <img src="images/oud-img.svg" class="img-fluid" alt="oud-img">
+                                                    <span>Oud</span>
                                                 </li>
                                             </ul>
                                         </div>
@@ -993,7 +993,7 @@
                                             <ul class="d-flex list-unstyled">
                                                 <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
                                                 <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -1005,10 +1005,10 @@
                                     <div class="productCard_top d-flex align-item-start justify-content-between">
                                         <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                         <div class="centerImg">
-                                            <img src="images/product-3.png"  class="img-fluid" alt="product-img">
+                                            <img src="images/product-3.png" class="img-fluid" alt="product-img">
                                             <span class="outofstock">OUT OF STOCK</span>
                                         </div>
-                                        
+
                                         <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
                                     </div>
                                     <div class="productCard_center text-center">
@@ -1033,16 +1033,16 @@
                                         <div class="viewProduct">
                                             <ul class="list-unstyled d-flex justify-content-between mb-0">
                                                 <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
+                                                    <img src="images/rose-img.svg" class="img-fluid" alt="rose-img">
+                                                    <span>Rose</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
+                                                    <img src="images/vanilla-img.svg" class="img-fluid" alt="vanilla-img">
+                                                    <span>Vanilla</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
+                                                    <img src="images/oud-img.svg" class="img-fluid" alt="oud-img">
+                                                    <span>Oud</span>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1050,7 +1050,7 @@
                                             <ul class="d-flex list-unstyled">
                                                 <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
                                                 <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -1062,10 +1062,10 @@
                                     <div class="productCard_top d-flex align-item-start justify-content-between">
                                         <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                         <div class="centerImg">
-                                            <img src="images/product-4.png"  class="img-fluid" alt="product-img">
+                                            <img src="images/product-4.png" class="img-fluid" alt="product-img">
                                             <!-- <span class="outofstock">OUT OF STOCK</span> -->
                                         </div>
-                                        
+
                                         <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
                                     </div>
                                     <div class="productCard_center text-center">
@@ -1090,16 +1090,16 @@
                                         <div class="viewProduct">
                                             <ul class="list-unstyled d-flex justify-content-between mb-0">
                                                 <li class="text-center">
-                                                    <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                    <span>Rose</span>  
+                                                    <img src="images/rose-img.svg" class="img-fluid" alt="rose-img">
+                                                    <span>Rose</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                    <span>Vanilla</span>  
+                                                    <img src="images/vanilla-img.svg" class="img-fluid" alt="vanilla-img">
+                                                    <span>Vanilla</span>
                                                 </li>
                                                 <li class="text-center">
-                                                    <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                    <span>Oud</span>  
+                                                    <img src="images/oud-img.svg" class="img-fluid" alt="oud-img">
+                                                    <span>Oud</span>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1107,13 +1107,13 @@
                                             <ul class="d-flex list-unstyled">
                                                 <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
                                                 <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                            </ul>                                    
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div> 
+                    </div>
                 </div>
             </div>
         </section>
@@ -1174,14 +1174,14 @@
                                         <div class="productCard_top d-flex align-item-start justify-content-between">
                                             <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                             <div class="centerImg">
-                                                <img src="images/product-1.png"  class="img-fluid" alt="product-img">
+                                                <img src="images/product-1.png" class="img-fluid" alt="product-img">
                                                 <!-- <span class="outofstock">OUT OF STOCK</span> -->
                                             </div>
-                                            
+
                                             <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
                                         </div>
                                         <div class="productCard_center text-center">
-                                            
+
                                             <ul class="rating d-flex list-unstyled justify-content-center">
                                                 <li><span class="icon-star"></span></li>
                                                 <li><span class="icon-star"></span></li>
@@ -1203,16 +1203,16 @@
                                             <div class="viewProduct">
                                                 <ul class="list-unstyled d-flex justify-content-between mb-0">
                                                     <li class="text-center">
-                                                        <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                        <span>Rose</span>  
+                                                        <img src="images/rose-img.svg" class="img-fluid" alt="rose-img">
+                                                        <span>Rose</span>
                                                     </li>
                                                     <li class="text-center">
-                                                        <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                        <span>Vanilla</span>  
+                                                        <img src="images/vanilla-img.svg" class="img-fluid" alt="vanilla-img">
+                                                        <span>Vanilla</span>
                                                     </li>
                                                     <li class="text-center">
-                                                        <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                        <span>Oud</span>  
+                                                        <img src="images/oud-img.svg" class="img-fluid" alt="oud-img">
+                                                        <span>Oud</span>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1220,7 +1220,7 @@
                                                 <ul class="d-flex list-unstyled">
                                                     <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
                                                     <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                                </ul>                                    
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
@@ -1232,14 +1232,14 @@
                                         <div class="productCard_top d-flex align-item-start justify-content-between">
                                             <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                             <div class="centerImg">
-                                                <img src="images/product-2.png"  class="img-fluid" alt="product-img">
+                                                <img src="images/product-2.png" class="img-fluid" alt="product-img">
                                                 <!-- <span class="outofstock">OUT OF STOCK</span> -->
                                             </div>
-                                            
+
                                             <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
                                         </div>
                                         <div class="productCard_center text-center">
-                                            
+
                                             <ul class="rating d-flex list-unstyled justify-content-center">
                                                 <li><span class="icon-star"></span></li>
                                                 <li><span class="icon-star"></span></li>
@@ -1261,16 +1261,16 @@
                                             <div class="viewProduct">
                                                 <ul class="list-unstyled d-flex justify-content-between mb-0">
                                                     <li class="text-center">
-                                                        <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                        <span>Rose</span>  
+                                                        <img src="images/rose-img.svg" class="img-fluid" alt="rose-img">
+                                                        <span>Rose</span>
                                                     </li>
                                                     <li class="text-center">
-                                                        <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                        <span>Vanilla</span>  
+                                                        <img src="images/vanilla-img.svg" class="img-fluid" alt="vanilla-img">
+                                                        <span>Vanilla</span>
                                                     </li>
                                                     <li class="text-center">
-                                                        <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                        <span>Oud</span>  
+                                                        <img src="images/oud-img.svg" class="img-fluid" alt="oud-img">
+                                                        <span>Oud</span>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1278,7 +1278,7 @@
                                                 <ul class="d-flex list-unstyled">
                                                     <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
                                                     <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                                </ul>                                    
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
@@ -1290,10 +1290,10 @@
                                         <div class="productCard_top d-flex align-item-start justify-content-between">
                                             <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                             <div class="centerImg">
-                                                <img src="images/product-3.png"  class="img-fluid" alt="product-img">
+                                                <img src="images/product-3.png" class="img-fluid" alt="product-img">
                                                 <span class="outofstock">OUT OF STOCK</span>
                                             </div>
-                                            
+
                                             <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
                                         </div>
                                         <div class="productCard_center text-center">
@@ -1318,16 +1318,16 @@
                                             <div class="viewProduct">
                                                 <ul class="list-unstyled d-flex justify-content-between mb-0">
                                                     <li class="text-center">
-                                                        <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                        <span>Rose</span>  
+                                                        <img src="images/rose-img.svg" class="img-fluid" alt="rose-img">
+                                                        <span>Rose</span>
                                                     </li>
                                                     <li class="text-center">
-                                                        <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                        <span>Vanilla</span>  
+                                                        <img src="images/vanilla-img.svg" class="img-fluid" alt="vanilla-img">
+                                                        <span>Vanilla</span>
                                                     </li>
                                                     <li class="text-center">
-                                                        <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                        <span>Oud</span>  
+                                                        <img src="images/oud-img.svg" class="img-fluid" alt="oud-img">
+                                                        <span>Oud</span>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1335,7 +1335,7 @@
                                                 <ul class="d-flex list-unstyled">
                                                     <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
                                                     <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                                </ul>                                    
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
@@ -1347,10 +1347,10 @@
                                         <div class="productCard_top d-flex align-item-start justify-content-between">
                                             <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                             <div class="centerImg">
-                                                <img src="images/product-4.png"  class="img-fluid" alt="product-img">
+                                                <img src="images/product-4.png" class="img-fluid" alt="product-img">
                                                 <!-- <span class="outofstock">OUT OF STOCK</span> -->
                                             </div>
-                                            
+
                                             <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
                                         </div>
                                         <div class="productCard_center text-center">
@@ -1375,16 +1375,16 @@
                                             <div class="viewProduct">
                                                 <ul class="list-unstyled d-flex justify-content-between mb-0">
                                                     <li class="text-center">
-                                                        <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                        <span>Rose</span>  
+                                                        <img src="images/rose-img.svg" class="img-fluid" alt="rose-img">
+                                                        <span>Rose</span>
                                                     </li>
                                                     <li class="text-center">
-                                                        <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                        <span>Vanilla</span>  
+                                                        <img src="images/vanilla-img.svg" class="img-fluid" alt="vanilla-img">
+                                                        <span>Vanilla</span>
                                                     </li>
                                                     <li class="text-center">
-                                                        <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                        <span>Oud</span>  
+                                                        <img src="images/oud-img.svg" class="img-fluid" alt="oud-img">
+                                                        <span>Oud</span>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1392,7 +1392,7 @@
                                                 <ul class="d-flex list-unstyled">
                                                     <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
                                                     <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                                </ul>                                    
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
@@ -1404,10 +1404,10 @@
                                         <div class="productCard_top d-flex align-item-start justify-content-between">
                                             <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                             <div class="centerImg">
-                                                <img src="images/product-1.png"  class="img-fluid" alt="product-img">
+                                                <img src="images/product-1.png" class="img-fluid" alt="product-img">
                                                 <!-- <span class="outofstock">OUT OF STOCK</span> -->
                                             </div>
-                                            
+
                                             <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
                                         </div>
                                         <div class="productCard_center text-center">
@@ -1432,16 +1432,16 @@
                                             <div class="viewProduct">
                                                 <ul class="list-unstyled d-flex justify-content-between mb-0">
                                                     <li class="text-center">
-                                                        <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                        <span>Rose</span>  
+                                                        <img src="images/rose-img.svg" class="img-fluid" alt="rose-img">
+                                                        <span>Rose</span>
                                                     </li>
                                                     <li class="text-center">
-                                                        <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                        <span>Vanilla</span>  
+                                                        <img src="images/vanilla-img.svg" class="img-fluid" alt="vanilla-img">
+                                                        <span>Vanilla</span>
                                                     </li>
                                                     <li class="text-center">
-                                                        <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                        <span>Oud</span>  
+                                                        <img src="images/oud-img.svg" class="img-fluid" alt="oud-img">
+                                                        <span>Oud</span>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1449,7 +1449,7 @@
                                                 <ul class="d-flex list-unstyled">
                                                     <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
                                                     <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                                </ul>                                    
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
@@ -1461,10 +1461,10 @@
                                         <div class="productCard_top d-flex align-item-start justify-content-between">
                                             <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                             <div class="centerImg">
-                                                <img src="images/product-2.png"  class="img-fluid" alt="product-img">
+                                                <img src="images/product-2.png" class="img-fluid" alt="product-img">
                                                 <!-- <span class="outofstock">OUT OF STOCK</span> -->
                                             </div>
-                                            
+
                                             <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
                                         </div>
                                         <div class="productCard_center text-center">
@@ -1489,16 +1489,16 @@
                                             <div class="viewProduct">
                                                 <ul class="list-unstyled d-flex justify-content-between mb-0">
                                                     <li class="text-center">
-                                                        <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                        <span>Rose</span>  
+                                                        <img src="images/rose-img.svg" class="img-fluid" alt="rose-img">
+                                                        <span>Rose</span>
                                                     </li>
                                                     <li class="text-center">
-                                                        <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                        <span>Vanilla</span>  
+                                                        <img src="images/vanilla-img.svg" class="img-fluid" alt="vanilla-img">
+                                                        <span>Vanilla</span>
                                                     </li>
                                                     <li class="text-center">
-                                                        <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                        <span>Oud</span>  
+                                                        <img src="images/oud-img.svg" class="img-fluid" alt="oud-img">
+                                                        <span>Oud</span>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1506,7 +1506,7 @@
                                                 <ul class="d-flex list-unstyled">
                                                     <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
                                                     <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                                </ul>                                    
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
@@ -1518,10 +1518,10 @@
                                         <div class="productCard_top d-flex align-item-start justify-content-between">
                                             <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                             <div class="centerImg">
-                                                <img src="images/product-3.png"  class="img-fluid" alt="product-img">
+                                                <img src="images/product-3.png" class="img-fluid" alt="product-img">
                                                 <span class="outofstock">OUT OF STOCK</span>
                                             </div>
-                                            
+
                                             <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
                                         </div>
                                         <div class="productCard_center text-center">
@@ -1546,16 +1546,16 @@
                                             <div class="viewProduct">
                                                 <ul class="list-unstyled d-flex justify-content-between mb-0">
                                                     <li class="text-center">
-                                                        <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                        <span>Rose</span>  
+                                                        <img src="images/rose-img.svg" class="img-fluid" alt="rose-img">
+                                                        <span>Rose</span>
                                                     </li>
                                                     <li class="text-center">
-                                                        <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                        <span>Vanilla</span>  
+                                                        <img src="images/vanilla-img.svg" class="img-fluid" alt="vanilla-img">
+                                                        <span>Vanilla</span>
                                                     </li>
                                                     <li class="text-center">
-                                                        <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                        <span>Oud</span>  
+                                                        <img src="images/oud-img.svg" class="img-fluid" alt="oud-img">
+                                                        <span>Oud</span>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1563,7 +1563,7 @@
                                                 <ul class="d-flex list-unstyled">
                                                     <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
                                                     <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                                </ul>                                    
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
@@ -1575,10 +1575,10 @@
                                         <div class="productCard_top d-flex align-item-start justify-content-between">
                                             <a href="javascript:void(0);" class="productBadge"><img src="images/video-icon.svg"></a>
                                             <div class="centerImg">
-                                                <img src="images/product-4.png"  class="img-fluid" alt="product-img">
+                                                <img src="images/product-4.png" class="img-fluid" alt="product-img">
                                                 <!-- <span class="outofstock">OUT OF STOCK</span> -->
                                             </div>
-                                            
+
                                             <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
                                         </div>
                                         <div class="productCard_center text-center">
@@ -1603,16 +1603,16 @@
                                             <div class="viewProduct">
                                                 <ul class="list-unstyled d-flex justify-content-between mb-0">
                                                     <li class="text-center">
-                                                        <img src="images/rose-img.svg"  class="img-fluid" alt="rose-img"> 
-                                                        <span>Rose</span>  
+                                                        <img src="images/rose-img.svg" class="img-fluid" alt="rose-img">
+                                                        <span>Rose</span>
                                                     </li>
                                                     <li class="text-center">
-                                                        <img src="images/vanilla-img.svg"  class="img-fluid" alt="vanilla-img"> 
-                                                        <span>Vanilla</span>  
+                                                        <img src="images/vanilla-img.svg" class="img-fluid" alt="vanilla-img">
+                                                        <span>Vanilla</span>
                                                     </li>
                                                     <li class="text-center">
-                                                        <img src="images/oud-img.svg"  class="img-fluid" alt="oud-img"> 
-                                                        <span>Oud</span>  
+                                                        <img src="images/oud-img.svg" class="img-fluid" alt="oud-img">
+                                                        <span>Oud</span>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1620,13 +1620,13 @@
                                                 <ul class="d-flex list-unstyled">
                                                     <li><a href="javascript:void(0);" class="btn btn-primary">Add to card</a></li>
                                                     <li><a href="javascript:void(0);" class="btn btn-primary btn-primary-outline">Buy Now</a></li>
-                                                </ul>                                    
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div> 
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1772,7 +1772,7 @@
                                         <p>8 February 2022, Dubai, United Arab Emirates This year, Ajmal Perfumes invites you to celebrate and pamper the one you love with a thoughtful and considerate gift. An exquisite, luxurious fragrance is an especially intimate and personal gift – the ideal way to show them how important they are to you. Read on to learn about our top picks for luxury gifts for your beloved husband...</p>
                                     </div>
                                     <div class="bottom">
-                                    <a href="javascript:void(0);" class="readMoreBtn">Read more <img src="images/next-arrow.svg" class="img-fluid" alt="arrow"></a>
+                                        <a href="javascript:void(0);" class="readMoreBtn">Read more <img src="images/next-arrow.svg" class="img-fluid" alt="arrow"></a>
                                     </div>
                                 </div>
                             </div>
@@ -1790,7 +1790,7 @@
                                         <p>8 February 2022, Dubai, United Arab Emirates This year, Ajmal Perfumes invites you to celebrate and pamper the one you love with a thoughtful and considerate gift. An exquisite, luxurious fragrance is an especially intimate and personal gift – the ideal way to show them how important they are to you. Read on to learn about our top picks for luxury gifts for your beloved husband...</p>
                                     </div>
                                     <div class="bottom">
-                                    <a href="javascript:void(0);" class="readMoreBtn">Read more <img src="images/next-arrow.svg" class="img-fluid" alt="arrow"></a>
+                                        <a href="javascript:void(0);" class="readMoreBtn">Read more <img src="images/next-arrow.svg" class="img-fluid" alt="arrow"></a>
                                     </div>
                                 </div>
                             </div>
@@ -1808,7 +1808,7 @@
                                         <p>8 February 2022, Dubai, United Arab Emirates This year, Ajmal Perfumes invites you to celebrate and pamper the one you love with a thoughtful and considerate gift. An exquisite, luxurious fragrance is an especially intimate and personal gift – the ideal way to show them how important they are to you. Read on to learn about our top picks for luxury gifts for your beloved husband...</p>
                                     </div>
                                     <div class="bottom">
-                                    <a href="javascript:void(0);" class="readMoreBtn">Read more <img src="images/next-arrow.svg" class="img-fluid" alt="arrow"></a>
+                                        <a href="javascript:void(0);" class="readMoreBtn">Read more <img src="images/next-arrow.svg" class="img-fluid" alt="arrow"></a>
                                     </div>
                                 </div>
                             </div>
@@ -1826,7 +1826,7 @@
                                         <p>8 February 2022, Dubai, United Arab Emirates This year, Ajmal Perfumes invites you to celebrate and pamper the one you love with a thoughtful and considerate gift. An exquisite, luxurious fragrance is an especially intimate and personal gift – the ideal way to show them how important they are to you. Read on to learn about our top picks for luxury gifts for your beloved husband...</p>
                                     </div>
                                     <div class="bottom">
-                                    <a href="javascript:void(0);" class="readMoreBtn">Read more <img src="images/next-arrow.svg" class="img-fluid" alt="arrow"></a>
+                                        <a href="javascript:void(0);" class="readMoreBtn">Read more <img src="images/next-arrow.svg" class="img-fluid" alt="arrow"></a>
                                     </div>
                                 </div>
                             </div>
@@ -1844,7 +1844,7 @@
                                         <p>8 February 2022, Dubai, United Arab Emirates This year, Ajmal Perfumes invites you to celebrate and pamper the one you love with a thoughtful and considerate gift. An exquisite, luxurious fragrance is an especially intimate and personal gift – the ideal way to show them how important they are to you. Read on to learn about our top picks for luxury gifts for your beloved husband...</p>
                                     </div>
                                     <div class="bottom">
-                                    <a href="javascript:void(0);" class="readMoreBtn">Read more <img src="images/next-arrow.svg" class="img-fluid" alt="arrow"></a>
+                                        <a href="javascript:void(0);" class="readMoreBtn">Read more <img src="images/next-arrow.svg" class="img-fluid" alt="arrow"></a>
                                     </div>
                                 </div>
                             </div>
@@ -1862,7 +1862,7 @@
                                         <p>8 February 2022, Dubai, United Arab Emirates This year, Ajmal Perfumes invites you to celebrate and pamper the one you love with a thoughtful and considerate gift. An exquisite, luxurious fragrance is an especially intimate and personal gift – the ideal way to show them how important they are to you. Read on to learn about our top picks for luxury gifts for your beloved husband...</p>
                                     </div>
                                     <div class="bottom">
-                                    <a href="javascript:void(0);" class="readMoreBtn">Read more <img src="images/next-arrow.svg" class="img-fluid" alt="arrow"></a>
+                                        <a href="javascript:void(0);" class="readMoreBtn">Read more <img src="images/next-arrow.svg" class="img-fluid" alt="arrow"></a>
                                     </div>
                                 </div>
                             </div>
@@ -1887,8 +1887,8 @@
                                         <img src="images/blog-img1.jpg" alt="blog-img" class="img-fluid">
                                         <div class="blogBox_txt" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                                             <span>August 11, 2022 / 5 min read</span>
-                                            <h3>To Rinse or Not to Rinse? A Guide to  Our Moisture Surge Conditioner</h3>
-                                            <p>In recent years, the data industry has been moving from data as an asset to data as a product thinking.  This is definitely...</p>
+                                            <h3>To Rinse or Not to Rinse? A Guide to Our Moisture Surge Conditioner</h3>
+                                            <p>In recent years, the data industry has been moving from data as an asset to data as a product thinking. This is definitely...</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1898,8 +1898,8 @@
                                     <img src="images/blog-img2.jpg" alt="blog-img" class="img-fluid">
                                     <div class="blogBox_txt" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                                         <span>August 11, 2022 / 5 min read</span>
-                                        <h3>To Rinse or Not to Rinse? A Guide to  Our Moisture Surge Conditioner</h3>
-                                        <p>In recent years, the data industry has been moving from data as an asset to data as a product thinking.  This is definitely...</p>
+                                        <h3>To Rinse or Not to Rinse? A Guide to Our Moisture Surge Conditioner</h3>
+                                        <p>In recent years, the data industry has been moving from data as an asset to data as a product thinking. This is definitely...</p>
                                     </div>
                                 </div>
                             </div>
@@ -1911,16 +1911,16 @@
                                 <img src="images/blog-img3.jpg" alt="blog-img" class="img-fluid">
                                 <div class="blogBox_txt" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                                     <span>August 11, 2022 / 5 min read</span>
-                                    <h3>To Rinse or Not to Rinse? A Guide to  Our Moisture Surge Conditioner</h3>
-                                    <p>In recent years, the data industry has been moving from data as an asset to data as a product thinking.  This is definitely...</p>
+                                    <h3>To Rinse or Not to Rinse? A Guide to Our Moisture Surge Conditioner</h3>
+                                    <p>In recent years, the data industry has been moving from data as an asset to data as a product thinking. This is definitely...</p>
                                 </div>
                             </div>
                             <div class="blogBox blogBox-four" data-aos="fade-down" data-aos-duration="1000">
                                 <img src="images/blog-img4.jpg" alt="blog-img" class="img-fluid">
                                 <div class="blogBox_txt" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                                     <span>August 11, 2022 / 5 min read</span>
-                                    <h3>To Rinse or Not to Rinse? A Guide to  Our Moisture Surge Conditioner</h3>
-                                    <p>In recent years, the data industry has been moving from data as an asset to data as a product thinking.  This is definitely...</p>
+                                    <h3>To Rinse or Not to Rinse? A Guide to Our Moisture Surge Conditioner</h3>
+                                    <p>In recent years, the data industry has been moving from data as an asset to data as a product thinking. This is definitely...</p>
                                 </div>
                             </div>
                         </div>
@@ -1939,19 +1939,20 @@
                     <div class="instagramSection_sliderItem">
                         <div class="instabox">
                             <img src="images/insta-img1.jpg" class="img-fluid" alt="insta-img">
-                            <div class="overlay"></div>                          <div class="instabox_txt">
+                            <div class="overlay"></div>
+                            <div class="instabox_txt">
                                 <p>Planning a wedding gift, don’t miss out Patchouli wood by Ajmal Perfumes...</p>
                                 <div class="instabox_info">
                                     <ul class="mb-0 d-flex align-items-center list-unstyled">
                                         <li><a href="javascript:void(0);" class="d-flex align-items-center">
-                                                <img src="images/msg-icon.svg"> 
+                                                <img src="images/msg-icon.svg">
                                                 <span> 273 </span>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="javascript:void(0);" class="d-flex align-items-center">
                                                 <img src="images/like-icon.svg">
-                                                <span>  5k </span>
+                                                <span> 5k </span>
                                             </a>
                                         </li>
                                     </ul>
@@ -1962,19 +1963,20 @@
                     <div class="instagramSection_sliderItem">
                         <div class="instabox">
                             <img src="images/insta-img2.jpg" class="img-fluid" alt="insta-img">
-                            <div class="overlay"></div>                          <div class="instabox_txt">
+                            <div class="overlay"></div>
+                            <div class="instabox_txt">
                                 <p>Planning a wedding gift, don’t miss out Patchouli wood by Ajmal Perfumes...</p>
                                 <div class="instabox_info">
                                     <ul class="mb-0 d-flex align-items-center list-unstyled">
                                         <li><a href="javascript:void(0);" class="d-flex align-items-center">
-                                                <img src="images/msg-icon.svg"> 
+                                                <img src="images/msg-icon.svg">
                                                 <span> 273 </span>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="javascript:void(0);" class="d-flex align-items-center">
                                                 <img src="images/like-icon.svg">
-                                                <span>  5k </span>
+                                                <span> 5k </span>
                                             </a>
                                         </li>
                                     </ul>
@@ -1985,19 +1987,20 @@
                     <div class="instagramSection_sliderItem">
                         <div class="instabox">
                             <img src="images/insta-img3.jpg" class="img-fluid" alt="insta-img">
-                            <div class="overlay"></div>                          <div class="instabox_txt">
+                            <div class="overlay"></div>
+                            <div class="instabox_txt">
                                 <p>Planning a wedding gift, don’t miss out Patchouli wood by Ajmal Perfumes...</p>
                                 <div class="instabox_info">
                                     <ul class="mb-0 d-flex align-items-center list-unstyled">
                                         <li><a href="javascript:void(0);" class="d-flex align-items-center">
-                                                <img src="images/msg-icon.svg"> 
+                                                <img src="images/msg-icon.svg">
                                                 <span> 273 </span>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="javascript:void(0);" class="d-flex align-items-center">
                                                 <img src="images/like-icon.svg">
-                                                <span>  5k </span>
+                                                <span> 5k </span>
                                             </a>
                                         </li>
                                     </ul>
@@ -2008,19 +2011,20 @@
                     <div class="instagramSection_sliderItem">
                         <div class="instabox">
                             <img src="images/insta-img4.png" class="img-fluid" alt="insta-img">
-                            <div class="overlay"></div>                          <div class="instabox_txt">
+                            <div class="overlay"></div>
+                            <div class="instabox_txt">
                                 <p>Planning a wedding gift, don’t miss out Patchouli wood by Ajmal Perfumes...</p>
                                 <div class="instabox_info">
                                     <ul class="mb-0 d-flex align-items-center list-unstyled">
                                         <li><a href="javascript:void(0);" class="d-flex align-items-center">
-                                                <img src="images/msg-icon.svg"> 
+                                                <img src="images/msg-icon.svg">
                                                 <span> 273 </span>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="javascript:void(0);" class="d-flex align-items-center">
                                                 <img src="images/like-icon.svg">
-                                                <span>  5k </span>
+                                                <span> 5k </span>
                                             </a>
                                         </li>
                                     </ul>
@@ -2031,19 +2035,20 @@
                     <div class="instagramSection_sliderItem">
                         <div class="instabox">
                             <img src="images/insta-img1.jpg" class="img-fluid" alt="insta-img">
-                            <div class="overlay"></div>                          <div class="instabox_txt">
+                            <div class="overlay"></div>
+                            <div class="instabox_txt">
                                 <p>Planning a wedding gift, don’t miss out Patchouli wood by Ajmal Perfumes...</p>
                                 <div class="instabox_info">
                                     <ul class="mb-0 d-flex align-items-center list-unstyled">
                                         <li><a href="javascript:void(0);" class="d-flex align-items-center">
-                                                <img src="images/msg-icon.svg"> 
+                                                <img src="images/msg-icon.svg">
                                                 <span> 273 </span>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="javascript:void(0);" class="d-flex align-items-center">
                                                 <img src="images/like-icon.svg">
-                                                <span>  5k </span>
+                                                <span> 5k </span>
                                             </a>
                                         </li>
                                     </ul>
@@ -2054,19 +2059,20 @@
                     <div class="instagramSection_sliderItem">
                         <div class="instabox">
                             <img src="images/insta-img2.jpg" class="img-fluid" alt="insta-img">
-                            <div class="overlay"></div>                          <div class="instabox_txt">
+                            <div class="overlay"></div>
+                            <div class="instabox_txt">
                                 <p>Planning a wedding gift, don’t miss out Patchouli wood by Ajmal Perfumes...</p>
                                 <div class="instabox_info">
                                     <ul class="mb-0 d-flex align-items-center list-unstyled">
                                         <li><a href="javascript:void(0);" class="d-flex align-items-center">
-                                                <img src="images/msg-icon.svg"> 
+                                                <img src="images/msg-icon.svg">
                                                 <span> 273 </span>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="javascript:void(0);" class="d-flex align-items-center">
                                                 <img src="images/like-icon.svg">
-                                                <span>  5k </span>
+                                                <span> 5k </span>
                                             </a>
                                         </li>
                                     </ul>
@@ -2077,19 +2083,20 @@
                     <div class="instagramSection_sliderItem">
                         <div class="instabox">
                             <img src="images/insta-img3.jpg" class="img-fluid" alt="insta-img">
-                            <div class="overlay"></div>                          <div class="instabox_txt">
+                            <div class="overlay"></div>
+                            <div class="instabox_txt">
                                 <p>Planning a wedding gift, don’t miss out Patchouli wood by Ajmal Perfumes...</p>
                                 <div class="instabox_info">
                                     <ul class="mb-0 d-flex align-items-center list-unstyled">
                                         <li><a href="javascript:void(0);" class="d-flex align-items-center">
-                                                <img src="images/msg-icon.svg"> 
+                                                <img src="images/msg-icon.svg">
                                                 <span> 273 </span>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="javascript:void(0);" class="d-flex align-items-center">
                                                 <img src="images/like-icon.svg">
-                                                <span>  5k </span>
+                                                <span> 5k </span>
                                             </a>
                                         </li>
                                     </ul>
@@ -2100,19 +2107,20 @@
                     <div class="instagramSection_sliderItem">
                         <div class="instabox">
                             <img src="images/insta-img4.png" class="img-fluid" alt="insta-img">
-                            <div class="overlay"></div>                          <div class="instabox_txt">
+                            <div class="overlay"></div>
+                            <div class="instabox_txt">
                                 <p>Planning a wedding gift, don’t miss out Patchouli wood by Ajmal Perfumes...</p>
                                 <div class="instabox_info">
                                     <ul class="mb-0 d-flex align-items-center list-unstyled">
                                         <li><a href="javascript:void(0);" class="d-flex align-items-center">
-                                                <img src="images/msg-icon.svg"> 
+                                                <img src="images/msg-icon.svg">
                                                 <span> 273 </span>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="javascript:void(0);" class="d-flex align-items-center">
                                                 <img src="images/like-icon.svg">
-                                                <span>  5k </span>
+                                                <span> 5k </span>
                                             </a>
                                         </li>
                                     </ul>
@@ -2129,74 +2137,74 @@
             <div class="modal fade" id="loginMOdal" tabindex="-1" role="dialog" aria-labelledby="loginMOdalTitle" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-slideout" role="document">
                     <div class="modal-content">
-                    <div class="modal-body p-0">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        <div class="d-flex">
-                            <div class="loginSignUpModal_left">
-                                <div class="loginDiv">
-                                    <h3>Log in</h3>
-                                    <ul class="list-unstyled loginBtns mb-0">
-                                        <li><a href="javascript:void(0);" class="btn btn-login w-100"><img src="images/google-icon.svg" class="img-fluid" alt="google-icon"> Log in with Google</a></li>
-                                        <li><a href="javascript:void(0);" class="btn btn-login w-100"><img src="images/facebook-icon.svg" class="img-fluid" alt="facebook-icon"> Log in with Facebook</a></li>
-                                        <li><a href="javascript:void(0);" class="btn btn-login w-100"><img src="images/apple-icon.svg" class="img-fluid" alt="apple-icon"> Log in with Apple</a></li>
-                                        <li><a href="javascript:void(0);" class="btn btn-login w-100"><img src="images/whatsapp-icon.svg" class="img-fluid" alt="whatsapp-icon"> Log in with WhatsApp</a></li>
-                                    </ul>
-                                    <p class="divider position-relative text-center">or use your email or number</p>
-                                    <form>
-                                        <div class="form-group floting">
-                                            <input type="text" class="form-control form-control-border" placeholder="" required>
-                                            <label class="form-control-placeholder">Email or number</label>
-                                        </div>
-                                        <a href="javascript:void(0);" class="btn btn-secondary w-100" data-toggle="modal" data-target="#passwordModal" data-dismiss="modal">Log in</a>
-                                    </form>
-                                </div>
-                                <div class="signUpDiv">
-                                    <h3>Sign up</h3>
-                                    <ul class="list-unstyled loginBtns mb-0">
-                                        <li><a href="javascript:void(0);" class="btn btn-login w-100"><img src="images/google-icon.svg" class="img-fluid" alt="google-icon"> Log in with Google</a></li>
-                                        <li><a href="javascript:void(0);" class="btn btn-login w-100"><img src="images/facebook-icon.svg" class="img-fluid" alt="facebook-icon"> Log in with Facebook</a></li>
-                                        <li><a href="javascript:void(0);" class="btn btn-login w-100"><img src="images/apple-icon.svg" class="img-fluid" alt="apple-icon"> Log in with Apple</a></li>
-                                        <li><a href="javascript:void(0);" class="btn btn-login w-100"><img src="images/whatsapp-icon.svg" class="img-fluid" alt="whatsapp-icon"> Log in with WhatsApp</a></li>
-                                    </ul>
-                                    <p class="divider position-relative text-center">or use your email or number</p>
-                                    <form>
-                                        <div class="form-group floting">
-                                            <input type="text" class="form-control form-control-border" id="name" placeholder="" required>
-                                            <label class="form-control-placeholder" for="name">Name</label>
-                                        </div>
-                                        <div class="form-group floting">
-                                            <input type="text" class="form-control form-control-border" id="email" placeholder="" required>
-                                            <label class="form-control-placeholder" for="email">Email or number</label>
-                                        </div>
-                                        <div class="form-group floting" id="show_hide_password">
-                                            <input type="password" class="form-control form-control-border passwordField position-relative" id="password" placeholder="" required>
-                                            <label class="form-control-placeholder" for="password">Password (min 6 characters)</label>
-                                            <img src="images/password-icons.svg" alt="password-icons" class="passwordField_icons">
-                                        </div>
-                                        <a href="javascript:void(0);" class="btn btn-secondary w-100 loginBtn" data-toggle="modal" data-target="#signUpcodeModal" data-dismiss="modal">Sign up</a>
-                                    </form>
-                                </div>
-                            </div>
-                            <div class="loginSignUpModal_right">
-                                <div class="loginDiv h-100">
-                                    <div class="d-flex flex-column h-100 justify-content-center align-items-center">
-                                        <h3 class="mb-2">Welcome</h3>
-                                        <p class="text-center">Enter your personal details and start <br/> journey with us</p>
-                                        <a href="javascript:void(0);" class="btn btn-primary btn-primary-outline w-100 createAccountActionBtn">Create account</a>
+                        <div class="modal-body p-0">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <div class="d-flex">
+                                <div class="loginSignUpModal_left">
+                                    <div class="loginDiv">
+                                        <h3>Log in</h3>
+                                        <ul class="list-unstyled loginBtns mb-0">
+                                            <li><a href="javascript:void(0);" class="btn btn-login w-100"><img src="images/google-icon.svg" class="img-fluid" alt="google-icon"> Log in with Google</a></li>
+                                            <li><a href="javascript:void(0);" class="btn btn-login w-100"><img src="images/facebook-icon.svg" class="img-fluid" alt="facebook-icon"> Log in with Facebook</a></li>
+                                            <li><a href="javascript:void(0);" class="btn btn-login w-100"><img src="images/apple-icon.svg" class="img-fluid" alt="apple-icon"> Log in with Apple</a></li>
+                                            <li><a href="javascript:void(0);" class="btn btn-login w-100"><img src="images/whatsapp-icon.svg" class="img-fluid" alt="whatsapp-icon"> Log in with WhatsApp</a></li>
+                                        </ul>
+                                        <p class="divider position-relative text-center">or use your email or number</p>
+                                        <form>
+                                            <div class="form-group floting">
+                                                <input type="text" class="form-control form-control-border" placeholder="" required>
+                                                <label class="form-control-placeholder">Email or number</label>
+                                            </div>
+                                            <a href="javascript:void(0);" class="btn btn-secondary w-100" data-toggle="modal" data-target="#passwordModal" data-dismiss="modal">Log in</a>
+                                        </form>
+                                    </div>
+                                    <div class="signUpDiv">
+                                        <h3>Sign up</h3>
+                                        <ul class="list-unstyled loginBtns mb-0">
+                                            <li><a href="javascript:void(0);" class="btn btn-login w-100"><img src="images/google-icon.svg" class="img-fluid" alt="google-icon"> Log in with Google</a></li>
+                                            <li><a href="javascript:void(0);" class="btn btn-login w-100"><img src="images/facebook-icon.svg" class="img-fluid" alt="facebook-icon"> Log in with Facebook</a></li>
+                                            <li><a href="javascript:void(0);" class="btn btn-login w-100"><img src="images/apple-icon.svg" class="img-fluid" alt="apple-icon"> Log in with Apple</a></li>
+                                            <li><a href="javascript:void(0);" class="btn btn-login w-100"><img src="images/whatsapp-icon.svg" class="img-fluid" alt="whatsapp-icon"> Log in with WhatsApp</a></li>
+                                        </ul>
+                                        <p class="divider position-relative text-center">or use your email or number</p>
+                                        <form>
+                                            <div class="form-group floting">
+                                                <input type="text" class="form-control form-control-border" id="name" placeholder="" required>
+                                                <label class="form-control-placeholder" for="name">Name</label>
+                                            </div>
+                                            <div class="form-group floting">
+                                                <input type="text" class="form-control form-control-border" id="email" placeholder="" required>
+                                                <label class="form-control-placeholder" for="email">Email or number</label>
+                                            </div>
+                                            <div class="form-group floting" id="show_hide_password">
+                                                <input type="password" class="form-control form-control-border passwordField position-relative" id="password" placeholder="" required>
+                                                <label class="form-control-placeholder" for="password">Password (min 6 characters)</label>
+                                                <img src="images/password-icons.svg" alt="password-icons" class="passwordField_icons">
+                                            </div>
+                                            <a href="javascript:void(0);" class="btn btn-secondary w-100 loginBtn" data-toggle="modal" data-target="#signUpcodeModal" data-dismiss="modal">Sign up</a>
+                                        </form>
                                     </div>
                                 </div>
-                                <div class="signUpDiv h-100">
-                                    <div class="d-flex flex-column h-100 justify-content-center align-items-center">
-                                        <h3 class="mb-2">Welcome</h3>
-                                        <p class="text-center">Log in to continue</p>
-                                        <a href="javascript:void(0);" class="btn btn-primary btn-primary-outline w-100 loginActionBtn">Log in</a>
+                                <div class="loginSignUpModal_right">
+                                    <div class="loginDiv h-100">
+                                        <div class="d-flex flex-column h-100 justify-content-center align-items-center">
+                                            <h3 class="mb-2">Welcome</h3>
+                                            <p class="text-center">Enter your personal details and start <br /> journey with us</p>
+                                            <a href="javascript:void(0);" class="btn btn-primary btn-primary-outline w-100 createAccountActionBtn">Create account</a>
+                                        </div>
+                                    </div>
+                                    <div class="signUpDiv h-100">
+                                        <div class="d-flex flex-column h-100 justify-content-center align-items-center">
+                                            <h3 class="mb-2">Welcome</h3>
+                                            <p class="text-center">Log in to continue</p>
+                                            <a href="javascript:void(0);" class="btn btn-primary btn-primary-outline w-100 loginActionBtn">Log in</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
                     </div>
                 </div>
             </div>
@@ -2205,27 +2213,27 @@
             <div class="modal fade" id="passwordModal" tabindex="-1" role="dialog" aria-labelledby="passwordModalTitle" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered modal-md modal-dialog-slideout" role="document">
                     <div class="modal-content">
-                    <div class="modal-body">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        <h3 class="text-center">Enter your password</h3>
-                        <form >
-                            <div class="form-group floting"  id="show_hide_password">
-                                <input type="password" id="password" class="form-control form-control-border passwordField" placeholder="" required>
-                                <label class="form-control-placeholder">Password</label>
-                                <img src="images/password-icons.svg" alt="password-icons" class="passwordField_icons">
-                            </div>
-                            <div class="d-flex align-items-center justify-content-between form-group">
-                                <div class="form-group custom-checkbox mb-0">
-                                    <input type="checkbox" class="custom-control-input" id="exampleCheck1">
-                                    <label class="custom-control-label mb-0" for="exampleCheck1">Remember me</label>
+                        <div class="modal-body">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <h3 class="text-center">Enter your password</h3>
+                            <form>
+                                <div class="form-group floting" id="show_hide_password">
+                                    <input type="password" id="password" class="form-control form-control-border passwordField" placeholder="" required>
+                                    <label class="form-control-placeholder">Password</label>
+                                    <img src="images/password-icons.svg" alt="password-icons" class="passwordField_icons">
                                 </div>
-                                <a href="javascript:void(0);" data-toggle="modal" data-target="#resetPasswordModal" data-dismiss="modal">Forgot password?</a>
-                            </div>
-                            <a href="javascript:void(0);" class="btn btn-secondary w-100" data-toggle="modal" data-target="#codeModal" data-dismiss="modal">Log in</a>
-                        </form>
-                    </div>
+                                <div class="d-flex align-items-center justify-content-between form-group">
+                                    <div class="form-group custom-checkbox mb-0">
+                                        <input type="checkbox" class="custom-control-input" id="exampleCheck1">
+                                        <label class="custom-control-label mb-0" for="exampleCheck1">Remember me</label>
+                                    </div>
+                                    <a href="javascript:void(0);" data-toggle="modal" data-target="#resetPasswordModal" data-dismiss="modal">Forgot password?</a>
+                                </div>
+                                <a href="javascript:void(0);" class="btn btn-secondary w-100" data-toggle="modal" data-target="#codeModal" data-dismiss="modal">Log in</a>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -2234,23 +2242,23 @@
             <div class="modal fade" id="codeModal" tabindex="-1" role="dialog" aria-labelledby="codeModalTitle" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered modal-sm modal-dialog-slideout" role="document">
                     <div class="modal-content">
-                    <div class="modal-body">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        <h3 class="text-center">Enter the code</h3>
-                        <form>
-                            <div class="form-group d-flex justify-content-between">
-                                <input type="text" class="form-control form-control-border">
-                                <input type="text" class="form-control form-control-border">
-                                <input type="text" class="form-control form-control-border">
-                                <input type="text" class="form-control form-control-border">
-                            </div>
-                            <p class="mb-0 text-center">You didn’t receive a code?</p>
-                            <a href="javascript:void(0);" class="d-flex justify-content-center text-primary">Resend</a>
-                            <a href="javascript:void(0);" class="btn btn-secondary w-100 mt-4" data-toggle="modal" data-target="#codeModal" data-dismiss="modal">Log in</a>
-                        </form>
-                    </div>
+                        <div class="modal-body">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <h3 class="text-center">Enter the code</h3>
+                            <form>
+                                <div class="form-group d-flex justify-content-between">
+                                    <input type="text" class="form-control form-control-border">
+                                    <input type="text" class="form-control form-control-border">
+                                    <input type="text" class="form-control form-control-border">
+                                    <input type="text" class="form-control form-control-border">
+                                </div>
+                                <p class="mb-0 text-center">You didn’t receive a code?</p>
+                                <a href="javascript:void(0);" class="d-flex justify-content-center text-primary">Resend</a>
+                                <a href="javascript:void(0);" class="btn btn-secondary w-100 mt-4" data-toggle="modal" data-target="#codeModal" data-dismiss="modal">Log in</a>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -2259,19 +2267,19 @@
             <div class="modal fade" id="resetPasswordModal" tabindex="-1" role="dialog" aria-labelledby="resetPasswordModalTitle" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered modal-nd modal-dialog-slideout" role="document">
                     <div class="modal-content">
-                    <div class="modal-body">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        <h3 class="text-center">Reset password</h3>
-                        <form>
-                        <div class="form-group floting">
-                            <input type="text" class="form-control form-control-border" id="email" placeholder="" required>
-                            <label class="form-control-placeholder" for="email">Email or number</label>
+                        <div class="modal-body">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <h3 class="text-center">Reset password</h3>
+                            <form>
+                                <div class="form-group floting">
+                                    <input type="text" class="form-control form-control-border" id="email" placeholder="" required>
+                                    <label class="form-control-placeholder" for="email">Email or number</label>
+                                </div>
+                                <a href="javascript:void(0);" class="btn btn-secondary w-100 mt-4" data-toggle="modal" data-target="#passwordrestSuccessfully" data-dismiss="modal">Reset password</a>
+                            </form>
                         </div>
-                            <a href="javascript:void(0);" class="btn btn-secondary w-100 mt-4" data-toggle="modal" data-target="#passwordrestSuccessfully" data-dismiss="modal">Reset password</a>
-                        </form>
-                    </div>
                     </div>
                 </div>
             </div>
@@ -2280,14 +2288,14 @@
             <div class="modal fade" id="passwordrestSuccessfully" tabindex="-1" role="dialog" aria-labelledby="passwordrestSuccessfully" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered modal-nd modal-dialog-slideout" role="document">
                     <div class="modal-content">
-                    <div class="modal-body">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        <h3 class="text-center mb-2">Password reset</h3>
-                        <p class="f-16 mb-4 text-center">Your password has been successfully reset. A one-time password has been sent to your email</p>
-                        <a href="javascript:void(0);" class="btn btn-primary w-100" data-toggle="modal" data-target="#resetCodeModal" data-dismiss="modal">Next</a>
-                    </div>
+                        <div class="modal-body">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <h3 class="text-center mb-2">Password reset</h3>
+                            <p class="f-16 mb-4 text-center">Your password has been successfully reset. A one-time password has been sent to your email</p>
+                            <a href="javascript:void(0);" class="btn btn-primary w-100" data-toggle="modal" data-target="#resetCodeModal" data-dismiss="modal">Next</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -2296,23 +2304,23 @@
             <div class="modal fade" id="signUpcodeModal" tabindex="-1" role="dialog" aria-labelledby="signUpcodeModalTitle" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered modal-sm modal-dialog-slideout" role="document">
                     <div class="modal-content">
-                    <div class="modal-body">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        <h3 class="text-center">Enter the code</h3>
-                        <form>
-                            <div class="form-group d-flex justify-content-between">
-                                <input type="text" class="form-control form-control-border">
-                                <input type="text" class="form-control form-control-border">
-                                <input type="text" class="form-control form-control-border">
-                                <input type="text" class="form-control form-control-border">
-                            </div>
-                            <p class="mb-0 text-center">You didn’t receive a code?</p>
-                            <a href="javascript:void(0);" class="d-flex justify-content-center text-primary">Resend</a>
-                            <a href="javascript:void(0);" class="btn btn-secondary w-100 mt-4" data-dismiss="modal">Sign up</a>
-                        </form>
-                    </div>
+                        <div class="modal-body">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <h3 class="text-center">Enter the code</h3>
+                            <form>
+                                <div class="form-group d-flex justify-content-between">
+                                    <input type="text" class="form-control form-control-border">
+                                    <input type="text" class="form-control form-control-border">
+                                    <input type="text" class="form-control form-control-border">
+                                    <input type="text" class="form-control form-control-border">
+                                </div>
+                                <p class="mb-0 text-center">You didn’t receive a code?</p>
+                                <a href="javascript:void(0);" class="d-flex justify-content-center text-primary">Resend</a>
+                                <a href="javascript:void(0);" class="btn btn-secondary w-100 mt-4" data-dismiss="modal">Sign up</a>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -2321,23 +2329,23 @@
             <div class="modal fade" id="resetCodeModal" tabindex="-1" role="dialog" aria-labelledby="codeModalTitle" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered modal-sm modal-dialog-slideout" role="document">
                     <div class="modal-content">
-                    <div class="modal-body">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        <h3 class="text-center">Enter the code</h3>
-                        <form>
-                            <div class="form-group d-flex justify-content-between">
-                                <input type="text" class="form-control form-control-border">
-                                <input type="text" class="form-control form-control-border">
-                                <input type="text" class="form-control form-control-border">
-                                <input type="text" class="form-control form-control-border">
-                            </div>
-                            <p class="mb-0 text-center">You didn’t receive a code?</p>
-                            <a href="javascript:void(0);" class="d-flex justify-content-center text-primary">Resend</a>
-                            <a href="javascript:void(0);" class="btn btn-secondary w-100 mt-4" data-toggle="modal" data-target="#changePasswordSuccessfully" data-dismiss="modal">Log in</a>
-                        </form>
-                    </div>
+                        <div class="modal-body">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <h3 class="text-center">Enter the code</h3>
+                            <form>
+                                <div class="form-group d-flex justify-content-between">
+                                    <input type="text" class="form-control form-control-border">
+                                    <input type="text" class="form-control form-control-border">
+                                    <input type="text" class="form-control form-control-border">
+                                    <input type="text" class="form-control form-control-border">
+                                </div>
+                                <p class="mb-0 text-center">You didn’t receive a code?</p>
+                                <a href="javascript:void(0);" class="d-flex justify-content-center text-primary">Resend</a>
+                                <a href="javascript:void(0);" class="btn btn-secondary w-100 mt-4" data-toggle="modal" data-target="#changePasswordSuccessfully" data-dismiss="modal">Log in</a>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -2346,60 +2354,41 @@
             <div class="modal fade" id="changePasswordSuccessfully" tabindex="-1" role="dialog" aria-labelledby="changePasswordSuccessfully" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered modal-nd modal-dialog-slideout" role="document">
                     <div class="modal-content">
-                    <div class="modal-body">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        <h3 class="text-center mb-2">Change password</h3>
-                        <p class="f-16 mb-4 text-center">Your password has been reset. You can set a new password in your personal account in the profile section.</p>
-                        <div class="d-flex align-items-center justify-content-center">
-                            <a href="javascript:void(0);" class="btn btn-primary btn-primary-outline mr-3 w-100" data-dismiss="modal">Change password</a>
-                            <a href="javascript:void(0);" class="btn btn-primary w-100" data-dismiss="modal">Go shopping</a>
+                        <div class="modal-body">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <h3 class="text-center mb-2">Change password</h3>
+                            <p class="f-16 mb-4 text-center">Your password has been reset. You can set a new password in your personal account in the profile section.</p>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <a href="javascript:void(0);" class="btn btn-primary btn-primary-outline mr-3 w-100" data-dismiss="modal">Change password</a>
+                                <a href="javascript:void(0);" class="btn btn-primary w-100" data-dismiss="modal">Go shopping</a>
+                            </div>
                         </div>
-                    </div>
                     </div>
                 </div>
             </div>
         </div>
     </main>
-    <?php include ('include/footer.php') ?>
-    <?php include ('include/footer-scripts.php') ?>
+    <?php include('include/footer.php') ?>
+    <?php include('include/footer-scripts.php') ?>
     <script type="text/javascript" src="js/slick.min.js"></script>
     <script type="text/javascript" src="js/swiper.min.js"></script>
-    <!-- <script>
-        $( document ).ready(function() {
-            $('.createAccountActionBtn').on('click', function() {
-                $(".loginSignUpModal_right").css({"transform":"translateX(-640px)","transition": "1s cubic-bezier(0.35, 0, 0, 1)"})
-                $(".loginSignUpModal_right").addClass("loginModalShow")
-                $(".loginSignUpModal_left").css({"transform":"translateX(400px)","transition": "1s cubic-bezier(0.35, 0, 0, 1)"})
-                $(".loginSignUpModal_left").addClass("loginModalShow")
-            });
-            $('.loginActionBtn').on('click', function() {
-                $(".loginSignUpModal_right").css({"transform":"translateX(0)", "transition": "1s cubic-bezier(0.35, 0, 0, 1)"})
-                $(".loginSignUpModal_right").addClass("signInModalShow")
-                $(".loginSignUpModal_left").css({"transform":"translateX(0)", "transition": "1s cubic-bezier(0.35, 0, 0, 1)"})
-                $(".loginSignUpModal_left").addClass("signInModalShow")
-            });
-        });
-        
-    </script> -->
 
-    
+
     <script>
-       $('.createAccountActionBtn, .loginActionBtn').on('click', function() {
-         $(".loginSignUpModal").toggleClass("showSignUp")
-       })
-       
-       
+        $('.createAccountActionBtn, .loginActionBtn').on('click', function() {
+            $(".loginSignUpModal").toggleClass("showSignUp")
+        });
 
         $(document).ready(function() {
             $(".passwordField_icons").on('click', function(event) {
                 event.preventDefault();
-                if($('#show_hide_password input').attr("type") == "text"){
+                if ($('#show_hide_password input').attr("type") == "text") {
                     $('#show_hide_password input').attr('type', 'password');
                     // $('#show_hide_password i').addClass( "fa-eye-slash" );
                     // $('#show_hide_password i').removeClass( "fa-eye" );
-                }else if($('#show_hide_password input').attr("type") == "password"){
+                } else if ($('#show_hide_password input').attr("type") == "password") {
                     $('#show_hide_password input').attr('type', 'text');
                     // $('#show_hide_password i').removeClass( "fa-eye-slash" );
                     // $('#show_hide_password i').addClass( "fa-eye" );
@@ -2407,41 +2396,36 @@
             });
         });
 
-  $('.bannerSlider').slick({
-        //centerMode: true,
-        // centerPadding: '90px',
-        slidesToShow: 1,
-        arrows: true,
-        dots:true,
-        nextArrow:"<button type='button' class='slick-next pull-left'><img class='img-fluid' src='images/next-arrow-rounded.svg'></button>",
+        $('.bannerSlider').slick({
+            //centerMode: true,
+            // centerPadding: '90px',
+            slidesToShow: 1,
+            arrows: true,
+            dots: true,
+            nextArrow: "<button type='button' class='slick-next pull-left'><img class='img-fluid' src='images/next-arrow-rounded.svg'></button>",
 
-        responsive: [
-            {
-            breakpoint: 768,
-            settings: {
-                arrows: false,
-                // centerMode: true,
-                    // centerPadding: '40px',
-                    slidesToShow: 1
-                }
+            responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        // centerMode: true,
+                        // centerPadding: '40px',
+                        slidesToShow: 1
+                    }
                 },
                 {
-                breakpoint: 480,
-                settings: {
-                    arrows: false,
-                    // centerMode: true,
-                    // centerPadding: '40px',
-                    slidesToShow: 1
-                }
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        // centerMode: true,
+                        // centerPadding: '40px',
+                        slidesToShow: 1
+                    }
                 }
             ]
-            });
+        });
 
-         
-    
-</script>
-    <script>
-         $(document).ready(function(){
+        $(document).ready(function() {
             $('.arrivalsSection_slider').slick({
                 dots: true,
                 infinite: false,
@@ -2484,62 +2468,7 @@
                 slidesToShow: 4,
                 slidesToScroll: 1,
             });
-
-    //         var swiper = new Swiper('.product-slider', {
-    //     spaceBetween: 30,
-    //     effect: 'fade',
-    //     // initialSlide: 2,
-    //     loop: false,
-    //     navigation: {
-    //         nextEl: '.next',
-    //         prevEl: '.prev'
-    //     },
-    //     // mousewheel: {
-    //     //     // invert: false
-    //     // },
-    //     on: {
-    //         init: function(){
-    //             var index = this.activeIndex;
-
-    //             var target = $('.product-slider__item').eq(index).data('target');
-
-    //             console.log(target);
-
-    //             $('.product-img__item').removeClass('active');
-    //             $('.product-img__item#'+ target).addClass('active');
-    //         }
-    //     }
-
-    // });
-
-    // swiper.on('slideChange', function () {
-    //     var index = this.activeIndex;
-
-    //     var target = $('.product-slider__item').eq(index).data('target');
-
-    //     console.log(target);
-
-    //     $('.product-img__item').removeClass('active');
-    //     $('.product-img__item#'+ target).addClass('active');
-
-    //     if(swiper.isEnd) {
-    //         $('.prev').removeClass('disabled');
-    //         $('.next').addClass('disabled');
-    //     } else {
-    //         $('.next').removeClass('disabled');
-    //     }
-
-    //     if(swiper.isBeginning) {
-    //         $('.prev').addClass('disabled');
-    //     } else {
-    //         $('.prev').removeClass('disabled');
-    //     }
-    // });
-
-    // $(".js-fav").on("click", function() {
-    //     $(this).find('.heart').toggleClass("is-active");
-    // });
-    //     });
+        });
     </script>
 </body>
 

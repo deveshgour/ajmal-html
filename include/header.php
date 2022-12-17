@@ -437,6 +437,9 @@
                 </div> -->
                 <img src="images/mic.svg" alt="mic" class="img-fluid">
             </div>
+        </div>
+    </div>
+</div>
 
 <!-- Search Bar -->
 <div class="searchBarMenu">
