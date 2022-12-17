@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>AJMAL || HOME</title>
     <?php include('include/head-link.php'); ?>
+    <link rel="stylesheet" href="css/swiper.min.css" type="text/css">
     <link rel="stylesheet" href="css/slick.css" type="text/css">
     <link rel="stylesheet" href="css/slick-theme.css" type="text/css">
 </head>
@@ -2123,6 +2124,120 @@
             </div>
         </section>
 
+        <Section class="reviewSection py-55 pt-0 overflow-hidden">
+            <div class="container">
+                <div class="reviewSection_top">
+                    <h3 class="sectionHeading">Reviews</h3>
+                </div>
+                <div class="reviewSection_inner">
+                    <div class="swiper reviewSlider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="reviewBox">
+                                    <div class="d-flex align-items-center">
+                                        <div class="reviewBox_img">
+                                            <img src="images/review-product.png" class="img-fluid" alt="product">
+                                        </div>
+                                        <div class="reviewBox_txt">
+                                            <h3>Unlocks an old memory</h3>
+                                            <p>Nothing unlocks an old memory better than smell, be it the memory of lost love or of a fond friend. At Ajmal we help towards recreating those memories through our fragrances.</p>
+                                            <div class="userInfo d-flex align-items-start justify-content-between">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="userInfo_img">
+                                                        <img src="images/avatar-img.png" class="img-fluid" alt="user">
+                                                    </div>
+                                                    <div class="userInfo_txt">
+                                                        <h6>Sue Smit</h6>
+                                                        <p>London, United Kingdom</p>
+                                                    </div>
+                                                </div>
+                                                <div class="rating">
+                                                    <ul class=" d-flex list-unstyled justify-content-center">
+                                                        <li><span class="icon-star"></span></li>
+                                                        <li><span class="icon-star"></span></li>
+                                                        <li><span class="icon-star"></span></li>
+                                                        <li><span class="icon-star"></span></li>
+                                                        <li><span class="icon-star"></span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="reviewBox">
+                                    <div class="d-flex align-items-center">
+                                        <div class="reviewBox_img">
+                                            <img src="images/review-product.png" class="img-fluid" alt="product">
+                                        </div>
+                                        <div class="reviewBox_txt">
+                                            <h3>Unlocks an old memory</h3>
+                                            <p>Nothing unlocks an old memory better than smell, be it the memory of lost love or of a fond friend. At Ajmal we help towards recreating those memories through our fragrances.</p>
+                                            <div class="userInfo d-flex align-items-start justify-content-between">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="userInfo_img">
+                                                        <img src="images/avatar-img.png" class="img-fluid" alt="user">
+                                                    </div>
+                                                    <div class="userInfo_txt">
+                                                        <h6>Sue Smit</h6>
+                                                        <p>London, United Kingdom</p>
+                                                    </div>
+                                                </div>
+                                                <div class="rating">
+                                                    <ul class=" d-flex list-unstyled justify-content-center">
+                                                        <li><span class="icon-star"></span></li>
+                                                        <li><span class="icon-star"></span></li>
+                                                        <li><span class="icon-star"></span></li>
+                                                        <li><span class="icon-star"></span></li>
+                                                        <li><span class="icon-star"></span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="reviewBox">
+                                    <div class="d-flex align-items-center">
+                                        <div class="reviewBox_img">
+                                            <img src="images/review-product.png" class="img-fluid" alt="product">
+                                        </div>
+                                        <div class="reviewBox_txt">
+                                            <h3>Unlocks an old memory</h3>
+                                            <p>Nothing unlocks an old memory better than smell, be it the memory of lost love or of a fond friend. At Ajmal we help towards recreating those memories through our fragrances.</p>
+                                            <div class="userInfo d-flex align-items-start justify-content-between">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="userInfo_img">
+                                                        <img src="images/avatar-img.png" class="img-fluid" alt="user">
+                                                    </div>
+                                                    <div class="userInfo_txt">
+                                                        <h6>Sue Smit</h6>
+                                                        <p>London, United Kingdom</p>
+                                                    </div>
+                                                </div>
+                                                <div class="rating">
+                                                    <ul class=" d-flex list-unstyled justify-content-center">
+                                                        <li><span class="icon-star"></span></li>
+                                                        <li><span class="icon-star"></span></li>
+                                                        <li><span class="icon-star"></span></li>
+                                                        <li><span class="icon-star"></span></li>
+                                                        <li><span class="icon-star"></span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </Section>
         <!-- Login Modal -->
         <!-- Modal -->
         <div class="commonModal loginSignUpModal">
@@ -2364,7 +2479,16 @@
     </main>
     <?php include ('include/footer.php') ?>
     <?php include ('include/footer-scripts.php') ?>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
+    <script>
+      var swiper = new Swiper(".reviewSlider", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
     <!-- <script>
         $( document ).ready(function() {
             $('.createAccountActionBtn').on('click', function() {
