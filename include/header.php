@@ -2,7 +2,7 @@
     <div class="header-top">
         <p class="mb-0"><span>FREE SHIPPING</span> on all orders in the UAE</p>
     </div>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg" id="navigationBar">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.php">
                 <img src="images/logo.svg" alt="logo" class="img-fluid whiteLogo">
@@ -18,7 +18,7 @@
             <div class="navbar-center">
                 <form class="navbar-search">
                     <span class="navbar-search-icon"><img src="images/search.svg" alt="search" /></span>
-                    <input type="text" placeholder="Search for perfume" class="form-control" />
+                    <input type="text" placeholder="Search for perfume" class="form-control " id="searchItems" />
                     <button class="btn btn-mic"><img src="images/mic.svg" alt="mic" /></button>
                 </form>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -437,6 +437,81 @@
                 </div> -->
                 <img src="images/mic.svg" alt="mic" class="img-fluid">
             </div>
+
+<!-- Search Bar -->
+<div class="searchBarMenu">
+    <div class="searchBarMenu_top">
+        <div class="container-fluid">
+            <div class="d-flex align-items-center">
+                <a class="searchBarMenu_logo" href="index.php">
+                    <img src="images/logo.svg" alt="logo" class="img-fluid whiteLogo">
+                </a>
+                <form class="navbar-search">
+                    <span class="navbar-search-icon"><img src="images/search.svg" alt="search"></span>
+                    <input type="text" placeholder="Search for perfume" class="form-control" fdprocessedid="rt5yvi">
+                    <a href="" class="deleteBtn"><img src="images/delete-btn.svg" alt="delete"></a>
+                    <button class="btn btn-mic" fdprocessedid="ark8k"><img src="images/mic.svg" alt="mic"></button>
+                </form>
+            </div>
+            <a href="javascript:;" class="cartMenu_close searchMenuClose"><img src="images/close.svg" alt="close" /></a>
+        </div>
+    </div>
+    <div class="searchBarMenu_bottom">
+        <div class="searchBarMenu_bottom_txt">
+            <h5>POPULAR SEARCHES</h5>
+            <ul class="list-unstyled mb-0">
+                <li class="cartBox">
+                    <div class=" d-flex align-items-center justify-content-between cartBox_desc">
+                        <div class="d-flex align-items-center">
+                            <div class="cartBox_img">
+                                <img src="images/review-product.png" alt="product" class="img-fluid" />
+                            </div>
+                            <div class="cartBox_cnt">
+                                <h4>Amber Wood Noir</h4>
+                                <p>eau de parfume / 75ML / women</p>
+                                <span class="price">12 AED</span>
+                            </div>
+                        </div>
+                        <div class="cartBox_addCard">
+                            <a href="#" class="btn btn-primary btn-primary-outline btn-md">Add to cart</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="cartBox">
+                    <div class=" d-flex align-items-center justify-content-between cartBox_desc">
+                        <div class="d-flex align-items-center">
+                            <div class="cartBox_img">
+                                <img src="images/amber-wood-noir-3.png" alt="product" class="img-fluid" />
+                            </div>
+                            <div class="cartBox_cnt">
+                                <h4>Amber Wood Noir</h4>
+                                <p>eau de parfume / 75ML / women</p>
+                                <span class="price">12 AED</span>
+                            </div>
+                        </div>
+                        <div class="cartBox_addCard">
+                            <a href="#" class="btn btn-primary btn-primary-outline btn-md">Add to cart</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="cartBox">
+                    <div class=" d-flex align-items-center justify-content-between cartBox_desc">
+                        <div class="d-flex align-items-center">
+                            <div class="cartBox_img">
+                                <img src="images/product-3.png" alt="product" class="img-fluid" />
+                            </div>
+                            <div class="cartBox_cnt">
+                                <h4>Amber Wood Noir</h4>
+                                <p>eau de parfume / 75ML / women</p>
+                                <span class="price">12 AED</span>
+                            </div>
+                        </div>
+                        <div class="cartBox_addCard">
+                            <a href="#" class="btn btn-primary btn-primary-outline btn-md">Add to cart</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
         </div>
     </div>
 </div>
