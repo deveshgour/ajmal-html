@@ -17,6 +17,7 @@
     if (scroll >= 50) {
         $("#userHeader").addClass("smallHeader");
         $("body").addClass("stickyHeader");
+        $(".searchBarMenu").css({"top":"0"})
     } else {
         $("#userHeader").removeClass("smallHeader");
         $("body").removeClass("stickyHeader");
