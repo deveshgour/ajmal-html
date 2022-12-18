@@ -70,7 +70,7 @@
                 width: 100px;height: 100px;overflow: hidden;
                 img{width: 100%;height: 100%;object-fit: cover;mix-blend-mode: multiply;}
             }
-            &_cnt{ padding-left: 16px;
+            &_cnt{ padding-left: 5px;
                 h5{font-size: 16px;font-family: font(sbd);margin-bottom: 8px;}
                 p{font-size: 12px;color: #727272;margin-bottom: 16px;}
                 span{font-family: font(smd);font-size: 16px;color: color(500);}
@@ -83,6 +83,52 @@
                 .cartBox_addCard{
                     display: block;
                 }
+            }
+        }
+    }
+    @media (max-width: 1199px){
+        &_top{
+            padding: 10px 0;height: 95px;
+        }
+        &_logo{
+            max-height: 70px;
+        }
+        &_bottom{
+            padding: 15px 0;
+            h5{margin-bottom: 15px;}
+            .cartBox{
+                padding: 15px 0;
+                &_img{width: 80px;height: 80px;}
+            }
+        }
+    }
+    @media (max-width: 992px){
+        .navbar-search {max-width: 550px;}
+        &_bottom{
+            h5{margin-bottom: 10px;max-width: 550px;}
+            .cartBox{
+                &_desc{max-width: 550px;}
+            }
+        }
+    }
+    @media (max-width: 767px){
+        .navbar-search {max-width: 400px;}
+        &_bottom{
+            h5{margin-bottom: 10px;max-width: 400px;}
+            .cartBox{
+                &_desc{max-width: 400px;}
+            }
+        }
+    }
+    @media (max-width: 575px){
+        .container-fluid{padding: 0 10px;}
+        .cartMenu_close{right: 10px;top:5px;}
+        .navbar-search {max-width: 225px;}
+        &_bottom{ 
+            h5{max-width: 100%;padding-left: 10px;}
+            .cartBox{ padding: 10px; margin-bottom: 10px;
+                &_desc{max-width: 100%; display: block !important;}
+                &_addCard{margin-top: 5px;}
             }
         }
     }
