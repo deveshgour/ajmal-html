@@ -88,4 +88,41 @@
             left: 0;
         }
     }
+
+    @include media-breakpoint-down(xl){
+        h1{
+            font-size: 50px;
+        }
+        .bannerSlider{
+            &_item{
+                padding-top: 157px;
+                min-height: 686px;
+            }
+        }
+        .slick-arrow{
+            &.slick-next{
+                right: 48px;
+            }
+        }
+    }
+    @include media-breakpoint-down(lg){
+        h1{
+            font-size: 35px;
+        }
+        .bannerSlider{
+            &_item{
+                padding-top: 99px;
+                min-height: 550px;
+            }
+        }
+        &_productBox{
+            h2{
+                font-size: 24px;
+            }
+        }
+        .slick-arrow{
+            width: 40px;
+            height: 40px;
+        }
+    }
 }

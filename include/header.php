@@ -9,12 +9,6 @@
                 <!-- <img src="images/logo.svg" alt="logo" class="img-fluid blackLogo"> -->
             </a>
 
-            <button class="navbar-toggler order-12" id="mobileMenuBar" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="line"></span>
-                <span class="line"></span>
-                <span class="line"></span>
-            </button>
-
             <div class="navbar-center">
                 <form class="navbar-search">
                     <span class="navbar-search-icon"><img src="images/search.svg" alt="search" /></span>
@@ -241,7 +235,7 @@
             </div>
 
             <div class="navbar-right d-flex align-items-center">
-                <ul class="navbar-nav align-items-lg-center mb-0 ml-auto">
+                <ul class="navbar-nav align-items-lg-center mb-0 ml-auto align-items-center">
                     <li class="nav-item country-menu">
                         <a class="nav-link" href="javascript:void(0);">
                             <img src="images/country1.png" alt="country" />
@@ -267,6 +261,11 @@
 
 
                 </ul>
+                <button class="navbar-toggler order-12" id="mobileMenuBar" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </button>
             </div>
         </div>
     </nav>

@@ -76,6 +76,10 @@
       opacity: 1;
     }
   }
+  @include media-breakpoint-down(xl){
+      width: 158px;
+      height: 42px;
+  }
 }
 
 @include keyframes(animateRotate) {
