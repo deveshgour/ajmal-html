@@ -617,8 +617,7 @@
                                             <img src="images/ajmal-img.png"  class="img-fluid" alt="product-img">
                                             <!-- <span class="outofstock">OUT OF STOCK</span> -->
                                         </div>
-                                        
-                                        <a href="javascript:void(0);" class="productLike"><span class="icon-heart"></span></a>
+                                        <a href="javascript:void(0);" class="productLike"><em class="icon-favorite_outline"></em></a>
                                     </div>
                                     <div class="productCard_center text-center">
                                         <ul class="rating d-flex list-unstyled justify-content-center">
@@ -1733,122 +1732,6 @@
                 </div>
             </div>
         </section>
-        <!-- <section class="reviewSection py-55 pt-0">
-            <div class="container">
-                <div class="reviewSection_top">
-                    <h3 class="sectionHeading">Reviews</h3>
-                </div>
-                <div class="reviewSection_inner position-relative">
-                    <div class="swiper reviewSection_slider swiperSliderIcon overflow-hidden">
-                        <div class="swiper-wrapper mb-0">
-                            <div class="swiper-slide">
-                                <div class="reviewBox">
-                                    <div class="d-flex align-items-center">
-                                        <div class="reviewBox_img">
-                                            <img src="images/review-product.png" class="img-fluid" alt="product">
-                                        </div>
-                                        <div class="reviewBox_txt">
-                                            <h3>Unlocks an old memory</h3>
-                                            <p>Nothing unlocks an old memory better than smell, be it the memory of lost love or of a fond friend. At Ajmal we help towards recreating those memories through our fragrances.</p>
-                                            <div class="userInfo d-flex align-items-start justify-content-between">
-                                                <div class="d-flex align-items-center">
-                                                    <div class="userInfo_img">
-                                                        <img src="images/avatar-img.png" class="img-fluid" alt="user">
-                                                    </div>
-                                                    <div class="userInfo_txt">
-                                                        <h6>Sue Smit</h6>
-                                                        <p>London, United Kingdom</p>
-                                                    </div>
-                                                </div>
-                                                <div class="rating">
-                                                    <ul class=" d-flex list-unstyled justify-content-center">
-                                                        <li><span class="icon-star"></span></li>
-                                                        <li><span class="icon-star"></span></li>
-                                                        <li><span class="icon-star"></span></li>
-                                                        <li><span class="icon-star"></span></li>
-                                                        <li><span class="icon-star"></span></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="reviewBox">
-                                    <div class="d-flex align-items-center">
-                                        <div class="reviewBox_img">
-                                            <img src="images/review-product.png" class="img-fluid" alt="product">
-                                        </div>
-                                        <div class="reviewBox_txt">
-                                            <h3>Unlocks an old memory</h3>
-                                            <p>Nothing unlocks an old memory better than smell, be it the memory of lost love or of a fond friend. At Ajmal we help towards recreating those memories through our fragrances.</p>
-                                            <div class="userInfo d-flex align-items-start justify-content-between">
-                                                <div class="d-flex align-items-center">
-                                                    <div class="userInfo_img">
-                                                        <img src="images/avatar-img.png" class="img-fluid" alt="user">
-                                                    </div>
-                                                    <div class="userInfo_txt">
-                                                        <h6>Sue Smit</h6>
-                                                        <p>London, United Kingdom</p>
-                                                    </div>
-                                                </div>
-                                                <div class="rating">
-                                                    <ul class=" d-flex list-unstyled justify-content-center">
-                                                        <li><span class="icon-star"></span></li>
-                                                        <li><span class="icon-star"></span></li>
-                                                        <li><span class="icon-star"></span></li>
-                                                        <li><span class="icon-star"></span></li>
-                                                        <li><span class="icon-star"></span></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="reviewBox">
-                                    <div class="d-flex align-items-center">
-                                        <div class="reviewBox_img">
-                                            <img src="images/review-product.png" class="img-fluid" alt="product">
-                                        </div>
-                                        <div class="reviewBox_txt">
-                                            <h3>Unlocks an old memory</h3>
-                                            <p>Nothing unlocks an old memory better than smell, be it the memory of lost love or of a fond friend. At Ajmal we help towards recreating those memories through our fragrances.</p>
-                                            <div class="userInfo d-flex align-items-start justify-content-between">
-                                                <div class="d-flex align-items-center">
-                                                    <div class="userInfo_img">
-                                                        <img src="images/avatar-img.png" class="img-fluid" alt="user">
-                                                    </div>
-                                                    <div class="userInfo_txt">
-                                                        <h6>Sue Smit</h6>
-                                                        <p>London, United Kingdom</p>
-                                                    </div>
-                                                </div>
-                                                <div class="rating">
-                                                    <ul class=" d-flex list-unstyled justify-content-center">
-                                                        <li><span class="icon-star"></span></li>
-                                                        <li><span class="icon-star"></span></li>
-                                                        <li><span class="icon-star"></span></li>
-                                                        <li><span class="icon-star"></span></li>
-                                                        <li><span class="icon-star"></span></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-pagination"></div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
         <section class="reviewSection py-55 pt-0">
             <div class="container">
                 <div class="reviewSection_top">
@@ -2688,89 +2571,40 @@
                 }
             }
         });
-
-        // var swiper = new Swiper(".reviewSection_slider", {
-        //     slidesPerView: 1,
-        //     slidesPerGroup: 1,
-        //     loop: false,
-        //     loopFillGroupWithBlank: true,
-        //     navigation: {
-        //     nextEl: ".swiper-button-next",
-        //     prevEl: ".swiper-button-prev",
-        //     },
-        //     pagination: {
-        //         el: ".swiper-pagination",
-        //         clickable: true,
-        //     }
-        // });
     </script>
-    <!-- <script>
-        $( document ).ready(function() {
-            $('.createAccountActionBtn').on('click', function() {
-                $(".loginSignUpModal_right").css({"transform":"translateX(-640px)","transition": "1s cubic-bezier(0.35, 0, 0, 1)"})
-                $(".loginSignUpModal_right").addClass("loginModalShow")
-                $(".loginSignUpModal_left").css({"transform":"translateX(400px)","transition": "1s cubic-bezier(0.35, 0, 0, 1)"})
-                $(".loginSignUpModal_left").addClass("loginModalShow")
-            });
-            $('.loginActionBtn').on('click', function() {
-                $(".loginSignUpModal_right").css({"transform":"translateX(0)", "transition": "1s cubic-bezier(0.35, 0, 0, 1)"})
-                $(".loginSignUpModal_right").addClass("signInModalShow")
-                $(".loginSignUpModal_left").css({"transform":"translateX(0)", "transition": "1s cubic-bezier(0.35, 0, 0, 1)"})
-                $(".loginSignUpModal_left").addClass("signInModalShow")
-            });
-        });
-        
-    </script> -->
-
-    
     <script>
        $('.createAccountActionBtn, .loginActionBtn').on('click', function() {
          $(".loginSignUpModal").toggleClass("showSignUp")
        })
        
-       
-
         $(document).ready(function() {
             $(".passwordField_icons").on('click', function(event) {
                 event.preventDefault();
                 if($('#show_hide_password input').attr("type") == "text"){
                     $('#show_hide_password input').attr('type', 'password');
-                    // $('#show_hide_password i').addClass( "fa-eye-slash" );
-                    // $('#show_hide_password i').removeClass( "fa-eye" );
                 }else if($('#show_hide_password input').attr("type") == "password"){
                     $('#show_hide_password input').attr('type', 'text');
-                    // $('#show_hide_password i').removeClass( "fa-eye-slash" );
-                    // $('#show_hide_password i').addClass( "fa-eye" );
                 }
-
-
             });
         });
 
   $('.bannerSlider').slick({
-        //centerMode: true,
-        // centerPadding: '90px',
         slidesToShow: 1,
         arrows: true,
         dots:true,
         nextArrow:"<button type='button' class='slick-next pull-left'><img class='img-fluid' src='images/next-arrow-rounded.svg'></button>",
-
         responsive: [
             {
             breakpoint: 768,
             settings: {
                 arrows: false,
-                // centerMode: true,
-                    // centerPadding: '40px',
-                    slidesToShow: 1
+                slidesToShow: 1
                 }
                 },
                 {
                 breakpoint: 480,
                 settings: {
                     arrows: false,
-                    // centerMode: true,
-                    // centerPadding: '40px',
                     slidesToShow: 1
                 }
                 }
@@ -2782,34 +2616,6 @@
 </script>
     <script>
          $(document).ready(function(){
-            // $('.arrivalsSection_slider').slick({
-            //     dots: true,
-            //     infinite: false,
-            //     speed: 300,
-            //     slidesToShow: 4,
-            //     slidesToScroll: 1,
-            // });
-            // $('.giftingSection_slider').slick({
-            //     dots: true,
-            //     infinite: false,
-            //     speed: 300,
-            //     slidesToShow: 4,
-            //     slidesToScroll: 1,
-            // });
-            // $('.popularCategories_slider').slick({
-            //     dots: true,
-            //     infinite: false,
-            //     speed: 300,
-            //     slidesToShow: 4,
-            //     slidesToScroll: 1,
-            // });
-            // $('.reviewSection_slider').slick({
-            //     dots: true,
-            //     infinite: false,
-            //     speed: 300,
-            //     slidesToShow: 1,
-            //     slidesToScroll: 1,
-            // });
             $('.pressMediaSec_slider').slick({
                 dots: true,
                 infinite: false,
@@ -2873,9 +2679,6 @@
                 effect: 'fade',
                 slidesPerView: 1,
                 loop: true,
-                // mousewheel: {
-                //     invert: false,
-                // },
                 navigation: {
                     nextEl: ".swiper-button-next",
                     prevEl: ".swiper-button-prev",

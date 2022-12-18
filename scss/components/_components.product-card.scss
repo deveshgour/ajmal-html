@@ -36,6 +36,7 @@
             width: 48px;height: 36px;border: 1px solid rgba(43, 40, 38, 0.1);border-radius: 8px;
             display: flex; align-items: center; justify-content: center;flex-shrink: 0;position: absolute;
             left: 16px;top: 16px;z-index: 1;
+            img{width: 100%;max-width: 25px;}
         }
         .productLike{
             width: 36px;height: 36px;background: rgba(188, 139, 87, 0.1);border-radius: 50%;
