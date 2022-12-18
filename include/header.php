@@ -13,7 +13,7 @@
                 <form class="navbar-search">
                     <span class="navbar-search-icon"><img src="images/search.svg" alt="search" /></span>
                     <input type="text" placeholder="Search for perfume" class="form-control " id="searchItems" />
-                    <button class="btn btn-mic"><img src="images/mic.svg" alt="mic" /></button>
+                    <a href="#" class="btn btn-mic" id="micButton"><img src="images/mic.svg" alt="mic" /></a>
                 </form>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav align-items-lg-center mb-0 m-auto" id="navbarToggle">
@@ -407,34 +407,53 @@
     </div>
 </div>
 
-<div class="voiceSearch d-none">
-    <div class="voiceSearch_head">
-        <div class="voiceSearch_head_left">
-            <img src="images/logo.svg" class="img-fluid" alt="logo" />
+<div class="voiceSearch">
+    <div class="container-fluid h-100">
+        <div class="voiceSearch_head d-flex align-items-center justify-content-between">
+            <div class="voiceSearch_head_left">
+                <img src="images/logo.svg" class="img-fluid" alt="logo" />
+            </div>
+            <div class="voiceSearch_head_right">
+                <a href="javascript:;" class="micButtonClose"><img src="images/close.svg" class="img-fluid" alt="logo" /></a>
+            </div>
         </div>
-        <div class="voiceSearch_head_right">
-            <a href="javascript:;"><img src="images/close.svg" class="img-fluid" alt="logo" /></a>
-        </div>
-    </div>
-
-    <div class="voiceSearch_body">
-        <div class="voiceSearch_mic">
-            <div class="voiceSearch_mic_icon">
-                <!-- <div class="waveWrapper waveAnimation">
-                    <div class="waveWrapperInner bgTop">
-                        <div class="wave waveTop" style="background-image: url('images/wave_1.png')"></div>
+        <div class="voiceSearch_body">
+            <div class="voiceSearch_wave text-center w-100">
+                <img src="images/voice-search-before.png" class="img-fluid voiceSearchBefore" alt="wave-img">
+                <img src="images/voice-search-after.png" class="img-fluid voiceSearchAfter" alt="wave-img" style="display: none;">
+                <form>
+                    <div class="form-group mb-0">
+                        <input type="text" class="form-control form-control-border voiceSearchInput" placeholder="Search for perfume">
                     </div>
-                    <div class="waveWrapperInner bgMiddle">
-                        <div class="wave waveMiddle" style="background-image: url('images/wave_2.png')"></div>
-                    </div>
-                    <div class="waveWrapperInner bgBottom">
-                        <div class="wave waveBottom" style="background-image: url('images/wave_3.png')"></div>
-                    </div>
-                    <div class="waveWrapperInner bgEnd">
-                        <div class="wave waveEnd" style="background-image: url('images/wave_4.png')"></div>
-                    </div>
-                </div> -->
-                <img src="images/mic.svg" alt="mic" class="img-fluid">
+                </form>
+            </div>
+            <div class="products" id="searchProductBox">
+                <ul class="list-unstyled">
+                    <li class="products_box">
+                        <div class="d-flex align-items-center">
+                            <div class="products_img">
+                                <img src="images/review-product.png" alt="product" class="img-fluid" />
+                            </div>
+                            <div class="products_cnt">
+                                <h4>Amber <b>Wood Noir</b></h4>
+                                <p>eau de parfume / 75ML / women</p>
+                                <span class="price">12 AED</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="products_box">
+                        <div class="d-flex align-items-center">
+                            <div class="products_img">
+                                <img src="images/review-product.png" alt="product" class="img-fluid" />
+                            </div>
+                            <div class="products_cnt">
+                                <h4>Amber <b>Wood Noir</b> <span class="labal">50%</span></h4>
+                                <p>eau de parfume / 75ML / women</p>
+                                <span class="price">12 AED <del>24 AED</del> </span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>

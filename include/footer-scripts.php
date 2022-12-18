@@ -89,4 +89,26 @@ $('.searchMenuClose, .customOverlay').click(function(){
      $('body').css('overflow','auto');
 })
 
+
+$('#micButton').click(function(){
+     $('.voiceSearch').css({'display':'block', 'opacity': '1', 'height': 'calc(100% - 48px)'});
+     $('body').css('overflow','hidden');
+})
+$('.micButtonClose').click(function(){
+     $('.voiceSearch').css('display', 'none');
+     $('body').css('overflow','auto');
+})
+
+
+$('.voiceSearchInput').click(function(){
+     $('#searchProductBox').css({'display':'block', 'opacity': '1'});
+     $('.voiceSearchBefore').css('display','none');
+     $('.voiceSearchAfter').css('display','block');
+     $('.voiceSearch_body').css('margin-top','30px');
+})
+$('.micButtonClose').click(function(){
+     $('.voiceSearch').css({'display':'none', 'opacity': '0'});
+     $('body').css('overflow','auto');
+})
+
 </script>
