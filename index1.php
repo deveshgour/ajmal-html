@@ -2236,7 +2236,7 @@
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
-                        <div class="d-flex">
+                        <div class="d-sm-flex">
                             <div class="loginSignUpModal_left">
                                 <div class="loginDiv">
                                     <h3>Log in</h3>
@@ -2360,7 +2360,7 @@
         </div>
         <div class="commonModal passwordModal">
             <div class="modal fade" id="resetPasswordModal" tabindex="-1" role="dialog" aria-labelledby="resetPasswordModalTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered modal-nd modal-dialog-slideout" role="document">
+                <div class="modal-dialog modal-dialog-centered modal-md modal-dialog-slideout" role="document">
                     <div class="modal-content">
                     <div class="modal-body">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -2381,7 +2381,7 @@
         </div>
         <div class="commonModal passwordModal">
             <div class="modal fade" id="passwordrestSuccessfully" tabindex="-1" role="dialog" aria-labelledby="passwordrestSuccessfully" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered modal-nd modal-dialog-slideout" role="document">
+                <div class="modal-dialog modal-dialog-centered modal-md modal-dialog-slideout" role="document">
                     <div class="modal-content">
                     <div class="modal-body">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -2447,7 +2447,7 @@
         </div>
         <div class="commonModal passwordModal">
             <div class="modal fade" id="changePasswordSuccessfully" tabindex="-1" role="dialog" aria-labelledby="changePasswordSuccessfully" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered modal-nd modal-dialog-slideout" role="document">
+                <div class="modal-dialog modal-dialog-centered modal-md modal-dialog-slideout" role="document">
                     <div class="modal-content">
                     <div class="modal-body">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">

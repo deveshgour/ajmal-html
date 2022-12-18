@@ -45,6 +45,23 @@
     @media (max-width:991px){
         .modal-lg{max-width: 720px;}
         .modal-md{max-width: 450px;}
+        .modal-content{
+            .modal-body{padding: 30px;}
+        }
     }
-
+    @media (max-width:767px){
+        .modal-lg{max-width: 550px;}
+        .modal-md{max-width: 400px;}
+        .modal-sm{max-width: 310px;}
+        .modal-content{
+            .modal-body{padding: 20px;}
+        }
+    }
+    @media (max-width:575px){
+        .modal-lg{max-width: 310px;}
+        .modal-md{max-width: 310px;}
+        .modal-content{
+            .modal-body{padding: 15px;}
+        }
+    }
 }

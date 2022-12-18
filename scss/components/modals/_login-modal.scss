@@ -112,6 +112,54 @@
             }
         }
     }
+    @media(max-width:767px){
+        h3{font-size: 20px;}
+        p{
+            margin-bottom: 10px;font-size: 12px;
+        }
+        .divider{margin: 7px 0;
+            &::before{width: 50px;}
+            &::after{width: 50px;}
+        }
+        &_left{
+            padding: 20px 15px;max-width: 325px;
+        }
+        &_right{
+            max-width: 225px;padding: 0 15px;
+        }
+        &.showSignUp{
+            .loginSignUpModal_left{
+                transform : translateX(225px);
+            }
+            .loginSignUpModal_right{
+                transform : translateX(-325px);
+            }
+        }
+    }
+    @media(max-width: 575px){
+        h3{font-size: 18px;}
+        .divider{margin: 5px 0;
+            &::before{display: none;}
+            &::after{display: none;}
+        }
+        &_left{
+            padding: 15px 10px;max-width: 100%;
+        }
+        &_right{
+            max-width: 100%;padding: 15px 10px;
+            // .loginDiv{
+            //     padding: 15px 10px;
+            // }
+        }
+        &.showSignUp{
+            .loginSignUpModal_left{
+                transform : translateX(0);
+            }
+            .loginSignUpModal_right{
+                transform : translateX(0);
+            }
+        }
+    }
 }
 .form-group{
     &.floting{
@@ -137,6 +185,19 @@
             position: absolute;top:50%;right: 25px;width: 20px;height: 20px;transform: translateY(-50%);cursor: pointer;
         }
     }
+    @media(max-width:991px){
+        &.floting{
+            .form-control-placeholder{
+                font-size: 14px;top: 15px;
+            }
+            .form-control:focus, .form-control:valid{
+                ~.form-control-placeholder{
+                    font-size: 11px;
+                    top: 5px;
+                }
+            }
+        }
+    }
 }
 .passwordModal{
     background-color: color(100);
@@ -152,6 +213,17 @@
     &.codeModal{
         input{
             width: 54px;height: 54px;border-radius: 8px;border: 1px solid #C8C8C8;
+        }
+    }
+    @media(max-width:991px){
+        h3{font-size: 24px;margin-bottom: 15px;}
+    }
+    @media(max-width: 767px){
+        h3{font-size: 24px;margin-bottom: 10px;}
+        &.codeModal{
+            input{
+                width: 45px;height: 45px;
+            }
         }
     }
 }
