@@ -16,7 +16,7 @@
        
       }
     .modal-dialog{
-        margin: 15px;min-height: calc(100% - 30px);
+        margin: 15px;min-height: calc(100% - 30px); margin:0 auto;
         @include media-breakpoint-up(sm) {
             margin: 15px auto;
         }

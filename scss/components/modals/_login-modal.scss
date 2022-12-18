@@ -147,16 +147,13 @@
         }
         &_right{
             max-width: 100%;padding: 15px 10px;
-            // .loginDiv{
-            //     padding: 15px 10px;
-            // }
         }
         &.showSignUp{
             .loginSignUpModal_left{
-                transform : translateX(0);
+                transform : translateY(135px);
             }
             .loginSignUpModal_right{
-                transform : translateX(0);
+                transform : translateY(-510px);
             }
         }
     }

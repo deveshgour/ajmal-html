@@ -388,6 +388,49 @@
             }
         }
     }
+    @media(max-width: 992px){
+        &_top{
+            .popularImg{
+                height: 250px;
+                &_txt{
+                    h3{font-size: 24px;}
+                    ul{  display: block !important;
+                        li{
+                            &:not(:last-child){margin-bottom: 10px;}
+                            a{font-size: 15px;}
+                        }
+                    }
+                }
+                &:hover{
+                    .popularImg_txt{ top: 60px;
+                        h3{font-size: 22px;}
+                        ul{margin-top:50px;}
+                    }
+                }
+            }
+        }
+    }
+    @media(max-width: 767px){
+        &_top{
+            .popularImg{ height: 225px;
+                &_txt{
+                    h3{font-size: 20px;}
+                    ul{  display: block !important;
+                        li{
+                            &:not(:last-child){margin-bottom: 5px;}
+                            a{font-size: 15px;}
+                        }
+                    }
+                }
+                &:hover{
+                    .popularImg_txt{
+                        h3{font-size: 18px;}
+                        ul{margin-top:30px;}
+                    }
+                }
+            }
+        }
+    }
 }
 
 .storySection{
@@ -442,8 +485,7 @@
     }
     @media(max-width: 575px){
         &_inner{
-            padding: 15px;
-            
+            padding: 15px;text-align: center;
         }
         &_txt{ max-width: 100%
             P{margin-bottom: 15px;}

@@ -1185,7 +1185,7 @@
                             <h3 class="sectionHeading mb-0">Popular categories</h3>
                         </div>
                         <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-sm-6">
                                 <div class="popularImg position-relative overflow-hidden">
                                     <div class="popularImg_img popularImg_img--img1"></div>
                                     <div class="popularImg_txt">
@@ -1202,7 +1202,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 mt-3 mt-lg-0">
+                            <div class="col-sm-6 mt-3 mt-sm-0">
                                 <div class="popularImg position-relative overflow-hidden">
                                     <div class="popularImg_img popularImg_img--img2"></div>
                                     <!-- <img src="images/shop-men.jpg" class="img-fluid" alt="shop-img"> -->
