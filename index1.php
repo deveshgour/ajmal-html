@@ -2475,6 +2475,7 @@
             spaceBetween: 20,
             slidesPerGroup: 1,
             loop: false,
+            speed: 800,
             loopFillGroupWithBlank: true,
             navigation: {
             nextEl: ".swiper-button-next",
@@ -2509,6 +2510,7 @@
             spaceBetween: 20,
             slidesPerGroup: 1,
             loop: false,
+            speed: 800,
             loopFillGroupWithBlank: true,
             navigation: {
             nextEl: ".swiper-button-next",
@@ -2543,6 +2545,7 @@
             spaceBetween: 20,
             slidesPerGroup: 1,
             loop: false,
+            speed: 800,
             loopFillGroupWithBlank: true,
             navigation: {
             nextEl: ".swiper-button-next",
