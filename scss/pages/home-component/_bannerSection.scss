@@ -126,20 +126,21 @@
         }
     }
     @include media-breakpoint-down(md){
-       
         .bannerSlider{
             &_item{
                 padding-bottom: 60px;
             }
         }
-        &_left{
-            padding-top: 30px;
-            text-align: center;
-        }
         h1{
             font-size: 28px;
-           
         }
+      
+        p{
+            br{
+                display: none;
+            }
+        }
+     
         .slick-dots{
             li{
                 width: 35px;
@@ -156,25 +157,15 @@
         }
     }
     @include media-breakpoint-down(sm){
-        .bannerSlider{
-            &_item{
-                padding-bottom: 60px;
-            }
-        }
+      
         &_left{
             padding-top: 30px;
             text-align: center;
         }
         h1{
             font-size: 24px;
-           
         }
-        .slick-dots{
-            li{
-                width: 35px;
-                height: 5px;
-            }
-        }
+      
         &_productBox{
             h2{
                 font-size: 18px;
