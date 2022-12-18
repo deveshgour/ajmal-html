@@ -1849,12 +1849,12 @@
             </div>
         </section> -->
 
-        <section class="reviewSection py-55 pt-0">
+        <section class="reviewSection py-55 pt-0 overflow-hidden">
             <div class="container">
                 <div class="reviewSection_top">
                     <h3 class="sectionHeading">Reviews</h3>
                 </div>
-                <div class="reviewSection_inner">
+                <div class="reviewSection_inne">
                     <div class="row align-items-center">
                         <div class="col-lg-5">
                         <div class="reviewBox_img" id="img1">
@@ -2095,7 +2095,7 @@
             <div class="blogSection_bg">
                 <div class="container">
                     <div class="blogSection_top">
-                        <div class="d-flex align-items-end justify-content-between">
+                        <div class="d-sm-flex align-items-end justify-content-between">
                             <div class="blogSection_top-left">
                                 <div class="d-flex align-items-start justify-content-between flex-column">
                                     <div>
@@ -2125,7 +2125,7 @@
                         </div>
                     </div>
                     <div class="blogSection_bottom">
-                        <div class="d-flex align-items-top justify-content-between">
+                        <div class="d-sm-flex align-items-top justify-content-between">
                             <div class="blogBox blogBox-three" data-aos="fade-down" data-aos-duration="1000">
                                 <img src="images/blog-img3.jpg" alt="blog-img" class="img-fluid">
                                 <div class="blogBox_txt" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
@@ -2742,6 +2742,8 @@
                     // $('#show_hide_password i').removeClass( "fa-eye-slash" );
                     // $('#show_hide_password i').addClass( "fa-eye" );
                 }
+
+
             });
         });
 
@@ -2814,6 +2816,27 @@
                 speed: 300,
                 slidesToShow: 4,
                 slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 425,
+                        settings: {
+                            slidesToShow: 1,
+                            arrows: false,
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 2,
+                        }
+                    },
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                        }
+                    },
+                ]
             });
             $('.instagramSection_slider').slick({
                 dots: true,
@@ -2821,6 +2844,27 @@
                 speed: 300,
                 slidesToShow: 4,
                 slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 2,
+                        }
+                    },
+                    {
+                        breakpoint: 450,
+                        settings: {
+                            slidesToShow: 1,
+                            arrows: false,
+                        }
+                    },
+                ]
             });
 
 

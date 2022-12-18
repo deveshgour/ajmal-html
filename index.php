@@ -2425,48 +2425,48 @@
         });
 
         $(document).ready(function() {
-            $('.arrivalsSection_slider').slick({
-                dots: true,
-                infinite: false,
-                speed: 300,
-                slidesToShow: 4,
-                slidesToScroll: 1,
-            });
-            $('.giftingSection_slider').slick({
-                dots: true,
-                infinite: false,
-                speed: 300,
-                slidesToShow: 4,
-                slidesToScroll: 1,
-            });
-            $('.popularCategories_slider').slick({
-                dots: true,
-                infinite: false,
-                speed: 300,
-                slidesToShow: 4,
-                slidesToScroll: 1,
-            });
-            $('.reviewSection_slider').slick({
-                dots: true,
-                infinite: false,
-                speed: 300,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-            });
-            $('.pressMediaSec_slider').slick({
-                dots: true,
-                infinite: false,
-                speed: 300,
-                slidesToShow: 4,
-                slidesToScroll: 1,
-            });
-            $('.instagramSection_slider').slick({
-                dots: true,
-                infinite: false,
-                speed: 300,
-                slidesToShow: 4,
-                slidesToScroll: 1,
-            });
+            // $('.arrivalsSection_slider').slick({
+            //     dots: true,
+            //     infinite: false,
+            //     speed: 300,
+            //     slidesToShow: 4,
+            //     slidesToScroll: 1,
+            // });
+            // $('.giftingSection_slider').slick({
+            //     dots: true,
+            //     infinite: false,
+            //     speed: 300,
+            //     slidesToShow: 4,
+            //     slidesToScroll: 1,
+            // });
+            // $('.popularCategories_slider').slick({
+            //     dots: true,
+            //     infinite: false,
+            //     speed: 300,
+            //     slidesToShow: 4,
+            //     slidesToScroll: 1,
+            // });
+            // $('.reviewSection_slider').slick({
+            //     dots: true,
+            //     infinite: false,
+            //     speed: 300,
+            //     slidesToShow: 1,
+            //     slidesToScroll: 1,
+            // });
+            // $('.pressMediaSec_slider').slick({
+            //     dots: true,
+            //     infinite: false,
+            //     speed: 300,
+            //     slidesToShow: 4,
+            //     slidesToScroll: 1,
+            // });
+            // $('.instagramSection_slider').slick({
+            //     dots: true,
+            //     infinite: false,
+            //     speed: 300,
+            //     slidesToShow: 4,
+            //     slidesToScroll: 1,
+            // });
         });
     </script>
 </body>
