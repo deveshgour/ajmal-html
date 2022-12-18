@@ -1849,12 +1849,12 @@
             </div>
         </section> -->
 
-        <section class="reviewSection py-55 pt-0 overflow-hidden">
+        <section class="reviewSection py-55 pt-0">
             <div class="container">
                 <div class="reviewSection_top">
                     <h3 class="sectionHeading">Reviews</h3>
                 </div>
-                <div class="reviewSection_inne">
+                <div class="reviewSection_inner position-relative">
                     <div class="row align-items-center">
                         <div class="col-lg-5">
                         <div class="reviewBox_img" id="img1">
