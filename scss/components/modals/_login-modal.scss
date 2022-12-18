@@ -1,7 +1,6 @@
 .loginSignUpModal{
     &_left{
         width: 100%;max-width: 640px;background-color: color(100);padding: 48px 120px;text-align: center;
-        
     }
     &_right{
         width: 100%;max-width: 400px;position: relative;z-index: 1;padding: 0 40px;
@@ -32,73 +31,92 @@
             transform: translateY(-50%);
         }
     }
-
-  
-
-        // .loginSignUpModal_left, .loginSignUpModal_right{
-        //     .signUpDiv{
-        //         display: none;
-        //     }
-        //     &.loginModalShow{
-        //         .signUpDiv{
-        //             display: block;
-        //         }
-        //         .loginDiv{
-        //             display: none;
-        //         } 
-        //     }
-        // }
-
-        
+    .signUpDiv{
+        display: none !important;
+    }
+    &.showSignUp{
         .signUpDiv{
-            display: none !important;
+            display: block !important;
         }
-        &.showSignUp{
-            .signUpDiv{
-                display: block !important;
-            }
-            .loginDiv{
-                display: none;
-            }
-          
-       
-
+        .loginDiv{
+            display: none;
+        }
         .loginSignUpModal_left{
             transform : translateX(400px);
             transition: 1s cubic-bezier(0.35, 0, 0, 1);
         }
-
         .loginSignUpModal_right{
             transform : translateX(-640px);
             transition: 1s cubic-bezier(0.35, 0, 0, 1);
         }
     }
-        .loginSignUpModal_left, .loginSignUpModal_right{
-            transform : translateX(0px);
-            transition: 1s cubic-bezier(0.35, 0, 0, 1);
+    .loginSignUpModal_left, .loginSignUpModal_right{
+        transform : translateX(0px);
+        transition: 1s cubic-bezier(0.35, 0, 0, 1);
+    }
+    .loginSignUpModal_left, .loginSignUpModal_right{
+        .signUpDiv{
+            display: none;
         }
-
-        
-        .loginSignUpModal_left, .loginSignUpModal_right{
-           
+        &.signInModalShow{
             .signUpDiv{
                 display: none;
             }
-            &.signInModalShow{
-                .signUpDiv{
-                    display: none;
-                }
-                .loginDiv{
-                    display: block;
-                } 
+            .loginDiv{
+                display: block;
+            } 
+        }
+    }
+    @media(max-width:1199px){
+        h3{font-size: 28px;margin-bottom: 15px;}
+        p{
+            font-size: 14px;margin-bottom: 20px;
+        }
+        .divider{margin: 15px 0;}
+        &_left{
+            padding: 30px 60px;max-width: 530px;
+        }
+        &_right{
+            max-width: 370px;padding: 0 30px;;
+        }
+        &.showSignUp{
+            .loginSignUpModal_left{
+                transform : translateX(370px);
+            }
+            .loginSignUpModal_right{
+                transform : translateX(-530px);
             }
         }
+    }
+    @media(max-width:991px){
+        h3{font-size: 24px;margin-bottom: 10px;}
+        p{
+            margin-bottom: 15px;
+        }
+        .divider{margin: 10px 0;
+            &::before{width: 70px;}
+            &::after{width: 70px;}
+        }
+        &_left{
+            padding: 25px 20px;max-width: 450px;
+        }
+        &_right{
+            max-width: 270px;padding: 0 20px;
+        }
+        &.showSignUp{
+            .loginSignUpModal_left{
+                transform : translateX(270px);
+            }
+            .loginSignUpModal_right{
+                transform : translateX(-450px);
+            }
+        }
+    }
 }
 .form-group{
     &.floting{
         input{
             position: relative;
-            
         }
         .form-control-placeholder{
             font-size: 16px;color: #A4A4A4;margin: 0;position: absolute;
@@ -112,7 +130,6 @@
                 @include transition(all 0.3s);
             }
         }
-
     }
     .passwordField{
         position: relative;
@@ -132,7 +149,6 @@
     p{
         font-size: 14px;color: color(850);
     }
-    
     &.codeModal{
         input{
             width: 54px;height: 54px;border-radius: 8px;border: 1px solid #C8C8C8;
