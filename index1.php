@@ -1739,18 +1739,18 @@
                 </div>
                 <div class="reviewSection_inner position-relative">
                     <div class="row align-items-center">
-                        <div class="col-lg-5">
+                        <div class="col-md-5">
                         <div class="reviewBox_img" id="img1">
                             <img src="images/review-product.png" class="img-fluid" alt="product">
                         </div>
                         <div class="reviewBox_img" id="img2">
-                            <img src="images/review-product.png" class="img-fluid" alt="product">
+                            <img src="images/product-3.png" class="img-fluid" alt="product">
                         </div>
                         <div class="reviewBox_img" id="img3">
-                            <img src="images/review-product.png" class="img-fluid" alt="product">
+                            <img src="images/product-2.png" class="img-fluid" alt="product">
                         </div>
                         </div>
-                        <div class="col-lg-7">
+                        <div class="col-md-7">
                         <div class="reviewSection_slider swiper sliderIcon">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide reviewSection_sliderItem" data-target="img1">

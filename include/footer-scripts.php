@@ -105,6 +105,7 @@ $('.voiceSearchInput').click(function(){
      $('.voiceSearchBefore').css('display','none');
      $('.voiceSearchAfter').css('display','block');
      $('.voiceSearch_body').css('margin-top','30px');
+     $('body').css('overflow','hidden');
 })
 $('.micButtonClose').click(function(){
      $('.voiceSearch').css({'display':'none', 'opacity': '0'});
