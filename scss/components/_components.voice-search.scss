@@ -4,7 +4,7 @@
     width: 100%;
     z-index: 9999;
     top: 48px;
-    background-color: color(100);opacity: 0;transition: all 0.5s;display: none;
+    background-color: color(100);opacity: 0;transition: all 0.5s;display: none;overflow-y: auto;
     &_head{
         padding: 15px 0;
     }
@@ -43,6 +43,97 @@
                 del{
                     color: #A4A4A4;font-weight: 400;
                 }
+            }
+        }
+    }
+    @media(max-width:1199px){ top: 37px;
+        &_head{padding: 10px 0;}
+        &_body{
+            margin: 80px auto 0;
+        }
+        &_wave{
+            img{max-height: 100px;}
+            form{
+                margin-top: 30px;
+            }
+        }
+        .products{
+            &_img{width: 80px;height: 80px;}
+            &_cnt{
+                h4{font-size: 15px;margin-bottom: 5px; 
+                    span{padding: 2px 5px;font-size: 12px;}
+                }
+                p{margin-bottom: 5px;}
+                .price{font-size: 14px;}
+            }
+        }
+    }
+    @media(max-width:992px){ top: 29px;
+        &_head{
+            &_left{
+                img{max-height: 60px;}
+            }
+        }
+        &_body{
+            margin: 50px auto 0;max-width: 550px;
+        }
+        &_wave{
+            img{max-height: 85px;}
+            form{
+                margin-top: 25px;
+            }
+        }
+        .products{
+            &_img{width: 70px;height: 70px;}
+            &_cnt{
+                h4{font-size: 14px;
+                }
+                .price{font-size: 13px;}
+            }
+        }
+    }
+    @media(max-width:767px){
+        &_head{
+            &_left{
+                img{max-height: 50px;}
+            }
+        }
+        &_body{
+            margin: 40px auto 0;max-width: 400px;
+        }
+        &_wave{
+            img{max-height: 70px;}
+            form{
+                margin-top: 25px;
+            }
+        }
+        .products{
+            &_box{padding: 15px 0;}
+            &_img{width: 60px;height: 60px;}
+            &_cnt{
+                h4{font-size: 13px;
+                }
+                .price{font-size: 12px;}
+            }
+        }
+    }
+    @media(max-width:575px){
+        .container-fluid{padding: 0 10px;}
+        &_body{
+            margin: 30px auto 0;max-width: 300px;
+        }
+        &_wave{
+            img{max-height: 60px;}
+            form{
+                margin-top: 20px;
+            }
+        }
+        .products{
+            &_box{padding: 10px 0;}
+            &_img{width: 50px;height: 50px;}
+            &_cnt{
+                h4{font-size: 12px;}
+                .price{font-size: 11px;}
             }
         }
     }

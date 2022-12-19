@@ -17,6 +17,14 @@
   }
 }
 
+
+body{
+  @media(max-width:767px){
+    padding-bottom: 48px;
+  }
+}
+
+
 .sliderIcon{
   &.slick-dotted{
     margin-bottom: 0 !important;

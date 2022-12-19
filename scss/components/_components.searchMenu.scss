@@ -1,6 +1,6 @@
 .searchBarMenu{
     top:48px;position: fixed;z-index: 99999;width: 100%;visibility: hidden;opacity:0;
-    transform: translateY(-100px); @include transition(0.5s);
+    transform: translateY(-100px); @include transition(0.5s);overflow-y: auto;
     &_top{ padding: 16px 0;
         background-color: color(100);height: 110px;backdrop-filter: blur(110px);border-bottom: 1px solid rgba(188, 139, 87, 0.2);
     }
@@ -86,7 +86,7 @@
             }
         }
     }
-    @media (max-width: 1199px){
+    @media (max-width: 1199px){ top: 37px;
         &_top{
             padding: 10px 0;height: 95px;
         }
@@ -103,6 +103,7 @@
         }
     }
     @media (max-width: 992px){
+        top: 29px;
         .navbar-search {max-width: 550px;}
         &_bottom{
             h5{margin-bottom: 10px;max-width: 550px;}
@@ -121,9 +122,17 @@
         }
     }
     @media (max-width: 575px){
+        &_top{height: 70px;}
+        &_logo{
+            img{max-height: 50px;}
+        }
         .container-fluid{padding: 0 10px;}
-        .cartMenu_close{right: 10px;top:5px;}
-        .navbar-search {max-width: 225px;}
+        .cartMenu_close{right: 10px;top:5px;
+            img{max-width: 10px;}
+        }
+        .navbar-search {max-width: 225px;
+            .btn-mic{right: 7px;}
+        }
         &_bottom{ 
             h5{max-width: 100%;padding-left: 10px;}
             .cartBox{ padding: 10px; margin-bottom: 10px;

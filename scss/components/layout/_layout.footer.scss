@@ -342,8 +342,8 @@
             }
         }
         .footerEnd{
-            &_lang{margin-bottom: 5px;}
-            &_Social{justify-content: start; margin-bottom: 5px;}
+            &_lang{margin-bottom: 5px !important;}
+            &_Social{justify-content: start; margin-bottom: 5px !important;}
             &_inner{
                 .row{
                     [class*="col-"]{

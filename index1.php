@@ -1748,7 +1748,7 @@
         <section class="storySection py-55">
             <div class="container">
                 <div class="storySection_inner">
-                    <div class="storySection_txt">
+                    <div class="storySection_txt" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                         <h3 class="sectionHeading">Our Story</h3>
                         <h6>Ajmal Perfumes, over 7 decades of crafting memories. "A fragrance is all that it takes to travel through time, such is the bond between memory and smell" – <span> Late Haji Ajmal Ali.</span></h6>
                         <p>Nothing unlocks an old memory better than smell, be it the memory of lost love or of a fond friend. At Ajmal we help towards recreating those memories through our fragrances.</p>
@@ -1764,18 +1764,18 @@
                 </div>
                 <div class="reviewSection_inner position-relative">
                     <div class="row align-items-center">
-                        <div class="col-lg-5">
+                        <div class="col-md-5">
                         <div class="reviewBox_img" id="img1">
                             <img src="images/review-product.png" class="img-fluid" alt="product">
                         </div>
                         <div class="reviewBox_img" id="img2">
-                            <img src="images/review-product.png" class="img-fluid" alt="product">
+                            <img src="images/product-3.png" class="img-fluid" alt="product">
                         </div>
                         <div class="reviewBox_img" id="img3">
-                            <img src="images/review-product.png" class="img-fluid" alt="product">
+                            <img src="images/product-2.png" class="img-fluid" alt="product">
                         </div>
                         </div>
-                        <div class="col-lg-7">
+                        <div class="col-md-7">
                         <div class="reviewSection_slider swiper sliderIcon">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide reviewSection_sliderItem" data-target="img1">
@@ -2730,7 +2730,7 @@
                     {
                         breakpoint: 425,
                         settings: {
-                            slidesToShow: 1.5,
+                            slidesToShow: 1.2,
                             arrows: false,
                         }
                     },

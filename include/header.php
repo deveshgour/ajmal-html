@@ -452,7 +452,7 @@
                 </form>
             </div>
             <div class="products" id="searchProductBox">
-                <ul class="list-unstyled">
+                <ul class="list-unstyled mb-0">
                     <li class="products_box">
                         <div class="d-flex align-items-center">
                             <div class="products_img">
