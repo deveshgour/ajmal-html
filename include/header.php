@@ -236,41 +236,65 @@
 
             <div class="navbar-right d-flex align-items-center">
                 <ul class="navbar-nav align-items-lg-center mb-0 ml-auto align-items-center">
-                    <li class="nav-item country-menu">
+                    <li class="nav-item country-menu d-none d-md-block">
                         <a class="nav-link" href="javascript:void(0);">
                             <img src="images/country1.png" alt="country" />
                             <span class="nav-text"> العربية</span>
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item d-none d-md-block">
                         <a class="nav-link" href="javascript:void(0);" data-toggle="modal" data-target="#loginMOdal">
                             <img src="images/logout.svg" alt="logout" />
                         </a>
                     </li>
-                    <li class="nav-item cart-menu">
+                    <li class="nav-item cart-menu d-none d-md-block">
                         <a class="nav-link" href="javascript:void(0);">
                             <img src="images/cart.svg" alt="cart" />
                             <span class="nav-text-count">2</span>
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item d-none d-md-block">
                         <a class="nav-link" href="javascript:void(0);">
                             <img src="images/ven.svg" alt="ven" />
                         </a>
                     </li>
 
+                    <li class="nav-item d-md-block">
+                        <a class="nav-link" href="javascript:void(0);" data-toggle="modal" data-target="#loginMOdal">
+                            <img src="images/user.svg" alt="user" />
+                        </a>
+                    </li>
+
 
                 </ul>
-                <button class="navbar-toggler order-12" id="mobileMenuBar" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <button class="navbar-toggler order-12" id="mobileMenuBar" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="line"></span>
                     <span class="line"></span>
                     <span class="line"></span>
-                </button>
+                </button> -->
             </div>
         </div>
     </nav>
 
+
 </header>
+
+<div class="headerSm d-md-none">
+    <ul class="list-inline">
+        <li class="list-inline-item">
+            <a href="javascript:;"><img src="images/menu-icon.svg" class="img-fluid" /></a>
+        </li>
+        <li class="list-inline-item cart-menu">
+            <a href="javascript:;"><img src="images/cart.svg" class="img-fluid" /></a>
+        </li>
+        <li class="list-inline-item">
+            <a href="javascript:;"><img src="images/ven.svg" class="img-fluid" /></a>
+        </li>
+        <li class="list-inline-item">
+            <a href="index.php"><img src="images/home.svg" class="img-fluid" /></a>
+        </li>
+    </ul>
+</div>
 
 <!-- header end -->
 
