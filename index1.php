@@ -1723,7 +1723,7 @@
         <section class="storySection py-55">
             <div class="container">
                 <div class="storySection_inner">
-                    <div class="storySection_txt">
+                    <div class="storySection_txt" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                         <h3 class="sectionHeading">Our Story</h3>
                         <h6>Ajmal Perfumes, over 7 decades of crafting memories. "A fragrance is all that it takes to travel through time, such is the bond between memory and smell" – <span> Late Haji Ajmal Ali.</span></h6>
                         <p>Nothing unlocks an old memory better than smell, be it the memory of lost love or of a fond friend. At Ajmal we help towards recreating those memories through our fragrances.</p>
@@ -2641,7 +2641,7 @@
                     {
                         breakpoint: 425,
                         settings: {
-                            slidesToShow: 1.5,
+                            slidesToShow: 1.2,
                             arrows: false,
                         }
                     },
