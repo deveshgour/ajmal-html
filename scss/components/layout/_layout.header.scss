@@ -156,6 +156,9 @@
         @include media-breakpoint-down(xl){
             transform: translateY(-37px);
         }
+        @include media-breakpoint-down(md){
+            transform: translateY(-30px);
+        }
 		
 		.navbar-nav{
 			.nav-item{
@@ -323,8 +326,37 @@
   }
 
   @include media-breakpoint-down(sm){
-    .navbar-search{
-        display: none;
+
+    .navbar-brand{
+        margin-right: 0;
+        img{
+            height: 36px;
+        }
+    }
+    .navbar-center {
+        .navbar-search{
+            width: 250px;
+            &-icon{
+                top: 41%;
+                left: 10px;
+            }
+            .form-control{
+                height: 38px;
+                padding: 6px 16px 6px 30px;
+                font-size: 13px;
+            }
+            .btn-mic{
+                padding: 5px 5px;
+            }
+        }
+    }
+  }
+
+  @media(max-width:360px){
+    .navbar-center {
+        .navbar-search{
+            width: 200px;
+        }
     }
   }
 
@@ -343,3 +375,30 @@
 }
 
 // overlay div
+
+.headerSm{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #F0E6DB;
+    align-items: center;
+    z-index: 99;
+  
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+ 
+    ul{
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        li{
+            a{
+                padding: 11px 20px;
+                display: block;
+            }
+        }
+    }
+}
