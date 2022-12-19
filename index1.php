@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/slick.css" type="text/css">
     <link rel="stylesheet" href="css/slick-theme.css" type="text/css">
     <style>
-             .swiper {
+      .swiper {
         width: 100%;
         height: 100%;
       }
@@ -23,74 +23,99 @@
     <?php include('include/header.php'); ?>
     <main class="mainContent homePage">
     <section class="bannerSection">
-           <div class="bannerSlider">
-               <div class="bannerSlider_item bannerSlider_item--1">
-                   <div class="container-fluid">
-                       <div class="row">
-                           <div class="col-md-7 bannerSection_left">
-                               <h1>Ajmal <span>Perfumes</span> <br>
-                               Fragrances that  <span>Delight</span> </h1>
-                                   
-                                   <p>Nothing unlocks an old memory better than smell, be it the memory of lost <br>love or of a fond friend. At Ajmal we help towards recreating those memories <br> through our fragrances.</p>
-                                   <a class="discoverAllBtn" href="#">Discover all</a>
-                           </div>
-                           <div class="col-md-5 bannerSection_right">
-                               <div class="bannerSection_productBox">
-                                   <img src="images/amber-wood-noir.png" class="img-fluid mx-auto" alt=""/>
-                                   <p>Eau de parfume / 75 ML / WOMEN</p>   
-                                   <h2>Amber Wood Noir</h2>
-                                   <div class="bannerSection_productBox_price">24 AED</div>
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-               <div class="bannerSlider_item bannerSlider_item--2">
-                   <div class="container-fluid">
-                       <div class="row">
-                           <div class="col-md-7 bannerSection_left">
-                               <h1>Ajmal <span>Perfumes</span> <br>
-                               Fragrances that  <span>Delight</span> </h1>
-                                   
-                                   <p>Nothing unlocks an old memory better than smell, be it the memory of lost <br>love or of a fond friend. At Ajmal we help towards recreating those memories <br> through our fragrances.</p>
-                                   <a class="discoverAllBtn" href="#">Discover all</a>
-                           </div>
-                           <div class="col-md-5 bannerSection_right">
-                               <div class="bannerSection_productBox">
-                                   <img src="images/amber-wood-noir-2.png" class="img-fluid mx-auto" alt=""/>
-                                   <p>Eau de parfume / 75 ML / WOMEN</p>   
-                                   <h2>Amber Wood Noir</h2>
-                                   <div class="bannerSection_productBox_price">24 AED</div>
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-               </div>
+            <div class="bannerSection_cnt" id="cnt1">
+                <div class="row m-0">
+                    <div class="col-md-7 bannerSection_left">
+                        <h1>Ajmal <span>Perfumes</span> <br>
+                        Fragrances that  <span>Delight</span> </h1>
+                            
+                            <p>Nothing unlocks an old memory better than smell, be it the memory of lost <br>love or of a fond friend. At Ajmal we help towards recreating those memories <br> through our fragrances.</p>
+                            <a class="discoverAllBtn" href="#">Discover all</a>
+                    </div>
+                </div>
+            </div>
+            <div class="bannerSection_cnt" id="cnt2">
+                <div class="row m-0">
+                    <div class="col-md-7 bannerSection_left">
+                        <h1>Ajmal <span>Perfumes</span> <br>
+                        Fragrances that  <span>Delight</span> </h1>
+                            
+                            <p>Nothing unlocks an old memory better than smell, be it the memory of lost <br>love or of a fond friend. At Ajmal we help towards recreating those memories <br> through our fragrances.</p>
+                            <a class="discoverAllBtn" href="#">Discover all</a>
+                    </div>
+                </div>
+            </div>
+            <div class="bannerSection_cnt" id="cnt3">
+                <div class="row m-0">
+                    <div class="col-md-7 bannerSection_left">
+                        <h1>Ajmal <span>Perfumes</span> <br>
+                        Fragrances that  <span>Delight</span> </h1>
+                            
+                            <p>Nothing unlocks an old memory better than smell, be it the memory of lost <br>love or of a fond friend. At Ajmal we help towards recreating those memories <br> through our fragrances.</p>
+                            <a class="discoverAllBtn" href="#">Discover all</a>
+                    </div>
+                </div>
+            </div>
+            <div class="bannerSlider_wrapper">
+                <div class="swiper bannerSlider">
+                    <div class="swiper-wrapper">
+                            <div class="swiper-slide bannerSlider_item bannerSlider_item--1" data-target="cnt1">
+                                <div class="">
+                                    <div class="">
+                                        <div class="bannerSection_right">
+                                            <div class="bannerSection_productBox">
+                                                <img src="images/amber-wood-noir.png" class="img-fluid mx-auto" alt=""/>
+                                                <div class="bannerSection_productBox_cnt">
+                                                    <p>Eau de parfume / 75 ML / WOMEN</p>   
+                                                    <h2>Amber Wood Noir</h2>
+                                                    <div class="bannerSection_productBox_price">24 AED</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-               <div class="bannerSlider_item bannerSlider_item--3">
-                   <div class="container-fluid">
-                       <div class="row">
-                           <div class="col-md-7 bannerSection_left">
-                               <h1>Ajmal <span>Perfumes</span> <br>
-                               Fragrances that  <span>Delight</span> </h1>
-                                   
-                                   <p>Nothing unlocks an old memory better than smell, be it the memory of lost <br>love or of a fond friend. At Ajmal we help towards recreating those memories <br> through our fragrances.</p>
-                                   <a class="discoverAllBtn" href="#">Discover all</a>
-                           </div>
-                           <div class="col-md-5 bannerSection_right">
-                               <div class="bannerSection_productBox">
-                                   <img src="images/amber-wood-noir.png" class="img-fluid mx-auto" alt=""/>
-                                   <p>Eau de parfume / 75 ML / WOMEN</p>   
-                                   <h2>Amber Wood Noir</h2>
-                                   <div class="bannerSection_productBox_price">24 AED</div>
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-              
+                            <div class="swiper-slide bannerSlider_item bannerSlider_item--2" data-target="cnt2">
+                                <div class="">
+                                    <div class="">
+                                        <div class="bannerSection_right">
+                                            <div class="bannerSection_productBox">
+                                                <img src="images/amber-wood-noir-2.png" class="img-fluid mx-auto" alt=""/>
+                                                <div class="bannerSection_productBox_cnt">
+                                                    <p>Eau de parfume / 75 ML / WOMEN</p>   
+                                                    <h2>Amber Wood Noir</h2>
+                                                    <div class="bannerSection_productBox_price">24 AED</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide bannerSlider_item bannerSlider_item--3" data-target="cnt3">
+                                <div class="">
+                                    <div class="">
+                                        <div class="bannerSection_right">
+                                            <div class="bannerSection_productBox">
+                                                <img src="images/amber-wood-noir-3.png" class="img-fluid mx-auto" alt=""/>
+                                                <div class="bannerSection_productBox_cnt">
+                                                    <p>Eau de parfume / 75 ML / WOMEN</p>   
+                                                    <h2>Amber Wood Noir</h2>
+                                                    <div class="bannerSection_productBox_price">24 AED</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
            </div>
+           <button type='button' class='banner-swiper-next pull-left'><img class='img-fluid' src='images/next-arrow-rounded.svg'></button>
    </section>
+
+      
         <section class="fragrancesSection py-55">
             <div class="container">
                 <div class="fragrancesSection_bg position-relative">
@@ -2591,28 +2616,92 @@
             });
         });
 
-  $('.bannerSlider').slick({
-        slidesToShow: 1,
-        arrows: true,
-        dots:true,
-        nextArrow:"<button type='button' class='slick-next pull-left'><img class='img-fluid' src='images/next-arrow-rounded.svg'></button>",
-        responsive: [
-            {
-            breakpoint: 768,
-            settings: {
-                arrows: false,
-                slidesToShow: 1
-                }
-                },
-                {
-                breakpoint: 480,
-                settings: {
-                    arrows: false,
-                    slidesToShow: 1
-                }
-                }
-            ]
-            });
+//   $('.bannerSlider').slick({
+//         slidesToShow: 1,
+//         arrows: true,
+//         dots:true,
+//         nextArrow:"<button type='button' class='slick-next pull-left'><img class='img-fluid' src='images/next-arrow-rounded.svg'></button>",
+//         responsive: [
+//             {
+//             breakpoint: 768,
+//             settings: {
+//                 arrows: false,
+//                 slidesToShow: 1
+//                 }
+//                 },
+//                 {
+//                 breakpoint: 480,
+//                 settings: {
+//                     arrows: false,
+//                     slidesToShow: 1
+//                 }
+//                 }
+//             ]
+//             });
+
+            
+        var swiper1 = new Swiper('.bannerSlider', {
+        spaceBetween: 30,
+        // effect: 'fade',
+        // initialSlide: 2,
+        speed: 1500,
+        loop: true,
+        slidesPerView: 2,
+        navigation: {
+            nextEl: '.banner-swiper-next'
+        },
+        // mousewheel: {
+        //     // invert: false
+        // },
+        on: {
+            init: function(){
+                var index = this.activeIndex;
+
+                var target = $('.bannerSlider_item').eq(index).data('target');
+
+              
+
+                $('.bannerSection_cnt').removeClass('active');
+                $('.bannerSection_cnt#'+ target).addClass('active');
+               
+            }
+        }
+
+    });
+
+    swiper1.on('slideChange', function () {
+        var index = this.activeIndex;
+
+        var target = $('.bannerSlider_item').eq(index).data('target');
+
+        console.log(target);
+
+        $('.bannerSection_cnt').removeClass('active');
+        $('.bannerSection_cnt#'+ target).addClass('active');
+        // if($('.bannerSection').hasClass() == 'bg'+target){
+        //     $('.bannerSection').removeClass('bg'+target);
+        // }else{
+        //     $('.bannerSection').addClass('bg'+target);
+        //     $('.bannerSection').removeClass('bgcnt1');
+        // }
+
+        // if(swiper.isEnd) {
+        //     $('.prev').removeClass('disabled');
+        //     $('.next').addClass('disabled');
+        // } else {
+        //     $('.next').removeClass('disabled');
+        // }
+
+        // if(swiper.isBeginning) {
+        //     $('.prev').addClass('disabled');
+        // } else {
+        //     $('.prev').removeClass('disabled');
+        // }
+    });
+
+    // $(".js-fav").on("click", function() {
+    //     $(this).find('.heart').toggleClass("is-active");
+    // });
 
          
     
