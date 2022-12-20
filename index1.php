@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>AJMAL || HOME</title>
     <?php include('include/head-link.php'); ?>
-    <link rel="stylesheet" href="css/swiper-bundle.css"/>
+    <link rel="stylesheet" href="css/swiper.min.css" type="text/css">
     <link rel="stylesheet" href="css/slick.css" type="text/css">
     <link rel="stylesheet" href="css/slick-theme.css" type="text/css">
     <style>
@@ -2495,7 +2495,7 @@
     <?php include ('include/footer.php') ?>
     <?php include ('include/footer-scripts.php') ?>
     <script type="text/javascript" src="js/slick.min.js"></script>
-    <script src="js/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js" integrity="sha512-wdUM0BxMyMC/Yem1RWDiIiXA6ssXMoxypihVEwxDc+ftznGeRu4s9Fmxl8PthpxOh5CQ0eqjqw1Q8ScgNA1moQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
  
     <script>
         var swiper2 = new Swiper(".arrivalsSection_slider", {
