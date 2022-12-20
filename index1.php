@@ -2650,9 +2650,9 @@ var listArray = ["slide1","slide2","slide3"];
         speed: 1500,
         loop: true,
         slidesPerView: 2,
-        // autoplay: {
-        //     delay: 3000,
-        // }, 
+        autoplay: {
+            delay: 3000,
+        }, 
         loop: true,
         autoplayDisableOnInteraction: false,
         pagination: {
@@ -2747,7 +2747,7 @@ var listArray = ["slide1","slide2","slide3"];
                     {
                         breakpoint: 425,
                         settings: {
-                            slidesToShow: 1.2,
+                            slidesToShow: 1.5,
                             arrows: false,
                         }
                     },
