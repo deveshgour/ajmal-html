@@ -46,8 +46,11 @@
       position: absolute; padding: 0; background:transparent;border: 0;right: 14px;top: 16px;font-size: 16px;
     }
   }
-  @media(max-width:991px){
+  @include media-breakpoint-down(md){
     .form-control{ height: 48px;};
+  }
+  @include media-breakpoint-down(sm){
+    .form-control{ height: 40px;};
   }
 }
 
