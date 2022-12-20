@@ -91,6 +91,7 @@ body{
   margin-bottom: 40px;
 }
 .swiperSliderIcon{
+  .swiper-pagination-bullets{text-align: center;}
   .swiper-button-next, .swiper-button-prev{
     width: 48px;height: 48px;border: none;border-radius: 50%;display: flex;
     align-items: center; justify-content: center;background-color: rgba(color(850),1);color: color(50);

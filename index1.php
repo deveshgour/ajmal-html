@@ -620,7 +620,7 @@
                         </div>
                         
                     </div>
-                    <div class="swiper-pagination"></div>
+                    <div class="swiper-pagination-a"></div>
                         <div class="swiper-button-next"></div>
                         <div class="swiper-button-prev"></div>
                 </div>
@@ -1200,7 +1200,7 @@
                         </div>
                         
                     </div>
-                    <div class="swiper-pagination"></div>
+                    <div class="swiper-pagination-b"></div>
                         <div class="swiper-button-next"></div>
                         <div class="swiper-button-prev"></div>
                 </div>
@@ -1742,7 +1742,7 @@
                                 </div>
                                 
                             </div>
-                            <div class="swiper-pagination"></div>
+                            <div class="swiper-pagination-c"></div>
                                 <div class="swiper-button-next"></div>
                                 <div class="swiper-button-prev"></div>
                         </div>
@@ -1880,6 +1880,7 @@
                     <div class="swiperSliderIcon">
                         <div class="swiper-button-next"></div>
                         <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination-review"></div>
                     </div>
                 </div>
             </div>
@@ -2513,7 +2514,7 @@
             prevEl: ".swiper-button-prev",
             },
             pagination: {
-                el: ".swiper-pagination",
+                el: ".swiper-pagination-a",
                 clickable: true,
             },
             breakpoints: {
@@ -2548,7 +2549,7 @@
             prevEl: ".swiper-button-prev",
             },
             pagination: {
-                el: ".swiper-pagination",
+                el: ".swiper-pagination-b",
                 clickable: true,
             },
             breakpoints: {
@@ -2583,7 +2584,7 @@
             prevEl: ".swiper-button-prev",
             },
             pagination: {
-                el: ".swiper-pagination",
+                el: ".swiper-pagination-c",
                 clickable: true,
             },
             breakpoints: {
@@ -2808,6 +2809,10 @@ var listArray = ["slide1","slide2","slide3"];
                 navigation: {
                     nextEl: ".swiper-button-next",
                     prevEl: ".swiper-button-prev",
+                },
+                pagination: {
+                    el: ".swiper-pagination-review",
+                    clickable: true,
                 },
                 on: {
                     init: function(){
