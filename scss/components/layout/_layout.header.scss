@@ -1,6 +1,6 @@
 .header{
 	position:fixed;top:0;width:100%;
-	z-index: 1001;@include transition(all 0.3s);   
+	z-index: 9;@include transition(all 0.3s);   
     &-top{
         padding: 12px 15px;
         text-align: center;
@@ -389,7 +389,7 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
  
-    ul{
+    & > ul{
         margin: 0;
         display: flex;
         justify-content: space-between;
@@ -400,5 +400,17 @@
                 display: block;
             }
         }
+    }
+
+    .categoryMenu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99999;
+        background-color: #fff;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        display: none;
     }
 }

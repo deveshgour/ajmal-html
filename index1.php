@@ -2492,10 +2492,11 @@
     </main>
     <?php include ('include/footer.php') ?>
     <?php include ('include/footer-scripts.php') ?>
-    <script type="text/javascript" src="js/swiper.min.js"></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+ 
     <script>
-        var swiper = new Swiper(".arrivalsSection_slider", {
+        var swiper2 = new Swiper(".arrivalsSection_slider", {
             slidesPerView: 1,
             spaceBetween: 20,
             slidesPerGroup: 1,
@@ -2530,7 +2531,7 @@
             }
         });
 
-        var swiper = new Swiper(".giftingSection_slider", {
+        var swiper3 = new Swiper(".giftingSection_slider", {
             slidesPerView: 1,
             spaceBetween: 20,
             slidesPerGroup: 1,
@@ -2565,7 +2566,7 @@
             }
         });
 
-        var swiper = new Swiper(".popularCategory_Slider", {
+        var swiper4 = new Swiper(".popularCategory_Slider", {
             slidesPerView: 1,
             spaceBetween: 20,
             slidesPerGroup: 1,

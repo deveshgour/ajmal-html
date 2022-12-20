@@ -283,6 +283,19 @@
     <ul class="list-inline">
         <li class="list-inline-item">
             <a href="javascript:;"><img src="images/menu-icon.svg" class="img-fluid" /></a>
+            <div class="categoryMenu">
+                <h4>Catalogue</h4>
+                <a href="#"><img src="images/close.svg" class="img-fluid"/></a>
+                
+                <ul class="list-unstyled">
+                    <li><a href="javascript:;"><span class="d-flex justify-content-between"><span class="categoryMenu_txt"><img src="images/perfume-icon.svg" class="img-fluid"/> Perfumes </span> <img src="images/arrow-menu.svg"/> </span> </a> </li>
+                    <li><a href="javascript:;"><span class="d-flex justify-content-between"><span class="categoryMenu_txt"><img src="images/perfume-icon.svg" class="img-fluid"/> Perfumes </span> <img src="images/arrow-menu.svg"/> </span> </a> </li>
+                    <li><a href="javascript:;"><span class="d-flex justify-content-between"><span class="categoryMenu_txt"><img src="images/perfume-icon.svg" class="img-fluid"/> Perfumes </span> <img src="images/arrow-menu.svg"/> </span> </a> </li>
+                    <li><a href="javascript:;"><span class="d-flex justify-content-between"><span class="categoryMenu_txt"><img src="images/perfume-icon.svg" class="img-fluid"/> Perfumes </span> <img src="images/arrow-menu.svg"/> </span> </a> </li>
+                    <li><a href="javascript:;"><span class="d-flex justify-content-between"><span class="categoryMenu_txt"><img src="images/perfume-icon.svg" class="img-fluid"/> Perfumes </span> <img src="images/arrow-menu.svg"/> </span> </a> </li>
+                    <li><a href="javascript:;"><span class="d-flex justify-content-between"><span class="categoryMenu_txt"><img src="images/perfume-icon.svg" class="img-fluid"/> Perfumes </span> <img src="images/arrow-menu.svg"/> </span> </a> </li>
+                </ul>
+            </div>
         </li>
         <li class="list-inline-item cart-menu">
             <a href="javascript:;"><img src="images/cart.svg" class="img-fluid" /></a>
