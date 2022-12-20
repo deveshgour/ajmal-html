@@ -32,31 +32,31 @@
   @media(max-width: 1399px){
     padding: 50px 0;
   }
-  @media(max-width: 1199px){
+  @include media-breakpoint-down(lg){
     padding: 40px 0;
   }
-  @media(max-width: 991px){
+ @include media-breakpoint-down(md){
     padding: 30px 0;
   }
-  @media(max-width: 767px){
+  @include media-breakpoint-down(sm){
     padding: 25px 0;
   }
-  @media(max-width: 575px){
+  @include media-breakpoint-down(xs){
     padding: 20px 0;
   }
 }
 .my-30{
   margin: 30px 0;
-  @media(max-width: 767px){
+  @include media-breakpoint-down(sm){
     margin: 25px 0;
   }
-  @media(max-width: 575px){
+  @include media-breakpoint-down(xs){
     margin: 15px 0;
   }
 }
 .f-16{
   font-size: 16px;
-  @media(max-width: 575px){
+  @include media-breakpoint-down(xs){
     font-size: 14px;
   }
 }
@@ -140,16 +140,16 @@
   @media(max-width: 1399px){
     font-size: 36px;line-height:46px;
   }
-  @media(max-width: 1199px){
+  @include media-breakpoint-down(lg){
     font-size: 32px;line-height:40px;
   }
-  @media(max-width: 991px){
+ @include media-breakpoint-down(md){
     font-size: 28px;line-height:normal;
   }
-  @media(max-width: 767px){
+  @include media-breakpoint-down(sm){
     font-size: 24px;
   }
-  @media(max-width: 575px){
+  @include media-breakpoint-down(xs){
     font-size: 18px;
   }
 }

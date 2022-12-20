@@ -111,8 +111,10 @@
                             </div>
                     </div>
                 </div>
+                
            </div>
            <button type='button' class='banner-swiper-next pull-left'><img class='img-fluid' src='images/next-arrow-rounded.svg'></button>
+           <div class="swiper-pagination1"></div>
    </section>
 
       
@@ -2640,7 +2642,7 @@
 //             ]
 //             });
 
-            
+var listArray = ["slide1","slide2","slide3"];
         var swiper1 = new Swiper('.bannerSlider', {
         spaceBetween: 30,
         // effect: 'fade',
@@ -2648,6 +2650,20 @@
         speed: 1500,
         loop: true,
         slidesPerView: 2,
+        // autoplay: {
+        //     delay: 3000,
+        // }, 
+        loop: true,
+        autoplayDisableOnInteraction: false,
+        pagination: {
+            el: '.swiper-pagination1',
+            clickable: 'true',
+            type: 'bullets',
+            renderBullet: function (index, className) {
+                return '<span class="' + className + '">'  + '<i></i>' + '<b></b>'  + '</span>';
+              },
+        
+        },
         navigation: {
             nextEl: '.banner-swiper-next'
         },

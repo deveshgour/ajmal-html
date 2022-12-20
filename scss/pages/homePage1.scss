@@ -21,19 +21,19 @@
             h3{font-size: 36px;line-height: 46px;}
         }
     }
-    @media(max-width: 1199px){
+    @include media-breakpoint-down(lg){
         &_inner{
             padding: 40px 0;
             h3{font-size: 30px;line-height: 38px;margin-bottom: 20px;}
         }
     }
-    @media(max-width: 991px){
+    @include media-breakpoint-down(md){
         &_inner{
             padding: 25px;
             h3{font-size: 24px;line-height: 28px;margin-bottom: 15px;}
         }
     }
-    @media(max-width: 575px){
+    @include media-breakpoint-down(xs){
         &_inner{
             padding: 20px 10px;
             h3{font-size: 20px;line-height: 24px;}
@@ -50,12 +50,12 @@
             margin-bottom: 30px;
         }
     }
-    @media(max-width: 991px){
+    @include media-breakpoint-down(md){
         &_top{
             margin-bottom: 25px;
         }
     }
-    @media(max-width: 575px){
+    @include media-breakpoint-down(xs){
         &_top{
             margin-bottom: 20px;
         }
@@ -111,7 +111,7 @@
             }
         }
     }
-    @media(max-width: 1199px){
+    @include media-breakpoint-down(lg){
         &_bg{
             .bg-video-wrap{height: 600px;}
             .productCard{
@@ -121,7 +121,7 @@
             }
         }
     }
-    @media(max-width: 991px){
+    @include media-breakpoint-down(md){
         &_bg{
             .bg-video-wrap{height: 550px;}
             .productCard{
@@ -131,7 +131,7 @@
             }
         }
     }
-    @media(max-width: 767px){
+    @include media-breakpoint-down(sm){
         &_bg{
             .bg-video-wrap{height: 500px;}
             .productCard{
@@ -150,7 +150,7 @@
             }
         }
     }
-    @media(max-width: 575px){
+    @include media-breakpoint-down(xs){
         &_bg{
             .bg-video-wrap{height: 450px;}
             .productCard{
@@ -208,7 +208,7 @@
             .sectionHeading{margin-bottom: 10px;}
         }
     }
-    @media(max-width: 1199px){
+    @include media-breakpoint-down(lg){
         &_inner{
             padding: 40px 0;
         }
@@ -217,7 +217,7 @@
             p{font-size: 14px;line-height: normal;margin-bottom: 25px;}
         }
     }
-    @media(max-width: 991px){
+    @include media-breakpoint-down(md){
         &_inner{
             padding: 30px 0;
         }
@@ -226,7 +226,7 @@
             p{margin-bottom: 20px;}
         }
     }
-    @media(max-width: 767px){
+    @include media-breakpoint-down(sm){
         &_inner{
             padding: 25px 0;
         }
@@ -234,7 +234,7 @@
             padding: 15px 20px;
         }
     }
-    @media(max-width: 575px){
+    @include media-breakpoint-down(xs){
         &_inner{
             padding: 20px 0;
         }
@@ -253,7 +253,7 @@
             p{font-size: 16px;line-height: 24px;color: color(850);}
         }
     }
-    @media(max-width: 991px){
+    @include media-breakpoint-down(md){
         &_top{
             .left{
                 max-width: 500px;
@@ -262,7 +262,7 @@
             }
         }
     }
-    @media(max-width: 767px){
+    @include media-breakpoint-down(sm){
         &_top{
             .left{
                 max-width: 100%;margin-bottom: 10px;
@@ -367,7 +367,7 @@
             }
         }
     }
-    @media(max-width: 1199px){
+    @include media-breakpoint-down(lg){
         &_top{
             .popularImg{
                 height: 300px;
@@ -388,7 +388,7 @@
             }
         }
     }
-    @media(max-width: 992px){
+    @include media-breakpoint-down(md){
         &_top{
             .popularImg{
                 height: 250px;
@@ -410,7 +410,7 @@
             }
         }
     }
-    @media(max-width: 767px){
+    @include media-breakpoint-down(sm){
         &_top{
             .popularImg{ height: 225px;
                 &_txt{
@@ -459,7 +459,7 @@
             h6{font-size: 21px;line-height: normal;margin-bottom: 15px;}
         }
     }
-    @media(max-width: 1199px){
+    @include media-breakpoint-down(lg){
         &_inner{
             padding: 40px 30px;
         }
@@ -469,7 +469,7 @@
             p{font-size: 14px;line-height: normal;margin-bottom: 20px;}
         }
     }
-    @media(max-width: 991px){
+    @include media-breakpoint-down(md){
         &_inner{
             padding: 30px 15px;
         }
@@ -477,14 +477,14 @@
             h6{font-size: 16px;margin-bottom: 10px;}
         }
     }
-    @media(max-width: 767px){
+    @include media-breakpoint-down(sm){
        
         &_inner{
             padding: 20px 15px;
             &::before{background-position: center;}
         }
     }
-    @media(max-width: 575px){
+    @include media-breakpoint-down(xs){
         &_inner{
             padding: 15px;text-align: center;
         }
@@ -572,6 +572,7 @@
                     p{font-size: 14px;color: rgba(color(900),0.5);margin-bottom: 0;}
                 }
                 .rating{
+                    ul{margin-bottom: 0;}
                     li{ 
                         &:not(:last-child){
                             margin-right: 4px;
@@ -597,7 +598,7 @@
             }
         }
     }
-    @media(max-width:1199px){
+    @include media-breakpoint-down(lg){
         &_inner{
             padding: 40px 0;
         }
@@ -632,7 +633,7 @@
             }
         }
     }
-    @media(max-width:992px){
+    @include media-breakpoint-down(md){
         &_inner{
             padding: 30px 0;
         }
@@ -666,7 +667,7 @@
             }
         }
     }
-    @media(max-width:767px){
+    @include media-breakpoint-down(sm){
         &_top{margin-bottom: 20px;}
         &_inner{
             padding: 25px 0;
@@ -685,7 +686,7 @@
         }
         .swiper-wrapper{margin-bottom: 0;}
     }
-    @media(max-width:575px){
+    @include media-breakpoint-down(xs){
         &_top{margin-bottom: 15px;}
         &_inner{
             padding: 15px 0;
@@ -786,7 +787,7 @@
     .slick-next{
         right: -10px;
     }
-    @media(max-width:1199px){
+    @include media-breakpoint-down(lg){
         &_sliderItem{ padding: 0 10px;}
         .box{
             &_logo{
@@ -804,14 +805,14 @@
             }
         }
     }
-    @media(max-width:992px){
+    @include media-breakpoint-down(md){
         .box{
             &_logo{
                 width: 125px;height: 125px;
             }
         }
     }
-    @media(max-width:767px){
+    @include media-breakpoint-down(sm){
         .box{
             &_txt{
                 .top{
@@ -881,7 +882,7 @@
     .slick-next{
         right: -10px;
     }
-    @media(max-width:1199px){
+    @include media-breakpoint-down(lg){
         &_sliderItem{padding: 0 10px;}
         .instabox{height: 285px;
             &_txt{
@@ -905,7 +906,7 @@
             }
         }
     }
-    @media(max-width:992px){
+    @include media-breakpoint-down(md){
         &_sliderItem{padding: 0 10px;}
         .instabox{height: 250px;
             &:hover{
@@ -1009,7 +1010,7 @@
             }
         }
     }
-    @media(max-width:1199px){
+    @include media-breakpoint-down(lg){
         &_top{margin-bottom: 25px;}
         .blogBox{
             &-one{
@@ -1031,7 +1032,7 @@
             }
         }
     }
-    @media(max-width:992px){
+    @include media-breakpoint-down(md){
         &_top{margin-bottom: 15px;}
         .blogBox{
             &-one{
@@ -1052,7 +1053,7 @@
             }
         }
     }
-    @media(max-width:767px){
+    @include media-breakpoint-down(sm){
         &_top{margin-bottom: 10px;}
         .blogBox{
             &-one{
@@ -1072,7 +1073,7 @@
             }
         }
     }
-    @media(max-width:576px){
+    @media(max-width:575px){
         &_top{margin-bottom: 10px;}
         .blogBox{
             &-one{

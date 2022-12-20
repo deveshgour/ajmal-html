@@ -67,7 +67,7 @@
             } 
         }
     }
-    @media(max-width:1199px){
+    @include media-breakpoint-down(lg){
         h3{font-size: 28px;margin-bottom: 15px;}
         p{
             font-size: 14px;margin-bottom: 20px;
@@ -88,12 +88,12 @@
             }
         }
     }
-    @media(max-width:991px){
+    @include media-breakpoint-down(md){
         h3{font-size: 24px;margin-bottom: 10px;}
         p{
             margin-bottom: 15px;
         }
-        .divider{margin: 10px 0;
+        .divider{margin: 10px 0;font-size:11px;
             &::before{width: 70px;}
             &::after{width: 70px;}
         }
@@ -112,12 +112,12 @@
             }
         }
     }
-    @media(max-width:767px){
+    @include media-breakpoint-down(sm){
         h3{font-size: 20px;}
         p{
             margin-bottom: 10px;font-size: 12px;
         }
-        .divider{margin: 7px 0;
+        .divider{
             &::before{width: 50px;}
             &::after{width: 50px;}
         }
@@ -136,9 +136,9 @@
             }
         }
     }
-    @media(max-width: 575px){
+    @include media-breakpoint-down(xs){
         h3{font-size: 18px;}
-        .divider{margin: 5px 0;
+        .divider{margin: 8px 0;
             &::before{display: none;}
             &::after{display: none;}
         }
@@ -182,7 +182,7 @@
             position: absolute;top:50%;right: 25px;width: 20px;height: 20px;transform: translateY(-50%);cursor: pointer;
         }
     }
-    @media(max-width:991px){
+    @include media-breakpoint-down(md){
         &.floting{
             .form-control-placeholder{
                 font-size: 14px;top: 15px;
@@ -191,6 +191,19 @@
                 ~.form-control-placeholder{
                     font-size: 11px;
                     top: 5px;
+                }
+            }
+        }
+    }
+    @include media-breakpoint-down(sm){
+        &.floting{
+            .form-control-placeholder{
+                font-size: 12px;top: 10px;
+            }
+            .form-control:focus, .form-control:valid{
+                ~.form-control-placeholder{
+                    font-size: 10px;
+                    top: 2px;
                 }
             }
         }
@@ -212,15 +225,18 @@
             width: 54px;height: 54px;border-radius: 8px;border: 1px solid #C8C8C8;
         }
     }
-    @media(max-width:991px){
+    @include media-breakpoint-down(md){
         h3{font-size: 24px;margin-bottom: 15px;}
     }
-    @media(max-width: 767px){
-        h3{font-size: 24px;margin-bottom: 10px;}
+    @include media-breakpoint-down(sm){
+        h3{font-size: 21px;margin-bottom: 10px;}
         &.codeModal{
             input{
                 width: 45px;height: 45px;
             }
         }
+    }
+    @include media-breakpoint-down(xs){
+        h3{font-size: 18px;}
     }
 }

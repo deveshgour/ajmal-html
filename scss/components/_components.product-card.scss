@@ -144,7 +144,7 @@
             }
         }
     }
-    @media(max-width: 1199px){
+    @include media-breakpoint-down(lg){
         &_inner{
             height: 380px;padding: 10px 15px;
         }
@@ -165,7 +165,7 @@
             }
         }
     }
-    @media(max-width: 991px){
+    @include media-breakpoint-down(md){
         &_inner{
             height: 100%;padding: 15px 15px;
         }
