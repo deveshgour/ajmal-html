@@ -282,19 +282,44 @@
 <div class="headerSm d-md-none">
     <ul class="list-inline">
         <li class="list-inline-item">
-            <a href="javascript:;"><img src="images/menu-icon.svg" class="img-fluid" /></a>
+            <a href="javascript:;" class="categoryMenu_open"><img src="images/menu-icon.svg" class="img-fluid" /></a>
             <div class="categoryMenu">
-                <h4>Catalogue</h4>
-                <a href="#"><img src="images/close.svg" class="img-fluid"/></a>
-                
-                <ul class="list-unstyled">
-                    <li><a href="javascript:;"><span class="d-flex justify-content-between"><span class="categoryMenu_txt"><img src="images/perfume-icon.svg" class="img-fluid"/> Perfumes </span> <img src="images/arrow-menu.svg"/> </span> </a> </li>
-                    <li><a href="javascript:;"><span class="d-flex justify-content-between"><span class="categoryMenu_txt"><img src="images/perfume-icon.svg" class="img-fluid"/> Perfumes </span> <img src="images/arrow-menu.svg"/> </span> </a> </li>
-                    <li><a href="javascript:;"><span class="d-flex justify-content-between"><span class="categoryMenu_txt"><img src="images/perfume-icon.svg" class="img-fluid"/> Perfumes </span> <img src="images/arrow-menu.svg"/> </span> </a> </li>
-                    <li><a href="javascript:;"><span class="d-flex justify-content-between"><span class="categoryMenu_txt"><img src="images/perfume-icon.svg" class="img-fluid"/> Perfumes </span> <img src="images/arrow-menu.svg"/> </span> </a> </li>
-                    <li><a href="javascript:;"><span class="d-flex justify-content-between"><span class="categoryMenu_txt"><img src="images/perfume-icon.svg" class="img-fluid"/> Perfumes </span> <img src="images/arrow-menu.svg"/> </span> </a> </li>
-                    <li><a href="javascript:;"><span class="d-flex justify-content-between"><span class="categoryMenu_txt"><img src="images/perfume-icon.svg" class="img-fluid"/> Perfumes </span> <img src="images/arrow-menu.svg"/> </span> </a> </li>
-                </ul>
+                <a href="#" class="categoryMenu_close"><img src="images/close.svg" class="img-fluid" /></a>
+                <div class="categoryMenu_head">
+                    <h4>Catalogue</h4>
+
+                </div>
+                <div class="categoryMenu_body">
+                    <ul class="list-unstyled">
+                        <li><a href="javascript:;"><span class="d-flex justify-content-between"><span class="categoryMenu_txt"><img src="images/perfume_oils_icon.svg" class="img-fluid" /> <span>Perfume Oils</span> </span> <img src="images/arrow-menu.svg" /> </span> </a> </li>
+                        <li><a href="javascript:;"><span class="d-flex justify-content-between"><span class="categoryMenu_txt"><img src="images/perfume-icon.svg" class="img-fluid" /> <span>Perfumes</span> </span> <img src="images/arrow-menu.svg" /> </span> </a> </li>
+                        <li><a href="javascript:;"><span class="d-flex justify-content-between"><span class="categoryMenu_txt"><img src="images/agar_wood_icon.svg" class="img-fluid" /> <span>Agarwood</span> </span> <img src="images/arrow-menu.svg" /> </span> </a> </li>
+                        <li><a href="javascript:;"><span class="d-flex justify-content-between"><span class="categoryMenu_txt"><img src="images/aud_icon.svg" class="img-fluid" /> <span>Oud </span></span> </span> </a> </li>
+                        <li><a href="javascript:;"><span class="d-flex justify-content-between"><span class="categoryMenu_txt"><img src="images/collection_icon.svg" class="img-fluid" /> <span>Collections</span> </span> <img src="images/arrow-menu.svg" /> </span> </a> </li>
+                        <li><a href="javascript:;"><span class="d-flex justify-content-between"><span class="categoryMenu_txt"><img src="images/gifts_icon.svg" class="img-fluid" /> <span>Gifts </span></span> </span> </a> </li>
+                        <li><a href="javascript:;"><span class="d-flex justify-content-between"><span class="categoryMenu_txt"><img src="images/sale_icon.svg" class="img-fluid" /> <span>Sale</span> </span> </span> </a> </li>
+                        <li><a href="javascript:;"><span class="d-flex justify-content-between"><span class="categoryMenu_txt"><img src="images/about_icon.svg" class="img-fluid" /> <span>About us</span> </span> </span> </a> </li>
+                        <li><a href="javascript:;" class="countryMenuOpen"><span class="d-flex justify-content-between"><span class="categoryMenu_txt"><img src="images/country1.png" class="img-fluid" /> <span>العربية </span></span> <img src="images/arrow-menu.svg" /> </span> </a> </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="countryMenu">
+                <a href="#" class="countryMenu_close"><img src="images/close.svg" class="img-fluid" /></a>
+                <div class="countryMenu_head">
+                    <h4>Country</h4>
+
+                </div>
+                <div class="countryMenu_body">
+                    <ul class="list-unstyled">
+                        <li><a href="javascript:;"><span class="countryMenu_txt"><img src="images/country1.png" class="img-fluid" /> <span>UAE (AED) </span></span> </a> </li>
+                        <li><a href="javascript:;"><span class="countryMenu_txt"><img src="images/ksa.png" class="img-fluid" /> <span>KSA (SAR) </span></span> </a> </li>
+                        <li><a href="javascript:;"><span class="countryMenu_txt"><img src="images/kwd.png" class="img-fluid" /> <span>Kuwait (KWD) </span></span> </a> </li>
+                        <li><a href="javascript:;"><span class="countryMenu_txt"><img src="images/bhd.png" class="img-fluid" /> <span>Bahrain (BHD) </span></span> </a> </li>
+                        <li><a href="javascript:;"><span class="countryMenu_txt"><img src="images/qar.png" class="img-fluid" /> <span>Quatar (QAR) </span></span> </a> </li>
+                        <li><a href="javascript:;"><span class="countryMenu_txt"><img src="images/omr.png" class="img-fluid" /> <span>Oman (OMR) </span></span> </a> </li>
+                    </ul>
+                </div>
             </div>
         </li>
         <li class="list-inline-item cart-menu">

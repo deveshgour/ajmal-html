@@ -112,4 +112,12 @@ $('.micButtonClose').click(function(){
      $('body').css('overflow','auto');
 })
 
+$('.categoryMenu_open, .categoryMenu_close').click(function(){
+     $('body').toggleClass('categoryMenuOpen');
+})
+
+$('.countryMenuOpen, .countryMenu_close').click(function(){
+     $('body').removeClass('categoryMenuOpen');
+     $('body').toggleClass('countryMenuOpen');
+})
 </script>
